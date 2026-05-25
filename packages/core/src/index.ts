@@ -5,3 +5,4 @@ export * from "./hash.js";
 export * from "./detectChange.js";
 export * from "./ruleGate.js";
 export * from "./targetKey.js";
+export * from "./formatError.js";

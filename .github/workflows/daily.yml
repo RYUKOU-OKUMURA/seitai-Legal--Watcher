@@ -30,6 +30,11 @@ jobs:
       - name: Build packages
         run: pnpm run build
 
+      - name: Validate enabled sources
+        env:
+          LEGAL_WATCH_TIMEZONE: Asia/Tokyo
+        run: pnpm validate-sources
+
       - name: Run daily pipeline
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}

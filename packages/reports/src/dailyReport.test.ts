@@ -82,4 +82,37 @@ describe("generateDailyReportMarkdown", () => {
     expect(md).toContain("確認1");
     expect(md).toContain("low_weight,no_keyword");
   });
+
+  it("renders bootstrap baseline report", () => {
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      bootstrap: true,
+      result: {
+        changes: [
+          {
+            id: "c1",
+            sourceId: "mhlw",
+            sourceName: "厚労省",
+            sourceWeight: "high",
+            targetKey: "k",
+            url: "https://www.mhlw.go.jp/houdou/index.html",
+            title: "報道発表",
+            detectedAt: "2026-05-26T00:00:00Z",
+            changeType: "new",
+            bodyExcerpt: "x",
+            links: [],
+          },
+        ],
+        analyses: [],
+        gatedOut: [],
+        failures: [],
+        analysisFailures: [],
+      },
+    });
+    expect(md).toContain("初回ベースライン");
+    expect(md).toContain("LLM 分析は行っていません");
+    expect(md).toContain("ベースライン登録");
+    expect(md).not.toContain("## 分析済み更新");
+  });
 });

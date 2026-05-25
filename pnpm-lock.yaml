@@ -53,6 +53,9 @@ importers:
       '@seitai-legal-watch/core':
         specifier: workspace:*
         version: link:../core
+      dayjs:
+        specifier: ^1.11.13
+        version: 1.11.20
       yaml:
         specifier: ^2.6.1
         version: 2.9.0
@@ -66,6 +69,9 @@ importers:
       typescript:
         specifier: ^5.7.2
         version: 5.9.3
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.9(@types/node@22.19.19)
 
   packages/core:
     dependencies:
@@ -110,6 +116,9 @@ importers:
       typescript:
         specifier: ^5.7.2
         version: 5.9.3
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.9(@types/node@22.19.19)
 
   packages/llm:
     dependencies:

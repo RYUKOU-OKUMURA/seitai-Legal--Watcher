@@ -49,6 +49,7 @@ export function createDetectedChange(
     diffText,
     bodyExcerpt: truncateExcerpt(snapshot.bodyText, EXCERPT_MAX_CHARS),
     links: snapshot.links,
+    httpStatus: snapshot.httpStatus,
   };
 }
 

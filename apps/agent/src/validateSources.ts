@@ -1,0 +1,76 @@
+import { loadConfig, resolveSourceUrl } from "@seitai-legal-watch/config";
+import { REQUEST_TIMEOUT_MS } from "@seitai-legal-watch/core";
+import dayjs from "dayjs";
+import timezone from "dayjs/plugin/timezone.js";
+import utc from "dayjs/plugin/utc.js";
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
+
+export interface SourceValidationResult {
+  id: string;
+  url: string;
+  ok: boolean;
+  status?: number;
+  bodyLength?: number;
+  error?: string;
+}
+
+export async function validateEnabledSources(
+  referenceDate?: string,
+): Promise<SourceValidationResult[]> {
+  const config = await loadConfig();
+  const tz = process.env.LEGAL_WATCH_TIMEZONE ?? "Asia/Tokyo";
+  const date =
+    referenceDate ?? dayjs().tz(tz).format("YYYY-MM-DD");
+
+  const results: SourceValidationResult[] = [];
+
+  for (const source of config.enabledSources) {
+    const url = resolveSourceUrl(source, date);
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (compatible; SeitaiLegalWatch/0.1; +https://github.com)",
+          Accept: "application/json, application/xml, text/xml, text/html, */*",
+          "Accept-Language": "ja,en;q=0.9",
+          "Accept-Encoding": "identity",
+        },
+      });
+      const text = await res.text();
+      const ok = res.status >= 200 && res.status < 400 && text.length > 500;
+      results.push({
+        id: source.id,
+        url,
+        ok,
+        status: res.status,
+        bodyLength: text.length,
+        error: ok ? undefined : `status=${res.status} bodyLen=${text.length}`,
+      });
+    } catch (err) {
+      results.push({
+        id: source.id,
+        url,
+        ok: false,
+        error: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  return results;
+}
+
+export function printValidationResults(results: SourceValidationResult[]): boolean {
+  let allOk = true;
+  for (const r of results) {
+    if (r.ok) {
+      console.log(`OK  ${r.id} ${r.status} ${r.bodyLength}b ${r.url}`);
+    } else {
+      allOk = false;
+      console.error(`NG  ${r.id} ${r.error ?? "unknown"} ${r.url}`);
+    }
+  }
+  return allOk;
+}

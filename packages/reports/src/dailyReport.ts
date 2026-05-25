@@ -8,6 +8,7 @@ import type {
 export interface DailyReportInput {
   date: string;
   checkpointsHeading: string;
+  bootstrap?: boolean;
   result: Pick<
     DailyRunResult,
     "changes" | "analyses" | "gatedOut" | "failures" | "analysisFailures"
@@ -34,8 +35,14 @@ function sortAnalyses(analyses: Analysis[]): Analysis[] {
   );
 }
 
+function formatFailureLine(f: DetectedChange): string {
+  const status =
+    f.httpStatus && f.httpStatus > 0 ? `HTTP ${f.httpStatus}: ` : "";
+  return `  - ${status}${f.bodyExcerpt}`;
+}
+
 export function generateDailyReportMarkdown(input: DailyReportInput): string {
-  const { date, checkpointsHeading, result } = input;
+  const { date, checkpointsHeading, bootstrap, result } = input;
   const contentChanges = result.changes.filter((c) => c.changeType !== "failed");
   const sorted = sortAnalyses(result.analyses);
 
@@ -43,17 +50,55 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
     "---",
     `type: legal-watch-daily`,
     `date: ${date}`,
+    `bootstrap: ${bootstrap === true}`,
     `content_update_count: ${contentChanges.length}`,
     `analyzed_count: ${sorted.length}`,
     `gated_out_count: ${result.gatedOut.length}`,
     `fetch_failure_count: ${result.failures.length}`,
     "---",
     "",
-    `# 整体院・整骨院 Legal Watch Daily`,
+    bootstrap
+      ? `# 整体院・整骨院 Legal Watch Daily（初回ベースライン）`
+      : `# 整体院・整骨院 Legal Watch Daily`,
     "",
     `対象日: ${date}`,
     "",
   ];
+
+  if (bootstrap) {
+    lines.push(
+      "本実行はベースライン確立です。LLM 分析は行っていません。",
+      "次回以降 `pnpm daily` で差分のみ分析されます。",
+      "",
+    );
+    if (contentChanges.length > 0 || result.failures.length > 0) {
+      lines.push("## ベースライン登録", "");
+      for (const c of contentChanges) {
+        lines.push(
+          `- [${c.changeType}] ${c.sourceName}: ${c.title}`,
+          `  - 原典: ${c.url}`,
+          "",
+        );
+      }
+      for (const f of result.failures) {
+        lines.push(
+          `- [取得失敗] ${f.sourceName}`,
+          `  - URL: ${f.url}`,
+          formatFailureLine(f),
+          "",
+        );
+      }
+    } else {
+      lines.push("登録対象の変更はありませんでした。", "");
+    }
+    lines.push(
+      "---",
+      "",
+      "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
+      "",
+    );
+    return lines.join("\n");
+  }
 
   if (sorted.length === 0 && contentChanges.length === 0 && result.failures.length === 0) {
     lines.push("本日の内容更新はありません。", "");
@@ -112,7 +157,7 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
   if (result.failures.length > 0) {
     lines.push("## 取得失敗", "");
     for (const f of result.failures) {
-      lines.push(`- [${f.sourceName}] ${f.url}`, `  - ${f.bodyExcerpt}`, "");
+      lines.push(`- [${f.sourceName}] ${f.url}`, formatFailureLine(f), "");
     }
   }
 

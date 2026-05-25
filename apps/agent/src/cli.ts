@@ -2,9 +2,14 @@
 import { config as loadEnv } from "dotenv";
 import { Command } from "commander";
 import pino from "pino";
+import path from "node:path";
 import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
-import path from "node:path";
+import { resetState } from "./resetState.js";
+import {
+  printValidationResults,
+  validateEnabledSources,
+} from "./validateSources.js";
 
 loadEnv({ path: path.join(resolveRepoRoot(), ".env") });
 
@@ -13,6 +18,30 @@ const log = pino({ level: process.env.LOG_LEVEL ?? "info" });
 const program = new Command()
   .name("legal-watch")
   .description("整体院・整骨院 Legal Watcher CLI");
+
+program
+  .command("bootstrap")
+  .description("初回ベースライン確立（fetch のみ・LLM スキップ）")
+  .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
+  .action(async (opts: { date?: string }) => {
+    try {
+      const result = await runDailyPipeline(log, {
+        date: opts.date,
+        bootstrap: true,
+      });
+      log.info(
+        {
+          contentUpdates: result.changes.filter((c) => c.changeType !== "failed")
+            .length,
+          failures: result.failures.length,
+        },
+        "bootstrap complete",
+      );
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
 
 program
   .command("daily")
@@ -25,7 +54,8 @@ program
       const result = await runDailyPipeline(log, { date: opts.date });
       log.info(
         {
-          contentUpdates: result.changes.filter((c) => c.changeType !== "failed").length,
+          contentUpdates: result.changes.filter((c) => c.changeType !== "failed")
+            .length,
           analyzed: result.analyses.length,
           gated: result.gatedOut.length,
           failures: result.failures.length,
@@ -66,6 +96,30 @@ program
       log.error(err);
       process.exit(1);
     }
+  });
+
+program
+  .command("reset-state")
+  .description("data/state.json を初期化（任意で raw JSON も削除）")
+  .option("--clear-raw", "data/raw/*.json を削除")
+  .action(async (opts: { clearRaw?: boolean }) => {
+    try {
+      await resetState(opts.clearRaw === true);
+      log.info({ clearRaw: opts.clearRaw }, "state reset");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("validate-sources")
+  .description("enabled ソースの URL を smoke test（200 & 本文長）")
+  .option("--date <YYYY-MM-DD>", "URL テンプレート展開の基準日")
+  .action(async (opts: { date?: string }) => {
+    const results = await validateEnabledSources(opts.date);
+    const ok = printValidationResults(results);
+    if (!ok) process.exit(1);
   });
 
 program.parse();

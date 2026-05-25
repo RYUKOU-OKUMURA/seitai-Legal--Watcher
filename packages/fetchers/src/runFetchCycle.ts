@@ -3,7 +3,9 @@ import {
   createDetectedChange,
   resolveChangeType,
   snapshotToTargetState,
+  truncateForReport,
 } from "@seitai-legal-watch/core";
+import { resolvedSource } from "@seitai-legal-watch/config";
 import type { StateStore } from "@seitai-legal-watch/storage";
 import { fetchApiSnapshots } from "./apiFetcher.js";
 import { fetchHtmlSnapshot } from "./htmlFetcher.js";
@@ -12,14 +14,16 @@ import { fetchRssSnapshots } from "./rssFetcher.js";
 export async function fetchSnapshotsForSource(
   source: WatchTargetConfig,
   fetchedAt: string,
+  referenceDate?: string,
 ) {
-  switch (source.type) {
+  const resolved = resolvedSource(source, referenceDate);
+  switch (resolved.type) {
     case "rss":
-      return fetchRssSnapshots(source, fetchedAt);
+      return fetchRssSnapshots(resolved, fetchedAt);
     case "html":
-      return [await fetchHtmlSnapshot(source, fetchedAt)];
+      return [await fetchHtmlSnapshot(resolved, fetchedAt)];
     case "api":
-      return fetchApiSnapshots(source, fetchedAt);
+      return fetchApiSnapshots(resolved, fetchedAt);
     default:
       return [];
   }
@@ -29,12 +33,17 @@ export async function runFetchCycle(
   sources: WatchTargetConfig[],
   store: StateStore,
   fetchedAt: string,
+  referenceDate?: string,
 ): Promise<DetectedChange[]> {
   const changes: DetectedChange[] = [];
 
   for (const source of sources) {
     try {
-      const snapshots = await fetchSnapshotsForSource(source, fetchedAt);
+      const snapshots = await fetchSnapshotsForSource(
+        source,
+        fetchedAt,
+        referenceDate,
+      );
 
       for (const snapshot of snapshots) {
         const prev = await store.getTargetState(snapshot.targetKey);
@@ -88,13 +97,14 @@ export async function runFetchCycle(
         sourceId: source.id,
         error: message,
       });
+      const resolved = resolvedSource(source, referenceDate);
       const failedSnapshot = {
         sourceId: source.id,
         sourceName: source.name,
         targetKey: `source:${source.id}`,
-        url: source.url,
+        url: resolved.url,
         title: `${source.name}（取得失敗）`,
-        bodyText: message,
+        bodyText: truncateForReport(message),
         links: [] as string[],
         contentHash: "",
         fetchedAt,

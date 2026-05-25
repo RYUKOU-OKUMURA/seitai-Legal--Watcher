@@ -14,6 +14,8 @@ export async function fetchWithRetry(
           "User-Agent":
             "Mozilla/5.0 (compatible; SeitaiLegalWatch/0.1; +https://github.com)",
           Accept: "application/json, application/xml, text/xml, text/html, */*",
+          "Accept-Language": "ja,en;q=0.9",
+          "Accept-Encoding": "identity",
           ...(init?.headers ?? {}),
         },
       });

@@ -15,6 +15,7 @@ export interface WatchTargetConfig {
   enabled: boolean;
   stableIdField?: string;
   itemsPath?: string;
+  contentSelector?: string;
 }
 
 export interface TargetState {
@@ -56,6 +57,7 @@ export interface DetectedChange {
   links: string[];
   gatePass?: boolean;
   gateReasons?: string[];
+  httpStatus?: number;
 }
 
 export interface GateResult {
@@ -101,4 +103,5 @@ export interface DailyRunResult {
   gatedOut: DetectedChange[];
   failures: DetectedChange[];
   analysisFailures: { changeId: string; error: string }[];
+  bootstrap?: boolean;
 }

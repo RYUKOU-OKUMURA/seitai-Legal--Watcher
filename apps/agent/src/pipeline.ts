@@ -19,6 +19,7 @@ dayjs.extend(timezone);
 export interface PipelineOptions {
   skipLlm?: boolean;
   reportOnly?: boolean;
+  bootstrap?: boolean;
   date?: string;
 }
 
@@ -30,14 +31,20 @@ export async function runDailyPipeline(
   const tz = process.env.LEGAL_WATCH_TIMEZONE ?? "Asia/Tokyo";
   const date = options.date ?? dayjs().tz(tz).format("YYYY-MM-DD");
   const fetchedAt = new Date().toISOString();
+  const isBootstrap = options.bootstrap === true;
 
   const config = await loadConfig();
   const store = new JsonStateStore(root);
 
   let changes: DetectedChange[] = [];
   if (!options.reportOnly) {
-    log.info({ sources: config.enabledSources.length }, "fetch cycle start");
-    changes = await runFetchCycle(config.enabledSources, store, fetchedAt);
+    log.info({ sources: config.enabledSources.length, bootstrap: isBootstrap }, "fetch cycle start");
+    changes = await runFetchCycle(
+      config.enabledSources,
+      store,
+      fetchedAt,
+      date,
+    );
     log.info({ changes: changes.length }, "fetch cycle done");
   }
 
@@ -56,14 +63,19 @@ export async function runDailyPipeline(
     );
     change.gatePass = gate.pass;
     change.gateReasons = gate.reasons;
-    if (gate.pass) toAnalyze.push(change);
-    else gatedOut.push(change);
+    if (!isBootstrap && gate.pass) toAnalyze.push(change);
+    else if (!gate.pass) gatedOut.push(change);
+    else if (isBootstrap) {
+      change.gateReasons = [...(change.gateReasons ?? []), "bootstrap_skip_llm"];
+    }
   }
 
   const analyses: Analysis[] = [];
   const analysisFailures: { changeId: string; error: string }[] = [];
 
-  if (!options.skipLlm && !options.reportOnly) {
+  const runLlm = !options.skipLlm && !options.reportOnly && !isBootstrap;
+
+  if (runLlm) {
     for (const change of toAnalyze) {
       try {
         const gate = { pass: true, reasons: change.gateReasons ?? [] };
@@ -97,18 +109,20 @@ export async function runDailyPipeline(
     gatedOut,
     failures,
     analysisFailures,
+    bootstrap: isBootstrap,
   };
 
   const markdown = generateDailyReportMarkdown({
     date,
     checkpointsHeading: config.display.checkpoints_heading,
+    bootstrap: isBootstrap,
     result,
   });
 
   const reportPath = dailyReportPath(root, date);
   await mkdir(path.dirname(reportPath), { recursive: true });
   await writeFile(reportPath, markdown, "utf8");
-  log.info({ reportPath }, "daily report written");
+  log.info({ reportPath, bootstrap: isBootstrap }, "daily report written");
 
   return result;
 }

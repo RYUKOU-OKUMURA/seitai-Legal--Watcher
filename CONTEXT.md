@@ -24,6 +24,10 @@ _Avoid_: 自院ソース（混同しない）
 Operator が編集する YAML 群（`sources.yaml`、`keywords.yaml`、`display.yaml` 等）。Watch Target の正は `sources.yaml` の明示 URL 一覧。`enabled: false` の行は登録のみで Phase 1.0 では巡回しない。地域関心の変更は URL 列挙の追加・削除で行い、Phase 1 では都道府県コードからの自動 URL 生成はしない。
 _Avoid_: コード内ハードコード、LLM による監視先探索
 
+**Bootstrap（初回ベースライン）**:
+`legal-watch bootstrap` による初回実行。全監視対象を Fetch Snapshot として `state.json` に登録し、ベースライン用レポートを出す。ルールゲートは実行するが LLM は常にスキップする。2回目以降の `daily` で差分のみ Detected Change となり LLM 対象になる。
+_Avoid_: 初回 daily（全件 new で LLM 連発）、空 state のまま cron 運用
+
 **Fetch Snapshot**:
 1回の巡回で1監視対象（正規化URLまたはRSSエントリ）に対して取得した結果。`state.json` のハッシュと `fetch-log.jsonl` で監査する。HTML/PDF 全文は Git に commit しない。ダッシュボードの「件数」には含めない。
 _Avoid_: 更新、Detected Change、原典スナップショット（混同しない）

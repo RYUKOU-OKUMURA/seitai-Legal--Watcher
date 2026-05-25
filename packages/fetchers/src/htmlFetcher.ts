@@ -3,9 +3,14 @@ import type { FetchSnapshot, WatchTargetConfig } from "@seitai-legal-watch/core"
 import { buildTargetKey, hashFromSnapshot, normalizeUrl } from "@seitai-legal-watch/core";
 import { fetchWithRetry } from "./http.js";
 
-function extractLinks($: cheerio.CheerioAPI, baseUrl: string): string[] {
+function extractLinks(
+  $: cheerio.CheerioAPI,
+  baseUrl: string,
+  scopeSelector?: string,
+): string[] {
   const links = new Set<string>();
-  $("a[href]").each((_, el) => {
+  const scope = scopeSelector ? $(scopeSelector) : $("body");
+  scope.find("a[href]").each((_, el) => {
     const href = $(el).attr("href");
     if (!href) return;
     try {
@@ -17,21 +22,69 @@ function extractLinks($: cheerio.CheerioAPI, baseUrl: string): string[] {
   return [...links].sort();
 }
 
+function parseCharsetFromMeta(htmlHead: string): string | undefined {
+  const httpEquiv = htmlHead.match(
+    /charset\s*=\s*["']?([\w-]+)/i,
+  );
+  if (httpEquiv?.[1]) return httpEquiv[1].toLowerCase();
+
+  const metaCharset = htmlHead.match(
+    /<meta[^>]+charset\s*=\s*["']?([\w-]+)/i,
+  );
+  if (metaCharset?.[1]) return metaCharset[1].toLowerCase();
+
+  return undefined;
+}
+
+function decoderLabel(charset: string | undefined): string {
+  if (!charset) return "utf-8";
+  const c = charset.toLowerCase().replace(/_/g, "-");
+  if (c === "shift-jis" || c === "sjis" || c === "windows-31j") return "shift-jis";
+  if (c === "euc-jp") return "euc-jp";
+  return "utf-8";
+}
+
 function decodeHtmlBody(res: Response, buffer: ArrayBuffer): string {
   const ctype = res.headers.get("content-type") ?? "";
-  const charsetMatch = ctype.match(/charset=([\w-]+)/i);
-  const charset = charsetMatch?.[1]?.toLowerCase().replace(/_/g, "-") ?? "utf-8";
-  const label =
-    charset === "shift-jis" || charset === "sjis" || charset === "windows-31j"
-      ? "shift-jis"
-      : charset === "euc-jp"
-        ? "euc-jp"
-        : "utf-8";
+  const headerMatch = ctype.match(/charset=([\w-]+)/i);
+  let charset = headerMatch?.[1]?.toLowerCase();
+
+  if (!charset) {
+    const headBytes = new Uint8Array(buffer.slice(0, 8192));
+    const headUtf8 = new TextDecoder("utf-8", { fatal: false }).decode(headBytes);
+    charset = parseCharsetFromMeta(headUtf8);
+  }
+
+  const label = decoderLabel(charset);
   try {
     return new TextDecoder(label).decode(buffer);
   } catch {
     return new TextDecoder("utf-8").decode(buffer);
   }
+}
+
+function extractBodyText(
+  $: cheerio.CheerioAPI,
+  contentSelector?: string,
+): string {
+  if (contentSelector) {
+    const parts = contentSelector.split(",").map((s) => s.trim());
+    const chunks: string[] = [];
+    for (const sel of parts) {
+      $(sel).each((_, el) => {
+        chunks.push($(el).text());
+      });
+    }
+    if (chunks.length > 0) {
+      return chunks.join("\n").replace(/\s+/g, " ").trim();
+    }
+  }
+  return $("main, article, #contents, .contents, #main, .main, body")
+    .first()
+    .text()
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 50_000);
 }
 
 export async function fetchHtmlSnapshot(
@@ -42,16 +95,17 @@ export async function fetchHtmlSnapshot(
   const buffer = await res.arrayBuffer();
   const html = decodeHtmlBody(res, buffer);
   const $ = cheerio.load(html);
-  $("script, style, nav, footer, header").remove();
+  $("script, style, noscript, nav, footer, header").remove();
+
+  const linkScope = source.contentSelector
+    ? source.contentSelector.split(",")[0]!.trim()
+    : undefined;
+
   const title = $("title").first().text().trim() || source.name;
-  const bodyText = $("main, article, #contents, .contents, body")
-    .first()
-    .text()
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 50_000);
+  const bodyText = extractBodyText($, source.contentSelector);
   const url = normalizeUrl(source.url);
-  const links = extractLinks($, source.url);
+  const links = extractLinks($, source.url, linkScope);
+
   const base = {
     sourceId: source.id,
     sourceName: source.name,

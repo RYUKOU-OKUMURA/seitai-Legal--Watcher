@@ -5,9 +5,12 @@
   "description": "整体院・整骨院 Legal Watcher",
   "scripts": {
     "build": "pnpm -r run build",
+    "bootstrap": "pnpm --filter @seitai-legal-watch/agent bootstrap",
     "daily": "pnpm --filter @seitai-legal-watch/agent daily",
     "fetch": "pnpm --filter @seitai-legal-watch/agent fetch",
     "report": "pnpm --filter @seitai-legal-watch/agent report",
+    "reset-state": "pnpm --filter @seitai-legal-watch/agent reset-state",
+    "validate-sources": "pnpm --filter @seitai-legal-watch/agent validate-sources",
     "test": "pnpm -r run test",
     "lint": "pnpm -r run lint",
     "format": "prettier --write \"**/*.{ts,json,md,yaml}\""

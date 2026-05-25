@@ -24,14 +24,43 @@ cp .env.example .env
 pnpm run build
 ```
 
+## 初回セットアップ（Phase 1.0.1）
+
+初回は **ベースラインのみ** 確立し、LLM は呼びません。2回目以降の `daily` で差分のみ分析されます。
+
+```bash
+pnpm validate-sources   # enabled ソースが 200 か確認
+pnpm reset-state        # 既存 state を消す（URL 変更後は必須）
+pnpm bootstrap          # 取得 + state 更新 + ベースラインレポート（LLM なし）
+pnpm daily              # 2回目以降：差分があれば LLM
+```
+
+`data/raw/` も消す場合:
+
+```bash
+pnpm reset-state --clear-raw
+```
+
+GitHub Actions の cron は `daily` のみです。**初回デプロイ前**にローカルまたは手動 workflow で `bootstrap` を実行することを推奨します。
+
 ## コマンド
 
 ```bash
+# 初回ベースライン（LLM スキップ）
+pnpm bootstrap
+
 # 本番同等（取得 → ゲート → LLM → レポート）
 pnpm daily
 
 # 取得・差分のみ
 pnpm fetch
+
+# state リセット（任意で raw 削除）
+pnpm reset-state
+pnpm reset-state --clear-raw
+
+# enabled ソースの URL smoke test
+pnpm validate-sources
 
 # モック LLM で E2E 確認（API キー不要）
 pnpm --filter @seitai-legal-watch/agent daily --mock-llm
