@@ -37,3 +37,7 @@
 {"at":"2026-05-25T15:35:46.654Z","sourceId":"caa-press","targetKey":"https://www.caa.go.jp/","httpStatus":200,"changeType":"none"}
 {"at":"2026-05-25T15:35:46.654Z","sourceId":"egov-pubcomment","targetKey":"https://public-comment.e-gov.go.jp/","httpStatus":200,"changeType":"none"}
 {"at":"2026-05-25T15:35:46.654Z","sourceId":"ncij-kokumin","targetKey":"https://www.kokusen.go.jp/","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-25T22:29:49.693Z","sourceId":"mhlw-news","targetKey":"https://www.mhlw.go.jp/stf/houdou/houdou_list_202605.html","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-25T22:29:49.693Z","sourceId":"caa-press","targetKey":"https://www.caa.go.jp/","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-25T22:29:49.693Z","sourceId":"egov-pubcomment","targetKey":"https://public-comment.e-gov.go.jp/","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-25T22:29:49.693Z","sourceId":"ncij-kokumin","targetKey":"https://www.kokusen.go.jp/","httpStatus":200,"changeType":"none"}
