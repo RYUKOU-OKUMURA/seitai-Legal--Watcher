@@ -1,0 +1,47 @@
+name: Legal Watch Daily
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build packages
+        run: pnpm run build
+
+      - name: Run daily pipeline
+        env:
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+          LEGAL_WATCH_TIMEZONE: Asia/Tokyo
+        run: pnpm --filter @seitai-legal-watch/agent daily
+
+      - name: Commit reports and data
+        run: |
+          git config user.name "legal-watch-bot"
+          git config user.email "legal-watch-bot@users.noreply.github.com"
+          git add data/ reports/daily/
+          git diff --staged --quiet || git commit -m "chore: daily legal watch $(date -u +%Y-%m-%d)"
+
+      - name: Push changes
+        run: git push

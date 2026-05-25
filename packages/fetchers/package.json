@@ -1,0 +1,29 @@
+{
+  "name": "@seitai-legal-watch/fetchers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@seitai-legal-watch/core": "workspace:*",
+    "@seitai-legal-watch/config": "workspace:*",
+    "@seitai-legal-watch/storage": "workspace:*",
+    "cheerio": "^1.0.0",
+    "fast-xml-parser": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}

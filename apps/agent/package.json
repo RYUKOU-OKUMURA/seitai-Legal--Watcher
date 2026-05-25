@@ -1,0 +1,32 @@
+{
+  "name": "@seitai-legal-watch/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "legal-watch": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "daily": "node dist/cli.js daily",
+    "fetch": "node dist/cli.js fetch",
+    "report": "node dist/cli.js report",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@seitai-legal-watch/config": "workspace:*",
+    "@seitai-legal-watch/core": "workspace:*",
+    "@seitai-legal-watch/fetchers": "workspace:*",
+    "@seitai-legal-watch/llm": "workspace:*",
+    "@seitai-legal-watch/reports": "workspace:*",
+    "@seitai-legal-watch/storage": "workspace:*",
+    "commander": "^12.1.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}

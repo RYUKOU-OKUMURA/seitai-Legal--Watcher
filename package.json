@@ -1,0 +1,19 @@
+{
+  "name": "seitai-legal-watch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "整体院・整骨院 Legal Watcher",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "daily": "pnpm --filter @seitai-legal-watch/agent daily",
+    "fetch": "pnpm --filter @seitai-legal-watch/agent fetch",
+    "report": "pnpm --filter @seitai-legal-watch/agent report",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "format": "prettier --write \"**/*.{ts,json,md,yaml}\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

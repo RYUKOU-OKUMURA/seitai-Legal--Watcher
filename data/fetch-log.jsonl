@@ -1,0 +1,7 @@
+{"at":"2026-05-25T15:15:18.639Z","sourceId":"egov-pubcomment","targetKey":"https://public-comment.e-gov.go.jp/","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-25T15:15:18.639Z","sourceId":"egov-law-api","error":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"}
+{"at":"2026-05-25T15:15:18.639Z","sourceId":"ncij-kokumin","targetKey":"https://www.kokusen.go.jp/whatsnew/index.html","httpStatus":404,"changeType":"failed"}
+{"at":"2026-05-25T15:16:37.182Z","sourceId":"mhlw-news","targetKey":"https://www.mhlw.go.jp/houdou/index.html","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-25T15:16:37.182Z","sourceId":"caa-press","targetKey":"https://www.caa.go.jp/policies/policy/press_release/index.html","httpStatus":403,"changeType":"failed"}
+{"at":"2026-05-25T15:16:37.182Z","sourceId":"egov-pubcomment","targetKey":"https://public-comment.e-gov.go.jp/","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-25T15:16:37.182Z","sourceId":"ncij-kokumin","targetKey":"https://www.kokusen.go.jp/","httpStatus":200,"changeType":"new"}

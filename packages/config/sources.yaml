@@ -1,0 +1,66 @@
+sources:
+  - id: mhlw-news
+    name: 厚生労働省報道発表
+    type: html
+    url: https://www.mhlw.go.jp/houdou/index.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: caa-press
+    name: 消費者庁報道発表
+    type: html
+    url: https://www.caa.go.jp/
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment
+    name: e-Govパブリックコメント
+    type: html
+    url: https://public-comment.e-gov.go.jp/
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-law-api
+    name: e-Gov法令API（法令一覧）
+    type: api
+    url: https://laws.e-gov.go.jp/api/1/laws?limit=20
+    weight: medium
+    alwaysAnalyze: false
+    enabled: false
+    stableIdField: law_info.law_id
+    itemsPath: laws
+
+  - id: ncij-kokumin
+    name: 国民生活センター
+    type: html
+    url: https://www.kokusen.go.jp/
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: mhlw-rss
+    name: 厚労省RSS（要URL確認）
+    type: rss
+    url: https://www.mhlw.go.jp/rss/all.xml
+    weight: high
+    alwaysAnalyze: false
+    enabled: false
+
+  - id: kanpo-html
+    name: 官報
+    type: html
+    url: https://kanpou.npb.go.jp/
+    weight: medium
+    alwaysAnalyze: false
+    enabled: false
+
+  - id: mhlw-jyosei
+    name: 厚労省柔整療養費
+    type: html
+    url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180383_00014.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: false
