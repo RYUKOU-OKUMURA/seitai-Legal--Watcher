@@ -68,7 +68,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 
 ## Phase 1.0 スコープ
 
-- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（5パイロット）
+- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（4パイロット）
 - **Fetcher**: rss / html / api
 - **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`
 - **レポート**: `reports/daily/YYYY-MM-DD.md`
@@ -78,7 +78,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 
 | 版 | 内容 |
 |----|------|
-| 1.0 | rss/html/api + 5パイロット + Actions |
+| 1.0 | rss/html/api + 4パイロット + Actions |
 | 1.1 | PDF 抽出、追加公式ソース有効化 |
 | 1.2 | 官報・自治体ソース有効化 |
 | Phase 2 | Obsidian 同期 |
