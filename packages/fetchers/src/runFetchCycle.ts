@@ -11,6 +11,7 @@ import { fetchApiSnapshots } from "./apiFetcher.js";
 import { fetchHtmlSnapshot } from "./htmlFetcher.js";
 import { fetchPdfSnapshot } from "./pdfFetcher.js";
 import { fetchRssSnapshots } from "./rssFetcher.js";
+import { detectedChangeToRawSnapshot } from "./rawSnapshot.js";
 
 export async function fetchSnapshotsForSource(
   source: WatchTargetConfig,
@@ -76,23 +77,7 @@ export async function runFetchCycle(
         );
         changes.push(change);
 
-        await store.saveRawSnapshot({
-          changeId: change.id,
-          sourceId: change.sourceId,
-          sourceName: change.sourceName,
-          sourceWeight: change.sourceWeight,
-          targetKey: change.targetKey,
-          url: change.url,
-          title: change.title,
-          detectedAt: change.detectedAt,
-          changeType: change.changeType,
-          bodyExcerpt: change.bodyExcerpt,
-          diffText: change.diffText,
-          links: change.links,
-          httpStatus: change.httpStatus,
-          pdfExcerpts: change.pdfExcerpts,
-          pdfErrors: change.pdfErrors,
-        });
+        await store.saveRawSnapshot(detectedChangeToRawSnapshot(change));
 
         if (changeType !== "failed") {
           await store.upsertTargetState(

@@ -7,6 +7,7 @@ import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
 import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
 import { resetState } from "./resetState.js";
+import { isContentChange } from "./changeClassification.js";
 import {
   printValidationResults,
   validateSources,
@@ -32,8 +33,7 @@ program
       });
       log.info(
         {
-          contentUpdates: result.changes.filter((c) => c.changeType !== "failed")
-            .length,
+          contentUpdates: result.changes.filter(isContentChange).length,
           failures: result.failures.length,
         },
         "bootstrap complete",
@@ -55,8 +55,7 @@ program
       const result = await runDailyPipeline(log, { date: opts.date });
       log.info(
         {
-          contentUpdates: result.changes.filter((c) => c.changeType !== "failed")
-            .length,
+          contentUpdates: result.changes.filter(isContentChange).length,
           analyzed: result.analyses.length,
           gated: result.gatedOut.length,
           failures: result.failures.length,

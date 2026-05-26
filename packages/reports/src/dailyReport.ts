@@ -64,12 +64,14 @@ function appendPdfLines(lines: string[], change: DetectedChange | undefined): vo
   }
 }
 
-export function generateDailyReportMarkdown(input: DailyReportInput): string {
-  const { date, checkpointsHeading, bootstrap, result } = input;
-  const contentChanges = result.changes.filter((c) => c.changeType !== "failed");
-  const sorted = sortAnalyses(result.analyses);
-
-  const lines: string[] = [
+function appendReportHeader(
+  lines: string[],
+  input: DailyReportInput,
+  contentChanges: DetectedChange[],
+  sorted: Analysis[],
+): void {
+  const { date, bootstrap, result } = input;
+  lines.push(
     "---",
     `type: legal-watch-daily`,
     `date: ${date}`,
@@ -86,49 +88,49 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
     "",
     `対象日: ${date}`,
     "",
-  ];
+  );
+}
 
-  if (bootstrap) {
-    lines.push(
-      "本実行はベースライン確立です。LLM 分析は行っていません。",
-      "次回以降 `pnpm daily` で差分のみ分析されます。",
-      "",
-    );
-    if (contentChanges.length > 0 || result.failures.length > 0) {
-      lines.push("## ベースライン登録", "");
-      for (const c of contentChanges) {
-        lines.push(
-          `- [${c.changeType}] ${c.sourceName}: ${c.title}`,
-          `  - 原典: ${c.url}`,
-          "",
-        );
-        appendPdfLines(lines, c);
-      }
-      for (const f of result.failures) {
-        lines.push(
-          `- [取得失敗] ${f.sourceName}`,
-          `  - URL: ${f.url}`,
-          formatFailureLine(f),
-          "",
-        );
-      }
-    } else {
-      lines.push("登録対象の変更はありませんでした。", "");
+function appendBootstrapSection(
+  lines: string[],
+  result: DailyReportInput["result"],
+  contentChanges: DetectedChange[],
+): void {
+  lines.push(
+    "本実行はベースライン確立です。LLM 分析は行っていません。",
+    "次回以降 `pnpm daily` で差分のみ分析されます。",
+    "",
+  );
+  if (contentChanges.length > 0 || result.failures.length > 0) {
+    lines.push("## ベースライン登録", "");
+    for (const c of contentChanges) {
+      lines.push(
+        `- [${c.changeType}] ${c.sourceName}: ${c.title}`,
+        `  - 原典: ${c.url}`,
+        "",
+      );
+      appendPdfLines(lines, c);
     }
-    lines.push(
-      "---",
-      "",
-      "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
-      "",
-    );
-    return lines.join("\n");
+    for (const f of result.failures) {
+      lines.push(
+        `- [取得失敗] ${f.sourceName}`,
+        `  - URL: ${f.url}`,
+        formatFailureLine(f),
+        "",
+      );
+    }
+  } else {
+    lines.push("登録対象の変更はありませんでした。", "");
   }
+}
 
-  if (sorted.length === 0 && contentChanges.length === 0 && result.failures.length === 0) {
-    lines.push("本日の内容更新はありません。", "");
-    return lines.join("\n");
-  }
-
+function appendAnalyzedSection(
+  lines: string[],
+  input: DailyReportInput,
+  contentChanges: DetectedChange[],
+  sorted: Analysis[],
+): void {
+  const { checkpointsHeading, result } = input;
   if (sorted.length > 0) {
     lines.push("## 分析済み更新", "");
     for (const a of sorted) {
@@ -173,21 +175,36 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
       "",
     );
   }
+}
 
+function appendAnalysisFailuresSection(
+  lines: string[],
+  result: DailyReportInput["result"],
+): void {
   if (result.analysisFailures.length > 0) {
     lines.push("## 分析失敗", "");
     for (const f of result.analysisFailures) {
       lines.push(`- ${f.changeId}: ${f.error}`, "");
     }
   }
+}
 
+function appendFetchFailuresSection(
+  lines: string[],
+  result: DailyReportInput["result"],
+): void {
   if (result.failures.length > 0) {
     lines.push("## 取得失敗", "");
     for (const f of result.failures) {
       lines.push(`- [${f.sourceName}] ${f.url}`, formatFailureLine(f), "");
     }
   }
+}
 
+function appendGatedOutSection(
+  lines: string[],
+  result: DailyReportInput["result"],
+): void {
   if (result.gatedOut.length > 0) {
     lines.push("## 参考・未分析", "");
     lines.push(
@@ -209,14 +226,41 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
       lines.push("");
     }
   }
+}
 
+function appendFooter(lines: string[]): void {
   lines.push(
     "---",
     "",
     "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
     "",
   );
+}
 
+export function generateDailyReportMarkdown(input: DailyReportInput): string {
+  const { bootstrap, result } = input;
+  const contentChanges = result.changes.filter((c) => c.changeType !== "failed");
+  const sorted = sortAnalyses(result.analyses);
+
+  const lines: string[] = [];
+  appendReportHeader(lines, input, contentChanges, sorted);
+
+  if (bootstrap) {
+    appendBootstrapSection(lines, result, contentChanges);
+    appendFooter(lines);
+    return lines.join("\n");
+  }
+
+  if (sorted.length === 0 && contentChanges.length === 0 && result.failures.length === 0) {
+    lines.push("本日の内容更新はありません。", "");
+    return lines.join("\n");
+  }
+
+  appendAnalyzedSection(lines, input, contentChanges, sorted);
+  appendAnalysisFailuresSection(lines, result);
+  appendFetchFailuresSection(lines, result);
+  appendGatedOutSection(lines, result);
+  appendFooter(lines);
   return lines.join("\n");
 }
 

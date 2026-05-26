@@ -7,7 +7,9 @@ import { generateDailyReportMarkdown } from "@seitai-legal-watch/reports";
 import dayjs from "dayjs";
 import timezone from "dayjs/plugin/timezone.js";
 import utc from "dayjs/plugin/utc.js";
+import { isFetchFailure } from "./changeClassification.js";
 import { dailyReportPath, resolveRepoRoot } from "./paths.js";
+import { rawSnapshotToDetectedChange } from "./rawSnapshot.js";
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -53,34 +55,13 @@ async function loadRawSnapshots(root: string, date: string, tz: string): Promise
   return snapshots;
 }
 
-function toDetectedChange(raw: RawSnapshot): DetectedChange {
-  return {
-    id: raw.changeId,
-    sourceId: raw.sourceId ?? "unknown",
-    sourceName: raw.sourceName ?? "Unknown source",
-    sourceWeight: raw.sourceWeight ?? "medium",
-    targetKey: raw.targetKey ?? raw.url,
-    url: raw.url,
-    title: raw.title,
-    detectedAt: raw.detectedAt,
-    changeType: raw.changeType,
-    diffText: raw.diffText,
-    bodyExcerpt: raw.bodyExcerpt,
-    links: raw.links ?? [],
-    pdfExcerpts: raw.pdfExcerpts,
-    pdfErrors: raw.pdfErrors,
-    gateReasons: raw.gateReasons,
-    httpStatus: raw.httpStatus,
-  };
-}
-
 export async function regenerateDailyReportFromLogs(date?: string): Promise<string> {
   const root = resolveRepoRoot();
   const tz = process.env.LEGAL_WATCH_TIMEZONE ?? "Asia/Tokyo";
   const reportDate = date ?? dayjs().tz(tz).format("YYYY-MM-DD");
   const config = await loadConfig();
   const raws = await loadRawSnapshots(root, reportDate, tz);
-  const changes = raws.map(toDetectedChange);
+  const changes = raws.map(rawSnapshotToDetectedChange);
   const changeIds = new Set(changes.map((change) => change.id));
   const llmEntries = (await readJsonl(path.join(root, "data", "llm-log.jsonl"))).filter(
     (entry) =>
@@ -100,10 +81,10 @@ export async function regenerateDailyReportFromLogs(date?: string): Promise<stri
       error: entry.error ?? "unknown analysis error",
     }));
 
-  const failures = changes.filter((change) => change.changeType === "failed");
+  const failures = changes.filter(isFetchFailure);
   const gatedOut: DetectedChange[] = [];
   for (const change of changes) {
-    if (change.changeType === "failed" || analyzedIds.has(change.id)) continue;
+    if (isFetchFailure(change) || analyzedIds.has(change.id)) continue;
     const source = config.enabledSources.find((s) => s.id === change.sourceId);
     const gate = ruleGate(
       change,

@@ -1,7 +1,278 @@
 import { describe, expect, it } from "vitest";
+import type { Analysis, DetectedChange } from "@seitai-legal-watch/core";
 import { generateDailyReportMarkdown } from "./dailyReport.js";
 
+function change(overrides: Partial<DetectedChange> = {}): DetectedChange {
+  return {
+    id: "c1",
+    sourceId: "s",
+    sourceName: "S",
+    sourceWeight: "high",
+    targetKey: "k",
+    url: "https://example.com/a",
+    title: "更新タイトル",
+    detectedAt: "2026-05-26T00:00:00Z",
+    changeType: "updated",
+    bodyExcerpt: "本文抜粋",
+    links: [],
+    ...overrides,
+  };
+}
+
+function analysis(overrides: Partial<Analysis> = {}): Analysis {
+  return {
+    changeId: "c1",
+    relevance: "high",
+    importance: "high",
+    category: "療養費",
+    targetBusiness: ["整骨院"],
+    summary: "要約",
+    whatChanged: "変更",
+    impact: "影響",
+    adImpact: "広告",
+    operator_checkpoints: ["確認1"],
+    needsOriginalCheck: true,
+    needsLocalGovernmentCheck: false,
+    needsExpertReview: false,
+    confidence: 0.8,
+    unknowns: [],
+    sourceUrl: "https://example.com/a",
+    analyzedAt: "2026-05-26T01:00:00Z",
+    ...overrides,
+  };
+}
+
 describe("generateDailyReportMarkdown", () => {
+  it("matches the bootstrap report contract exactly", () => {
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      bootstrap: true,
+      result: {
+        changes: [
+          change({
+            id: "baseline-change",
+            sourceName: "厚労省",
+            url: "https://www.mhlw.go.jp/houdou/index.html",
+            title: "報道発表",
+            changeType: "new",
+            pdfExcerpts: [
+              {
+                url: "https://www.mhlw.go.jp/a.pdf",
+                textExcerpt: "PDF本文抜粋",
+                contentHash: "hash",
+              },
+            ],
+            pdfErrors: [
+              { url: "https://www.mhlw.go.jp/b.pdf", error: "parse failed" },
+            ],
+          }),
+        ],
+        analyses: [],
+        gatedOut: [],
+        failures: [
+          change({
+            id: "fetch-failure",
+            sourceName: "失敗ソース",
+            url: "https://example.com/fail",
+            title: "失敗ソース（取得失敗）",
+            changeType: "failed",
+            bodyExcerpt: "timeout",
+            httpStatus: 503,
+          }),
+        ],
+        analysisFailures: [],
+      },
+    });
+
+    expect(md).toBe(
+      [
+        "---",
+        "type: legal-watch-daily",
+        "date: 2026-05-26",
+        "bootstrap: true",
+        "content_update_count: 1",
+        "analyzed_count: 0",
+        "gated_out_count: 0",
+        "fetch_failure_count: 1",
+        "---",
+        "",
+        "# 整体院・整骨院 Legal Watch Daily（初回ベースライン）",
+        "",
+        "対象日: 2026-05-26",
+        "",
+        "本実行はベースライン確立です。LLM 分析は行っていません。",
+        "次回以降 `pnpm daily` で差分のみ分析されます。",
+        "",
+        "## ベースライン登録",
+        "",
+        "- [new] 厚労省: 報道発表",
+        "  - 原典: https://www.mhlw.go.jp/houdou/index.html",
+        "",
+        "**PDF抜粋（要原典確認）**",
+        "- https://www.mhlw.go.jp/a.pdf",
+        "  - PDF本文抜粋",
+        "",
+        "**PDF抽出失敗**",
+        "- https://www.mhlw.go.jp/b.pdf: parse failed",
+        "",
+        "- [取得失敗] 失敗ソース",
+        "  - URL: https://example.com/fail",
+        "  - HTTP 503: timeout",
+        "",
+        "---",
+        "",
+        "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
+        "",
+      ].join("\n"),
+    );
+  });
+
+  it("matches the daily report contract exactly", () => {
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      result: {
+        changes: [
+          change({
+            pdfExcerpts: [
+              {
+                url: "https://example.com/a.pdf",
+                textExcerpt: "PDF本文抜粋",
+                contentHash: "hash",
+              },
+            ],
+            pdfErrors: [
+              { url: "https://example.com/b.pdf", error: "parse failed" },
+            ],
+          }),
+          change({
+            id: "fetch-failure",
+            sourceName: "失敗ソース",
+            url: "https://example.com/fail",
+            title: "失敗ソース（取得失敗）",
+            changeType: "failed",
+            bodyExcerpt: "timeout",
+            httpStatus: 0,
+          }),
+        ],
+        analyses: [
+          analysis({
+            needsExpertReview: true,
+            unknowns: ["不明点1"],
+          }),
+        ],
+        gatedOut: [
+          change({
+            id: "gated",
+            title: "未分析タイトル",
+            url: "https://example.com/gated",
+            sourceWeight: "low",
+            gateReasons: ["low_weight", "no_keyword"],
+            pdfExcerpts: [
+              {
+                url: "https://example.com/gated.pdf",
+                textExcerpt: "未分析PDF",
+                contentHash: "hash-gated",
+              },
+            ],
+            pdfErrors: [
+              { url: "https://example.com/gated-error.pdf", error: "too large" },
+            ],
+          }),
+        ],
+        failures: [
+          change({
+            id: "fetch-failure",
+            sourceName: "失敗ソース",
+            url: "https://example.com/fail",
+            title: "失敗ソース（取得失敗）",
+            changeType: "failed",
+            bodyExcerpt: "timeout",
+            httpStatus: 0,
+          }),
+        ],
+        analysisFailures: [{ changeId: "analysis-fail", error: "bad json" }],
+      },
+    });
+
+    expect(md).toBe(
+      [
+        "---",
+        "type: legal-watch-daily",
+        "date: 2026-05-26",
+        "bootstrap: false",
+        "content_update_count: 1",
+        "analyzed_count: 1",
+        "gated_out_count: 1",
+        "fetch_failure_count: 1",
+        "---",
+        "",
+        "# 整体院・整骨院 Legal Watch Daily",
+        "",
+        "対象日: 2026-05-26",
+        "",
+        "## 分析済み更新",
+        "",
+        "### [high] 更新タイトル",
+        "",
+        "- 情報源: S",
+        "- 原典: https://example.com/a",
+        "- カテゴリ: 療養費",
+        "- 対象業態: 整骨院",
+        "- 関連度: high",
+        "",
+        "**要約**",
+        "要約",
+        "",
+        "**実務影響（要確認）**",
+        "影響",
+        "",
+        "**広告・LP・SNS（要確認）**",
+        "広告",
+        "",
+        "**PDF抜粋（要原典確認）**",
+        "- https://example.com/a.pdf",
+        "  - PDF本文抜粋",
+        "",
+        "**PDF抽出失敗**",
+        "- https://example.com/b.pdf: parse failed",
+        "",
+        "**確認ポイント**",
+        "- 確認1",
+        "",
+        "> 要専門家確認",
+        "",
+        "**不明点**",
+        "- 不明点1",
+        "",
+        "## 分析失敗",
+        "",
+        "- analysis-fail: bad json",
+        "",
+        "## 取得失敗",
+        "",
+        "- [失敗ソース] https://example.com/fail",
+        "  - timeout",
+        "",
+        "## 参考・未分析",
+        "",
+        "ルールゲートにより LLM 分析していません。キーワード・ソース重みの見直しを検討してください。",
+        "",
+        "- 未分析タイトル",
+        "  - 原典: https://example.com/gated",
+        "  - 理由: low_weight, no_keyword",
+        "  - PDF抜粋あり: 1件",
+        "  - PDF抽出失敗: 1件",
+        "",
+        "---",
+        "",
+        "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
+        "",
+      ].join("\n"),
+    );
+  });
+
   it("renders empty day message", () => {
     const md = generateDailyReportMarkdown({
       date: "2026-05-25",

@@ -11,6 +11,7 @@ import dayjs from "dayjs";
 import timezone from "dayjs/plugin/timezone.js";
 import utc from "dayjs/plugin/utc.js";
 import type { Logger } from "pino";
+import { isFetchFailure } from "./changeClassification.js";
 import { dailyReportPath, resolveRepoRoot } from "./paths.js";
 
 dayjs.extend(utc);
@@ -50,10 +51,10 @@ export async function runDailyPipeline(
 
   const gatedOut: DetectedChange[] = [];
   const toAnalyze: DetectedChange[] = [];
-  const failures = changes.filter((c) => c.changeType === "failed");
+  const failures = changes.filter(isFetchFailure);
 
   for (const change of changes) {
-    if (change.changeType === "failed") continue;
+    if (isFetchFailure(change)) continue;
     const source = config.enabledSources.find((s) => s.id === change.sourceId);
     const gate = ruleGate(
       change,
