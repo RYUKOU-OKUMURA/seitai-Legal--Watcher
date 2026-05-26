@@ -112,6 +112,7 @@ program
           date: result.date,
           sourcePath: result.sourcePath,
           destinationPath: result.destinationPath,
+          indexPath: result.indexPath,
           skipped: result.skipped,
         },
         result.skipped

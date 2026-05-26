@@ -28,6 +28,7 @@
     "commander": "^12.1.0",
     "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
+    "gray-matter": "^4.0.3",
     "pino": "^9.6.0"
   },
   "devDependencies": {
