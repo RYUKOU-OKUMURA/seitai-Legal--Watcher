@@ -30,8 +30,16 @@ export function buildDiffText(
     .map((pdf) => `PDF ${pdf.url}\n${pdf.contentHash}\n${pdf.textExcerpt}`)
     .sort()
     .join("\n");
-  const oldText = `${prev.title ?? ""}\n${prev.bodyExcerpt}\n${(prev.links ?? []).join("\n")}\n${oldPdfs}`;
-  const newText = `${current.title}\n${current.bodyText}\n${current.links.join("\n")}\n${newPdfs}`;
+  const oldPdfErrors = (prev.pdfErrors ?? [])
+    .map((pdf) => `PDF_ERROR ${pdf.url}\n${pdf.error}`)
+    .sort()
+    .join("\n");
+  const newPdfErrors = (current.pdfErrors ?? [])
+    .map((pdf) => `PDF_ERROR ${pdf.url}\n${pdf.error}`)
+    .sort()
+    .join("\n");
+  const oldText = `${prev.title ?? ""}\n${prev.bodyExcerpt}\n${(prev.links ?? []).join("\n")}\n${oldPdfs}\n${oldPdfErrors}`;
+  const newText = `${current.title}\n${current.bodyText}\n${current.links.join("\n")}\n${newPdfs}\n${newPdfErrors}`;
   if (oldText === newText) return undefined;
   return createTwoFilesPatch("previous", "current", oldText, newText) ?? undefined;
 }
@@ -81,6 +89,7 @@ export function snapshotToTargetState(snapshot: FetchSnapshot): TargetState {
         },
       ]),
     ),
+    pdfErrors: snapshot.pdfErrors,
   };
 }
 
@@ -91,6 +100,7 @@ export function hashFromSnapshot(snapshot: Omit<FetchSnapshot, "contentHash">): 
       snapshot.bodyText,
       snapshot.links,
       (snapshot.pdfExcerpts ?? []).map((pdf) => `${pdf.url}:${pdf.contentHash}`),
+      (snapshot.pdfErrors ?? []).map((pdf) => `${pdf.url}:${pdf.error}`),
     ),
   );
 }

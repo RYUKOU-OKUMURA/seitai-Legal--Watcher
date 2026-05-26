@@ -102,6 +102,14 @@ describe("generateDailyReportMarkdown", () => {
             changeType: "new",
             bodyExcerpt: "x",
             links: [],
+            pdfExcerpts: [
+              {
+                url: "https://www.mhlw.go.jp/a.pdf",
+                textExcerpt: "PDF本文抜粋",
+                contentHash: "hash",
+              },
+            ],
+            pdfErrors: [{ url: "https://www.mhlw.go.jp/b.pdf", error: "parse failed" }],
           },
         ],
         analyses: [],
@@ -113,6 +121,8 @@ describe("generateDailyReportMarkdown", () => {
     expect(md).toContain("初回ベースライン");
     expect(md).toContain("LLM 分析は行っていません");
     expect(md).toContain("ベースライン登録");
+    expect(md).toContain("PDF本文抜粋");
+    expect(md).toContain("parse failed");
     expect(md).not.toContain("## 分析済み更新");
   });
 

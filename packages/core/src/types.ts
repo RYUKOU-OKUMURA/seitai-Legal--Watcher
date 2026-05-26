@@ -41,6 +41,7 @@ export interface TargetState {
   bodyExcerpt?: string;
   links?: string[];
   pdfs?: Record<string, { contentHash: string; textExcerpt?: string; title?: string }>;
+  pdfErrors?: PdfError[];
 }
 
 export interface FetchSnapshot {

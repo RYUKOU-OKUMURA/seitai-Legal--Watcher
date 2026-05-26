@@ -97,6 +97,7 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
           `  - 原典: ${c.url}`,
           "",
         );
+        appendPdfLines(lines, c);
       }
       for (const f of result.failures) {
         lines.push(
