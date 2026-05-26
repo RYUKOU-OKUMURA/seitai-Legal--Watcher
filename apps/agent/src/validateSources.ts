@@ -40,14 +40,24 @@ export async function validateEnabledSources(
         },
       });
       const text = await res.text();
-      const ok = res.status >= 200 && res.status < 400 && text.length > 500;
+      const hasBody = text.length > 500;
+      // Some official sites return 403 to datacenter IPs while still serving HTML (WAF).
+      const ok =
+        hasBody &&
+        (res.status >= 200 && res.status < 400
+          ? true
+          : res.status === 403 && text.length >= 5000);
       results.push({
         id: source.id,
         url,
         ok,
         status: res.status,
         bodyLength: text.length,
-        error: ok ? undefined : `status=${res.status} bodyLen=${text.length}`,
+        error: ok
+          ? res.status === 403
+            ? "degraded_403"
+            : undefined
+          : `status=${res.status} bodyLen=${text.length}`,
       });
     } catch (err) {
       results.push({
@@ -66,7 +76,8 @@ export function printValidationResults(results: SourceValidationResult[]): boole
   let allOk = true;
   for (const r of results) {
     if (r.ok) {
-      console.log(`OK  ${r.id} ${r.status} ${r.bodyLength}b ${r.url}`);
+      const note = r.error === "degraded_403" ? " (403/WAF)" : "";
+      console.log(`OK  ${r.id} ${r.status} ${r.bodyLength}b${note} ${r.url}`);
     } else {
       allOk = false;
       console.error(`NG  ${r.id} ${r.error ?? "unknown"} ${r.url}`);
