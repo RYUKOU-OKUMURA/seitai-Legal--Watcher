@@ -1,0 +1,14 @@
+{
+  "changeId": "b89bc1cb-6a9d-407c-8557-c579f5d01c62",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50000400002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260526#326M50000400002",
+  "title": "鉱業法施行規則",
+  "detectedAt": "2026-05-26T13:34:57.316Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年通商産業省令第二号\",\"LawName\":\"鉱業法施行規則\",\"LawNameKana\":\"こうぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19510127,\"AmendName\":\"鉱業法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第四十七号\",\"AmendPromulgationDate\":20260514,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"326M50000400002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000400002_20260521_508M60000400047\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

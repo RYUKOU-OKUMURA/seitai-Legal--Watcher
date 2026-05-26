@@ -1,0 +1,14 @@
+{
+  "changeId": "c307d947-e05e-4358-ae40-6bb83ba3edbe",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413CO0000000248",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260526#413CO0000000248",
+  "title": "確定拠出年金法施行令",
+  "detectedAt": "2026-05-26T13:34:57.316Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十三年政令第二百四十八号\",\"LawName\":\"確定拠出年金法施行令\",\"LawNameKana\":\"かくていきょしゅつねんきんほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20010723,\"AmendName\":\"子ども・子育て支援法等の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百五十三号\",\"AmendPromulgationDate\":20260430,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"413CO0000000248\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413CO0000000248_20261001_508CO0000000153\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
