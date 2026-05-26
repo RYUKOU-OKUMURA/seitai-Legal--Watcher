@@ -23,6 +23,56 @@ async function writeDailyReport(
   return reportPath;
 }
 
+function analyzedReport(blocks: string[]): string {
+  return [
+    "---",
+    "type: legal-watch-daily",
+    "date: 2026-05-26",
+    "content_update_count: 1",
+    "analyzed_count: 1",
+    "gated_out_count: 0",
+    "fetch_failure_count: 0",
+    "---",
+    "",
+    "# Daily",
+    "",
+    "## 分析済み更新",
+    "",
+    ...blocks,
+    "",
+  ].join("\n");
+}
+
+function analyzedBlock(importance: "high" | "medium" | "low", title: string): string {
+  return [
+    `### [${importance}] ${title}`,
+    "",
+    "- 情報源: 厚生労働省報道発表（月別一覧）",
+    "- 原典: https://example.com/source",
+    "- カテゴリ: 広告規制",
+    "- 対象業態: 整体院、整骨院",
+    "- 関連度: high",
+    "",
+    "**要約**",
+    "要約です。",
+    "",
+    "**実務影響（要確認）**",
+    "実務影響です。",
+    "",
+    "**広告・LP・SNS（要確認）**",
+    "広告影響です。",
+    "",
+    "**確認ポイント**",
+    "- 原典を確認する",
+    "- LP表現を確認する",
+    "",
+    "> 要専門家確認",
+    "",
+    "**不明点**",
+    "- 適用日",
+  ].join("\n");
+}
+
 describe("syncDailyReportToObsidian", () => {
   const tempDirs: string[] = [];
 
@@ -59,6 +109,8 @@ describe("syncDailyReportToObsidian", () => {
       sourcePath,
       destinationPath,
       indexPath,
+      topicPaths: [],
+      skippedTopicPaths: [],
       skipped: false,
     });
     const destination = matter(await readFile(destinationPath, "utf8"));
@@ -379,6 +431,276 @@ describe("syncDailyReportToObsidian", () => {
 
     await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
       "| [[daily/2026-05-25|2026-05-25]] | - | - | - | - |",
+    );
+  });
+
+  it("creates one topic note for each high-importance block", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = analyzedReport([analyzedBlock("high", "厚労省資料更新")]);
+    const sourcePath = await writeDailyReport(root, "2026-05-26", markdown);
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    const topicPath = path.join(
+      vault,
+      "Legal Watch",
+      "topics",
+      "広告規制",
+      "2026-05-26_厚労省資料更新.md",
+    );
+    expect(result.topicPaths).toEqual([topicPath]);
+    expect(result.skippedTopicPaths).toEqual([]);
+    const topic = matter(await readFile(topicPath, "utf8"));
+    expect(topic.data).toMatchObject({
+      type: "legal-watch-topic",
+      date: "2026-05-26",
+      importance: "high",
+      category: "広告規制",
+      source_report: "daily/2026-05-26",
+      source_url: "https://example.com/source",
+    });
+    expect(topic.data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "広告規制",
+      "厚労省",
+      "整体院",
+      "整骨院",
+      "要専門家確認",
+    ]);
+    expect(topic.data).not.toHaveProperty("status");
+    expect(topic.data).not.toHaveProperty("confirmation_status");
+    expect(topic.content).toContain("# 厚労省資料更新");
+    expect(topic.content).toContain("- 日次レポート: [[daily/2026-05-26|2026-05-26]]");
+    expect(topic.content).toContain("## 日次レポート抜粋");
+    expect(topic.content).toContain("### [high] 厚労省資料更新");
+    await expect(readFile(sourcePath, "utf8")).resolves.toBe(markdown);
+  });
+
+  it("does not create topic notes for medium or low blocks", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDailyReport(
+      root,
+      "2026-05-26",
+      analyzedReport([
+        analyzedBlock("medium", "中重要度"),
+        analyzedBlock("low", "低重要度"),
+      ]),
+    );
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    expect(result.topicPaths).toEqual([]);
+    expect(result.skippedTopicPaths).toEqual([]);
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "生成済みの重要度高トピックはありません。",
+    );
+  });
+
+  it("skips an existing topic note by default", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDailyReport(root, "2026-05-26", analyzedReport([analyzedBlock("high", "厚労省資料更新")]));
+    const topicPath = path.join(
+      vault,
+      "Legal Watch",
+      "topics",
+      "広告規制",
+      "2026-05-26_厚労省資料更新.md",
+    );
+    await mkdir(path.dirname(topicPath), { recursive: true });
+    await writeFile(topicPath, "# Manual topic note\n", "utf8");
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    expect(result.topicPaths).toEqual([]);
+    expect(result.skippedTopicPaths).toEqual([topicPath]);
+    await expect(readFile(topicPath, "utf8")).resolves.toBe("# Manual topic note\n");
+  });
+
+  it("overwrites an existing topic note when force is true", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDailyReport(root, "2026-05-26", analyzedReport([analyzedBlock("high", "厚労省資料更新")]));
+    const topicPath = path.join(
+      vault,
+      "Legal Watch",
+      "topics",
+      "広告規制",
+      "2026-05-26_厚労省資料更新.md",
+    );
+    await mkdir(path.dirname(topicPath), { recursive: true });
+    await writeFile(topicPath, "# Manual topic note\n", "utf8");
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+      force: true,
+    });
+
+    expect(result.topicPaths).toEqual([topicPath]);
+    expect(result.skippedTopicPaths).toEqual([]);
+    await expect(readFile(topicPath, "utf8")).resolves.toContain("# 厚労省資料更新");
+  });
+
+  it("creates unique topic filenames for duplicate high titles", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDailyReport(
+      root,
+      "2026-05-26",
+      analyzedReport([
+        analyzedBlock("high", "同じタイトル"),
+        analyzedBlock("high", "同じタイトル"),
+      ]),
+    );
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    expect(result.topicPaths.map((topicPath) => path.basename(topicPath))).toEqual([
+      "2026-05-26_同じタイトル.md",
+      "2026-05-26_同じタイトル-2.md",
+    ]);
+  });
+
+  it("sanitizes unsafe category and title path characters", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = analyzedReport([
+      analyzedBlock("high", "危険/タイトル:*?[]#").replace(
+        "- カテゴリ: 広告規制",
+        "- カテゴリ: 広告/規制:*?[]#",
+      ),
+    ]);
+    await writeDailyReport(root, "2026-05-26", markdown);
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    expect(result.topicPaths[0]).toBe(
+      path.join(
+        vault,
+        "Legal Watch",
+        "topics",
+        "広告 規制",
+        "2026-05-26_危険 タイトル.md",
+      ),
+    );
+  });
+
+  it("adds topic links to the generated index sorted newest first", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const olderTopic = path.join(
+      vault,
+      "Legal Watch",
+      "topics",
+      "広告規制",
+      "2026-05-25_古い高重要度.md",
+    );
+    await mkdir(path.dirname(olderTopic), { recursive: true });
+    await writeFile(
+      olderTopic,
+      "---\ntype: legal-watch-topic\ndate: 2026-05-25\nimportance: high\ncategory: 広告規制\nsource_url: https://example.com/old\n---\n# 古い高重要度\n",
+      "utf8",
+    );
+    await writeDailyReport(root, "2026-05-26", analyzedReport([analyzedBlock("high", "新しい高重要度")]));
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("## 重要度高トピック");
+    expect(index.indexOf("[[topics/広告規制/2026-05-26_新しい高重要度|新しい高重要度]]")).toBeLessThan(
+      index.indexOf("[[topics/広告規制/2026-05-25_古い高重要度|古い高重要度]]"),
+    );
+    expect(index).toContain(
+      "| [[topics/広告規制/2026-05-26_新しい高重要度|新しい高重要度]] | 広告規制 | 2026-05-26 | [あり](https://example.com/source) |",
+    );
+  });
+
+  it("only includes high legal-watch topic files in the topic index", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const topicsDir = path.join(vault, "Legal Watch", "topics", "広告規制");
+    await mkdir(topicsDir, { recursive: true });
+    await writeFile(
+      path.join(topicsDir, "2026-05-25_手動メモ.md"),
+      "# 手動メモ\n",
+      "utf8",
+    );
+    await writeFile(
+      path.join(topicsDir, "2026-05-25_中重要度.md"),
+      "---\ntype: legal-watch-topic\ndate: 2026-05-25\nimportance: medium\ncategory: 広告規制\n---\n# 中重要度\n",
+      "utf8",
+    );
+    await writeDailyReport(root, "2026-05-26", analyzedReport([analyzedBlock("high", "新しい高重要度")]));
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("新しい高重要度");
+    expect(index).not.toContain("手動メモ");
+    expect(index).not.toContain("中重要度");
+  });
+
+  it("escapes source URLs in topic index links", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = analyzedReport([
+      analyzedBlock("high", "URLに記号").replace(
+        "- 原典: https://example.com/source",
+        "- 原典: https://example.com/a)b|c d",
+      ),
+    ]);
+    await writeDailyReport(root, "2026-05-26", markdown);
+
+    const result = await syncDailyReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-26",
+    });
+
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "[あり](https://example.com/a%29b%7Cc%20d)",
     );
   });
 });

@@ -113,6 +113,8 @@ program
           sourcePath: result.sourcePath,
           destinationPath: result.destinationPath,
           indexPath: result.indexPath,
+          topicPaths: result.topicPaths,
+          skippedTopicPaths: result.skippedTopicPaths,
           skipped: result.skipped,
         },
         result.skipped
