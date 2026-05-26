@@ -81,8 +81,13 @@ export async function regenerateDailyReportFromLogs(date?: string): Promise<stri
   const config = await loadConfig();
   const raws = await loadRawSnapshots(root, reportDate, tz);
   const changes = raws.map(toDetectedChange);
+  const changeIds = new Set(changes.map((change) => change.id));
   const llmEntries = (await readJsonl(path.join(root, "data", "llm-log.jsonl"))).filter(
-    (entry) => entry.at && dateOf(entry.at, tz) === reportDate,
+    (entry) =>
+      entry.at &&
+      entry.changeId &&
+      changeIds.has(entry.changeId) &&
+      dateOf(entry.at, tz) === reportDate,
   );
   const analyses = llmEntries
     .filter((entry): entry is LlmLogEntry & { analysis: Analysis } => entry.status === "ok" && !!entry.analysis)
