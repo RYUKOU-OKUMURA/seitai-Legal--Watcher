@@ -1,0 +1,14 @@
+{
+  "changeId": "e633d81d-1d64-4dcb-9ebd-49f648b15608",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60200000005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260526#417M60200000005",
+  "title": "公正取引委員会の審査に関する規則",
+  "detectedAt": "2026-05-26T13:29:41.964Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成十七年公正取引委員会規則第五号\",\"LawName\":\"公正取引委員会の審査に関する規則\",\"LawNameKana\":\"こうせいとりひきいいんかいのしんさにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20051019,\"AmendName\":\"公正取引委員会の審査に関する規則等の一部を改正する規則\",\"AmendNo\":\"令和八年公正取引委員会規則第二号\",\"AmendPromulgationDate\":20260501,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"417M60200000005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60200000005_20260521_508M60200000002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

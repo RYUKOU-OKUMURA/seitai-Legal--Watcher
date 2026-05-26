@@ -1,0 +1,14 @@
+{
+  "changeId": "92d439e6-e068-4120-a75b-c14662aca06c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506CO0000000251",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260526#506CO0000000251",
+  "title": "二酸化炭素の貯留事業に関する法律施行令",
+  "detectedAt": "2026-05-26T13:29:41.964Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和六年政令第二百五十一号\",\"LawName\":\"二酸化炭素の貯留事業に関する法律施行令\",\"LawNameKana\":\"にさんかたんそのちょりゅうじぎょうにかんするほうりつしこうれい\",\"OldLawName\":\"二酸化炭素の貯留事業に関する法律第五条第一項第二号ニの法人を定める政令\",\"PromulgationDate\":20240726,\"AmendName\":\"二酸化炭素の貯留事業に関する法律の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第百五十二号\",\"AmendPromulgationDate\":20260430,\"EnforcementDate\":20260522,\"EnforcementComment\":\"\",\"LawId\":\"506CO0000000251\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506CO0000000251_20260522_508CO0000000152\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

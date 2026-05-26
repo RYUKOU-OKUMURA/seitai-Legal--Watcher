@@ -1,0 +1,14 @@
+{
+  "changeId": "2bff07c0-a81d-4485-b201-83b5658c94ed",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346CO0000000201",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260526#346CO0000000201",
+  "title": "海洋汚染等及び海上災害の防止に関する法律施行令",
+  "detectedAt": "2026-05-26T13:29:41.964Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十六年政令第二百一号\",\"LawName\":\"海洋汚染等及び海上災害の防止に関する法律施行令\",\"LawNameKana\":\"かいようおせんとうおよびかいじょうさいがいのぼうしにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19710622,\"AmendName\":\"二酸化炭素の貯留事業に関する法律の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第百五十二号\",\"AmendPromulgationDate\":20260430,\"EnforcementDate\":20260522,\"EnforcementComment\":\"\",\"LawId\":\"346CO0000000201\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346CO0000000201_20260522_508CO0000000152\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
