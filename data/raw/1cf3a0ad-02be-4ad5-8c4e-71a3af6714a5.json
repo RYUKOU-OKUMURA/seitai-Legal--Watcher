@@ -1,0 +1,16 @@
+{
+  "changeId": "1cf3a0ad-02be-4ad5-8c4e-71a3af6714a5",
+  "sourceId": "egov-pubcomment",
+  "sourceName": "e-Govパブリックコメント",
+  "sourceWeight": "medium",
+  "targetKey": "https://public-comment.e-gov.go.jp/",
+  "url": "https://public-comment.e-gov.go.jp/",
+  "title": "e-Govパブリックコメント",
+  "detectedAt": "2026-05-26T14:23:05.046Z",
+  "changeType": "new",
+  "bodyExcerpt": "e-Govパブリックコメント",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}
