@@ -11,6 +11,7 @@
     "bootstrap": "node dist/cli.js bootstrap",
     "daily": "node dist/cli.js daily",
     "fetch": "node dist/cli.js fetch",
+    "obsidian-sync": "node dist/cli.js sync-obsidian",
     "report": "node dist/cli.js report",
     "reset-state": "node dist/cli.js reset-state",
     "validate-sources": "node dist/cli.js validate-sources",

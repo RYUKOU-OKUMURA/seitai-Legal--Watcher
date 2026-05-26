@@ -8,6 +8,7 @@ import { runDailyPipeline } from "./pipeline.js";
 import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
+import { syncDailyReportToObsidian } from "./obsidianSync.js";
 import {
   printValidationResults,
   validateSources,
@@ -89,6 +90,34 @@ program
     try {
       const reportPath = await regenerateDailyReportFromLogs(opts.date);
       log.info({ reportPath }, "daily report regenerated");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("sync-obsidian")
+  .description("日次レポートを Obsidian Vault へ同期")
+  .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
+  .option("--force", "既存の Obsidian 側ファイルを上書きする")
+  .action(async (opts: { date?: string; force?: boolean }) => {
+    try {
+      const result = await syncDailyReportToObsidian({
+        date: opts.date,
+        force: opts.force === true,
+      });
+      log.info(
+        {
+          date: result.date,
+          sourcePath: result.sourcePath,
+          destinationPath: result.destinationPath,
+          skipped: result.skipped,
+        },
+        result.skipped
+          ? "obsidian daily report already exists; skipped"
+          : "obsidian daily report synced",
+      );
     } catch (err) {
       log.error(err);
       process.exit(1);
