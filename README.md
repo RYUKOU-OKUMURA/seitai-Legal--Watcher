@@ -41,7 +41,17 @@ pnpm daily              # 2回目以降：差分があれば LLM
 pnpm reset-state --clear-raw
 ```
 
-GitHub Actions の cron は `daily` のみです。**初回デプロイ前**にローカルまたは手動 workflow で `bootstrap` を実行することを推奨します。
+GitHub Actions の cron / 手動実行は `daily` のみです。`reset-state` と `bootstrap` はローカルで実行し、生成された `data/` と `reports/daily/` を commit してから Actions の手動 `daily` で確認します。
+
+Phase 1.1 の URL・hash・PDF 抽出変更を本番 state に反映する手順:
+
+```bash
+pnpm reset-state --clear-raw
+pnpm bootstrap
+git add data/ reports/daily/
+git commit -m "chore: rebaseline legal watch state"
+# push / PR 後に Actions タブ → Legal Watch Daily → Run workflow
+```
 
 ## コマンド
 
@@ -98,7 +108,7 @@ Secrets:
 
 - `CURSOR_API_KEY`
 
-手動実行: Actions タブ → Legal Watch Daily → Run workflow
+手動実行: Actions タブ → Legal Watch Daily → Run workflow（`daily` のみ。`bootstrap` はローカル実行）
 
 ## 受け入れ条件（Phase 1.0）
 
