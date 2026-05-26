@@ -18,6 +18,8 @@ export function buildDailyAnalysisUserPrompt(change: {
   changeType: string;
   diffText?: string;
   bodyExcerpt: string;
+  pdfExcerpts?: Array<{ url: string; title?: string; textExcerpt: string }>;
+  pdfErrors?: Array<{ url: string; error: string }>;
   gateReasons: string[];
 }): string {
   return `以下の Detected Change を分析し、指定スキーマの JSON のみ返してください。

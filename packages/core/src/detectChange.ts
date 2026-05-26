@@ -22,8 +22,16 @@ export function buildDiffText(
   current: FetchSnapshot,
 ): string | undefined {
   if (!prev?.bodyExcerpt) return undefined;
-  const oldText = `${prev.title ?? ""}\n${prev.bodyExcerpt}\n${(prev.links ?? []).join("\n")}`;
-  const newText = `${current.title}\n${current.bodyText}\n${current.links.join("\n")}`;
+  const oldPdfs = Object.entries(prev.pdfs ?? {})
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([url, pdf]) => `PDF ${url}\n${pdf.contentHash}\n${pdf.textExcerpt ?? ""}`)
+    .join("\n");
+  const newPdfs = (current.pdfExcerpts ?? [])
+    .map((pdf) => `PDF ${pdf.url}\n${pdf.contentHash}\n${pdf.textExcerpt}`)
+    .sort()
+    .join("\n");
+  const oldText = `${prev.title ?? ""}\n${prev.bodyExcerpt}\n${(prev.links ?? []).join("\n")}\n${oldPdfs}`;
+  const newText = `${current.title}\n${current.bodyText}\n${current.links.join("\n")}\n${newPdfs}`;
   if (oldText === newText) return undefined;
   return createTwoFilesPatch("previous", "current", oldText, newText) ?? undefined;
 }
@@ -49,6 +57,8 @@ export function createDetectedChange(
     diffText,
     bodyExcerpt: truncateExcerpt(snapshot.bodyText, EXCERPT_MAX_CHARS),
     links: snapshot.links,
+    pdfExcerpts: snapshot.pdfExcerpts,
+    pdfErrors: snapshot.pdfErrors,
     httpStatus: snapshot.httpStatus,
   };
 }
@@ -61,11 +71,26 @@ export function snapshotToTargetState(snapshot: FetchSnapshot): TargetState {
     lastHttpStatus: snapshot.httpStatus,
     bodyExcerpt: truncateExcerpt(snapshot.bodyText, EXCERPT_MAX_CHARS),
     links: snapshot.links,
+    pdfs: Object.fromEntries(
+      (snapshot.pdfExcerpts ?? []).map((pdf) => [
+        pdf.url,
+        {
+          contentHash: pdf.contentHash,
+          textExcerpt: pdf.textExcerpt,
+          title: pdf.title,
+        },
+      ]),
+    ),
   };
 }
 
 export function hashFromSnapshot(snapshot: Omit<FetchSnapshot, "contentHash">): string {
   return contentHash(
-    buildSnapshotPayload(snapshot.title, snapshot.bodyText, snapshot.links),
+    buildSnapshotPayload(
+      snapshot.title,
+      snapshot.bodyText,
+      snapshot.links,
+      (snapshot.pdfExcerpts ?? []).map((pdf) => `${pdf.url}:${pdf.contentHash}`),
+    ),
   );
 }

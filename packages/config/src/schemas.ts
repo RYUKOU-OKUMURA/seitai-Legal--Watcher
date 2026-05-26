@@ -3,7 +3,7 @@ import { z } from "zod";
 export const watchTargetSchema = z.object({
   id: z.string(),
   name: z.string(),
-  type: z.enum(["rss", "html", "api"]),
+  type: z.enum(["rss", "html", "api", "pdf"]),
   url: z.string().min(1),
   weight: z.enum(["high", "medium", "low"]),
   alwaysAnalyze: z.boolean().default(false),
@@ -11,6 +11,9 @@ export const watchTargetSchema = z.object({
   stableIdField: z.string().optional(),
   itemsPath: z.string().optional(),
   contentSelector: z.string().optional(),
+  followPdfLinks: z.boolean().optional(),
+  pdfLinkSelector: z.string().optional(),
+  pdfMaxLinks: z.number().int().positive().optional(),
 });
 
 export const sourcesFileSchema = z.object({

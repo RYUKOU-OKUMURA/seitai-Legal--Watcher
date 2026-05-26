@@ -17,11 +17,12 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@seitai-legal-watch/core": "workspace:*",
     "@seitai-legal-watch/config": "workspace:*",
+    "@seitai-legal-watch/core": "workspace:*",
     "@seitai-legal-watch/storage": "workspace:*",
     "cheerio": "^1.0.0",
-    "fast-xml-parser": "^4.5.1"
+    "fast-xml-parser": "^4.5.1",
+    "pdf-parse": "^2.4.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

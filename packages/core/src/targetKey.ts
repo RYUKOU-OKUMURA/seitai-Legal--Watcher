@@ -1,7 +1,7 @@
 import { normalizeUrl } from "./normalizeUrl.js";
 
 export function buildTargetKey(
-  type: "rss" | "html" | "api",
+  type: "rss" | "html" | "api" | "pdf",
   url: string,
   stableId?: string,
 ): string {

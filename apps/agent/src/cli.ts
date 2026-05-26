@@ -5,6 +5,7 @@ import pino from "pino";
 import path from "node:path";
 import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
+import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
 import { resetState } from "./resetState.js";
 import {
   printValidationResults,
@@ -83,15 +84,12 @@ program
 
 program
   .command("report")
-  .description("レポートのみ再生成（fetch/analyze スキップ — 空レポート）")
+  .description("data/raw と llm-log から日次レポートを再生成")
   .option("--date <YYYY-MM-DD>", "対象日")
   .action(async (opts: { date?: string }) => {
     try {
-      await runDailyPipeline(log, {
-        date: opts.date,
-        reportOnly: true,
-        skipLlm: true,
-      });
+      const reportPath = await regenerateDailyReportFromLogs(opts.date);
+      log.info({ reportPath }, "daily report regenerated");
     } catch (err) {
       log.error(err);
       process.exit(1);

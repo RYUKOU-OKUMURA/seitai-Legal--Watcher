@@ -3,7 +3,19 @@ export type SourceWeight = "high" | "medium" | "low";
 export type Importance = "high" | "medium" | "low";
 export type Relevance = "high" | "medium" | "low";
 
-export type WatchSourceType = "rss" | "html" | "api";
+export type WatchSourceType = "rss" | "html" | "api" | "pdf";
+
+export interface PdfExcerpt {
+  url: string;
+  title?: string;
+  textExcerpt: string;
+  contentHash: string;
+}
+
+export interface PdfError {
+  url: string;
+  error: string;
+}
 
 export interface WatchTargetConfig {
   id: string;
@@ -16,6 +28,9 @@ export interface WatchTargetConfig {
   stableIdField?: string;
   itemsPath?: string;
   contentSelector?: string;
+  followPdfLinks?: boolean;
+  pdfLinkSelector?: string;
+  pdfMaxLinks?: number;
 }
 
 export interface TargetState {
@@ -25,6 +40,7 @@ export interface TargetState {
   lastHttpStatus?: number;
   bodyExcerpt?: string;
   links?: string[];
+  pdfs?: Record<string, { contentHash: string; textExcerpt?: string; title?: string }>;
 }
 
 export interface FetchSnapshot {
@@ -36,6 +52,8 @@ export interface FetchSnapshot {
   publishedAt?: string;
   bodyText: string;
   links: string[];
+  pdfExcerpts?: PdfExcerpt[];
+  pdfErrors?: PdfError[];
   contentHash: string;
   fetchedAt: string;
   httpStatus: number;
@@ -55,6 +73,8 @@ export interface DetectedChange {
   diffText?: string;
   bodyExcerpt: string;
   links: string[];
+  pdfExcerpts?: PdfExcerpt[];
+  pdfErrors?: PdfError[];
   gatePass?: boolean;
   gateReasons?: string[];
   httpStatus?: number;
@@ -87,12 +107,20 @@ export interface Analysis {
 
 export interface RawSnapshot {
   changeId: string;
+  sourceId?: string;
+  sourceName?: string;
+  sourceWeight?: SourceWeight;
+  targetKey?: string;
   url: string;
   title: string;
   detectedAt: string;
   changeType: ChangeType;
   bodyExcerpt: string;
   diffText?: string;
+  links?: string[];
+  httpStatus?: number;
+  pdfExcerpts?: PdfExcerpt[];
+  pdfErrors?: PdfError[];
   gateReasons?: string[];
 }
 

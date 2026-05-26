@@ -55,6 +55,9 @@ pnpm daily
 # 取得・差分のみ
 pnpm fetch
 
+# data/raw と llm-log から日次レポートを再生成
+pnpm report -- --date 2026-05-26
+
 # state リセット（任意で raw 削除）
 pnpm reset-state
 pnpm reset-state --clear-raw
@@ -66,11 +69,12 @@ pnpm validate-sources
 pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 ```
 
-## Phase 1.0 スコープ
+## Phase 1.1 スコープ
 
-- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（4パイロット）
-- **Fetcher**: rss / html / api
-- **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`
+- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（4パイロット + 療養費系 + e-Gov 更新法令）
+- **Fetcher**: rss / html / api / pdf
+- **PDF**: HTML 配下 PDF の抜粋追跡、PDF 単独 URL 監視、PDF 抽出失敗の記録
+- **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`（PDF全文・バイナリは保存しない）
 - **レポート**: `reports/daily/YYYY-MM-DD.md`
 - **通知**: なし（Phase 4）
 
@@ -88,6 +92,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 ## GitHub Actions
 
 `.github/workflows/daily.yml` が JST 08:00（UTC 23:00）に実行します。
+`.github/workflows/ci.yml` が push / pull request で build, test, lint を実行します。
 
 Secrets:
 
@@ -97,13 +102,21 @@ Secrets:
 
 ## 受け入れ条件（Phase 1.0）
 
-- [ ] GitHub Actions で `daily` が成功し `reports/daily/YYYY-MM-DD.md` が commit される
-- [ ] `workflow_dispatch` で手動実行できる
-- [ ] 有効 Watch Target の新規・更新を検知する
-- [ ] 差分なし日は LLM を呼ばない
-- [ ] ルールゲート不通過は「参考・未分析」節に載る
-- [ ] レポートに原典 URL・重要度順・確認ポイントがある
-- [ ] 取得失敗でもジョブ全体は完了する
+- [x] GitHub Actions で `daily` が成功し `reports/daily/YYYY-MM-DD.md` が commit される
+- [x] `workflow_dispatch` で手動実行できる
+- [x] 有効 Watch Target の新規・更新を検知する
+- [x] 差分なし日は LLM を呼ばない
+- [x] ルールゲート不通過は「参考・未分析」節に載る
+- [x] レポートに原典 URL・重要度順・確認ポイントがある
+- [x] 取得失敗でもジョブ全体は完了する
+
+## 受け入れ条件（Phase 1.1）
+
+- [x] HTML 配下 PDF の抜粋を差分・LLM 入力・レポートへ含められる
+- [x] PDF 単独 URL を監視対象にできる
+- [x] PDF 抽出失敗でジョブ全体を止めない
+- [x] 療養費系ソースと e-Gov 更新法令 API を有効化する
+- [x] push / pull request で build, test, lint を実行する
 
 ## 設定
 
@@ -118,6 +131,7 @@ Secrets:
 ```bash
 pnpm test
 pnpm run build
+pnpm lint
 ```
 
 ## ライセンス

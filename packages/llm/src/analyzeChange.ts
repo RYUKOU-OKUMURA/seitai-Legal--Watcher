@@ -53,6 +53,12 @@ export async function analyzeChange(
     changeType: change.changeType,
     diffText: change.diffText,
     bodyExcerpt: change.bodyExcerpt,
+    pdfExcerpts: change.pdfExcerpts?.map((pdf) => ({
+      url: pdf.url,
+      title: pdf.title,
+      textExcerpt: pdf.textExcerpt,
+    })),
+    pdfErrors: change.pdfErrors,
     gateReasons: gate.reasons,
   });
 

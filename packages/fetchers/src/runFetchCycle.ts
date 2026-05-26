@@ -9,6 +9,7 @@ import { resolvedSource } from "@seitai-legal-watch/config";
 import type { StateStore } from "@seitai-legal-watch/storage";
 import { fetchApiSnapshots } from "./apiFetcher.js";
 import { fetchHtmlSnapshot } from "./htmlFetcher.js";
+import { fetchPdfSnapshot } from "./pdfFetcher.js";
 import { fetchRssSnapshots } from "./rssFetcher.js";
 
 export async function fetchSnapshotsForSource(
@@ -24,6 +25,8 @@ export async function fetchSnapshotsForSource(
       return [await fetchHtmlSnapshot(resolved, fetchedAt)];
     case "api":
       return fetchApiSnapshots(resolved, fetchedAt);
+    case "pdf":
+      return [await fetchPdfSnapshot(resolved, fetchedAt)];
     default:
       return [];
   }
@@ -75,12 +78,20 @@ export async function runFetchCycle(
 
         await store.saveRawSnapshot({
           changeId: change.id,
+          sourceId: change.sourceId,
+          sourceName: change.sourceName,
+          sourceWeight: change.sourceWeight,
+          targetKey: change.targetKey,
           url: change.url,
           title: change.title,
           detectedAt: change.detectedAt,
           changeType: change.changeType,
           bodyExcerpt: change.bodyExcerpt,
           diffText: change.diffText,
+          links: change.links,
+          httpStatus: change.httpStatus,
+          pdfExcerpts: change.pdfExcerpts,
+          pdfErrors: change.pdfErrors,
         });
 
         if (changeType !== "failed") {

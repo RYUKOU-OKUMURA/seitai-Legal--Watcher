@@ -26,14 +26,14 @@ sources:
     contentSelector: "main, #contents, .contents, body"
 
   - id: egov-law-api
-    name: e-Gov法令API（法令一覧）
+    name: e-Gov法令API（更新法令一覧）
     type: api
-    url: https://laws.e-gov.go.jp/api/1/laws?limit=20
+    url: https://laws.e-gov.go.jp/api/1/updatelawlists/{YYYYMMDD}
     weight: medium
     alwaysAnalyze: false
-    enabled: false
-    stableIdField: law_info.law_id
-    itemsPath: laws
+    enabled: true
+    stableIdField: LawId
+    itemsPath: DataRoot.ApplData.LawNameListInfo
 
   - id: ncij-kokumin
     name: 国民生活センター
@@ -63,7 +63,19 @@ sources:
   - id: mhlw-jyosei
     name: 厚労省柔整療養費
     type: html
-    url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180383_00014.html
+    url: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jyuudou/index.html
     weight: high
     alwaysAnalyze: false
-    enabled: false
+    enabled: true
+    contentSelector: "main, #contents, .contents, body"
+
+  - id: mhlw-ahaki-ryoyohi
+    name: 厚労省あはき療養費（受領委任）
+    type: html
+    url: https://www.mhlw.go.jp/bunya/iryouhoken/jyuudou/oshirase.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main, #contents, .contents, body"
+    followPdfLinks: true
+    pdfMaxLinks: 3

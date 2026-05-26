@@ -41,6 +41,24 @@ function formatFailureLine(f: DetectedChange): string {
   return `  - ${status}${f.bodyExcerpt}`;
 }
 
+function appendPdfLines(lines: string[], change: DetectedChange | undefined): void {
+  if (!change) return;
+  if ((change.pdfExcerpts ?? []).length > 0) {
+    lines.push("**PDF抜粋（要原典確認）**");
+    for (const pdf of change.pdfExcerpts ?? []) {
+      lines.push(`- ${pdf.url}`, `  - ${pdf.textExcerpt}`);
+    }
+    lines.push("");
+  }
+  if ((change.pdfErrors ?? []).length > 0) {
+    lines.push("**PDF抽出失敗**");
+    for (const pdf of change.pdfErrors ?? []) {
+      lines.push(`- ${pdf.url}: ${pdf.error}`);
+    }
+    lines.push("");
+  }
+}
+
 export function generateDailyReportMarkdown(input: DailyReportInput): string {
   const { date, checkpointsHeading, bootstrap, result } = input;
   const contentChanges = result.changes.filter((c) => c.changeType !== "failed");
@@ -127,6 +145,9 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
         `**広告・LP・SNS（要確認）**`,
         a.adImpact,
         "",
+      );
+      appendPdfLines(lines, change);
+      lines.push(
         `**${checkpointsHeading}**`,
         ...a.operator_checkpoints.map((p) => `- ${p}`),
         "",
@@ -172,8 +193,14 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
         `- ${g.title}`,
         `  - 原典: ${g.url}`,
         `  - 理由: ${(g.gateReasons ?? []).join(", ")}`,
-        "",
       );
+      if ((g.pdfExcerpts ?? []).length > 0) {
+        lines.push(`  - PDF抜粋あり: ${g.pdfExcerpts?.length ?? 0}件`);
+      }
+      if ((g.pdfErrors ?? []).length > 0) {
+        lines.push(`  - PDF抽出失敗: ${g.pdfErrors?.length ?? 0}件`);
+      }
+      lines.push("");
     }
   }
 

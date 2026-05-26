@@ -1,5 +1,6 @@
 import type { FetchSnapshot, WatchTargetConfig } from "@seitai-legal-watch/core";
 import { buildTargetKey, hashFromSnapshot } from "@seitai-legal-watch/core";
+import { XMLParser } from "fast-xml-parser";
 import { fetchWithRetry } from "./http.js";
 
 function getByPath(obj: unknown, pathStr: string): unknown {
@@ -15,6 +16,7 @@ function collectItems(data: unknown, itemsPath?: string): unknown[] {
   if (itemsPath) {
     const items = getByPath(data, itemsPath);
     if (Array.isArray(items)) return items;
+    if (items !== undefined && items !== null) return [items];
   }
   if (Array.isArray(data)) return data;
   if (data && typeof data === "object") {
@@ -38,8 +40,19 @@ function resolveStableId(
     const r = record as Record<string, unknown>;
     if (r.id) return String(r.id);
     if (r.law_id) return String(r.law_id);
+    if (r.LawId) return String(r.LawId);
+    if (r.LawUrl) return String(r.LawUrl);
   }
   return `index:${fallbackIndex}`;
+}
+
+async function parseApiBody(res: Response): Promise<unknown> {
+  const contentType = res.headers.get("content-type") ?? "";
+  const text = await res.text();
+  if (contentType.includes("xml") || text.trimStart().startsWith("<")) {
+    return new XMLParser({ ignoreAttributes: false }).parse(text);
+  }
+  return JSON.parse(text) as unknown;
 }
 
 export async function fetchApiSnapshots(
@@ -47,7 +60,7 @@ export async function fetchApiSnapshots(
   fetchedAt: string,
 ): Promise<FetchSnapshot[]> {
   const res = await fetchWithRetry(source.url);
-  const data = (await res.json()) as unknown;
+  const data = await parseApiBody(res);
   const items = collectItems(data, source.itemsPath);
 
   return items.map((record, index) => {
@@ -57,6 +70,7 @@ export async function fetchApiSnapshots(
       typeof record === "object" && record !== null
         ? String(
             (record as Record<string, unknown>).law_title ??
+              (record as Record<string, unknown>).LawName ??
               (record as Record<string, unknown>).title ??
               (record as Record<string, unknown>).name ??
               stableId,

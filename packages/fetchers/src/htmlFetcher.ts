@@ -2,6 +2,7 @@ import * as cheerio from "cheerio";
 import type { FetchSnapshot, WatchTargetConfig } from "@seitai-legal-watch/core";
 import { buildTargetKey, hashFromSnapshot, normalizeUrl } from "@seitai-legal-watch/core";
 import { fetchWithRetry } from "./http.js";
+import { fetchPdfExcerpts } from "./pdfFetcher.js";
 
 function extractLinks(
   $: cheerio.CheerioAPI,
@@ -20,6 +21,36 @@ function extractLinks(
     }
   });
   return [...links].sort();
+}
+
+function isPdfUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    return parsed.pathname.toLowerCase().endsWith(".pdf");
+  } catch {
+    return /\.pdf(?:$|[?#])/i.test(url);
+  }
+}
+
+export function extractPdfLinks(
+  $: cheerio.CheerioAPI,
+  baseUrl: string,
+  scopeSelector?: string,
+  maxLinks = 10,
+): string[] {
+  const links = new Set<string>();
+  const scope = scopeSelector ? $(scopeSelector) : $("body");
+  scope.find("a[href]").each((_, el) => {
+    const href = $(el).attr("href");
+    if (!href) return;
+    try {
+      const url = normalizeUrl(new URL(href, baseUrl).toString());
+      if (isPdfUrl(url)) links.add(url);
+    } catch {
+      /* skip invalid */
+    }
+  });
+  return [...links].sort().slice(0, maxLinks);
 }
 
 function parseCharsetFromMeta(htmlHead: string): string | undefined {
@@ -100,11 +131,18 @@ export async function fetchHtmlSnapshot(
   const linkScope = source.contentSelector
     ? source.contentSelector.split(",")[0]!.trim()
     : undefined;
+  const pdfScope = source.pdfLinkSelector;
 
   const title = $("title").first().text().trim() || source.name;
   const bodyText = extractBodyText($, source.contentSelector);
   const url = normalizeUrl(source.url);
   const links = extractLinks($, source.url, linkScope);
+  const pdfLinks = source.followPdfLinks
+    ? extractPdfLinks($, source.url, pdfScope, source.pdfMaxLinks ?? 10)
+    : [];
+  const pdfs = source.followPdfLinks
+    ? await fetchPdfExcerpts(pdfLinks)
+    : { excerpts: [], errors: [] };
 
   const base = {
     sourceId: source.id,
@@ -114,6 +152,8 @@ export async function fetchHtmlSnapshot(
     title,
     bodyText: bodyText || title,
     links,
+    pdfExcerpts: pdfs.excerpts,
+    pdfErrors: pdfs.errors,
     fetchedAt,
     httpStatus: res.status,
   };

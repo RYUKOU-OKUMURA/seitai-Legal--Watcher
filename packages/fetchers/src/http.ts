@@ -1,5 +1,7 @@
 import { FETCH_RETRY, REQUEST_TIMEOUT_MS } from "@seitai-legal-watch/core";
 
+const RETRYABLE_HTTP_STATUS = new Set([429, 500, 502, 503, 504]);
+
 export async function fetchWithRetry(
   url: string,
   init?: RequestInit,
@@ -19,6 +21,10 @@ export async function fetchWithRetry(
           ...(init?.headers ?? {}),
         },
       });
+      if (RETRYABLE_HTTP_STATUS.has(res.status) && i < FETCH_RETRY - 1) {
+        await new Promise((r) => setTimeout(r, 500 * (i + 1)));
+        continue;
+      }
       return res;
     } catch (err) {
       lastError = err;

@@ -17,11 +17,15 @@ export function resolveSourceUrl(
 
   const yyyy = d.format("YYYY");
   const mm = d.format("MM");
+  const dd = d.format("DD");
   const yyyymm = d.format("YYYYMM");
+  const yyyymmdd = d.format("YYYYMMDD");
 
   const expanded = source.url
+    .replace(/\{YYYYMMDD\}/g, yyyymmdd)
     .replace(/\{YYYYMM\}/g, yyyymm)
     .replace(/\{YYYY\}/g, yyyy)
+    .replace(/\{DD\}/g, dd)
     .replace(/\{MM\}/g, mm);
 
   return expanded;

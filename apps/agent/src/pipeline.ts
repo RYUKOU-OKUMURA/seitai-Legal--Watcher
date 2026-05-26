@@ -86,6 +86,7 @@ export async function runDailyPipeline(
           changeId: change.id,
           importance: analysis.importance,
           status: "ok",
+          analysis,
         });
         log.info({ changeId: change.id, importance: analysis.importance }, "analyzed");
       } catch (err) {

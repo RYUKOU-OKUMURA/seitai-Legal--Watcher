@@ -8,9 +8,11 @@ export function buildSnapshotPayload(
   title: string,
   bodyText: string,
   links: string[],
+  pdfHashes: string[] = [],
 ): string {
   const sortedLinks = [...links].sort().join("\n");
-  return `${title}\n---\n${bodyText}\n---\n${sortedLinks}`;
+  const sortedPdfHashes = [...pdfHashes].sort().join("\n");
+  return `${title}\n---\n${bodyText}\n---\n${sortedLinks}\n---\n${sortedPdfHashes}`;
 }
 
 export function truncateExcerpt(text: string, maxChars: number): string {

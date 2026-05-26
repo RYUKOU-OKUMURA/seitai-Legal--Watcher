@@ -34,13 +34,14 @@ export async function validateEnabledSources(
         headers: {
           "User-Agent":
             "Mozilla/5.0 (compatible; SeitaiLegalWatch/0.1; +https://github.com)",
-          Accept: "application/json, application/xml, text/xml, text/html, */*",
+          Accept: "application/json, application/xml, text/xml, text/html, application/pdf, */*",
           "Accept-Language": "ja,en;q=0.9",
           "Accept-Encoding": "identity",
         },
       });
       const text = await res.text();
-      const hasBody = text.length > 500;
+      const minBodyLength = source.type === "api" ? 50 : 500;
+      const hasBody = text.length > minBodyLength;
       // Some official sites return 403 to datacenter IPs while still serving HTML (WAF).
       const ok =
         hasBody &&
