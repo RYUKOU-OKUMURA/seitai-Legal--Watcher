@@ -16,17 +16,23 @@ export interface SourceValidationResult {
   error?: string;
 }
 
-export async function validateEnabledSources(
-  referenceDate?: string,
+export interface SourceValidationOptions {
+  referenceDate?: string;
+  includeDisabled?: boolean;
+}
+
+export async function validateSources(
+  options: SourceValidationOptions = {},
 ): Promise<SourceValidationResult[]> {
   const config = await loadConfig();
   const tz = process.env.LEGAL_WATCH_TIMEZONE ?? "Asia/Tokyo";
   const date =
-    referenceDate ?? dayjs().tz(tz).format("YYYY-MM-DD");
+    options.referenceDate ?? dayjs().tz(tz).format("YYYY-MM-DD");
+  const sources = options.includeDisabled ? config.sources : config.enabledSources;
 
   const results: SourceValidationResult[] = [];
 
-  for (const source of config.enabledSources) {
+  for (const source of sources) {
     const url = resolveSourceUrl(source, date);
     try {
       const res = await fetch(url, {
@@ -71,6 +77,12 @@ export async function validateEnabledSources(
   }
 
   return results;
+}
+
+export async function validateEnabledSources(
+  referenceDate?: string,
+): Promise<SourceValidationResult[]> {
+  return validateSources({ referenceDate });
 }
 
 export function printValidationResults(results: SourceValidationResult[]): boolean {

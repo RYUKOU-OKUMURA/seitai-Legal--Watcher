@@ -9,7 +9,7 @@ import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
 import { resetState } from "./resetState.js";
 import {
   printValidationResults,
-  validateEnabledSources,
+  validateSources,
 } from "./validateSources.js";
 
 loadEnv({ path: path.join(resolveRepoRoot(), ".env") });
@@ -114,10 +114,14 @@ program
   .command("validate-sources")
   .description("enabled ソースの URL を smoke test（200 & 本文長）")
   .option("--date <YYYY-MM-DD>", "URL テンプレート展開の基準日")
-  .action(async (opts: { date?: string }) => {
-    const results = await validateEnabledSources(opts.date);
+  .option("--include-disabled", "disabled ソースも含めて検証する")
+  .action(async (opts: { date?: string; includeDisabled?: boolean }) => {
+    const results = await validateSources({
+      referenceDate: opts.date,
+      includeDisabled: opts.includeDisabled === true,
+    });
     const ok = printValidationResults(results);
     if (!ok) process.exit(1);
   });
 
-program.parse();
+program.parse(process.argv.filter((arg, index) => index < 2 || arg !== "--"));

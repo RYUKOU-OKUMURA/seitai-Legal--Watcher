@@ -45,20 +45,52 @@ sources:
     contentSelector: "#contents, .contents, main"
 
   - id: mhlw-rss
-    name: 厚労省RSS（要URL確認）
+    name: 厚労省RSS（新着情報）
     type: rss
-    url: https://www.mhlw.go.jp/rss/all.xml
+    url: https://www.mhlw.go.jp/stf/news.rdf
     weight: high
     alwaysAnalyze: false
     enabled: false
 
   - id: kanpo-html
-    name: 官報
+    name: 官報発行サイト
     type: html
-    url: https://kanpou.npb.go.jp/
+    url: https://www.kanpo.go.jp/
     weight: medium
     alwaysAnalyze: false
-    enabled: false
+    enabled: true
+    contentSelector: "main"
+    followPdfLinks: false
+
+  - id: kanto-koshinetsu-judo
+    name: 関東信越厚生局 柔道整復療養費
+    type: html
+    url: https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shinsei/shido_kansa/judo/index.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main"
+    followPdfLinks: false
+
+  - id: tokyo-sejutsusho
+    name: 東京都 施術所手続き
+    type: html
+    url: https://www.hokeniryo.metro.tokyo.lg.jp/iryo/shikaku/anmamassa-jisiatuharikyuujyuudou
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main"
+    followPdfLinks: false
+
+  - id: kanagawa-sejutsusho
+    name: 神奈川県 あはき・柔整手続き
+    type: html
+    url: https://www.pref.kanagawa.jp/docs/f6z/cnt/f3795/index.html
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "#tmp_contents"
+    followPdfLinks: false
 
   - id: mhlw-jyosei
     name: 厚労省柔整療養費

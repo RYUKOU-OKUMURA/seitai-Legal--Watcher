@@ -43,14 +43,14 @@ pnpm reset-state --clear-raw
 
 GitHub Actions の cron / 手動実行は `daily` のみです。`reset-state` と `bootstrap` はローカルで実行し、生成された `data/` と `reports/daily/` を commit してから Actions の手動 `daily` で確認します。
 
-Phase 1.1 の URL・hash・PDF 抽出変更を本番 state に反映する手順:
+Phase 1.1 以降の URL・hash・PDF 抽出・監視対象変更を本番 state に反映する手順:
 
 ```bash
 pnpm reset-state --clear-raw
 pnpm bootstrap
 git add data/ reports/daily/
 git commit -m "chore: rebaseline legal watch state"
-# push / PR 後に Actions タブ → Legal Watch Daily → Run workflow
+# push / PR / merge 後に Actions タブ → Legal Watch Daily → Run workflow
 ```
 
 ## コマンド
@@ -75,6 +75,9 @@ pnpm reset-state --clear-raw
 # enabled ソースの URL smoke test
 pnpm validate-sources
 
+# disabled 候補も含めた URL smoke test
+pnpm validate-sources -- --include-disabled
+
 # モック LLM で E2E 確認（API キー不要）
 pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 ```
@@ -94,7 +97,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 |----|------|
 | 1.0 | rss/html/api + 4パイロット + Actions |
 | 1.1 | PDF 抽出、追加公式ソース有効化 |
-| 1.2 | 官報・自治体ソース有効化 |
+| 1.2 | 官報・地方厚生局・自治体ソース有効化 |
 | Phase 2 | Obsidian 同期 |
 | Phase 3 | 週次レポート |
 | Phase 4 | Tauri + 確認ステータス + 通知 |

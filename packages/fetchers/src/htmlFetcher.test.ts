@@ -30,6 +30,23 @@ describe("extractPdfLinks", () => {
       "https://example.com/files/a.pdf",
     ]);
   });
+
+  it("limits PDF links to the selected scope", () => {
+    const $ = cheerio.load(`
+      <main>
+        <a href="/outside.pdf">outside</a>
+        <section class="target">
+          <a href="/b.pdf">b</a>
+          <a href="/a.pdf">a</a>
+          <a href="/c.pdf">c</a>
+        </section>
+      </main>
+    `);
+
+    expect(
+      extractPdfLinks($, "https://example.com/page.html", ".target", 2),
+    ).toEqual(["https://example.com/a.pdf", "https://example.com/b.pdf"]);
+  });
 });
 
 describe("fetchHtmlSnapshot", () => {
