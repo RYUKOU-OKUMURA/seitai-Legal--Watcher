@@ -76,7 +76,7 @@ export async function fetchApiSnapshots(
               stableId,
           )
         : stableId;
-    const targetKey = buildTargetKey("api", source.url, stableId);
+    const targetKey = buildTargetKey("api", source.url, stableId, source.id);
     const base = {
       sourceId: source.id,
       sourceName: source.name,

@@ -4,9 +4,10 @@ export function buildTargetKey(
   type: "rss" | "html" | "api" | "pdf",
   url: string,
   stableId?: string,
+  sourceId?: string,
 ): string {
   if (type === "api" && stableId) {
-    return `api:${stableId}`;
+    return sourceId ? `api:${sourceId}:${stableId}` : `api:${stableId}`;
   }
   return normalizeUrl(url);
 }

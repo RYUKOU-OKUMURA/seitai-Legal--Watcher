@@ -39,7 +39,47 @@ describe("fetchApiSnapshots", () => {
     );
 
     expect(snapshots).toHaveLength(1);
-    expect(snapshots[0]?.targetKey).toBe("api:425AC0000000027");
+    expect(snapshots[0]?.targetKey).toBe("api:egov-law-api:425AC0000000027");
     expect(snapshots[0]?.title).toContain("行政手続");
+  });
+
+  it("scopes stable ids by source id so API sources do not collide", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async () =>
+      new Response(JSON.stringify([{ LawId: "same-law", LawName: "Same law" }]), {
+        status: 200,
+        headers: { "content-type": "application/json" },
+      }),
+    );
+
+    const first = await fetchApiSnapshots(
+      {
+        id: "source-a",
+        name: "Source A",
+        type: "api",
+        url: "https://example.com/a",
+        weight: "medium",
+        alwaysAnalyze: false,
+        enabled: true,
+        stableIdField: "LawId",
+      },
+      "2026-05-26T00:00:00.000Z",
+    );
+    const second = await fetchApiSnapshots(
+      {
+        id: "source-b",
+        name: "Source B",
+        type: "api",
+        url: "https://example.com/b",
+        weight: "medium",
+        alwaysAnalyze: false,
+        enabled: true,
+        stableIdField: "LawId",
+      },
+      "2026-05-26T00:00:00.000Z",
+    );
+
+    expect(first[0]?.targetKey).toBe("api:source-a:same-law");
+    expect(second[0]?.targetKey).toBe("api:source-b:same-law");
+    expect(first[0]?.targetKey).not.toBe(second[0]?.targetKey);
   });
 });
