@@ -12,7 +12,7 @@ vi.mock("pdf-parse", () => ({
   },
 }));
 
-const { fetchPdfSnapshot } = await import("./pdfFetcher.js");
+const { fetchPdfExcerpts, fetchPdfSnapshot } = await import("./pdfFetcher.js");
 
 describe("fetchPdfSnapshot", () => {
   afterEach(() => {
@@ -41,5 +41,37 @@ describe("fetchPdfSnapshot", () => {
     expect(snapshot.bodyText).toBe("PDF body from fixture");
     expect(snapshot.pdfExcerpts?.[0]?.textExcerpt).toBe("PDF body from fixture");
     expect(snapshot.contentHash).toMatch(/^[a-f0-9]{64}$/);
+  });
+
+  it("records an error when content-length exceeds the PDF budget", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(null, {
+        status: 200,
+        headers: {
+          "content-type": "application/pdf",
+          "content-length": String(10 * 1024 * 1024 + 1),
+        },
+      }),
+    );
+
+    const result = await fetchPdfExcerpts(["https://example.com/large.pdf"]);
+
+    expect(result.excerpts).toHaveLength(0);
+    expect(result.errors[0]?.url).toBe("https://example.com/large.pdf");
+    expect(result.errors[0]?.error).toContain("PDF too large");
+  });
+
+  it("records an error when the response is not a PDF", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response("<html>not pdf</html>", {
+        status: 200,
+        headers: { "content-type": "text/html; charset=utf-8" },
+      }),
+    );
+
+    const result = await fetchPdfExcerpts(["https://example.com/not-pdf.pdf"]);
+
+    expect(result.excerpts).toHaveLength(0);
+    expect(result.errors[0]?.error).toContain("Unexpected PDF content-type");
   });
 });

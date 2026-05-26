@@ -1,5 +1,6 @@
 export const EXCERPT_MAX_CHARS = 4000;
 export const FETCH_RETRY = 3;
+export const PDF_MAX_BYTES = 10 * 1024 * 1024;
 export const REQUEST_TIMEOUT_MS = 30_000;
 
 export const IMPORTANCE_ORDER: Record<string, number> = {
