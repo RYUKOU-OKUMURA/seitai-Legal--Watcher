@@ -186,4 +186,63 @@ describe("generateDailyReportMarkdown", () => {
     expect(md).toContain("PDF抽出失敗");
     expect(md).toContain("parse failed");
   });
+
+  it("shortens PDF excerpts in the rendered report", () => {
+    const longExcerpt = `${"あ".repeat(900)}末尾`;
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      result: {
+        changes: [
+          {
+            id: "c1",
+            sourceId: "s",
+            sourceName: "S",
+            sourceWeight: "high",
+            targetKey: "k",
+            url: "https://example.com",
+            title: "PDFあり",
+            detectedAt: "2026-05-26T00:00:00Z",
+            changeType: "updated",
+            bodyExcerpt: "x",
+            links: [],
+            pdfExcerpts: [
+              {
+                url: "https://example.com/a.pdf",
+                textExcerpt: longExcerpt,
+                contentHash: "hash",
+              },
+            ],
+          },
+        ],
+        analyses: [
+          {
+            changeId: "c1",
+            relevance: "high",
+            importance: "high",
+            category: "療養費",
+            targetBusiness: ["整骨院"],
+            summary: "要約",
+            whatChanged: "変更",
+            impact: "影響",
+            adImpact: "広告",
+            operator_checkpoints: ["確認1"],
+            needsOriginalCheck: true,
+            needsLocalGovernmentCheck: false,
+            needsExpertReview: false,
+            confidence: 0.8,
+            unknowns: [],
+            sourceUrl: "https://example.com",
+            analyzedAt: "2026-05-26T01:00:00Z",
+          },
+        ],
+        gatedOut: [],
+        failures: [],
+        analysisFailures: [],
+      },
+    });
+
+    expect(md).toContain(`${"あ".repeat(800)}…`);
+    expect(md).not.toContain("末尾");
+  });
 });

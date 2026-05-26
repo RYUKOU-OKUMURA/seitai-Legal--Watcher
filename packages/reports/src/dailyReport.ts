@@ -1,4 +1,4 @@
-import { IMPORTANCE_ORDER } from "@seitai-legal-watch/core";
+import { IMPORTANCE_ORDER, truncateExcerpt } from "@seitai-legal-watch/core";
 import type {
   Analysis,
   DetectedChange,
@@ -14,6 +14,8 @@ export interface DailyReportInput {
     "changes" | "analyses" | "gatedOut" | "failures" | "analysisFailures"
   >;
 }
+
+const PDF_REPORT_EXCERPT_MAX_CHARS = 800;
 
 function toAnalyzeSkipped(
   contentChanges: DetectedChange[],
@@ -46,7 +48,10 @@ function appendPdfLines(lines: string[], change: DetectedChange | undefined): vo
   if ((change.pdfExcerpts ?? []).length > 0) {
     lines.push("**PDF抜粋（要原典確認）**");
     for (const pdf of change.pdfExcerpts ?? []) {
-      lines.push(`- ${pdf.url}`, `  - ${pdf.textExcerpt}`);
+      lines.push(
+        `- ${pdf.url}`,
+        `  - ${truncateExcerpt(pdf.textExcerpt, PDF_REPORT_EXCERPT_MAX_CHARS)}`,
+      );
     }
     lines.push("");
   }
