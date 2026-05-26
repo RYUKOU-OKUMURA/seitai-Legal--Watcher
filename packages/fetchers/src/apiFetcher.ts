@@ -63,7 +63,8 @@ export async function fetchApiSnapshots(
   const data = await parseApiBody(res);
   const items = collectItems(data, source.itemsPath);
 
-  return items.map((record, index) => {
+  const snapshots = new Map<string, FetchSnapshot>();
+  for (const [index, record] of items.entries()) {
     const stableId = resolveStableId(record, source.stableIdField, index);
     const bodyText = JSON.stringify(record);
     const title =
@@ -88,6 +89,8 @@ export async function fetchApiSnapshots(
       fetchedAt,
       httpStatus: res.status,
     };
-    return { ...base, contentHash: hashFromSnapshot(base) };
-  });
+    snapshots.set(targetKey, { ...base, contentHash: hashFromSnapshot(base) });
+  }
+
+  return [...snapshots.values()];
 }

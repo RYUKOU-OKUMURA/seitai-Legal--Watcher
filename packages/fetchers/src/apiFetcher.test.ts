@@ -82,4 +82,37 @@ describe("fetchApiSnapshots", () => {
     expect(second[0]?.targetKey).toBe("api:source-b:same-law");
     expect(first[0]?.targetKey).not.toBe(second[0]?.targetKey);
   });
+
+  it("deduplicates repeated records by scoped target key", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(
+        JSON.stringify([
+          { LawId: "same-law", LawName: "First version" },
+          { LawId: "same-law", LawName: "Last version" },
+        ]),
+        {
+          status: 200,
+          headers: { "content-type": "application/json" },
+        },
+      ),
+    );
+
+    const snapshots = await fetchApiSnapshots(
+      {
+        id: "source-a",
+        name: "Source A",
+        type: "api",
+        url: "https://example.com/a",
+        weight: "medium",
+        alwaysAnalyze: false,
+        enabled: true,
+        stableIdField: "LawId",
+      },
+      "2026-05-26T00:00:00.000Z",
+    );
+
+    expect(snapshots).toHaveLength(1);
+    expect(snapshots[0]?.targetKey).toBe("api:source-a:same-law");
+    expect(snapshots[0]?.title).toBe("Last version");
+  });
 });
