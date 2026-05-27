@@ -1,0 +1,14 @@
+{
+  "changeId": "56764eee-ce8e-440b-b464-dee8f259e7f7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:501M60000008004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260527#501M60000008004",
+  "title": "電気通信番号規則",
+  "detectedAt": "2026-05-27T00:16:02.528Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和元年総務省令第四号\",\"LawName\":\"電気通信番号規則\",\"LawNameKana\":\"でんきつうしんばんごうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20190514,\"AmendName\":\"電気通信番号規則及び電気通信事業報告規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第三十号\",\"AmendPromulgationDate\":20260325,\"EnforcementDate\":20260527,\"EnforcementComment\":\"\",\"LawId\":\"501M60000008004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=501M60000008004_20260527_508M60000008030\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
