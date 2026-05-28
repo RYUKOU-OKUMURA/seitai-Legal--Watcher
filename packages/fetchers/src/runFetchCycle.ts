@@ -113,6 +113,7 @@ export async function runFetchCycle(
         "failed",
       );
       changes.push(change);
+      await store.saveRawSnapshot(detectedChangeToRawSnapshot(change));
     }
   }
 

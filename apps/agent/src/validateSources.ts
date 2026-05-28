@@ -21,6 +21,21 @@ export interface SourceValidationOptions {
   includeDisabled?: boolean;
 }
 
+function isTodaysEgovUpdateLawList404(
+  source: { id: string; type: string; url: string },
+  status: number,
+  date: string,
+  tz: string,
+): boolean {
+  if (status !== 404) return false;
+  if (source.type !== "api") return false;
+  const isEgovUpdateLawList =
+    source.id === "egov-law-api" ||
+    source.url.includes("laws.e-gov.go.jp/api/1/updatelawlists/{YYYYMMDD}");
+  if (!isEgovUpdateLawList) return false;
+  return date === dayjs().tz(tz).format("YYYY-MM-DD");
+}
+
 export async function validateSources(
   options: SourceValidationOptions = {},
 ): Promise<SourceValidationResult[]> {
@@ -48,12 +63,19 @@ export async function validateSources(
       const text = await res.text();
       const minBodyLength = source.type === "api" ? 50 : 500;
       const hasBody = text.length > minBodyLength;
+      const egovUpdateLawListNotReady = isTodaysEgovUpdateLawList404(
+        source,
+        res.status,
+        date,
+        tz,
+      );
       // Some official sites return 403 to datacenter IPs while still serving HTML (WAF).
       const ok =
-        hasBody &&
-        (res.status >= 200 && res.status < 400
-          ? true
-          : res.status === 403 && text.length >= 5000);
+        egovUpdateLawListNotReady ||
+        (hasBody &&
+          (res.status >= 200 && res.status < 400
+            ? true
+            : res.status === 403 && text.length >= 5000));
       results.push({
         id: source.id,
         url,
@@ -61,9 +83,11 @@ export async function validateSources(
         status: res.status,
         bodyLength: text.length,
         error: ok
-          ? res.status === 403
-            ? "degraded_403"
-            : undefined
+          ? egovUpdateLawListNotReady
+            ? "degraded_404_egov_daily_api"
+            : res.status === 403
+              ? "degraded_403"
+              : undefined
           : `status=${res.status} bodyLen=${text.length}`,
       });
     } catch (err) {
@@ -89,7 +113,12 @@ export function printValidationResults(results: SourceValidationResult[]): boole
   let allOk = true;
   for (const r of results) {
     if (r.ok) {
-      const note = r.error === "degraded_403" ? " (403/WAF)" : "";
+      const note =
+        r.error === "degraded_403"
+          ? " (403/WAF)"
+          : r.error === "degraded_404_egov_daily_api"
+            ? " (404/e-gov-daily-api-not-ready)"
+            : "";
       console.log(`OK  ${r.id} ${r.status} ${r.bodyLength}b${note} ${r.url}`);
     } else {
       allOk = false;

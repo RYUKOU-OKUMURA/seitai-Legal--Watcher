@@ -104,7 +104,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 
 ## GitHub Actions
 
-`.github/workflows/daily.yml` が JST 08:00（UTC 23:00）に実行します。
+`.github/workflows/daily.yml` が JST 11:00（UTC 02:00）に実行します。
 `.github/workflows/ci.yml` が push / pull request で build, test, lint を実行します。
 
 Secrets:
