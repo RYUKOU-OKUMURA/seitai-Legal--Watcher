@@ -1,0 +1,14 @@
+{
+  "changeId": "53f4a72d-b72c-4ff2-807c-5d4aaefdcd63",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60400000008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#508M60400000008",
+  "title": "盗難特定金属製物品の処分の防止等に関する法律施行規則",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"令和八年国家公安委員会規則第八号\",\"LawName\":\"盗難特定金属製物品の処分の防止等に関する法律施行規則\",\"LawNameKana\":\"とうなんとくていきんぞくせいぶっぴんのしょぶんのぼうしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260507,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"508M60400000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60400000008_20260601_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

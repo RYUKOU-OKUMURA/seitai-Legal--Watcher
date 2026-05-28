@@ -1,0 +1,14 @@
+{
+  "changeId": "af3fd255-2987-46bc-9be5-84666efb7d1a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403M50400000005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#403M50400000005",
+  "title": "暴力団員による不当な行為の防止等に関する法律の規定に基づく意見聴取の実施に関する規則",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第五号\",\"LawName\":\"暴力団員による不当な行為の防止等に関する法律の規定に基づく意見聴取の実施に関する規則\",\"LawNameKana\":\"ぼうりょくだんいんによるふとうなこういのぼうしとうにかんするほうりつのきていにもとづくいけんちょうしゅのじっしにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911025,\"AmendName\":\"暴力団員による不当な行為の防止等に関する法律施行規則等の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十一号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000005_20260521_508M60400000011\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "9cb3d392-c489-47ea-b5ed-fb8faf6f5451",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328CO0000000062",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#328CO0000000062",
+  "title": "海上保安官に協力援助した者等の災害給付に関する法律施行令",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十八年政令第六十二号\",\"LawName\":\"海上保安官に協力援助した者等の災害給付に関する法律施行令\",\"LawNameKana\":\"かいじょうほあんかんにきょうりょくえんじょしたものとうのさいがいきゅうふにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19530401,\"AmendName\":\"海上保安官に協力援助した者等の災害給付に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百六十号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260507,\"EnforcementComment\":\"\",\"LawId\":\"328CO0000000062\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328CO0000000062_20260507_508CO0000000160\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

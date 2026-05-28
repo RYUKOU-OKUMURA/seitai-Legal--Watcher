@@ -1,0 +1,14 @@
+{
+  "changeId": "43ef2175-4ae1-4acb-99f9-0fdb4427622a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412CO0000000467",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#412CO0000000467",
+  "title": "ストーカー行為等の規制等に関する法律施行令",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十二年政令第四百六十七号\",\"LawName\":\"ストーカー行為等の規制等に関する法律施行令\",\"LawNameKana\":\"すとーかーこういとうのきせいとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20001106,\"AmendName\":\"ストーカー行為等の規制等に関する法律施行令及び国際連合安全保障理事会決議第千二百六十七号等を踏まえ我が国が実施する財産の凍結等に関する特別措置法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百六十三号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"412CO0000000467\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412CO0000000467_20260521_508CO0000000163\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

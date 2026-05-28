@@ -1,0 +1,14 @@
+{
+  "changeId": "fae1d26c-f4d9-4246-9b51-e7cea8b7dbdf",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50400000027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#406M50400000027",
+  "title": "道路交通法の規定に基づく意見の聴取及び弁明の機会の付与に関する規則",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成六年国家公安委員会規則第二十七号\",\"LawName\":\"道路交通法の規定に基づく意見の聴取及び弁明の機会の付与に関する規則\",\"LawNameKana\":\"どうろこうつほうのきていにもとづくいけんのちょうしゅおよびべんめいのきかいのふよにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19940926,\"AmendName\":\"暴力団員による不当な行為の防止等に関する法律施行規則等の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十一号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"406M50400000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50400000027_20260521_508M60400000011\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

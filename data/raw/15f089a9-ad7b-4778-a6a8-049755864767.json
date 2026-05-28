@@ -1,0 +1,14 @@
+{
+  "changeId": "15f089a9-ad7b-4778-a6a8-049755864767",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327CO0000000429",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260528#327CO0000000429",
+  "title": "警察官の職務に協力援助した者の災害給付に関する法律施行令",
+  "detectedAt": "2026-05-28T09:14:08.269Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十七年政令第四百二十九号\",\"LawName\":\"警察官の職務に協力援助した者の災害給付に関する法律施行令\",\"LawNameKana\":\"けいさつかんのしょくむにきょうりょくえんじょしたもののさいがいきゅうふにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19521001,\"AmendName\":\"警察官の職務に協力援助した者の災害給付に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百五十八号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260507,\"EnforcementComment\":\"\",\"LawId\":\"327CO0000000429\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327CO0000000429_20260507_508CO0000000158\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
