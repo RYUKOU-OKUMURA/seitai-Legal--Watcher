@@ -1,0 +1,14 @@
+{
+  "changeId": "f440800a-2e37-4e70-896d-59a05ec7c190",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50400000018",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#412M50400000018",
+  "title": "ストーカー行為等の規制等に関する法律施行規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成十二年国家公安委員会規則第十八号\",\"LawName\":\"ストーカー行為等の規制等に関する法律施行規則\",\"LawNameKana\":\"すとーかーこういとうのきせいとうにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20001121,\"AmendName\":\"暴力団員による不当な行為の防止等に関する法律施行規則等の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十一号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"412M50400000018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50400000018_20260521_508M60400000011\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

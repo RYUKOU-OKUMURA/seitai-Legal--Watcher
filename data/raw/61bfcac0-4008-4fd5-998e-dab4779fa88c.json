@@ -1,0 +1,14 @@
+{
+  "changeId": "61bfcac0-4008-4fd5-998e-dab4779fa88c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50400000019",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#412M50400000019",
+  "title": "ストーカー行為等の規制等に関する法律の規定に基づく意見の聴取の実施に関する規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成十二年国家公安委員会規則第十九号\",\"LawName\":\"ストーカー行為等の規制等に関する法律の規定に基づく意見の聴取の実施に関する規則\",\"LawNameKana\":\"すとーかーこういとうのきせいとうにかんするほうりつのきていにもとづくいけんのちょうしゅうのじっしにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20001121,\"AmendName\":\"デジタル社会の形成を図るための規制改革を推進するためのデジタル社会形成基本法等の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"412M50400000019\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50400000019_20260521_508M60400000010\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

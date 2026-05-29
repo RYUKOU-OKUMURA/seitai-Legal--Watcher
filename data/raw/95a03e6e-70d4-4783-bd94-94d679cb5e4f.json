@@ -1,0 +1,14 @@
+{
+  "changeId": "95a03e6e-70d4-4783-bd94-94d679cb5e4f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50000400192",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#412M50000400192",
+  "title": "中小企業診断士の登録等及び試験に関する規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十二年通商産業省令第百九十二号\",\"LawName\":\"中小企業診断士の登録等及び試験に関する規則\",\"LawNameKana\":\"ちゅうしょうきぎょうしんだんしのとうろくとうおよびしけんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20000922,\"AmendName\":\"中小企業診断士の登録等及び試験に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第四十五号\",\"AmendPromulgationDate\":20260511,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"412M50000400192\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50000400192_20260601_508M60000400045\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

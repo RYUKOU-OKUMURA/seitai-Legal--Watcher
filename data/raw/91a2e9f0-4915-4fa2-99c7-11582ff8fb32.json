@@ -1,0 +1,14 @@
+{
+  "changeId": "91a2e9f0-4915-4fa2-99c7-11582ff8fb32",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350M50002000003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#350M50002000003",
+  "title": "雇用保険法施行規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年労働省令第三号\",\"LawName\":\"雇用保険法施行規則\",\"LawNameKana\":\"こようほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750310,\"AmendName\":\"雇用保険法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第九十二号\",\"AmendPromulgationDate\":20260512,\"EnforcementDate\":20260513,\"EnforcementComment\":\"\",\"LawId\":\"350M50002000003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50002000003_20260513_508M60000100092\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

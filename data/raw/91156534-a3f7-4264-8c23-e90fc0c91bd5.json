@@ -1,0 +1,14 @@
+{
+  "changeId": "91156534-a3f7-4264-8c23-e90fc0c91bd5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50004000033",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#326M50004000033",
+  "title": "土地収用法施行規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年建設省令第三十三号\",\"LawName\":\"土地収用法施行規則\",\"LawNameKana\":\"とちしゅうようほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19511027,\"AmendName\":\"公示送達等の電子化のための国土交通省関係省令の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十七号\",\"AmendPromulgationDate\":20260518,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"326M50004000033\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50004000033_20260521_508M60000800057\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

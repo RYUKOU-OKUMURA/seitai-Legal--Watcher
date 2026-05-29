@@ -1,0 +1,14 @@
+{
+  "changeId": "b75482a8-5a96-4125-8617-0e2eea274438",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405M50000400023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#405M50000400023",
+  "title": "ゴルフ場等に係る会員契約の適正化に関する法律施行規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成五年通商産業省令第二十三号\",\"LawName\":\"ゴルフ場等に係る会員契約の適正化に関する法律施行規則\",\"LawNameKana\":\"ごるふじょうとうにかかるかいいんけいやくのてきせいかにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19930419,\"AmendName\":\"ゴルフ場等に係る会員契約の適正化に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第四十六号\",\"AmendPromulgationDate\":20260513,\"EnforcementDate\":20260525,\"EnforcementComment\":\"\",\"LawId\":\"405M50000400023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405M50000400023_20260525_508M60000400046\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

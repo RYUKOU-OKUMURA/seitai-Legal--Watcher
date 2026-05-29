@@ -1,0 +1,14 @@
+{
+  "changeId": "76ab7e15-0dff-4535-8eee-c6bbf0c3fc35",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M60400000006",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#415M60400000006",
+  "title": "国家公安委員会の所管する法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成十五年国家公安委員会規則第六号\",\"LawName\":\"国家公安委員会の所管する法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\",\"LawNameKana\":\"こっかこうあんいいんかいのしょかんするほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうきそく\",\"OldLawName\":\"行政手続等における情報通信の技術の利用に関する法律の施行に伴う国家公安委員会の所管する関係法令に規定する対象手続等を定める国家公安委員会規則\",\"PromulgationDate\":20030328,\"AmendName\":\"国家公安委員会の所管する法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則等の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第九号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"415M60400000006\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M60400000006_20260521_508M60400000009\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

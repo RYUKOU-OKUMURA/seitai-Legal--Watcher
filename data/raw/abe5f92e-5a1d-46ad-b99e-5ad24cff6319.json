@@ -1,0 +1,14 @@
+{
+  "changeId": "abe5f92e-5a1d-46ad-b99e-5ad24cff6319",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50400000026",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260529#406M50400000026",
+  "title": "聴聞及び弁明の機会の付与に関する規則",
+  "detectedAt": "2026-05-29T06:04:20.811Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成六年国家公安委員会規則第二十六号\",\"LawName\":\"聴聞及び弁明の機会の付与に関する規則\",\"LawNameKana\":\"ちょうもんおよびべんめいのきかいのふよにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19940926,\"AmendName\":\"デジタル社会の形成を図るための規制改革を推進するためのデジタル社会形成基本法等の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"406M50400000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50400000026_20260521_508M60400000010\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
