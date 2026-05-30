@@ -9,6 +9,7 @@ import {
   checklistReportPath,
   dailyReportPath,
   manualImpactReportPath,
+  practicalDraftReportPath,
   resolveRepoRoot,
   weeklyReportPath,
 } from "./paths.js";
@@ -39,6 +40,13 @@ export interface ObsidianChecklistSyncOptions {
 }
 
 export interface ObsidianManualImpactSyncOptions {
+  date: string;
+  force?: boolean;
+  root?: string;
+  vaultPath?: string;
+}
+
+export interface ObsidianDraftsSyncOptions {
   date: string;
   force?: boolean;
   root?: string;
@@ -79,6 +87,14 @@ export interface ObsidianManualImpactSyncResult {
   skipped: boolean;
 }
 
+export interface ObsidianDraftsSyncResult {
+  date: string;
+  sourcePath: string;
+  destinationPath: string;
+  indexPath: string;
+  skipped: boolean;
+}
+
 interface DailyIndexEntry {
   date: string;
   fileName: string;
@@ -103,6 +119,12 @@ interface ChecklistIndexEntry {
 }
 
 interface ManualImpactIndexEntry {
+  date: string;
+  fileName: string;
+  targetCount?: number;
+}
+
+interface DraftsIndexEntry {
   date: string;
   fileName: string;
   targetCount?: number;
@@ -156,6 +178,10 @@ function hasErrorCode(err: unknown, code: string): boolean {
 function resolveReportDate(date?: string): string {
   if (date) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+      throw new Error(`Invalid date "${date}". Expected YYYY-MM-DD.`);
+    }
+    const parsed = dayjs(date);
+    if (!parsed.isValid() || parsed.format("YYYY-MM-DD") !== date) {
       throw new Error(`Invalid date "${date}". Expected YYYY-MM-DD.`);
     }
     return date;
@@ -233,6 +259,19 @@ async function readManualImpactReport(sourcePath: string, date: string): Promise
     if (hasErrorCode(err, "ENOENT")) {
       throw new Error(
         `Manual impact report not found: ${sourcePath}. Run pnpm manual-impact -- --date ${date} before syncing Obsidian.`,
+      );
+    }
+    throw err;
+  }
+}
+
+async function readDraftsReport(sourcePath: string, date: string): Promise<string> {
+  try {
+    return await readFile(sourcePath, "utf8");
+  } catch (err) {
+    if (hasErrorCode(err, "ENOENT")) {
+      throw new Error(
+        `Practical drafts report not found: ${sourcePath}. Run pnpm drafts -- --date ${date} before syncing Obsidian.`,
       );
     }
     throw err;
@@ -378,6 +417,19 @@ export function enrichManualImpactMarkdownForObsidian(markdown: string): string 
   return matter.stringify(parsed.content, data);
 }
 
+export function enrichDraftsMarkdownForObsidian(markdown: string): string {
+  const parsed = matter(markdown);
+  const data: Record<string, unknown> = { ...parsed.data };
+  if ("date" in data) data.date = normalizeDateValue(data.date);
+  data.tags = normalizeTags([
+    ...frontmatterTags(data.tags),
+    "legal-watch",
+    "法令監視",
+    "転用下書き",
+  ]);
+  return matter.stringify(parsed.content, data);
+}
+
 function legalWatchRoot(vaultPath: string): string {
   return path.join(vaultPath, "Legal Watch");
 }
@@ -396,6 +448,10 @@ function checklistsDirPath(vaultPath: string): string {
 
 function manualImpactDirPath(vaultPath: string): string {
   return path.join(legalWatchRoot(vaultPath), "manual-impact");
+}
+
+function draftsDirPath(vaultPath: string): string {
+  return path.join(legalWatchRoot(vaultPath), "drafts");
 }
 
 function topicsDirPath(vaultPath: string): string {
@@ -533,6 +589,32 @@ async function loadManualImpactIndexEntries(
     const fileDate = fileName.match(/^(\d{4}-\d{2}-\d{2})_manual_impact\.md$/)?.[1];
     if (!fileDate) continue;
     const raw = await readFile(path.join(manualImpactDir, fileName), "utf8");
+    const parsed = matter(raw);
+    entries.push({
+      date: dateValue(parsed.data.date, fileDate),
+      fileName,
+      targetCount: countValue(parsed.data.target_count),
+    });
+  }
+  return entries.sort((a, b) => b.date.localeCompare(a.date));
+}
+
+async function loadDraftsIndexEntries(
+  draftsDir: string,
+): Promise<DraftsIndexEntry[]> {
+  let files: string[] = [];
+  try {
+    files = await readdir(draftsDir);
+  } catch (err) {
+    if (hasErrorCode(err, "ENOENT")) return [];
+    throw err;
+  }
+
+  const entries: DraftsIndexEntry[] = [];
+  for (const fileName of files) {
+    const fileDate = fileName.match(/^(\d{4}-\d{2}-\d{2})_practical_drafts\.md$/)?.[1];
+    if (!fileDate) continue;
+    const raw = await readFile(path.join(draftsDir, fileName), "utf8");
     const parsed = matter(raw);
     entries.push({
       date: dateValue(parsed.data.date, fileDate),
@@ -855,6 +937,7 @@ function generateObsidianIndexMarkdown(
   weeklyEntries: WeeklyIndexEntry[],
   checklistEntries: ChecklistIndexEntry[],
   manualImpactEntries: ManualImpactIndexEntry[],
+  draftsEntries: DraftsIndexEntry[],
   topicEntries: TopicIndexEntry[],
 ): string {
   const lines = [
@@ -926,6 +1009,18 @@ function generateObsidianIndexMarkdown(
     lines.push("");
   }
 
+  lines.push("## 最近の転用下書き", "");
+  if (draftsEntries.length === 0) {
+    lines.push("同期済みの転用下書きはありません。", "");
+  } else {
+    lines.push("| 下書き | 対象項目 |", "|---|---:|");
+    for (const entry of draftsEntries) {
+      const draftsLink = `[[drafts/${entry.fileName.replace(/\.md$/, "")}|${entry.date}]]`;
+      lines.push(`| ${draftsLink} | ${countCell(entry.targetCount)} |`);
+    }
+    lines.push("");
+  }
+
   lines.push("## 重要度高トピック", "");
   if (topicEntries.length === 0) {
     lines.push("生成済みの重要度高トピックはありません。", "");
@@ -950,11 +1045,13 @@ async function writeObsidianIndex(vaultPath: string): Promise<string> {
   const weeklyDir = weeklyDirPath(vaultPath);
   const checklistDir = checklistsDirPath(vaultPath);
   const manualImpactDir = manualImpactDirPath(vaultPath);
+  const draftsDir = draftsDirPath(vaultPath);
   const destinationPath = indexPath(vaultPath);
   const dailyEntries = await loadDailyIndexEntries(dailyDir);
   const weeklyEntries = await loadWeeklyIndexEntries(weeklyDir);
   const checklistEntries = await loadChecklistIndexEntries(checklistDir);
   const manualImpactEntries = await loadManualImpactIndexEntries(manualImpactDir);
+  const draftsEntries = await loadDraftsIndexEntries(draftsDir);
   const topicEntries = await loadTopicIndexEntries(vaultPath);
   await mkdir(path.dirname(destinationPath), { recursive: true });
   await writeFile(
@@ -964,6 +1061,7 @@ async function writeObsidianIndex(vaultPath: string): Promise<string> {
       weeklyEntries,
       checklistEntries,
       manualImpactEntries,
+      draftsEntries,
       topicEntries,
     ),
     "utf8",
@@ -1141,6 +1239,53 @@ export async function syncManualImpactReportToObsidian(
       await writeFile(
         destinationPath,
         enrichManualImpactMarkdownForObsidian(sourceMarkdown),
+        {
+          encoding: "utf8",
+          flag: options.force === true ? "w" : "wx",
+        },
+      );
+    } catch (err) {
+      if (hasErrorCode(err, "EEXIST") && options.force !== true) {
+        skipped = true;
+      } else {
+        throw err;
+      }
+    }
+  }
+
+  const writtenIndexPath = await writeObsidianIndex(vaultPath);
+  return {
+    date,
+    sourcePath,
+    destinationPath,
+    indexPath: writtenIndexPath,
+    skipped,
+  };
+}
+
+export async function syncDraftsReportToObsidian(
+  options: ObsidianDraftsSyncOptions,
+): Promise<ObsidianDraftsSyncResult> {
+  const date = resolveReportDate(options.date);
+  const root = options.root ?? resolveRepoRoot();
+  const vaultPath = resolveVaultPath(options.vaultPath);
+  const sourcePath = practicalDraftReportPath(root, date);
+  const destinationPath = path.join(
+    draftsDirPath(vaultPath),
+    `${date}_practical_drafts.md`,
+  );
+  const sourceMarkdown = await readDraftsReport(sourcePath, date);
+
+  await mkdir(path.dirname(destinationPath), { recursive: true });
+
+  let skipped = false;
+  if ((await fileExists(destinationPath)) && options.force !== true) {
+    skipped = true;
+  } else {
+    try {
+      await writeFile(
+        destinationPath,
+        enrichDraftsMarkdownForObsidian(sourceMarkdown),
         {
           encoding: "utf8",
           flag: options.force === true ? "w" : "wx",

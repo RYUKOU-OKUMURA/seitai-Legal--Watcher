@@ -7,13 +7,21 @@ import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
 import { regenerateAdChecklistFromLogs } from "./checklistFromLogs.js";
 import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
+import { regeneratePracticalDraftsFromLogs } from "./draftsFromLogs.js";
 import { regenerateManualImpactFromLogs } from "./manualImpactFromLogs.js";
+import {
+  formatReviewItems,
+  importLatestAnalysesToReviewDb,
+  listReviewItems,
+  setReviewItemStatus,
+} from "./reviewStatus.js";
 import { regenerateWeeklyReportFromLogs } from "./weeklyFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
 import {
   syncChecklistReportToObsidian,
   syncDailyReportToObsidian,
+  syncDraftsReportToObsidian,
   syncManualImpactReportToObsidian,
   syncWeeklyReportToObsidian,
 } from "./obsidianSync.js";
@@ -147,20 +155,188 @@ program
   });
 
 program
+  .command("drafts")
+  .description("data/raw と llm-log から実務コミュニケーション下書きを生成")
+  .requiredOption("--date <YYYY-MM-DD>", "対象日")
+  .action(async (opts: { date: string }) => {
+    try {
+      const reportPath = await regeneratePracticalDraftsFromLogs(opts.date);
+      log.info({ reportPath, date: opts.date }, "practical drafts generated");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("review-import")
+  .description("data/llm-log.jsonl の最新 Analysis を SQLite watch.db に取り込む")
+  .option("--date <YYYY-MM-DD>", "対象日（省略時は raw がある全最新 Analysis）")
+  .action(async (opts: { date?: string }) => {
+    try {
+      const result = await importLatestAnalysesToReviewDb({ date: opts.date });
+      log.info(
+        {
+          dbPath: result.dbPath,
+          date: result.date,
+          imported: result.imported,
+          skippedMissingRaw: result.skippedMissingRaw,
+          skippedOutsideDate: result.skippedOutsideDate,
+        },
+        "review analyses imported",
+      );
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("review-status")
+  .description("SQLite watch.db の確認ステータスを表示")
+  .option("--date <YYYY-MM-DD>", "対象日")
+  .option("--status <status>", "確認ステータスで絞り込み")
+  .action(async (opts: { date?: string; status?: string }) => {
+    try {
+      const items = await listReviewItems({
+        date: opts.date,
+        status: opts.status,
+      });
+      console.log(formatReviewItems(items));
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("review-set-status")
+  .description("Analysis の確認ステータスを明示的に更新")
+  .option("--analysis-id <analysisId>", "対象 Analysis ID")
+  .option("--change-id <changeId>", "対象 changeId（最新 Analysis を更新）")
+  .requiredOption("--status <status>", "new/reviewing/confirmed/action_required/expert_review_required/ignored/archived")
+  .option("--note <note>", "確認メモ")
+  .option("--by <operator>", "確認者")
+  .action(
+    async (opts: {
+      analysisId?: string;
+      changeId?: string;
+      status: string;
+      note?: string;
+      by?: string;
+    }) => {
+      try {
+        const item = await setReviewItemStatus({
+          analysisId: opts.analysisId,
+          changeId: opts.changeId,
+          status: opts.status,
+          note: opts.note,
+          confirmedBy: opts.by,
+        });
+        log.info(
+          {
+            analysisId: item.analysisId,
+            changeId: item.changeId,
+            status: item.status,
+            confirmedAt: item.confirmedAt,
+          },
+          "review status updated",
+        );
+      } catch (err) {
+        log.error(err);
+        process.exit(1);
+      }
+    },
+  );
+
+program
+  .command("review-confirm")
+  .description("Analysis を確認済みにする")
+  .option("--analysis-id <analysisId>", "対象 Analysis ID")
+  .option("--change-id <changeId>", "対象 changeId（最新 Analysis を更新）")
+  .option("--note <note>", "確認メモ")
+  .option("--by <operator>", "確認者")
+  .action(
+    async (opts: {
+      analysisId?: string;
+      changeId?: string;
+      note?: string;
+      by?: string;
+    }) => {
+      try {
+        const item = await setReviewItemStatus({
+          analysisId: opts.analysisId,
+          changeId: opts.changeId,
+          status: "confirmed",
+          note: opts.note,
+          confirmedBy: opts.by,
+        });
+        log.info(
+          {
+            analysisId: item.analysisId,
+            changeId: item.changeId,
+            status: item.status,
+            confirmedAt: item.confirmedAt,
+          },
+          "review item confirmed",
+        );
+      } catch (err) {
+        log.error(err);
+        process.exit(1);
+      }
+    },
+  );
+
+program
+  .command("review-unconfirm")
+  .description("Analysis の確認済み状態を未確認に戻す")
+  .option("--analysis-id <analysisId>", "対象 Analysis ID")
+  .option("--change-id <changeId>", "対象 changeId（最新 Analysis を更新）")
+  .option("--note <note>", "確認メモ")
+  .action(
+    async (opts: {
+      analysisId?: string;
+      changeId?: string;
+      note?: string;
+    }) => {
+      try {
+        const item = await setReviewItemStatus({
+          analysisId: opts.analysisId,
+          changeId: opts.changeId,
+          status: "new",
+          note: opts.note,
+        });
+        log.info(
+          {
+            analysisId: item.analysisId,
+            changeId: item.changeId,
+            status: item.status,
+          },
+          "review item marked unconfirmed",
+        );
+      } catch (err) {
+        log.error(err);
+        process.exit(1);
+      }
+    },
+  );
+
+program
   .command("sync-obsidian")
-  .description("日次・週次レポート・広告チェックリスト・院内影響確認を Obsidian Vault へ同期")
+  .description("日次・週次レポート・広告チェックリスト・院内影響確認・転用下書きを Obsidian Vault へ同期")
   .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
   .option("--weekly <YYYY-Www>", "対象 ISO week の週次レポートを同期（例: 2026-W22）")
   .option("--checklist <YYYY-MM-DD>", "対象日の広告チェックリストを同期")
   .option("--manual-impact <YYYY-MM-DD>", "対象日の院内マニュアル影響確認を同期")
+  .option("--drafts <YYYY-MM-DD>", "対象日の実務コミュニケーション下書きを同期")
   .option("--force", "既存の Obsidian 側ファイルを上書きする")
-  .action(async (opts: { date?: string; weekly?: string; checklist?: string; manualImpact?: string; force?: boolean }) => {
+  .action(async (opts: { date?: string; weekly?: string; checklist?: string; manualImpact?: string; drafts?: string; force?: boolean }) => {
     try {
       if (
-        [opts.date, opts.weekly, opts.checklist, opts.manualImpact].filter((value) => value !== undefined)
+        [opts.date, opts.weekly, opts.checklist, opts.manualImpact, opts.drafts].filter((value) => value !== undefined)
           .length > 1
       ) {
-        throw new Error("Use only one of --date, --weekly, --checklist, or --manual-impact.");
+        throw new Error("Use only one of --date, --weekly, --checklist, --manual-impact, or --drafts.");
       }
       if (opts.weekly) {
         const result = await syncWeeklyReportToObsidian({
@@ -218,6 +394,26 @@ program
           result.skipped
             ? "obsidian manual impact report already exists; skipped"
             : "obsidian manual impact report synced",
+        );
+        return;
+      }
+
+      if (opts.drafts) {
+        const result = await syncDraftsReportToObsidian({
+          date: opts.drafts,
+          force: opts.force === true,
+        });
+        log.info(
+          {
+            date: result.date,
+            sourcePath: result.sourcePath,
+            destinationPath: result.destinationPath,
+            indexPath: result.indexPath,
+            skipped: result.skipped,
+          },
+          result.skipped
+            ? "obsidian practical drafts already exists; skipped"
+            : "obsidian practical drafts synced",
         );
         return;
       }

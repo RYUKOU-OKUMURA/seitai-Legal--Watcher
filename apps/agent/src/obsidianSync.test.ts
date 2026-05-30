@@ -6,10 +6,12 @@ import { afterEach, describe, expect, it } from "vitest";
 import {
   enrichChecklistMarkdownForObsidian,
   enrichDailyMarkdownForObsidian,
+  enrichDraftsMarkdownForObsidian,
   enrichManualImpactMarkdownForObsidian,
   enrichWeeklyMarkdownForObsidian,
   syncChecklistReportToObsidian,
   syncDailyReportToObsidian,
+  syncDraftsReportToObsidian,
   syncManualImpactReportToObsidian,
   syncWeeklyReportToObsidian,
 } from "./obsidianSync.js";
@@ -57,6 +59,17 @@ async function writeManualImpactReport(
   content: string,
 ): Promise<string> {
   const reportPath = path.join(root, "reports", "manual-impact", `${date}_manual_impact.md`);
+  await mkdir(path.dirname(reportPath), { recursive: true });
+  await writeFile(reportPath, content, "utf8");
+  return reportPath;
+}
+
+async function writeDraftsReport(
+  root: string,
+  date: string,
+  content: string,
+): Promise<string> {
+  const reportPath = path.join(root, "reports", "drafts", `${date}_practical_drafts.md`);
   await mkdir(path.dirname(reportPath), { recursive: true });
   await writeFile(reportPath, content, "utf8");
   return reportPath;
@@ -1540,6 +1553,274 @@ describe("syncManualImpactReportToObsidian", () => {
     );
     expect(index).toContain(
       "| [[manual-impact/2026-05-27_manual_impact|2026-05-27]] | 1 |",
+    );
+  });
+});
+
+describe("syncDraftsReportToObsidian", () => {
+  const tempDirs: string[] = [];
+
+  afterEach(async () => {
+    delete process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH;
+    await Promise.all(
+      tempDirs.splice(0).map((dir) => rm(dir, { recursive: true, force: true })),
+    );
+  });
+
+  it("copies practical drafts into the Obsidian drafts directory", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = [
+      "---",
+      "type: legal-watch-practical-drafts",
+      "date: 2026-05-28",
+      "target_count: 2",
+      "---",
+      "",
+      "# 実務コミュニケーション下書き",
+      "",
+    ].join("\n");
+    const sourcePath = await writeDraftsReport(root, "2026-05-28", markdown);
+
+    const result = await syncDraftsReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "drafts",
+      "2026-05-28_practical_drafts.md",
+    );
+    const indexPath = path.join(vault, "Legal Watch", "index.md");
+    expect(result).toEqual({
+      date: "2026-05-28",
+      sourcePath,
+      destinationPath,
+      indexPath,
+      skipped: false,
+    });
+    const destination = matter(await readFile(destinationPath, "utf8"));
+    expect(destination.data).toMatchObject({
+      type: "legal-watch-practical-drafts",
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(destination.data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "転用下書き",
+    ]);
+    expect(destination.data).not.toHaveProperty("status");
+    expect(destination.data).not.toHaveProperty("confirmation_status");
+    await expect(readFile(sourcePath, "utf8")).resolves.toBe(markdown);
+    await expect(readFile(indexPath, "utf8")).resolves.toContain(
+      "| [[drafts/2026-05-28_practical_drafts|2026-05-28]] | 2 |",
+    );
+  });
+
+  it("creates missing Obsidian drafts destination directories", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = path.join(await makeTempDir("legal-watch-vault-parent-"), "Vault");
+    tempDirs.push(root, path.dirname(vault));
+    await writeDraftsReport(root, "2026-05-28", "# Drafts\n");
+
+    await syncDraftsReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "drafts", "2026-05-28_practical_drafts.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Drafts");
+  });
+
+  it("skips an existing Obsidian drafts report by default", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDraftsReport(root, "2026-05-28", "# Source drafts\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "drafts",
+      "2026-05-28_practical_drafts.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual draft notes\n", "utf8");
+
+    const result = await syncDraftsReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    expect(result.skipped).toBe(true);
+    await expect(readFile(destinationPath, "utf8")).resolves.toBe(
+      "# Manual draft notes\n",
+    );
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "[[drafts/2026-05-28_practical_drafts|2026-05-28]]",
+    );
+  });
+
+  it("overwrites an existing Obsidian drafts report when force is true", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeDraftsReport(root, "2026-05-28", "# Source drafts\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "drafts",
+      "2026-05-28_practical_drafts.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual draft notes\n", "utf8");
+
+    const result = await syncDraftsReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+      force: true,
+    });
+
+    expect(result.skipped).toBe(false);
+    const destination = await readFile(destinationPath, "utf8");
+    expect(destination).toContain("# Source drafts");
+    expect(matter(destination).data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "転用下書き",
+    ]);
+  });
+
+  it("throws a useful error when the drafts report is missing", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncDraftsReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "2026-05-28",
+      }),
+    ).rejects.toThrow("Practical drafts report not found");
+  });
+
+  it("rejects malformed dates before using them as file paths", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncDraftsReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "../outside",
+        force: true,
+      }),
+    ).rejects.toThrow("Invalid date");
+  });
+
+  it("rejects invalid calendar dates", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncDraftsReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "2026-02-31",
+        force: true,
+      }),
+    ).rejects.toThrow('Invalid date "2026-02-31". Expected YYYY-MM-DD.');
+  });
+
+  it("preserves and de-duplicates existing drafts tags during enrichment", () => {
+    const enriched = matter(
+      enrichDraftsMarkdownForObsidian(
+        [
+          "---",
+          "type: legal-watch-practical-drafts",
+          "date: 2026-05-28",
+          "target_count: 2",
+          "tags:",
+          "  - '#legal-watch'",
+          "  - custom",
+          "---",
+          "",
+          "# Drafts",
+          "",
+        ].join("\n"),
+      ),
+    );
+
+    expect(enriched.data).toMatchObject({
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(enriched.data.tags).toEqual([
+      "legal-watch",
+      "custom",
+      "法令監視",
+      "転用下書き",
+    ]);
+    expect(enriched.data).not.toHaveProperty("status");
+    expect(enriched.data).not.toHaveProperty("confirmation_status");
+  });
+
+  it("adds drafts links to the generated index sorted newest first", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const draftsDir = path.join(vault, "Legal Watch", "drafts");
+    await mkdir(draftsDir, { recursive: true });
+    await writeFile(
+      path.join(draftsDir, "2026-05-27_practical_drafts.md"),
+      "---\ntype: legal-watch-practical-drafts\ndate: 2026-05-27\ntarget_count: 1\n---\n# Older\n",
+      "utf8",
+    );
+    await writeFile(
+      path.join(draftsDir, "2026-05-29_practical_drafts.md"),
+      "---\ntype: legal-watch-practical-drafts\ndate: 2026-05-29\ntarget_count: 3\n---\n# Newer\n",
+      "utf8",
+    );
+    await writeDraftsReport(
+      root,
+      "2026-05-28",
+      "---\ntype: legal-watch-practical-drafts\ndate: 2026-05-28\ntarget_count: 2\n---\n# Current\n",
+    );
+
+    const result = await syncDraftsReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("## 最近の転用下書き");
+    expect(
+      index.indexOf("[[drafts/2026-05-29_practical_drafts|2026-05-29]]"),
+    ).toBeLessThan(
+      index.indexOf("[[drafts/2026-05-28_practical_drafts|2026-05-28]]"),
+    );
+    expect(
+      index.indexOf("[[drafts/2026-05-28_practical_drafts|2026-05-28]]"),
+    ).toBeLessThan(
+      index.indexOf("[[drafts/2026-05-27_practical_drafts|2026-05-27]]"),
+    );
+    expect(index).toContain(
+      "| [[drafts/2026-05-27_practical_drafts|2026-05-27]] | 1 |",
     );
   });
 });

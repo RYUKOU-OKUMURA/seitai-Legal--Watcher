@@ -31,7 +31,7 @@ Phase 3 は次の 5 段階に分ける。
 | 3b | Obsidian weekly sync | `Legal Watch/weekly/YYYY-Www_legal_watch.md` |
 | 3c | 広告・LP・SNSチェックリスト | `reports/checklists/YYYY-MM-DD_ad_checklist.md` |
 | 3d | 院内マニュアル影響確認 | `reports/manual-impact/YYYY-MM-DD_manual_impact.md` |
-| 3e | 転用文生成 | 院内共有メモ、スタッフ説明、SNS、ブログ、顧問確認メール |
+| 3e | 転用文生成 | `reports/drafts/YYYY-MM-DD_practical_drafts.md` |
 
 ## Phase 3a: 週次レポート最小実装
 
@@ -620,7 +620,49 @@ Obsidian 同期は既存 daily / weekly / checklist と同じ Vault 設定・ski
 
 ### ゴール
 
-週次レポートの内容を、実務コミュニケーションに転用しやすい下書きへ変換する。
+対象日の `Analysis` 済み項目を `data/llm-log.jsonl` と `data/raw/{changeId}.json` から抽出し、院内共有・スタッフ説明・顧問確認メール・SNS/ブログ向け控えめ文案へ転用しやすい下書き Markdown を生成する。
+
+下書きは法的判断ではなく、原典確認中の実務コミュニケーション素材として扱う。公開・配布・送信前に原典確認、院内運用との照合、必要に応じた専門家確認を行う前提にする。
+
+### 入力
+
+- `data/llm-log.jsonl`
+- `data/raw/{changeId}.json`
+- Phase 3c / 3d の出力は必須入力にしない。必要な情報は `Analysis` と raw snapshot から決定論的に生成する。
+
+抽出条件:
+
+- `status: "ok"` かつ `analysis` が存在する。
+- 対応する raw snapshot が存在する。
+- raw snapshot の `detectedAt` を JST へ変換した日付が対象日と一致する。
+- 同じ `changeId` に複数の `ok` Analysis がある場合は、既存週次・3c・3d と同じく最新を採用する。
+
+除外するもの:
+
+- `status: "error"` の LLM ログ
+- `analysis` のないログ
+- gated out の Detected Change
+- 対応する raw snapshot がない Analysis
+- 対象日外の Analysis
+
+### 出力
+
+```text
+reports/drafts/YYYY-MM-DD_practical_drafts.md
+Obsidian Vault/Legal Watch/drafts/YYYY-MM-DD_practical_drafts.md
+```
+
+対象がない日も「該当なし」が分かる Markdown ファイルを生成する。
+
+frontmatter:
+
+```yaml
+---
+type: legal-watch-practical-drafts
+date: YYYY-MM-DD
+target_count: 0
+---
+```
 
 ### 生成候補
 
@@ -630,6 +672,16 @@ Obsidian 同期は既存 daily / weekly / checklist と同じ Vault 設定・ski
 - ブログ下書き
 - 顧問に送る確認メール下書き
 
+### CLI
+
+```bash
+pnpm drafts -- --date 2026-05-28
+pnpm obsidian-sync -- --drafts 2026-05-28
+pnpm obsidian-sync -- --drafts 2026-05-28 --force
+```
+
+Obsidian 同期は既存 daily / weekly / checklist / manual-impact と同じ Vault 設定・skip/force 方針に従う。
+
 ### 制約
 
 - 法的判断を断定しない。
@@ -637,6 +689,66 @@ Obsidian 同期は既存 daily / weekly / checklist と同じ Vault 設定・ski
 - 一般読者向け投稿では不安を煽らない。
 - 原典確認前の内容は「確認中」「可能性」「要確認」と明記する。
 - 顧問向けメールでは、判断を求める論点と原典 URL を明確にする。
+
+### 実装タスク
+
+1. `packages/reports` に practical drafts Markdown generator を追加する。
+   - `packages/reports/src/practicalDraftReport.ts`
+   - `packages/reports/src/practicalDraftReport.test.ts`
+   - `packages/reports/src/index.ts` から export
+
+2. `apps/agent` に Analysis 収集器を追加する。
+   - `apps/agent/src/draftsFromLogs.ts`
+   - 既存の `loadLatestAnalysesByChangeId` と `loadRawSnapshots` を使う。
+   - raw snapshot の `detectedAt` を JST 日付で判定する。
+   - raw 欠落、対象日外、error ログ、analysis なしを除外する。
+
+3. report path と CLI を追加する。
+   - `apps/agent/src/paths.ts` に `practicalDraftReportPath(root, date)` を追加する。
+   - `apps/agent/src/cli.ts` に `drafts` command を追加する。
+   - root / agent の `package.json` に `drafts` script を追加する。
+
+4. Obsidian 同期を追加する。
+   - `ObsidianDraftsSyncOptions` / `ObsidianDraftsSyncResult` を追加する。
+   - `readDraftsReport` を追加する。
+   - `enrichDraftsMarkdownForObsidian` を追加し、`legal-watch`、`法令監視`、`転用下書き` タグを付与する。
+   - `draftsDirPath(vaultPath)` は `Legal Watch/drafts` にする。
+   - `syncDraftsReportToObsidian` を追加する。
+   - `sync-obsidian` CLI に `--drafts <YYYY-MM-DD>` を追加し、既存オプションと排他にする。
+
+5. `Legal Watch/index.md` に導線を追加する。
+   - `最近の転用下書き` セクションを追加する。
+   - `drafts/YYYY-MM-DD_practical_drafts.md` を新しい日付順に表示する。
+   - `target_count` を表示する。
+
+6. テストを追加する。
+   - 空日
+   - 対象あり
+   - 最新 Analysis 採用
+   - raw 欠落除外
+   - JST 日付境界
+   - malformed date 拒否
+   - 原典 URL / `changeId` / 確認中文言 / 専門家確認論点の出力
+   - 「法律上問題ありません」「問題なし」「必ず安全」などの抑制
+   - Obsidian sync: 新規作成、skip、force、Vault 未設定、元ファイル欠落
+   - index 反映
+
+7. 検証する。
+   - `pnpm run build`
+   - `pnpm test`
+   - `pnpm lint`
+   - temp vault を使った `pnpm drafts -- --date YYYY-MM-DD` と `pnpm obsidian-sync -- --drafts YYYY-MM-DD` の skip / force 確認
+
+### 受け入れ条件
+
+- `pnpm drafts -- --date YYYY-MM-DD` で `reports/drafts/YYYY-MM-DD_practical_drafts.md` が生成される。
+- 原典 URL、`changeId`、確認中である旨、専門家確認が必要な論点が出る。
+- 対象がない日も「該当なし」が分かる Markdown が生成される。
+- 「法律上問題ありません」「問題なし」「必ず安全」などの保証表現を出さない。
+- SNS/ブログ向け文案は不安を煽らず、原典確認前であることを明記する。
+- `pnpm obsidian-sync -- --drafts YYYY-MM-DD` で `Legal Watch/drafts/YYYY-MM-DD_practical_drafts.md` に同期できる。
+- 既存 Obsidian ファイルは `--force` なしでは上書きされない。
+- `Legal Watch/index.md` から最近の転用下書きへ辿れる。
 
 ## 実装順序案
 

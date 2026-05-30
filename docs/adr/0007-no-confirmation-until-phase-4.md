@@ -4,6 +4,8 @@ Phase 1〜3 では Analysis や Detected Change に `confirmation_status` を保
 
 SQLite 導入時（Phase 4、`watch.db`）に `analysis_id`・`confirmed_at` 等で確認状態を管理する。Phase 2 の Obsidian frontmatter への `status` 付与も Phase 4 まで行わない（ADR の A に合わせる）。
 
+Phase 4a の具体化は [ADR-0017](./0017-phase-4-review-status-sqlite.md) に従い、Markdown / Obsidian のチェック状態は読み戻さない。
+
 **Status**: accepted
 
 **Considered Options**: Phase 1 から state.json に保存 / Phase 2 から Obsidian frontmatter

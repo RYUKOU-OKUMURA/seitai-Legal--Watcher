@@ -58,6 +58,28 @@ export async function loadRawSnapshots(root: string): Promise<RawSnapshot[]> {
   return snapshots;
 }
 
+export async function loadRawSnapshotForChangeId(
+  root: string,
+  changeId: string,
+): Promise<RawSnapshot | undefined> {
+  const fileName = `${changeId}.json`;
+  if (path.basename(fileName) !== fileName) {
+    throw new Error(`Invalid changeId for raw snapshot path: ${changeId}`);
+  }
+
+  const filePath = path.join(root, "data", "raw", fileName);
+  let rawText: string;
+  try {
+    rawText = await readFile(filePath, "utf8");
+  } catch (err) {
+    if (isNodeErrnoException(err) && err.code === "ENOENT") return undefined;
+    throw err;
+  }
+
+  const raw = JSON.parse(rawText) as RawSnapshot;
+  return raw.changeId === changeId ? raw : undefined;
+}
+
 function comparableAnalysisTime(entry: LlmLogEntry): number {
   for (const candidate of [entry.analysis?.analyzedAt, entry.at]) {
     if (!candidate) continue;

@@ -97,6 +97,7 @@ _Avoid_: 取得失敗、差分なし、Analysis（混同しない）
 | 要件定義・技術スタックの更新タイミング | 今 vs 実装時 | **解決** — 1.0 着手直前（[ADR-0012](./docs/adr/0012-sync-legacy-docs-before-1-0.md)） |
 | 週次の入力範囲 | Analysis のみか全 Change か | **解決** — Analysis のみ（[ADR-0013](./docs/adr/0013-weekly-from-analysis-only.md)） |
 | Phase 1.0 パイロット URL | どれを有効化 | **解決** — 4件（[ADR-0014](./docs/adr/0014-phase-1-0-pilot-sources.md)） |
+| Phase 4 確認状態 | Analysis 単位か Change 単位か | **解決** — SQLite の Analysis 単位、`changeId` は最新 Analysis への操作導線（[ADR-0017](./docs/adr/0017-phase-4-review-status-sqlite.md)） |
 
 ## Example dialogue
 

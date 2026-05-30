@@ -8,10 +8,16 @@
     "bootstrap": "pnpm --filter @seitai-legal-watch/agent bootstrap",
     "checklist": "pnpm --filter @seitai-legal-watch/agent checklist",
     "daily": "pnpm --filter @seitai-legal-watch/agent daily",
+    "drafts": "pnpm --filter @seitai-legal-watch/agent drafts",
     "fetch": "pnpm --filter @seitai-legal-watch/agent fetch",
     "manual-impact": "pnpm --filter @seitai-legal-watch/agent manual-impact",
     "obsidian-sync": "pnpm --filter @seitai-legal-watch/agent obsidian-sync",
     "report": "pnpm --filter @seitai-legal-watch/agent report",
+    "review-confirm": "pnpm --filter @seitai-legal-watch/agent review-confirm",
+    "review-import": "pnpm --filter @seitai-legal-watch/agent review-import",
+    "review-set-status": "pnpm --filter @seitai-legal-watch/agent review-set-status",
+    "review-status": "pnpm --filter @seitai-legal-watch/agent review-status",
+    "review-unconfirm": "pnpm --filter @seitai-legal-watch/agent review-unconfirm",
     "reset-state": "pnpm --filter @seitai-legal-watch/agent reset-state",
     "weekly": "pnpm --filter @seitai-legal-watch/agent weekly",
     "validate-sources": "pnpm --filter @seitai-legal-watch/agent validate-sources",
@@ -20,7 +26,7 @@
     "format": "prettier --write \"**/*.{ts,json,md,yaml}\""
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=22.13.0"
   },
   "packageManager": "pnpm@9.15.0"
 }

@@ -10,7 +10,7 @@
 
 ## 必要条件
 
-- Node.js 22+
+- Node.js 22.13+（Phase 4a の SQLite 確認状態で `node:sqlite` を使用）
 - pnpm 9+
 - private GitHub repository（Actions で state / レポートを commit）
 - `CURSOR_API_KEY`（日次 Analysis 生成時。ローカルモック時は不要）
@@ -77,11 +77,21 @@ pnpm checklist -- --date 2026-05-28
 # data/raw と llm-log から院内マニュアル影響確認を生成
 pnpm manual-impact -- --date 2026-05-28
 
-# Obsidian Vault へ日次・週次レポート・広告チェックリスト・院内影響確認を同期
+# data/raw と llm-log から実務コミュニケーション下書きを生成
+pnpm drafts -- --date 2026-05-28
+
+# 最新 Analysis を SQLite watch.db に取り込み、確認状態を管理
+pnpm review-import -- --date 2026-05-28
+pnpm review-status -- --date 2026-05-28
+pnpm review-confirm -- --change-id change-id --note "院内資料確認済み"
+pnpm review-set-status -- --analysis-id analysis-id --status action_required
+
+# Obsidian Vault へ日次・週次レポート・広告チェックリスト・院内影響確認・転用下書きを同期
 pnpm obsidian-sync -- --date 2026-05-26
 pnpm obsidian-sync -- --weekly 2026-W22
 pnpm obsidian-sync -- --checklist 2026-05-28
 pnpm obsidian-sync -- --manual-impact 2026-05-28
+pnpm obsidian-sync -- --drafts 2026-05-28
 
 # state リセット（任意で raw 削除）
 pnpm reset-state
@@ -103,7 +113,8 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 - **Fetcher**: rss / html / api / pdf
 - **PDF**: HTML 配下 PDF の抜粋追跡、PDF 単独 URL 監視、PDF 抽出失敗の記録
 - **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`（PDF全文・バイナリは保存しない）
-- **レポート**: `reports/daily/YYYY-MM-DD.md`, `reports/weekly/YYYY-Www_legal_watch.md`, `reports/checklists/YYYY-MM-DD_ad_checklist.md`, `reports/manual-impact/YYYY-MM-DD_manual_impact.md`
+- **Phase 4 確認状態**: `data/watch.db`（`review-import` で最新 `Analysis` を取り込み、CLI で明示更新）
+- **レポート**: `reports/daily/YYYY-MM-DD.md`, `reports/weekly/YYYY-Www_legal_watch.md`, `reports/checklists/YYYY-MM-DD_ad_checklist.md`, `reports/manual-impact/YYYY-MM-DD_manual_impact.md`, `reports/drafts/YYYY-MM-DD_practical_drafts.md`
 - **通知**: なし（Phase 4）
 
 ### ロードマップ
@@ -114,7 +125,8 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 | 1.1 | PDF 抽出、追加公式ソース有効化 |
 | 1.2 | 官報・地方厚生局・自治体ソース有効化 |
 | Phase 2 | Obsidian 同期 |
-| Phase 3 | 週次レポート（`pnpm weekly -- --week YYYY-Www`）、広告チェックリスト（`pnpm checklist -- --date YYYY-MM-DD`）、院内マニュアル影響確認（`pnpm manual-impact -- --date YYYY-MM-DD`） |
+| Phase 3 | 週次レポート（`pnpm weekly -- --week YYYY-Www`）、広告チェックリスト（`pnpm checklist -- --date YYYY-MM-DD`）、院内マニュアル影響確認（`pnpm manual-impact -- --date YYYY-MM-DD`）、転用下書き（`pnpm drafts -- --date YYYY-MM-DD`） |
+| Phase 4a | SQLite 確認ステータス（`pnpm review-import` / `pnpm review-status` / `pnpm review-confirm`） |
 | Phase 4 | Tauri + 確認ステータス + 通知 |
 
 ## GitHub Actions
