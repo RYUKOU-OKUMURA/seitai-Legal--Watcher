@@ -14,6 +14,7 @@
     "obsidian-sync": "node dist/cli.js sync-obsidian",
     "report": "node dist/cli.js report",
     "reset-state": "node dist/cli.js reset-state",
+    "weekly": "node dist/cli.js weekly",
     "validate-sources": "node dist/cli.js validate-sources",
     "test": "vitest run",
     "lint": "tsc --noEmit"

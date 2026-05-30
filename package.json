@@ -11,6 +11,7 @@
     "obsidian-sync": "pnpm --filter @seitai-legal-watch/agent obsidian-sync",
     "report": "pnpm --filter @seitai-legal-watch/agent report",
     "reset-state": "pnpm --filter @seitai-legal-watch/agent reset-state",
+    "weekly": "pnpm --filter @seitai-legal-watch/agent weekly",
     "validate-sources": "pnpm --filter @seitai-legal-watch/agent validate-sources",
     "test": "pnpm run build && pnpm -r run test",
     "lint": "pnpm -r run lint",

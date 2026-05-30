@@ -68,6 +68,9 @@ pnpm fetch
 # data/raw と llm-log から日次レポートを再生成
 pnpm report -- --date 2026-05-26
 
+# data/raw と llm-log から週次レポートを生成
+pnpm weekly -- --week 2026-W22
+
 # state リセット（任意で raw 削除）
 pnpm reset-state
 pnpm reset-state --clear-raw
@@ -88,7 +91,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 - **Fetcher**: rss / html / api / pdf
 - **PDF**: HTML 配下 PDF の抜粋追跡、PDF 単独 URL 監視、PDF 抽出失敗の記録
 - **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`（PDF全文・バイナリは保存しない）
-- **レポート**: `reports/daily/YYYY-MM-DD.md`
+- **レポート**: `reports/daily/YYYY-MM-DD.md`, `reports/weekly/YYYY-Www_legal_watch.md`
 - **通知**: なし（Phase 4）
 
 ### ロードマップ
@@ -99,7 +102,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 | 1.1 | PDF 抽出、追加公式ソース有効化 |
 | 1.2 | 官報・地方厚生局・自治体ソース有効化 |
 | Phase 2 | Obsidian 同期 |
-| Phase 3 | 週次レポート |
+| Phase 3 | 週次レポート（`pnpm weekly -- --week YYYY-Www`） |
 | Phase 4 | Tauri + 確認ステータス + 通知 |
 
 ## GitHub Actions

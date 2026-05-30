@@ -6,6 +6,7 @@ import path from "node:path";
 import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
 import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
+import { regenerateWeeklyReportFromLogs } from "./weeklyFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
 import { syncDailyReportToObsidian } from "./obsidianSync.js";
@@ -90,6 +91,20 @@ program
     try {
       const reportPath = await regenerateDailyReportFromLogs(opts.date);
       log.info({ reportPath }, "daily report regenerated");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("weekly")
+  .description("data/raw と llm-log から週次レポートを生成")
+  .requiredOption("--week <YYYY-Www>", "対象 ISO week（例: 2026-W22）")
+  .action(async (opts: { week: string }) => {
+    try {
+      const reportPath = await regenerateWeeklyReportFromLogs(opts.week);
+      log.info({ reportPath, week: opts.week }, "weekly report generated");
     } catch (err) {
       log.error(err);
       process.exit(1);

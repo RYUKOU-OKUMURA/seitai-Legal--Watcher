@@ -12,3 +12,7 @@ export function resolveRepoRoot(): string {
 export function dailyReportPath(root: string, date: string): string {
   return path.join(root, "reports", "daily", `${date}.md`);
 }
+
+export function weeklyReportPath(root: string, week: string): string {
+  return path.join(root, "reports", "weekly", `${week}_legal_watch.md`);
+}
