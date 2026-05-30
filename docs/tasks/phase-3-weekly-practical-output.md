@@ -27,8 +27,8 @@ Phase 3 は次の 5 段階に分ける。
 
 | Phase | 内容 | 主な成果物 |
 | --- | --- | --- |
-| 3a | Analysis 集計器 + 週次 Markdown | `reports/weekly/YYYY-WW_legal_watch.md` |
-| 3b | Obsidian weekly sync | `Legal Watch/weekly/YYYY-WW_legal_watch.md` |
+| 3a | Analysis 集計器 + 週次 Markdown | `reports/weekly/YYYY-Www_legal_watch.md` |
+| 3b | Obsidian weekly sync | `Legal Watch/weekly/YYYY-Www_legal_watch.md` |
 | 3c | 広告・LP・SNSチェックリスト | `reports/checklists/YYYY-MM-DD_ad_checklist.md` |
 | 3d | 院内マニュアル影響確認 | 週次レポート内の影響候補、または専用 Markdown |
 | 3e | 転用文生成 | 院内共有メモ、スタッフ説明、SNS、ブログ、顧問確認メール |
@@ -108,7 +108,7 @@ pnpm weekly -- --week 2026-W22
 GitHub 保存用:
 
 ```text
-reports/weekly/YYYY-WW_legal_watch.md
+reports/weekly/YYYY-Www_legal_watch.md
 ```
 
 例:
@@ -120,7 +120,7 @@ reports/weekly/2026-W22_legal_watch.md
 3a では Obsidian 同期は行わない。3b で同じ内容を以下へ同期する。
 
 ```text
-Legal Watch/weekly/YYYY-WW_legal_watch.md
+Legal Watch/weekly/YYYY-Www_legal_watch.md
 ```
 
 当初候補では 3a に Obsidian 同期も含めていたが、最初の実装単位を小さくするため 3b へ分離する。
@@ -280,37 +280,29 @@ CLI:
 
 ### 入力
 
-- `reports/weekly/YYYY-WW_legal_watch.md`
+- `reports/weekly/YYYY-Www_legal_watch.md`
 - 既存の Obsidian Vault 設定
 
 ### 出力
 
 ```text
-Obsidian Vault/Legal Watch/weekly/YYYY-WW_legal_watch.md
+Obsidian Vault/Legal Watch/weekly/YYYY-Www_legal_watch.md
 ```
 
-### 実装候補
+### 実装方針
 
-- 既存の `syncDailyReportToObsidian` を参考に、週次用 sync 関数を追加する。
+- 既存の `syncDailyReportToObsidian` と同じ Vault 設定・skip/force 方針で、週次用 sync 関数を追加する。
 - daily 専用ロジックと共通化できる箇所は共通化する。
 - Obsidian 用 frontmatter とタグは、GitHub 保存用 Markdown と矛盾しない範囲で付与する。
-- `index.md` に weekly への導線を追加するかは 3b で決める。
+- `index.md` に `最近の週次レポート` セクションを追加し、週次レポートへの導線を作る。
 
-### CLI 案
-
-候補 A:
-
-```bash
-pnpm weekly -- --week 2026-W22 --sync-obsidian
-```
-
-候補 B:
+### CLI
 
 ```bash
 pnpm obsidian-sync -- --weekly 2026-W22
 ```
 
-3b では既存の `obsidian-sync` との整合性を優先して決める。
+`pnpm weekly -- --week 2026-W22` は生成のみを維持し、Obsidian 同期は既存の `obsidian-sync` コマンドへ集約する。
 
 ### 受け入れ条件
 
@@ -318,6 +310,7 @@ pnpm obsidian-sync -- --weekly 2026-W22
 - 既存ファイルがある場合は、既存の日次同期と同じ上書き方針に従う。
 - GitHub 保存用と Obsidian 保存用の本文が矛盾しない。
 - Obsidian 同期なしでも weekly 生成は単独で使える。
+- `Legal Watch/index.md` から最近の週次レポートへ辿れる。
 
 ## Phase 3c: 広告・LP・SNSチェックリスト
 

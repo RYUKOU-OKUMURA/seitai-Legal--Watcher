@@ -5,7 +5,9 @@ import matter from "gray-matter";
 import { afterEach, describe, expect, it } from "vitest";
 import {
   enrichDailyMarkdownForObsidian,
+  enrichWeeklyMarkdownForObsidian,
   syncDailyReportToObsidian,
+  syncWeeklyReportToObsidian,
 } from "./obsidianSync.js";
 
 async function makeTempDir(prefix: string): Promise<string> {
@@ -18,6 +20,17 @@ async function writeDailyReport(
   content: string,
 ): Promise<string> {
   const reportPath = path.join(root, "reports", "daily", `${date}.md`);
+  await mkdir(path.dirname(reportPath), { recursive: true });
+  await writeFile(reportPath, content, "utf8");
+  return reportPath;
+}
+
+async function writeWeeklyReport(
+  root: string,
+  week: string,
+  content: string,
+): Promise<string> {
+  const reportPath = path.join(root, "reports", "weekly", `${week}_legal_watch.md`);
   await mkdir(path.dirname(reportPath), { recursive: true });
   await writeFile(reportPath, content, "utf8");
   return reportPath;
@@ -701,6 +714,278 @@ describe("syncDailyReportToObsidian", () => {
 
     await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
       "[あり](https://example.com/a%29b%7Cc%20d)",
+    );
+  });
+});
+
+describe("syncWeeklyReportToObsidian", () => {
+  const tempDirs: string[] = [];
+
+  afterEach(async () => {
+    delete process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH;
+    await Promise.all(
+      tempDirs.splice(0).map((dir) => rm(dir, { recursive: true, force: true })),
+    );
+  });
+
+  it("copies a weekly report into the Obsidian weekly directory", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = [
+      "---",
+      "type: legal-watch-weekly",
+      "week: 2026-W22",
+      "period_start: 2026-05-25",
+      "period_end: 2026-05-31",
+      "analyzed_count: 5",
+      "---",
+      "",
+      "# Weekly",
+      "",
+    ].join("\n");
+    const sourcePath = await writeWeeklyReport(root, "2026-W22", markdown);
+
+    const result = await syncWeeklyReportToObsidian({
+      root,
+      vaultPath: vault,
+      week: "2026-W22",
+    });
+
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "weekly",
+      "2026-W22_legal_watch.md",
+    );
+    const indexPath = path.join(vault, "Legal Watch", "index.md");
+    expect(result).toEqual({
+      week: "2026-W22",
+      sourcePath,
+      destinationPath,
+      indexPath,
+      skipped: false,
+    });
+    const destination = matter(await readFile(destinationPath, "utf8"));
+    expect(destination.data).toMatchObject({
+      type: "legal-watch-weekly",
+      week: "2026-W22",
+      period_start: "2026-05-25",
+      period_end: "2026-05-31",
+      analyzed_count: 5,
+    });
+    expect(destination.data.tags).toEqual(["legal-watch", "法令監視", "週次"]);
+    await expect(readFile(sourcePath, "utf8")).resolves.toBe(markdown);
+    await expect(readFile(indexPath, "utf8")).resolves.toContain(
+      "| [[weekly/2026-W22_legal_watch|2026-W22]] | 2026-05-25〜2026-05-31 | 5 |",
+    );
+  });
+
+  it("creates missing Obsidian weekly destination directories", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = path.join(await makeTempDir("legal-watch-vault-parent-"), "Vault");
+    tempDirs.push(root, path.dirname(vault));
+    await writeWeeklyReport(root, "2026-W22", "# Weekly\n");
+
+    await syncWeeklyReportToObsidian({
+      root,
+      vaultPath: vault,
+      week: "2026-W22",
+    });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "weekly", "2026-W22_legal_watch.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Weekly");
+  });
+
+  it("skips an existing Obsidian weekly file by default", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeWeeklyReport(root, "2026-W22", "# Source weekly\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "weekly",
+      "2026-W22_legal_watch.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual weekly notes\n", "utf8");
+
+    const result = await syncWeeklyReportToObsidian({
+      root,
+      vaultPath: vault,
+      week: "2026-W22",
+    });
+
+    expect(result.skipped).toBe(true);
+    await expect(readFile(destinationPath, "utf8")).resolves.toBe(
+      "# Manual weekly notes\n",
+    );
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "[[weekly/2026-W22_legal_watch|2026-W22]]",
+    );
+  });
+
+  it("overwrites an existing Obsidian weekly file when force is true", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeWeeklyReport(root, "2026-W22", "# Source weekly\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "weekly",
+      "2026-W22_legal_watch.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual weekly notes\n", "utf8");
+
+    const result = await syncWeeklyReportToObsidian({
+      root,
+      vaultPath: vault,
+      week: "2026-W22",
+      force: true,
+    });
+
+    expect(result.skipped).toBe(false);
+    const destination = await readFile(destinationPath, "utf8");
+    expect(destination).toContain("# Source weekly");
+    expect(matter(destination).data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "週次",
+    ]);
+  });
+
+  it("uses LEGAL_WATCH_OBSIDIAN_VAULT_PATH when vaultPath is omitted", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH = vault;
+    await writeWeeklyReport(root, "2026-W22", "# Weekly\n");
+
+    await syncWeeklyReportToObsidian({ root, week: "2026-W22" });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "weekly", "2026-W22_legal_watch.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Weekly");
+  });
+
+  it("throws a useful error when the Obsidian Vault path is not configured", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    tempDirs.push(root);
+
+    await expect(
+      syncWeeklyReportToObsidian({ root, week: "2026-W22" }),
+    ).rejects.toThrow("LEGAL_WATCH_OBSIDIAN_VAULT_PATH is not set");
+  });
+
+  it("throws a useful error when the weekly report is missing", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncWeeklyReportToObsidian({
+        root,
+        vaultPath: vault,
+        week: "2026-W22",
+      }),
+    ).rejects.toThrow("Weekly report not found");
+  });
+
+  it("rejects malformed weeks before using them as file paths", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncWeeklyReportToObsidian({
+        root,
+        vaultPath: vault,
+        week: "../outside",
+        force: true,
+      }),
+    ).rejects.toThrow("Invalid ISO week: ../outside");
+  });
+
+  it("preserves and de-duplicates existing weekly tags during enrichment", () => {
+    const enriched = matter(
+      enrichWeeklyMarkdownForObsidian(
+        [
+          "---",
+          "type: legal-watch-weekly",
+          "week: 2026-W22",
+          "period_start: 2026-05-25",
+          "period_end: 2026-05-31",
+          "tags:",
+          "  - '#legal-watch'",
+          "  - custom",
+          "---",
+          "",
+          "# Weekly",
+          "",
+        ].join("\n"),
+      ),
+    );
+
+    expect(enriched.data).toMatchObject({
+      period_start: "2026-05-25",
+      period_end: "2026-05-31",
+    });
+    expect(enriched.data.tags).toEqual([
+      "legal-watch",
+      "custom",
+      "法令監視",
+      "週次",
+    ]);
+  });
+
+  it("adds weekly links to the generated index sorted newest first", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const weeklyDir = path.join(vault, "Legal Watch", "weekly");
+    await mkdir(weeklyDir, { recursive: true });
+    await writeFile(
+      path.join(weeklyDir, "2026-W21_legal_watch.md"),
+      "---\ntype: legal-watch-weekly\nweek: 2026-W21\nperiod_start: 2026-05-18\nperiod_end: 2026-05-24\nanalyzed_count: 2\n---\n# Older\n",
+      "utf8",
+    );
+    await writeFile(
+      path.join(weeklyDir, "2026-W23_legal_watch.md"),
+      "---\ntype: legal-watch-weekly\nweek: 2026-W23\nperiod_start: 2026-06-01\nperiod_end: 2026-06-07\nanalyzed_count: 3\n---\n# Newer\n",
+      "utf8",
+    );
+    await writeWeeklyReport(
+      root,
+      "2026-W22",
+      "---\ntype: legal-watch-weekly\nweek: 2026-W22\nperiod_start: 2026-05-25\nperiod_end: 2026-05-31\nanalyzed_count: 5\n---\n# Current\n",
+    );
+
+    const result = await syncWeeklyReportToObsidian({
+      root,
+      vaultPath: vault,
+      week: "2026-W22",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("## 最近の週次レポート");
+    expect(index.indexOf("[[weekly/2026-W23_legal_watch|2026-W23]]")).toBeLessThan(
+      index.indexOf("[[weekly/2026-W22_legal_watch|2026-W22]]"),
+    );
+    expect(index.indexOf("[[weekly/2026-W22_legal_watch|2026-W22]]")).toBeLessThan(
+      index.indexOf("[[weekly/2026-W21_legal_watch|2026-W21]]"),
+    );
+    expect(index).toContain(
+      "| [[weekly/2026-W21_legal_watch|2026-W21]] | 2026-05-18〜2026-05-24 | 2 |",
     );
   });
 });

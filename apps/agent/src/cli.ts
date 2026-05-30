@@ -9,7 +9,10 @@ import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
 import { regenerateWeeklyReportFromLogs } from "./weeklyFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
-import { syncDailyReportToObsidian } from "./obsidianSync.js";
+import {
+  syncDailyReportToObsidian,
+  syncWeeklyReportToObsidian,
+} from "./obsidianSync.js";
 import {
   printValidationResults,
   validateSources,
@@ -113,11 +116,35 @@ program
 
 program
   .command("sync-obsidian")
-  .description("日次レポートを Obsidian Vault へ同期")
+  .description("日次・週次レポートを Obsidian Vault へ同期")
   .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
+  .option("--weekly <YYYY-Www>", "対象 ISO week の週次レポートを同期（例: 2026-W22）")
   .option("--force", "既存の Obsidian 側ファイルを上書きする")
-  .action(async (opts: { date?: string; force?: boolean }) => {
+  .action(async (opts: { date?: string; weekly?: string; force?: boolean }) => {
     try {
+      if (opts.date && opts.weekly) {
+        throw new Error("Use either --date or --weekly, not both.");
+      }
+      if (opts.weekly) {
+        const result = await syncWeeklyReportToObsidian({
+          week: opts.weekly,
+          force: opts.force === true,
+        });
+        log.info(
+          {
+            week: result.week,
+            sourcePath: result.sourcePath,
+            destinationPath: result.destinationPath,
+            indexPath: result.indexPath,
+            skipped: result.skipped,
+          },
+          result.skipped
+            ? "obsidian weekly report already exists; skipped"
+            : "obsidian weekly report synced",
+        );
+        return;
+      }
+
       const result = await syncDailyReportToObsidian({
         date: opts.date,
         force: opts.force === true,

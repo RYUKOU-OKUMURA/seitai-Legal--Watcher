@@ -5,13 +5,21 @@ import dayjs from "dayjs";
 import timezone from "dayjs/plugin/timezone.js";
 import utc from "dayjs/plugin/utc.js";
 import matter from "gray-matter";
-import { dailyReportPath, resolveRepoRoot } from "./paths.js";
+import { dailyReportPath, resolveRepoRoot, weeklyReportPath } from "./paths.js";
+import { isoWeekPeriod } from "./weeklyFromLogs.js";
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
 export interface ObsidianSyncOptions {
   date?: string;
+  force?: boolean;
+  root?: string;
+  vaultPath?: string;
+}
+
+export interface ObsidianWeeklySyncOptions {
+  week: string;
   force?: boolean;
   root?: string;
   vaultPath?: string;
@@ -27,6 +35,14 @@ export interface ObsidianSyncResult {
   skipped: boolean;
 }
 
+export interface ObsidianWeeklySyncResult {
+  week: string;
+  sourcePath: string;
+  destinationPath: string;
+  indexPath: string;
+  skipped: boolean;
+}
+
 interface DailyIndexEntry {
   date: string;
   fileName: string;
@@ -34,6 +50,14 @@ interface DailyIndexEntry {
   analyzedCount?: number;
   gatedOutCount?: number;
   fetchFailureCount?: number;
+}
+
+interface WeeklyIndexEntry {
+  week: string;
+  fileName: string;
+  periodStart?: string;
+  periodEnd?: string;
+  analyzedCount?: number;
 }
 
 interface TopicItem {
@@ -92,6 +116,10 @@ function resolveReportDate(date?: string): string {
   return dayjs().tz(tz).format("YYYY-MM-DD");
 }
 
+function resolveReportWeek(week: string): string {
+  return isoWeekPeriod(week).week;
+}
+
 function resolveVaultPath(vaultPath?: string): string {
   const configured = vaultPath ?? process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH;
   if (!configured) {
@@ -118,6 +146,19 @@ async function readDailyReport(sourcePath: string, date: string): Promise<string
     if (hasErrorCode(err, "ENOENT")) {
       throw new Error(
         `Daily report not found: ${sourcePath}. Run pnpm daily or pnpm report for ${date} before syncing Obsidian.`,
+      );
+    }
+    throw err;
+  }
+}
+
+async function readWeeklyReport(sourcePath: string, week: string): Promise<string> {
+  try {
+    return await readFile(sourcePath, "utf8");
+  } catch (err) {
+    if (hasErrorCode(err, "ENOENT")) {
+      throw new Error(
+        `Weekly report not found: ${sourcePath}. Run pnpm weekly -- --week ${week} before syncing Obsidian.`,
       );
     }
     throw err;
@@ -223,12 +264,30 @@ export function enrichDailyMarkdownForObsidian(markdown: string): string {
   return matter.stringify(parsed.content, data);
 }
 
+export function enrichWeeklyMarkdownForObsidian(markdown: string): string {
+  const parsed = matter(markdown);
+  const data: Record<string, unknown> = { ...parsed.data };
+  if ("period_start" in data) data.period_start = normalizeDateValue(data.period_start);
+  if ("period_end" in data) data.period_end = normalizeDateValue(data.period_end);
+  data.tags = normalizeTags([
+    ...frontmatterTags(data.tags),
+    "legal-watch",
+    "法令監視",
+    "週次",
+  ]);
+  return matter.stringify(parsed.content, data);
+}
+
 function legalWatchRoot(vaultPath: string): string {
   return path.join(vaultPath, "Legal Watch");
 }
 
 function dailyDirPath(vaultPath: string): string {
   return path.join(legalWatchRoot(vaultPath), "daily");
+}
+
+function weeklyDirPath(vaultPath: string): string {
+  return path.join(legalWatchRoot(vaultPath), "weekly");
 }
 
 function topicsDirPath(vaultPath: string): string {
@@ -253,6 +312,21 @@ function dateValue(value: unknown, fallback: string): string {
     return value;
   }
   if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return fallback;
+}
+
+function optionalDateValue(value: unknown): string | undefined {
+  if (typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    return value;
+  }
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  return undefined;
+}
+
+function weekValue(value: unknown, fallback: string): string {
+  if (typeof value === "string" && /^\d{4}-W\d{2}$/.test(value)) {
+    return value;
+  }
   return fallback;
 }
 
@@ -281,6 +355,32 @@ async function loadDailyIndexEntries(dailyDir: string): Promise<DailyIndexEntry[
     });
   }
   return entries.sort((a, b) => b.date.localeCompare(a.date));
+}
+
+async function loadWeeklyIndexEntries(weeklyDir: string): Promise<WeeklyIndexEntry[]> {
+  let files: string[] = [];
+  try {
+    files = await readdir(weeklyDir);
+  } catch (err) {
+    if (hasErrorCode(err, "ENOENT")) return [];
+    throw err;
+  }
+
+  const entries: WeeklyIndexEntry[] = [];
+  for (const fileName of files) {
+    const fileWeek = fileName.match(/^(\d{4}-W\d{2})_legal_watch\.md$/)?.[1];
+    if (!fileWeek) continue;
+    const raw = await readFile(path.join(weeklyDir, fileName), "utf8");
+    const parsed = matter(raw);
+    entries.push({
+      week: weekValue(parsed.data.week, fileWeek),
+      fileName,
+      periodStart: optionalDateValue(parsed.data.period_start),
+      periodEnd: optionalDateValue(parsed.data.period_end),
+      analyzedCount: countValue(parsed.data.analyzed_count),
+    });
+  }
+  return entries.sort((a, b) => b.week.localeCompare(a.week));
 }
 
 function safePathSegment(value: string, fallback: string): string {
@@ -592,6 +692,7 @@ async function loadTopicIndexEntries(vaultPath: string): Promise<TopicIndexEntry
 
 function generateObsidianIndexMarkdown(
   dailyEntries: DailyIndexEntry[],
+  weeklyEntries: WeeklyIndexEntry[],
   topicEntries: TopicIndexEntry[],
 ): string {
   const lines = [
@@ -618,6 +719,27 @@ function generateObsidianIndexMarkdown(
     lines.push("");
   }
 
+  lines.push("## 最近の週次レポート", "");
+  if (weeklyEntries.length === 0) {
+    lines.push("同期済みの週次レポートはありません。", "");
+  } else {
+    lines.push(
+      "| レポート | 対象期間 | 分析済み |",
+      "|---|---|---:|",
+    );
+    for (const entry of weeklyEntries) {
+      const reportLink = `[[weekly/${entry.fileName.replace(/\.md$/, "")}|${entry.week}]]`;
+      const period =
+        entry.periodStart && entry.periodEnd
+          ? `${entry.periodStart}〜${entry.periodEnd}`
+          : "-";
+      lines.push(
+        `| ${reportLink} | ${tableCell(period)} | ${countCell(entry.analyzedCount)} |`,
+      );
+    }
+    lines.push("");
+  }
+
   lines.push("## 重要度高トピック", "");
   if (topicEntries.length === 0) {
     lines.push("生成済みの重要度高トピックはありません。", "");
@@ -639,13 +761,15 @@ function generateObsidianIndexMarkdown(
 
 async function writeObsidianIndex(vaultPath: string): Promise<string> {
   const dailyDir = dailyDirPath(vaultPath);
+  const weeklyDir = weeklyDirPath(vaultPath);
   const destinationPath = indexPath(vaultPath);
   const dailyEntries = await loadDailyIndexEntries(dailyDir);
+  const weeklyEntries = await loadWeeklyIndexEntries(weeklyDir);
   const topicEntries = await loadTopicIndexEntries(vaultPath);
   await mkdir(path.dirname(destinationPath), { recursive: true });
   await writeFile(
     destinationPath,
-    generateObsidianIndexMarkdown(dailyEntries, topicEntries),
+    generateObsidianIndexMarkdown(dailyEntries, weeklyEntries, topicEntries),
     "utf8",
   );
   return destinationPath;
@@ -700,6 +824,53 @@ export async function syncDailyReportToObsidian(
     indexPath: writtenIndexPath,
     topicPaths: topicResult.topicPaths,
     skippedTopicPaths: topicResult.skippedTopicPaths,
+    skipped,
+  };
+}
+
+export async function syncWeeklyReportToObsidian(
+  options: ObsidianWeeklySyncOptions,
+): Promise<ObsidianWeeklySyncResult> {
+  const week = resolveReportWeek(options.week);
+  const root = options.root ?? resolveRepoRoot();
+  const vaultPath = resolveVaultPath(options.vaultPath);
+  const sourcePath = weeklyReportPath(root, week);
+  const destinationPath = path.join(
+    weeklyDirPath(vaultPath),
+    `${week}_legal_watch.md`,
+  );
+  const sourceMarkdown = await readWeeklyReport(sourcePath, week);
+
+  await mkdir(path.dirname(destinationPath), { recursive: true });
+
+  let skipped = false;
+  if ((await fileExists(destinationPath)) && options.force !== true) {
+    skipped = true;
+  } else {
+    try {
+      await writeFile(
+        destinationPath,
+        enrichWeeklyMarkdownForObsidian(sourceMarkdown),
+        {
+          encoding: "utf8",
+          flag: options.force === true ? "w" : "wx",
+        },
+      );
+    } catch (err) {
+      if (hasErrorCode(err, "EEXIST") && options.force !== true) {
+        skipped = true;
+      } else {
+        throw err;
+      }
+    }
+  }
+
+  const writtenIndexPath = await writeObsidianIndex(vaultPath);
+  return {
+    week,
+    sourcePath,
+    destinationPath,
+    indexPath: writtenIndexPath,
     skipped,
   };
 }

@@ -71,6 +71,10 @@ pnpm report -- --date 2026-05-26
 # data/raw と llm-log から週次レポートを生成
 pnpm weekly -- --week 2026-W22
 
+# Obsidian Vault へ日次・週次レポートを同期
+pnpm obsidian-sync -- --date 2026-05-26
+pnpm obsidian-sync -- --weekly 2026-W22
+
 # state リセット（任意で raw 削除）
 pnpm reset-state
 pnpm reset-state --clear-raw
@@ -136,11 +140,12 @@ Secrets:
 
 ## 設定
 
-| ファイル | 用途 |
+| 項目 | 用途 |
 |----------|------|
 | `packages/config/sources.yaml` | 監視 URL・重み・enabled |
 | `packages/config/keywords.yaml` | ルールゲート用キーワード |
 | `packages/config/display.yaml` | `operator_label`, 見出し |
+| `LEGAL_WATCH_OBSIDIAN_VAULT_PATH` | Obsidian Vault 同期先パス |
 
 ## 開発
 
