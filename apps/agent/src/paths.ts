@@ -16,3 +16,11 @@ export function dailyReportPath(root: string, date: string): string {
 export function weeklyReportPath(root: string, week: string): string {
   return path.join(root, "reports", "weekly", `${week}_legal_watch.md`);
 }
+
+export function checklistReportPath(root: string, date: string): string {
+  return path.join(root, "reports", "checklists", `${date}_ad_checklist.md`);
+}
+
+export function manualImpactReportPath(root: string, date: string): string {
+  return path.join(root, "reports", "manual-impact", `${date}_manual_impact.md`);
+}

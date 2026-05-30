@@ -6,8 +6,10 @@
   "scripts": {
     "build": "pnpm -r run build",
     "bootstrap": "pnpm --filter @seitai-legal-watch/agent bootstrap",
+    "checklist": "pnpm --filter @seitai-legal-watch/agent checklist",
     "daily": "pnpm --filter @seitai-legal-watch/agent daily",
     "fetch": "pnpm --filter @seitai-legal-watch/agent fetch",
+    "manual-impact": "pnpm --filter @seitai-legal-watch/agent manual-impact",
     "obsidian-sync": "pnpm --filter @seitai-legal-watch/agent obsidian-sync",
     "report": "pnpm --filter @seitai-legal-watch/agent report",
     "reset-state": "pnpm --filter @seitai-legal-watch/agent reset-state",

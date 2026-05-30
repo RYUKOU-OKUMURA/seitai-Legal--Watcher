@@ -5,12 +5,16 @@ import pino from "pino";
 import path from "node:path";
 import { resolveRepoRoot } from "./paths.js";
 import { runDailyPipeline } from "./pipeline.js";
+import { regenerateAdChecklistFromLogs } from "./checklistFromLogs.js";
 import { regenerateDailyReportFromLogs } from "./reportFromLogs.js";
+import { regenerateManualImpactFromLogs } from "./manualImpactFromLogs.js";
 import { regenerateWeeklyReportFromLogs } from "./weeklyFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
 import {
+  syncChecklistReportToObsidian,
   syncDailyReportToObsidian,
+  syncManualImpactReportToObsidian,
   syncWeeklyReportToObsidian,
 } from "./obsidianSync.js";
 import {
@@ -115,15 +119,48 @@ program
   });
 
 program
+  .command("checklist")
+  .description("data/raw と llm-log から広告・LP・SNSチェックリストを生成")
+  .requiredOption("--date <YYYY-MM-DD>", "対象日")
+  .action(async (opts: { date: string }) => {
+    try {
+      const reportPath = await regenerateAdChecklistFromLogs(opts.date);
+      log.info({ reportPath, date: opts.date }, "ad checklist generated");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("manual-impact")
+  .description("data/raw と llm-log から院内マニュアル影響確認を生成")
+  .requiredOption("--date <YYYY-MM-DD>", "対象日")
+  .action(async (opts: { date: string }) => {
+    try {
+      const reportPath = await regenerateManualImpactFromLogs(opts.date);
+      log.info({ reportPath, date: opts.date }, "manual impact report generated");
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
   .command("sync-obsidian")
-  .description("日次・週次レポートを Obsidian Vault へ同期")
+  .description("日次・週次レポート・広告チェックリスト・院内影響確認を Obsidian Vault へ同期")
   .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
   .option("--weekly <YYYY-Www>", "対象 ISO week の週次レポートを同期（例: 2026-W22）")
+  .option("--checklist <YYYY-MM-DD>", "対象日の広告チェックリストを同期")
+  .option("--manual-impact <YYYY-MM-DD>", "対象日の院内マニュアル影響確認を同期")
   .option("--force", "既存の Obsidian 側ファイルを上書きする")
-  .action(async (opts: { date?: string; weekly?: string; force?: boolean }) => {
+  .action(async (opts: { date?: string; weekly?: string; checklist?: string; manualImpact?: string; force?: boolean }) => {
     try {
-      if (opts.date && opts.weekly) {
-        throw new Error("Use either --date or --weekly, not both.");
+      if (
+        [opts.date, opts.weekly, opts.checklist, opts.manualImpact].filter((value) => value !== undefined)
+          .length > 1
+      ) {
+        throw new Error("Use only one of --date, --weekly, --checklist, or --manual-impact.");
       }
       if (opts.weekly) {
         const result = await syncWeeklyReportToObsidian({
@@ -141,6 +178,46 @@ program
           result.skipped
             ? "obsidian weekly report already exists; skipped"
             : "obsidian weekly report synced",
+        );
+        return;
+      }
+
+      if (opts.checklist) {
+        const result = await syncChecklistReportToObsidian({
+          date: opts.checklist,
+          force: opts.force === true,
+        });
+        log.info(
+          {
+            date: result.date,
+            sourcePath: result.sourcePath,
+            destinationPath: result.destinationPath,
+            indexPath: result.indexPath,
+            skipped: result.skipped,
+          },
+          result.skipped
+            ? "obsidian checklist already exists; skipped"
+            : "obsidian checklist synced",
+        );
+        return;
+      }
+
+      if (opts.manualImpact) {
+        const result = await syncManualImpactReportToObsidian({
+          date: opts.manualImpact,
+          force: opts.force === true,
+        });
+        log.info(
+          {
+            date: result.date,
+            sourcePath: result.sourcePath,
+            destinationPath: result.destinationPath,
+            indexPath: result.indexPath,
+            skipped: result.skipped,
+          },
+          result.skipped
+            ? "obsidian manual impact report already exists; skipped"
+            : "obsidian manual impact report synced",
         );
         return;
       }

@@ -4,9 +4,13 @@ import path from "node:path";
 import matter from "gray-matter";
 import { afterEach, describe, expect, it } from "vitest";
 import {
+  enrichChecklistMarkdownForObsidian,
   enrichDailyMarkdownForObsidian,
+  enrichManualImpactMarkdownForObsidian,
   enrichWeeklyMarkdownForObsidian,
+  syncChecklistReportToObsidian,
   syncDailyReportToObsidian,
+  syncManualImpactReportToObsidian,
   syncWeeklyReportToObsidian,
 } from "./obsidianSync.js";
 
@@ -31,6 +35,28 @@ async function writeWeeklyReport(
   content: string,
 ): Promise<string> {
   const reportPath = path.join(root, "reports", "weekly", `${week}_legal_watch.md`);
+  await mkdir(path.dirname(reportPath), { recursive: true });
+  await writeFile(reportPath, content, "utf8");
+  return reportPath;
+}
+
+async function writeChecklistReport(
+  root: string,
+  date: string,
+  content: string,
+): Promise<string> {
+  const reportPath = path.join(root, "reports", "checklists", `${date}_ad_checklist.md`);
+  await mkdir(path.dirname(reportPath), { recursive: true });
+  await writeFile(reportPath, content, "utf8");
+  return reportPath;
+}
+
+async function writeManualImpactReport(
+  root: string,
+  date: string,
+  content: string,
+): Promise<string> {
+  const reportPath = path.join(root, "reports", "manual-impact", `${date}_manual_impact.md`);
   await mkdir(path.dirname(reportPath), { recursive: true });
   await writeFile(reportPath, content, "utf8");
   return reportPath;
@@ -986,6 +1012,534 @@ describe("syncWeeklyReportToObsidian", () => {
     );
     expect(index).toContain(
       "| [[weekly/2026-W21_legal_watch|2026-W21]] | 2026-05-18〜2026-05-24 | 2 |",
+    );
+  });
+});
+
+describe("syncChecklistReportToObsidian", () => {
+  const tempDirs: string[] = [];
+
+  afterEach(async () => {
+    delete process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH;
+    await Promise.all(
+      tempDirs.splice(0).map((dir) => rm(dir, { recursive: true, force: true })),
+    );
+  });
+
+  it("copies an ad checklist into the Obsidian checklists directory", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = [
+      "---",
+      "type: legal-watch-ad-checklist",
+      "date: 2026-05-28",
+      "target_count: 2",
+      "---",
+      "",
+      "# 広告・LP・SNSチェックリスト",
+      "",
+    ].join("\n");
+    const sourcePath = await writeChecklistReport(root, "2026-05-28", markdown);
+
+    const result = await syncChecklistReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "checklists",
+      "2026-05-28_ad_checklist.md",
+    );
+    const indexPath = path.join(vault, "Legal Watch", "index.md");
+    expect(result).toEqual({
+      date: "2026-05-28",
+      sourcePath,
+      destinationPath,
+      indexPath,
+      skipped: false,
+    });
+    const destination = matter(await readFile(destinationPath, "utf8"));
+    expect(destination.data).toMatchObject({
+      type: "legal-watch-ad-checklist",
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(destination.data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "広告チェック",
+    ]);
+    await expect(readFile(sourcePath, "utf8")).resolves.toBe(markdown);
+    await expect(readFile(indexPath, "utf8")).resolves.toContain(
+      "| [[checklists/2026-05-28_ad_checklist|2026-05-28]] | 2 |",
+    );
+  });
+
+  it("creates missing Obsidian checklist destination directories", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = path.join(await makeTempDir("legal-watch-vault-parent-"), "Vault");
+    tempDirs.push(root, path.dirname(vault));
+    await writeChecklistReport(root, "2026-05-28", "# Checklist\n");
+
+    await syncChecklistReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "checklists", "2026-05-28_ad_checklist.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Checklist");
+  });
+
+  it("skips an existing Obsidian checklist by default", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeChecklistReport(root, "2026-05-28", "# Source checklist\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "checklists",
+      "2026-05-28_ad_checklist.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual checklist notes\n", "utf8");
+
+    const result = await syncChecklistReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    expect(result.skipped).toBe(true);
+    await expect(readFile(destinationPath, "utf8")).resolves.toBe(
+      "# Manual checklist notes\n",
+    );
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "[[checklists/2026-05-28_ad_checklist|2026-05-28]]",
+    );
+  });
+
+  it("overwrites an existing Obsidian checklist when force is true", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeChecklistReport(root, "2026-05-28", "# Source checklist\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "checklists",
+      "2026-05-28_ad_checklist.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual checklist notes\n", "utf8");
+
+    const result = await syncChecklistReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+      force: true,
+    });
+
+    expect(result.skipped).toBe(false);
+    const destination = await readFile(destinationPath, "utf8");
+    expect(destination).toContain("# Source checklist");
+    expect(matter(destination).data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "広告チェック",
+    ]);
+  });
+
+  it("uses LEGAL_WATCH_OBSIDIAN_VAULT_PATH when vaultPath is omitted", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH = vault;
+    await writeChecklistReport(root, "2026-05-28", "# Checklist\n");
+
+    await syncChecklistReportToObsidian({ root, date: "2026-05-28" });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "checklists", "2026-05-28_ad_checklist.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Checklist");
+  });
+
+  it("throws a useful error when the Obsidian Vault path is not configured", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    tempDirs.push(root);
+
+    await expect(
+      syncChecklistReportToObsidian({ root, date: "2026-05-28" }),
+    ).rejects.toThrow("LEGAL_WATCH_OBSIDIAN_VAULT_PATH is not set");
+  });
+
+  it("throws a useful error when the checklist report is missing", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncChecklistReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "2026-05-28",
+      }),
+    ).rejects.toThrow("Ad checklist not found");
+  });
+
+  it("rejects malformed dates before using them as file paths", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncChecklistReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "../outside",
+        force: true,
+      }),
+    ).rejects.toThrow("Invalid date");
+  });
+
+  it("preserves and de-duplicates existing checklist tags during enrichment", () => {
+    const enriched = matter(
+      enrichChecklistMarkdownForObsidian(
+        [
+          "---",
+          "type: legal-watch-ad-checklist",
+          "date: 2026-05-28",
+          "target_count: 2",
+          "tags:",
+          "  - '#legal-watch'",
+          "  - custom",
+          "---",
+          "",
+          "# Checklist",
+          "",
+        ].join("\n"),
+      ),
+    );
+
+    expect(enriched.data).toMatchObject({
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(enriched.data.tags).toEqual([
+      "legal-watch",
+      "custom",
+      "法令監視",
+      "広告チェック",
+    ]);
+  });
+
+  it("adds checklist links to the generated index sorted newest first", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const checklistDir = path.join(vault, "Legal Watch", "checklists");
+    await mkdir(checklistDir, { recursive: true });
+    await writeFile(
+      path.join(checklistDir, "2026-05-27_ad_checklist.md"),
+      "---\ntype: legal-watch-ad-checklist\ndate: 2026-05-27\ntarget_count: 1\n---\n# Older\n",
+      "utf8",
+    );
+    await writeFile(
+      path.join(checklistDir, "2026-05-29_ad_checklist.md"),
+      "---\ntype: legal-watch-ad-checklist\ndate: 2026-05-29\ntarget_count: 3\n---\n# Newer\n",
+      "utf8",
+    );
+    await writeChecklistReport(
+      root,
+      "2026-05-28",
+      "---\ntype: legal-watch-ad-checklist\ndate: 2026-05-28\ntarget_count: 2\n---\n# Current\n",
+    );
+
+    const result = await syncChecklistReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("## 最近の広告チェックリスト");
+    expect(
+      index.indexOf("[[checklists/2026-05-29_ad_checklist|2026-05-29]]"),
+    ).toBeLessThan(
+      index.indexOf("[[checklists/2026-05-28_ad_checklist|2026-05-28]]"),
+    );
+    expect(
+      index.indexOf("[[checklists/2026-05-28_ad_checklist|2026-05-28]]"),
+    ).toBeLessThan(
+      index.indexOf("[[checklists/2026-05-27_ad_checklist|2026-05-27]]"),
+    );
+    expect(index).toContain(
+      "| [[checklists/2026-05-27_ad_checklist|2026-05-27]] | 1 |",
+    );
+  });
+});
+
+describe("syncManualImpactReportToObsidian", () => {
+  const tempDirs: string[] = [];
+
+  afterEach(async () => {
+    delete process.env.LEGAL_WATCH_OBSIDIAN_VAULT_PATH;
+    await Promise.all(
+      tempDirs.splice(0).map((dir) => rm(dir, { recursive: true, force: true })),
+    );
+  });
+
+  it("copies a manual impact report into the Obsidian manual-impact directory", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const markdown = [
+      "---",
+      "type: legal-watch-manual-impact",
+      "date: 2026-05-28",
+      "target_count: 2",
+      "---",
+      "",
+      "# 院内マニュアル影響確認",
+      "",
+    ].join("\n");
+    const sourcePath = await writeManualImpactReport(root, "2026-05-28", markdown);
+
+    const result = await syncManualImpactReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "manual-impact",
+      "2026-05-28_manual_impact.md",
+    );
+    const indexPath = path.join(vault, "Legal Watch", "index.md");
+    expect(result).toEqual({
+      date: "2026-05-28",
+      sourcePath,
+      destinationPath,
+      indexPath,
+      skipped: false,
+    });
+    const destination = matter(await readFile(destinationPath, "utf8"));
+    expect(destination.data).toMatchObject({
+      type: "legal-watch-manual-impact",
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(destination.data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "院内影響確認",
+    ]);
+    expect(destination.data).not.toHaveProperty("status");
+    expect(destination.data).not.toHaveProperty("confirmation_status");
+    await expect(readFile(sourcePath, "utf8")).resolves.toBe(markdown);
+    await expect(readFile(indexPath, "utf8")).resolves.toContain(
+      "| [[manual-impact/2026-05-28_manual_impact|2026-05-28]] | 2 |",
+    );
+  });
+
+  it("creates missing Obsidian manual-impact destination directories", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = path.join(await makeTempDir("legal-watch-vault-parent-"), "Vault");
+    tempDirs.push(root, path.dirname(vault));
+    await writeManualImpactReport(root, "2026-05-28", "# Manual impact\n");
+
+    await syncManualImpactReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    await expect(
+      readFile(
+        path.join(vault, "Legal Watch", "manual-impact", "2026-05-28_manual_impact.md"),
+        "utf8",
+      ),
+    ).resolves.toContain("# Manual impact");
+  });
+
+  it("skips an existing Obsidian manual impact report by default", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeManualImpactReport(root, "2026-05-28", "# Source manual impact\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "manual-impact",
+      "2026-05-28_manual_impact.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual Obsidian notes\n", "utf8");
+
+    const result = await syncManualImpactReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+
+    expect(result.skipped).toBe(true);
+    await expect(readFile(destinationPath, "utf8")).resolves.toBe(
+      "# Manual Obsidian notes\n",
+    );
+    await expect(readFile(result.indexPath, "utf8")).resolves.toContain(
+      "[[manual-impact/2026-05-28_manual_impact|2026-05-28]]",
+    );
+  });
+
+  it("overwrites an existing Obsidian manual impact report when force is true", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    await writeManualImpactReport(root, "2026-05-28", "# Source manual impact\n");
+    const destinationPath = path.join(
+      vault,
+      "Legal Watch",
+      "manual-impact",
+      "2026-05-28_manual_impact.md",
+    );
+    await mkdir(path.dirname(destinationPath), { recursive: true });
+    await writeFile(destinationPath, "# Manual Obsidian notes\n", "utf8");
+
+    const result = await syncManualImpactReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+      force: true,
+    });
+
+    expect(result.skipped).toBe(false);
+    const destination = await readFile(destinationPath, "utf8");
+    expect(destination).toContain("# Source manual impact");
+    expect(matter(destination).data.tags).toEqual([
+      "legal-watch",
+      "法令監視",
+      "院内影響確認",
+    ]);
+  });
+
+  it("throws a useful error when the manual impact report is missing", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncManualImpactReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "2026-05-28",
+      }),
+    ).rejects.toThrow("Manual impact report not found");
+  });
+
+  it("rejects malformed dates before using them as file paths", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+
+    await expect(
+      syncManualImpactReportToObsidian({
+        root,
+        vaultPath: vault,
+        date: "../outside",
+        force: true,
+      }),
+    ).rejects.toThrow("Invalid date");
+  });
+
+  it("preserves and de-duplicates existing manual impact tags during enrichment", () => {
+    const enriched = matter(
+      enrichManualImpactMarkdownForObsidian(
+        [
+          "---",
+          "type: legal-watch-manual-impact",
+          "date: 2026-05-28",
+          "target_count: 2",
+          "tags:",
+          "  - '#legal-watch'",
+          "  - custom",
+          "---",
+          "",
+          "# Manual impact",
+          "",
+        ].join("\n"),
+      ),
+    );
+
+    expect(enriched.data).toMatchObject({
+      date: "2026-05-28",
+      target_count: 2,
+    });
+    expect(enriched.data.tags).toEqual([
+      "legal-watch",
+      "custom",
+      "法令監視",
+      "院内影響確認",
+    ]);
+    expect(enriched.data).not.toHaveProperty("status");
+    expect(enriched.data).not.toHaveProperty("confirmation_status");
+  });
+
+  it("adds manual impact links to the generated index sorted newest first", async () => {
+    const root = await makeTempDir("legal-watch-root-");
+    const vault = await makeTempDir("legal-watch-vault-");
+    tempDirs.push(root, vault);
+    const manualImpactDir = path.join(vault, "Legal Watch", "manual-impact");
+    await mkdir(manualImpactDir, { recursive: true });
+    await writeFile(
+      path.join(manualImpactDir, "2026-05-27_manual_impact.md"),
+      "---\ntype: legal-watch-manual-impact\ndate: 2026-05-27\ntarget_count: 1\n---\n# Older\n",
+      "utf8",
+    );
+    await writeFile(
+      path.join(manualImpactDir, "2026-05-29_manual_impact.md"),
+      "---\ntype: legal-watch-manual-impact\ndate: 2026-05-29\ntarget_count: 3\n---\n# Newer\n",
+      "utf8",
+    );
+    await writeManualImpactReport(
+      root,
+      "2026-05-28",
+      "---\ntype: legal-watch-manual-impact\ndate: 2026-05-28\ntarget_count: 2\n---\n# Current\n",
+    );
+
+    const result = await syncManualImpactReportToObsidian({
+      root,
+      vaultPath: vault,
+      date: "2026-05-28",
+    });
+    const index = await readFile(result.indexPath, "utf8");
+
+    expect(index).toContain("## 最近の院内影響確認");
+    expect(
+      index.indexOf("[[manual-impact/2026-05-29_manual_impact|2026-05-29]]"),
+    ).toBeLessThan(
+      index.indexOf("[[manual-impact/2026-05-28_manual_impact|2026-05-28]]"),
+    );
+    expect(
+      index.indexOf("[[manual-impact/2026-05-28_manual_impact|2026-05-28]]"),
+    ).toBeLessThan(
+      index.indexOf("[[manual-impact/2026-05-27_manual_impact|2026-05-27]]"),
+    );
+    expect(index).toContain(
+      "| [[manual-impact/2026-05-27_manual_impact|2026-05-27]] | 1 |",
     );
   });
 });
