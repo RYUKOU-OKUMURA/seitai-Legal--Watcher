@@ -83,6 +83,7 @@ pnpm drafts -- --date 2026-05-28
 # 最新 Analysis を SQLite watch.db に取り込み、確認状態を管理
 pnpm review-import -- --date 2026-05-28
 pnpm review-status -- --date 2026-05-28
+pnpm review-queue -- --date 2026-05-28
 pnpm review-confirm -- --change-id change-id --note "院内資料確認済み"
 pnpm review-set-status -- --analysis-id analysis-id --status action_required
 
@@ -114,7 +115,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 - **PDF**: HTML 配下 PDF の抜粋追跡、PDF 単独 URL 監視、PDF 抽出失敗の記録
 - **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`（PDF全文・バイナリは保存しない）
 - **Phase 4 確認状態**: `data/watch.db`（`review-import` で最新 `Analysis` を取り込み、CLI で明示更新）
-- **レポート**: `reports/daily/YYYY-MM-DD.md`, `reports/weekly/YYYY-Www_legal_watch.md`, `reports/checklists/YYYY-MM-DD_ad_checklist.md`, `reports/manual-impact/YYYY-MM-DD_manual_impact.md`, `reports/drafts/YYYY-MM-DD_practical_drafts.md`
+- **レポート**: `reports/daily/YYYY-MM-DD.md`, `reports/weekly/YYYY-Www_legal_watch.md`, `reports/checklists/YYYY-MM-DD_ad_checklist.md`, `reports/manual-impact/YYYY-MM-DD_manual_impact.md`, `reports/drafts/YYYY-MM-DD_practical_drafts.md`, `reports/review/YYYY-MM-DD_review_queue.md`
 - **通知**: なし（Phase 4）
 
 ### ロードマップ
@@ -127,6 +128,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 | Phase 2 | Obsidian 同期 |
 | Phase 3 | 週次レポート（`pnpm weekly -- --week YYYY-Www`）、広告チェックリスト（`pnpm checklist -- --date YYYY-MM-DD`）、院内マニュアル影響確認（`pnpm manual-impact -- --date YYYY-MM-DD`）、転用下書き（`pnpm drafts -- --date YYYY-MM-DD`） |
 | Phase 4a | SQLite 確認ステータス（`pnpm review-import` / `pnpm review-status` / `pnpm review-confirm`） |
+| Phase 4b | 確認キュー Markdown（`pnpm review-queue -- --date YYYY-MM-DD`） |
 | Phase 4 | Tauri + 確認ステータス + 通知 |
 
 ## GitHub Actions

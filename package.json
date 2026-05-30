@@ -15,6 +15,7 @@
     "report": "pnpm --filter @seitai-legal-watch/agent report",
     "review-confirm": "pnpm --filter @seitai-legal-watch/agent review-confirm",
     "review-import": "pnpm --filter @seitai-legal-watch/agent review-import",
+    "review-queue": "pnpm --filter @seitai-legal-watch/agent review-queue",
     "review-set-status": "pnpm --filter @seitai-legal-watch/agent review-set-status",
     "review-status": "pnpm --filter @seitai-legal-watch/agent review-status",
     "review-unconfirm": "pnpm --filter @seitai-legal-watch/agent review-unconfirm",

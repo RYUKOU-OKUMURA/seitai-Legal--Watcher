@@ -46,7 +46,7 @@ export interface ReviewStatusUpdateOptions {
   confirmedBy?: string;
 }
 
-function validateDate(date: string): string {
+export function validateReviewDate(date: string): string {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
     throw new Error(`Invalid date: ${date}. Expected YYYY-MM-DD.`);
   }
@@ -77,7 +77,7 @@ export async function importLatestAnalysesToReviewDb(
 ): Promise<ReviewImportResult> {
   const { root, dbPath } = resolveRootAndDbPath(options);
   const timezoneName = options.timezone ?? process.env.LEGAL_WATCH_TIMEZONE ?? "Asia/Tokyo";
-  const date = options.date ? validateDate(options.date) : undefined;
+  const date = options.date ? validateReviewDate(options.date) : undefined;
   const latestAnalyses = await loadLatestAnalysesByChangeId(root);
   const store = new SqliteStateStore(root, { dbPath });
   let skippedMissingRaw = 0;
@@ -125,7 +125,7 @@ export async function listReviewItems(
   options: ReviewListOptions = {},
 ): Promise<ReviewItem[]> {
   const { root, dbPath } = resolveRootAndDbPath(options);
-  const date = options.date ? validateDate(options.date) : undefined;
+  const date = options.date ? validateReviewDate(options.date) : undefined;
   let status: ReviewStatus | undefined;
   if (options.status) {
     assertReviewStatus(options.status);

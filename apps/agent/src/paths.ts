@@ -29,6 +29,10 @@ export function practicalDraftReportPath(root: string, date: string): string {
   return path.join(root, "reports", "drafts", `${date}_practical_drafts.md`);
 }
 
+export function reviewQueueReportPath(root: string, date: string): string {
+  return path.join(root, "reports", "review", `${date}_review_queue.md`);
+}
+
 export function watchDbPath(root: string): string {
   return path.join(root, "data", "watch.db");
 }

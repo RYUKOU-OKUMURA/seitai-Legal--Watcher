@@ -15,6 +15,11 @@ import {
   listReviewItems,
   setReviewItemStatus,
 } from "./reviewStatus.js";
+import {
+  collectReviewQueueEntries,
+  formatReviewQueueResult,
+  writeReviewQueueMarkdown,
+} from "./reviewQueue.js";
 import { regenerateWeeklyReportFromLogs } from "./weeklyFromLogs.js";
 import { resetState } from "./resetState.js";
 import { isContentChange } from "./changeClassification.js";
@@ -203,6 +208,22 @@ program
         status: opts.status,
       });
       console.log(formatReviewItems(items));
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("review-queue")
+  .description("SQLite watch.db から今日確認すべき項目の Markdown を生成")
+  .option("--date <YYYY-MM-DD>", "対象日（省略時は JST 今日）")
+  .action(async (opts: { date?: string }) => {
+    try {
+      const result = await collectReviewQueueEntries({ date: opts.date });
+      const reportPath = await writeReviewQueueMarkdown(result);
+      console.log(formatReviewQueueResult(result));
+      log.info({ reportPath, date: result.date, targetCount: result.entries.length }, "review queue generated");
     } catch (err) {
       log.error(err);
       process.exit(1);

@@ -18,6 +18,7 @@
     "report": "node dist/cli.js report",
     "review-confirm": "node dist/cli.js review-confirm",
     "review-import": "node dist/cli.js review-import",
+    "review-queue": "node dist/cli.js review-queue",
     "review-set-status": "node dist/cli.js review-set-status",
     "review-status": "node dist/cli.js review-status",
     "review-unconfirm": "node dist/cli.js review-unconfirm",

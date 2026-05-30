@@ -64,3 +64,65 @@ archived
 - `analysis_id` 指定時は特定 Analysis の確認状態を更新できる。
 - Obsidian の checkbox や Markdown の編集内容を状態として読み戻さない。
 - 既存の daily / weekly / checklist / manual-impact / drafts 生成を壊さない。
+
+## Phase 4b: 確認キュー Markdown
+
+### ゴール
+
+`data/watch.db` の `analyses` / `review_statuses` から、Operator が今日確認すべき項目を一覧化できるようにする。CLI と Markdown 出力で、未確認・対応要・専門家確認要を確認できる状態にする。
+
+### 出力
+
+```text
+reports/review/YYYY-MM-DD_review_queue.md
+```
+
+frontmatter:
+
+```yaml
+---
+type: legal-watch-review-queue
+date: YYYY-MM-DD
+target_count: 0
+---
+```
+
+### 抽出条件
+
+- `detected_date` が対象日と一致する。
+- `is_latest = 1` の Analysis だけを対象にする。
+- 通常キューに出す status:
+  - `action_required`
+  - `expert_review_required`
+  - `reviewing`
+  - `new`
+- 通常キューから除外する status:
+  - `confirmed`
+  - `ignored`
+  - `archived`
+
+### 並び順
+
+1. `action_required`
+2. `expert_review_required`
+3. `reviewing`
+4. `new`
+5. 同じ status 内では `importance` の `high`、`medium`、`low`
+6. さらに同順位なら `needsExpertReview`、`detectedAt`
+
+### CLI
+
+```bash
+pnpm review-queue -- --date 2026-05-28
+```
+
+`--date` 未指定時は `LEGAL_WATCH_TIMEZONE` または `Asia/Tokyo` の当日を使う。
+
+### 受け入れ条件
+
+- `pnpm review-queue -- --date YYYY-MM-DD` で `reports/review/YYYY-MM-DD_review_queue.md` が生成される。
+- `analysisId`、`changeId`、現在 status、重要度、原典 URL、確認ポイントが出る。
+- `confirmed` / `ignored` / `archived` は通常キューに出ない。
+- `action_required` / `expert_review_required` が見落とされにくい順で出る。
+- 対象がない日も「該当なし」が分かる Markdown が生成される。
+- Markdown checkbox や Obsidian の編集内容を状態として読み戻さない。
