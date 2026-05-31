@@ -6,6 +6,7 @@
 
 - [CONTEXT.md](CONTEXT.md) — 用語集
 - [docs/adr/](docs/adr/) — アーキテクチャ決定記録
+- [docs/ops/pilot-runbook.md](docs/ops/pilot-runbook.md) — 2〜4週間の試験運用 Runbook
 - [要件定義.md](要件定義.md) / [技術スタック.md](技術スタック.md) — 要件・技術概要
 
 ## 必要条件
@@ -54,6 +55,8 @@ git commit -m "chore: rebaseline legal watch state"
 ```
 
 ## コマンド
+
+日常運用の具体的な順番は [試験運用 Runbook](docs/ops/pilot-runbook.md) を参照してください。
 
 ```bash
 # 初回ベースライン（LLM スキップ）
