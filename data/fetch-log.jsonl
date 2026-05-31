@@ -238,3 +238,13 @@
 {"at":"2026-05-31T06:08:35.383Z","sourceId":"kanagawa-sejutsusho","targetKey":"https://www.pref.kanagawa.jp/docs/f6z/cnt/f3795/index.html","httpStatus":200,"changeType":"none"}
 {"at":"2026-05-31T06:08:35.383Z","sourceId":"mhlw-jyosei","targetKey":"https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jyuudou/index.html","httpStatus":200,"changeType":"none"}
 {"at":"2026-05-31T06:08:35.383Z","sourceId":"mhlw-ahaki-ryoyohi","targetKey":"https://www.mhlw.go.jp/bunya/iryouhoken/jyuudou/oshirase.html","httpStatus":200,"changeType":"none"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"mhlw-news","targetKey":"https://www.mhlw.go.jp/stf/houdou/houdou_list_202605.html","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"caa-press","targetKey":"https://www.caa.go.jp/","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"egov-law-api","targetKey":"source:egov-law-api","httpStatus":404,"changeType":"empty","note":"取得結果が０件でした。取得条件に誤りがないかご確認ください。"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"ncij-kokumin","targetKey":"https://www.kokusen.go.jp/","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"kanpo-html","targetKey":"https://www.kanpo.go.jp/","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"kanto-koshinetsu-judo","targetKey":"https://kouseikyoku.mhlw.go.jp/kantoshinetsu/shinsei/shido_kansa/judo/index.html","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"tokyo-sejutsusho","targetKey":"https://www.hokeniryo.metro.tokyo.lg.jp/iryo/shikaku/anmamassa-jisiatuharikyuujyuudou","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"kanagawa-sejutsusho","targetKey":"https://www.pref.kanagawa.jp/docs/f6z/cnt/f3795/index.html","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"mhlw-jyosei","targetKey":"https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryouhoken/jyuudou/index.html","httpStatus":200,"changeType":"new"}
+{"at":"2026-05-31T13:33:26.872Z","sourceId":"mhlw-ahaki-ryoyohi","targetKey":"https://www.mhlw.go.jp/bunya/iryouhoken/jyuudou/oshirase.html","httpStatus":200,"changeType":"new"}
