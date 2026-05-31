@@ -11,7 +11,12 @@ export interface DailyReportInput {
   bootstrap?: boolean;
   result: Pick<
     DailyRunResult,
-    "changes" | "analyses" | "gatedOut" | "failures" | "analysisFailures"
+    | "sourceRuns"
+    | "changes"
+    | "analyses"
+    | "gatedOut"
+    | "failures"
+    | "analysisFailures"
   >;
 }
 
@@ -59,6 +64,27 @@ function appendPdfLines(lines: string[], change: DetectedChange | undefined): vo
     lines.push("**PDF抽出失敗**");
     for (const pdf of change.pdfErrors ?? []) {
       lines.push(`- ${pdf.url}: ${pdf.error}`);
+    }
+    lines.push("");
+  }
+}
+
+function appendLinkedLines(lines: string[], change: DetectedChange | undefined): void {
+  if (!change) return;
+  if ((change.linkedExcerpts ?? []).length > 0) {
+    lines.push("**リンク先抜粋（要原典確認）**");
+    for (const linked of change.linkedExcerpts ?? []) {
+      lines.push(
+        `- ${linked.title ? `${linked.title}: ` : ""}${linked.url}`,
+        `  - ${truncateExcerpt(linked.textExcerpt, PDF_REPORT_EXCERPT_MAX_CHARS)}`,
+      );
+    }
+    lines.push("");
+  }
+  if ((change.linkedErrors ?? []).length > 0) {
+    lines.push("**リンク先取得失敗**");
+    for (const linked of change.linkedErrors ?? []) {
+      lines.push(`- ${linked.url}: ${linked.error}`);
     }
     lines.push("");
   }
@@ -124,6 +150,41 @@ function appendBootstrapSection(
   }
 }
 
+function appendRunStatusSection(
+  lines: string[],
+  result: DailyReportInput["result"],
+): void {
+  const runs = result.sourceRuns ?? [];
+  const okRuns = runs.filter((run) => run.status === "ok");
+  const emptyRuns = runs.filter((run) => run.status === "empty");
+  const failedRuns = runs.filter((run) => run.status === "failed");
+  const fetchFailureCount = runs.length > 0 ? failedRuns.length : result.failures.length;
+  const manualReasons: string[] = [];
+
+  if (fetchFailureCount > 0) manualReasons.push("取得失敗ソースあり");
+  if (result.analysisFailures.length > 0) manualReasons.push("LLM分析失敗あり");
+  if (emptyRuns.length > 0) manualReasons.push("更新0件ソースあり");
+  if (manualReasons.length === 0) manualReasons.push("通常確認");
+
+  lines.push(
+    "## 取得・分析状況",
+    "",
+    `- ソース取得OK: ${runs.length > 0 ? `${okRuns.length}/${runs.length}` : "不明"}`,
+    `- 更新0件: ${emptyRuns.length}`,
+    `- 取得失敗: ${fetchFailureCount}`,
+    `- LLM分析: ${result.analyses.length}/${result.analyses.length + result.analysisFailures.length} OK`,
+    `- 要手動確認: ${manualReasons.join("、")}`,
+    "",
+  );
+
+  if (emptyRuns.length > 0) {
+    lines.push("### 更新0件", "");
+    for (const run of emptyRuns) {
+      lines.push(`- [${run.sourceName}] ${run.url}`, `  - ${run.note ?? "更新0件"}`, "");
+    }
+  }
+}
+
 function appendAnalyzedSection(
   lines: string[],
   input: DailyReportInput,
@@ -155,6 +216,7 @@ function appendAnalyzedSection(
         "",
       );
       appendPdfLines(lines, change);
+      appendLinkedLines(lines, change);
       lines.push(
         `**${checkpointsHeading}**`,
         ...a.operator_checkpoints.map((p) => `- ${p}`),
@@ -186,6 +248,14 @@ function appendAnalysisFailuresSection(
     for (const f of result.analysisFailures) {
       lines.push(`- ${f.changeId}: ${f.error}`, "");
     }
+    lines.push(
+      "再分析する場合:",
+      "",
+      "```bash",
+      "pnpm retry-analysis -- --date YYYY-MM-DD",
+      "```",
+      "",
+    );
   }
 }
 
@@ -223,6 +293,9 @@ function appendGatedOutSection(
       if ((g.pdfErrors ?? []).length > 0) {
         lines.push(`  - PDF抽出失敗: ${g.pdfErrors?.length ?? 0}件`);
       }
+      if ((g.linkedErrors ?? []).length > 0) {
+        lines.push(`  - リンク先取得失敗: ${g.linkedErrors?.length ?? 0}件`);
+      }
       lines.push("");
     }
   }
@@ -252,10 +325,12 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
   }
 
   if (sorted.length === 0 && contentChanges.length === 0 && result.failures.length === 0) {
+    if ((result.sourceRuns ?? []).length > 0) appendRunStatusSection(lines, result);
     lines.push("本日の内容更新はありません。", "");
     return lines.join("\n");
   }
 
+  appendRunStatusSection(lines, result);
   appendAnalyzedSection(lines, input, contentChanges, sorted);
   appendAnalysisFailuresSection(lines, result);
   appendFetchFailuresSection(lines, result);

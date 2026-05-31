@@ -17,5 +17,7 @@ export function detectedChangeToRawSnapshot(change: DetectedChange): RawSnapshot
     httpStatus: change.httpStatus,
     pdfExcerpts: change.pdfExcerpts,
     pdfErrors: change.pdfErrors,
+    linkedExcerpts: change.linkedExcerpts,
+    linkedErrors: change.linkedErrors,
   };
 }

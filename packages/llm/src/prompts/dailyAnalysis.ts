@@ -7,6 +7,8 @@ export const DAILY_ANALYSIS_SYSTEM = `あなたは整体院・整骨院・接骨
 - 不明点は unknowns に列挙する。
 - 要原典確認・要自治体確認・要専門家確認はフラグで示す。
 - 整体院・整骨院・鍼灸など対象業態は targetBusiness 配列で示す（読者レンズであり特定の院を指さない）。
+- relevance と importance は必ず "high"、"medium"、"low" のいずれかにする。"none" や "n/a" は使わない。
+- confidence は 0 以上 1 以下の数値にする。文字列や百分率表記は使わない。
 
 出力は JSON オブジェクト1つのみ（マークダウンコードブロック不要）。フィールド:
 relevance, importance, category, targetBusiness, summary, whatChanged, impact, adImpact, operator_checkpoints, needsOriginalCheck, needsLocalGovernmentCheck, needsExpertReview, confidence, unknowns, sourceUrl`;
@@ -20,6 +22,8 @@ export function buildDailyAnalysisUserPrompt(change: {
   bodyExcerpt: string;
   pdfExcerpts?: Array<{ url: string; title?: string; textExcerpt: string }>;
   pdfErrors?: Array<{ url: string; error: string }>;
+  linkedExcerpts?: Array<{ url: string; title?: string; textExcerpt: string }>;
+  linkedErrors?: Array<{ url: string; error: string }>;
   gateReasons: string[];
 }): string {
   return `以下の Detected Change を分析し、指定スキーマの JSON のみ返してください。

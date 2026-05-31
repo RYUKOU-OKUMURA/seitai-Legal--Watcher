@@ -71,6 +71,9 @@ pnpm fetch
 # data/raw と llm-log から日次レポートを再生成
 pnpm report -- --date 2026-05-26
 
+# LLM 分析失敗分だけ raw snapshot から再分析
+pnpm retry-analysis -- --date 2026-05-28
+
 # data/raw と llm-log から週次レポートを生成
 pnpm weekly -- --week 2026-W22
 
@@ -113,7 +116,7 @@ pnpm --filter @seitai-legal-watch/agent daily --mock-llm
 
 ## Phase 1.1 スコープ
 
-- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（4パイロット + 療養費系 + e-Gov 更新法令）
+- **有効ソース**: `packages/config/sources.yaml` の `enabled: true`（4パイロット + 療養費系 + e-Gov 更新法令 + e-Gov パブコメ厚生中心 RSS）
 - **Fetcher**: rss / html / api / pdf
 - **PDF**: HTML 配下 PDF の抜粋追跡、PDF 単独 URL 監視、PDF 抽出失敗の記録
 - **永続化**: `data/state.json`, `fetch-log.jsonl`, `llm-log.jsonl`, `data/raw/{changeId}.json`（PDF全文・バイナリは保存しない）

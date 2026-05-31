@@ -22,6 +22,7 @@
     "review-set-status": "node dist/cli.js review-set-status",
     "review-status": "node dist/cli.js review-status",
     "review-unconfirm": "node dist/cli.js review-unconfirm",
+    "retry-analysis": "node dist/cli.js retry-analysis",
     "reset-state": "node dist/cli.js reset-state",
     "weekly": "node dist/cli.js weekly",
     "validate-sources": "node dist/cli.js validate-sources",

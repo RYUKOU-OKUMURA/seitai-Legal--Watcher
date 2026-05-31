@@ -3,7 +3,11 @@ import path from "node:path";
 import { loadConfig } from "@seitai-legal-watch/config";
 import type { Analysis, DailyRunResult, DetectedChange } from "@seitai-legal-watch/core";
 import { ruleGate } from "@seitai-legal-watch/core";
-import { runFetchCycle } from "@seitai-legal-watch/fetchers";
+import {
+  detectedChangeToRawSnapshot,
+  fetchDeepLinkExcerpts,
+  runFetchCycle,
+} from "@seitai-legal-watch/fetchers";
 import { analyzeChange } from "@seitai-legal-watch/llm";
 import { generateDailyReportMarkdown } from "@seitai-legal-watch/reports";
 import { JsonStateStore } from "@seitai-legal-watch/storage";
@@ -38,20 +42,24 @@ export async function runDailyPipeline(
   const store = new JsonStateStore(root);
 
   let changes: DetectedChange[] = [];
+  let sourceRuns: DailyRunResult["sourceRuns"] = [];
   if (!options.reportOnly) {
     log.info({ sources: config.enabledSources.length, bootstrap: isBootstrap }, "fetch cycle start");
-    changes = await runFetchCycle(
+    const fetchResult = await runFetchCycle(
       config.enabledSources,
       store,
       fetchedAt,
       date,
     );
+    changes = fetchResult.changes;
+    sourceRuns = fetchResult.sourceRuns;
     log.info({ changes: changes.length }, "fetch cycle done");
   }
 
   const gatedOut: DetectedChange[] = [];
   const toAnalyze: DetectedChange[] = [];
   const failures = changes.filter(isFetchFailure);
+  const runLlm = !options.skipLlm && !options.reportOnly && !isBootstrap;
 
   for (const change of changes) {
     if (isFetchFailure(change)) continue;
@@ -64,8 +72,37 @@ export async function runDailyPipeline(
     );
     change.gatePass = gate.pass;
     change.gateReasons = gate.reasons;
-    if (!isBootstrap && gate.pass) toAnalyze.push(change);
-    else if (!gate.pass) gatedOut.push(change);
+    if (!isBootstrap && gate.pass) {
+      try {
+        if (runLlm) {
+          const deep = await fetchDeepLinkExcerpts(change);
+          change.linkedExcerpts = deep.linkedExcerpts;
+          change.linkedErrors = deep.linkedErrors;
+          change.pdfExcerpts = [...(change.pdfExcerpts ?? []), ...deep.pdfExcerpts];
+          change.pdfErrors = [...(change.pdfErrors ?? []), ...deep.pdfErrors];
+          if (deep.linkedErrors.length > 0 || deep.pdfErrors.length > 0) {
+            log.warn(
+              {
+                changeId: change.id,
+                linkedErrors: deep.linkedErrors.length,
+                pdfErrors: deep.pdfErrors.length,
+              },
+              "deep link fetch had errors",
+            );
+          }
+          await store.saveRawSnapshot(detectedChangeToRawSnapshot(change));
+        }
+      } catch (err) {
+        const message = err instanceof Error ? err.message : String(err);
+        change.linkedErrors = [
+          ...(change.linkedErrors ?? []),
+          { url: change.url, error: `deep fetch failed: ${message}` },
+        ];
+        await store.saveRawSnapshot(detectedChangeToRawSnapshot(change));
+        log.warn({ changeId: change.id, err: message }, "deep link fetch failed");
+      }
+      toAnalyze.push(change);
+    } else if (!gate.pass) gatedOut.push(change);
     else if (isBootstrap) {
       change.gateReasons = [...(change.gateReasons ?? []), "bootstrap_skip_llm"];
     }
@@ -73,8 +110,6 @@ export async function runDailyPipeline(
 
   const analyses: Analysis[] = [];
   const analysisFailures: { changeId: string; error: string }[] = [];
-
-  const runLlm = !options.skipLlm && !options.reportOnly && !isBootstrap;
 
   if (runLlm) {
     for (const change of toAnalyze) {
@@ -106,6 +141,7 @@ export async function runDailyPipeline(
 
   const result: DailyRunResult = {
     date,
+    sourceRuns,
     changes,
     analyses,
     gatedOut,

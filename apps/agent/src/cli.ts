@@ -15,6 +15,7 @@ import {
   listReviewItems,
   setReviewItemStatus,
 } from "./reviewStatus.js";
+import { retryFailedAnalysesForDate } from "./retryAnalysis.js";
 import {
   collectReviewQueueEntries,
   formatReviewQueueResult,
@@ -190,6 +191,20 @@ program
         },
         "review analyses imported",
       );
+    } catch (err) {
+      log.error(err);
+      process.exit(1);
+    }
+  });
+
+program
+  .command("retry-analysis")
+  .description("指定日の LLM 分析失敗を raw snapshot から再実行")
+  .requiredOption("--date <YYYY-MM-DD>", "対象日")
+  .action(async (opts: { date: string }) => {
+    try {
+      const result = await retryFailedAnalysesForDate(opts.date);
+      log.info(result, "analysis retry complete");
     } catch (err) {
       log.error(err);
       process.exit(1);

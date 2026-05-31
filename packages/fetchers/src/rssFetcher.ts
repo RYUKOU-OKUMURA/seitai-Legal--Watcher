@@ -56,6 +56,9 @@ export async function fetchRssSnapshots(
   fetchedAt: string,
 ): Promise<FetchSnapshot[]> {
   const res = await fetchWithRetry(source.url);
+  if (res.status < 200 || res.status >= 400) {
+    throw new Error(`HTTP ${res.status}`);
+  }
   const text = await res.text();
   const parser = new XMLParser({ ignoreAttributes: false });
   const parsed = parser.parse(text);

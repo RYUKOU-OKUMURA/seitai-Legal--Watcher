@@ -17,6 +17,17 @@ export interface PdfError {
   error: string;
 }
 
+export interface LinkedExcerpt {
+  url: string;
+  title?: string;
+  textExcerpt: string;
+}
+
+export interface LinkedError {
+  url: string;
+  error: string;
+}
+
 export interface WatchTargetConfig {
   id: string;
   name: string;
@@ -76,9 +87,23 @@ export interface DetectedChange {
   links: string[];
   pdfExcerpts?: PdfExcerpt[];
   pdfErrors?: PdfError[];
+  linkedExcerpts?: LinkedExcerpt[];
+  linkedErrors?: LinkedError[];
   gatePass?: boolean;
   gateReasons?: string[];
   httpStatus?: number;
+}
+
+export interface SourceRun {
+  sourceId: string;
+  sourceName: string;
+  status: "ok" | "empty" | "failed";
+  url: string;
+  httpStatus?: number;
+  snapshotCount: number;
+  changeCount: number;
+  error?: string;
+  note?: string;
 }
 
 export interface GateResult {
@@ -122,11 +147,14 @@ export interface RawSnapshot {
   httpStatus?: number;
   pdfExcerpts?: PdfExcerpt[];
   pdfErrors?: PdfError[];
+  linkedExcerpts?: LinkedExcerpt[];
+  linkedErrors?: LinkedError[];
   gateReasons?: string[];
 }
 
 export interface DailyRunResult {
   date: string;
+  sourceRuns?: SourceRun[];
   changes: DetectedChange[];
   analyses: Analysis[];
   gatedOut: DetectedChange[];

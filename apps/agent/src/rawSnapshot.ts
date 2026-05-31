@@ -16,6 +16,8 @@ export function rawSnapshotToDetectedChange(raw: RawSnapshot): DetectedChange {
     links: raw.links ?? [],
     pdfExcerpts: raw.pdfExcerpts,
     pdfErrors: raw.pdfErrors,
+    linkedExcerpts: raw.linkedExcerpts,
+    linkedErrors: raw.linkedErrors,
     gateReasons: raw.gateReasons,
     httpStatus: raw.httpStatus,
   };

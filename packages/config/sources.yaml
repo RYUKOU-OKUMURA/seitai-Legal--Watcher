@@ -22,8 +22,88 @@ sources:
     url: https://public-comment.e-gov.go.jp/
     weight: medium
     alwaysAnalyze: false
-    enabled: true
+    enabled: false
     contentSelector: "main, #contents, .contents, body"
+
+  - id: egov-pubcomment-list-safety
+    name: e-Govパブコメ 意見募集（国民生活）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list_0000000004.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-list-labor
+    name: e-Govパブコメ 意見募集（労働）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list_0000000046.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-list-health
+    name: e-Govパブコメ 意見募集（厚生）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list_0000000048.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-list-welfare
+    name: e-Govパブコメ 意見募集（社会福祉）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list_0000000049.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-list-insurance
+    name: e-Govパブコメ 意見募集（社会保険）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_list_0000000050.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-result-safety
+    name: e-Govパブコメ 結果公示（国民生活）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result_0000000004.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-result-labor
+    name: e-Govパブコメ 結果公示（労働）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result_0000000046.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-result-health
+    name: e-Govパブコメ 結果公示（厚生）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result_0000000048.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-result-welfare
+    name: e-Govパブコメ 結果公示（社会福祉）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result_0000000049.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
+
+  - id: egov-pubcomment-result-insurance
+    name: e-Govパブコメ 結果公示（社会保険）
+    type: rss
+    url: https://public-comment.e-gov.go.jp/rss/pcm_result_0000000050.xml
+    weight: medium
+    alwaysAnalyze: false
+    enabled: true
 
   - id: egov-law-api
     name: e-Gov法令API（更新法令一覧）

@@ -59,6 +59,8 @@ export async function analyzeChange(
       textExcerpt: pdf.textExcerpt,
     })),
     pdfErrors: change.pdfErrors,
+    linkedExcerpts: change.linkedExcerpts,
+    linkedErrors: change.linkedErrors,
     gateReasons: gate.reasons,
   });
 

@@ -3,7 +3,7 @@ import path from "node:path";
 import type { Analysis, RawSnapshot } from "@seitai-legal-watch/core";
 import dayjs from "dayjs";
 
-interface LlmLogEntry {
+export interface LlmLogEntry {
   at?: string;
   changeId?: string;
   status?: string;

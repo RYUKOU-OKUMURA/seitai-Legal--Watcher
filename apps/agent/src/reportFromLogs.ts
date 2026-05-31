@@ -20,6 +20,7 @@ interface LlmLogEntry {
   status?: string;
   error?: string;
   analysis?: Analysis;
+  retryOf?: string;
 }
 
 function dateOf(iso: string, tz: string): string {
@@ -68,7 +69,7 @@ export async function regenerateDailyReportFromLogs(date?: string): Promise<stri
       entry.at &&
       entry.changeId &&
       changeIds.has(entry.changeId) &&
-      dateOf(entry.at, tz) === reportDate,
+      (entry.retryOf ?? dateOf(entry.at, tz)) === reportDate,
   );
   const analyses = llmEntries
     .filter((entry): entry is LlmLogEntry & { analysis: Analysis } => entry.status === "ok" && !!entry.analysis)
@@ -76,6 +77,7 @@ export async function regenerateDailyReportFromLogs(date?: string): Promise<stri
   const analyzedIds = new Set(analyses.map((analysis) => analysis.changeId));
   const analysisFailures = llmEntries
     .filter((entry) => entry.status === "error" && entry.changeId)
+    .filter((entry) => !analyzedIds.has(entry.changeId!))
     .map((entry) => ({
       changeId: entry.changeId!,
       error: entry.error ?? "unknown analysis error",

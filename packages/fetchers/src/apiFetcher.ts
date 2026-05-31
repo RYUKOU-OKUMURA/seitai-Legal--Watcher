@@ -3,6 +3,17 @@ import { buildTargetKey, hashFromSnapshot } from "@seitai-legal-watch/core";
 import { XMLParser } from "fast-xml-parser";
 import { fetchWithRetry } from "./http.js";
 
+export class ApiEmptyResultError extends Error {
+  constructor(
+    readonly httpStatus: number,
+    readonly bodyExcerpt: string,
+    message = "API returned no records",
+  ) {
+    super(message);
+    this.name = "ApiEmptyResultError";
+  }
+}
+
 function getByPath(obj: unknown, pathStr: string): unknown {
   return pathStr.split(".").reduce<unknown>((acc, key) => {
     if (acc && typeof acc === "object" && key in (acc as object)) {
@@ -55,12 +66,30 @@ async function parseApiBody(res: Response): Promise<unknown> {
   return JSON.parse(text) as unknown;
 }
 
+function resultMessage(data: unknown): string {
+  const message = getByPath(data, "DataRoot.Result.Message");
+  return message === undefined || message === null ? "" : String(message);
+}
+
+function isNoResultResponse(source: WatchTargetConfig, res: Response, data: unknown): boolean {
+  if (source.id !== "egov-law-api") return false;
+  if (res.status !== 404) return false;
+  return resultMessage(data).includes("取得結果が０件でした");
+}
+
 export async function fetchApiSnapshots(
   source: WatchTargetConfig,
   fetchedAt: string,
 ): Promise<FetchSnapshot[]> {
   const res = await fetchWithRetry(source.url);
   const data = await parseApiBody(res);
+  if (isNoResultResponse(source, res, data)) {
+    throw new ApiEmptyResultError(
+      res.status,
+      JSON.stringify(data).slice(0, 1000),
+      resultMessage(data),
+    );
+  }
   const items = collectItems(data, source.itemsPath);
 
   const snapshots = new Map<string, FetchSnapshot>();
