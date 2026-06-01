@@ -1,0 +1,14 @@
+{
+  "changeId": "606f6c24-0f60-4fb3-91bf-a87f1b279aff",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60000002035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#503M60000002035",
+  "title": "金融サービス仲介業者等に関する内閣府令",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年内閣府令第三十五号\",\"LawName\":\"金融サービス仲介業者等に関する内閣府令\",\"LawNameKana\":\"きんゆうさーびすちゅうかいぎょうしゃとうにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20210602,\"AmendName\":\"保険業法施行規則及び金融サービス仲介業者等に関する内閣府令の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第十四号\",\"AmendPromulgationDate\":20260330,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"503M60000002035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60000002035_20260601_508M60000002014\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

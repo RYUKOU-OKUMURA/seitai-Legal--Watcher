@@ -1,0 +1,14 @@
+{
+  "changeId": "a77de912-f757-46e6-ab02-1a7e70e37115",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#329AC0000000061",
+  "title": "関税法",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第六十一号\",\"LawName\":\"関税法\",\"LawNameKana\":\"かんぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540402,\"AmendName\":\"関税定率法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000061_20260601_508AC0000000005\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

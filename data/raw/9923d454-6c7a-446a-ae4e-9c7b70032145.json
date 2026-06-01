@@ -1,0 +1,14 @@
+{
+  "changeId": "9923d454-6c7a-446a-ae4e-9c7b70032145",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60000800007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#505M60000800007",
+  "title": "自動車損害賠償保障法に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年国土交通省令第七号\",\"LawName\":\"自動車損害賠償保障法に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則\",\"LawNameKana\":\"じどうしゃそんがいばいしょうほしょうほうにかかるみんかんじぎょうしゃとうがおこなうしょめんのほぞんとうにおけるじょうほうつうしんのぎじゅつのりようにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20230308,\"AmendName\":\"自動車損害賠償保障法に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十三号\",\"AmendPromulgationDate\":20260415,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"505M60000800007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60000800007_20260601_508M60000800053\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

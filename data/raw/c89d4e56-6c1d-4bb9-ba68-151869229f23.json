@@ -1,0 +1,14 @@
+{
+  "changeId": "c89d4e56-6c1d-4bb9-ba68-151869229f23",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332M50000100016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#332M50000100016",
+  "title": "保険薬局及び保険薬剤師療養担当規則",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十二年厚生省令第十六号\",\"LawName\":\"保険薬局及び保険薬剤師療養担当規則\",\"LawNameKana\":\"ほけんやっきょくおよびほけんやくざいしりょうようたんとうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19570430,\"AmendName\":\"保険医療機関及び保険医療養担当規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第二十一号\",\"AmendPromulgationDate\":20260305,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"332M50000100016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332M50000100016_20260601_508M60000100021\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

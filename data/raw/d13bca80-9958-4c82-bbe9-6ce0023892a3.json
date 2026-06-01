@@ -1,0 +1,14 @@
+{
+  "changeId": "d13bca80-9958-4c82-bbe9-6ce0023892a3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60001F9A001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#423M60001F9A001",
+  "title": "認可特定保険業者等に関する命令",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十三年内閣府・総務省・法務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"LawName\":\"認可特定保険業者等に関する命令\",\"LawNameKana\":\"にんかとくていほけんぎょうしゃとうにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20110513,\"AmendName\":\"認可特定保険業者等に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・法務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"AmendPromulgationDate\":20260330,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"423M60001F9A001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60001F9A001_20260601_508M60001F9A001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

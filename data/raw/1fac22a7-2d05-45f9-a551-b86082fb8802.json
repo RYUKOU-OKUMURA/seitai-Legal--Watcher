@@ -1,0 +1,14 @@
+{
+  "changeId": "1fac22a7-2d05-45f9-a551-b86082fb8802",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260601#342AC0000000023",
+  "title": "印紙税法",
+  "detectedAt": "2026-06-01T06:45:42.277Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第二十三号\",\"LawName\":\"印紙税法\",\"LawNameKana\":\"いんしぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670531,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第十三号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000023_20260601_507AC0000000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
