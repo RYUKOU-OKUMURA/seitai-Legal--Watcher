@@ -1,0 +1,14 @@
+{
+  "changeId": "c68fc1e1-2f2f-4a36-9e77-a4c8f3c0ab53",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:502M60000200047",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#502M60000200047",
+  "title": "漁業法施行規則",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和二年農林水産省令第四十七号\",\"LawName\":\"漁業法施行規則\",\"LawNameKana\":\"ぎょぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20200708,\"AmendName\":\"土地改良法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"502M60000200047\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=502M60000200047_20260521_508M60000200040\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "0e6d6abb-3545-4cb4-a397-97f51f94cacf",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:353M50000800025",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#353M50000800025",
+  "title": "成田国際空港の安全確保に関する緊急措置法施行規則",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十三年運輸省令第二十五号\",\"LawName\":\"成田国際空港の安全確保に関する緊急措置法施行規則\",\"LawNameKana\":\"なりたこくさいくうこうのあんぜんかくほにかんするきんきゅうそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19780513,\"AmendName\":\"公示送達等の電子化のための国土交通省関係省令の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十七号\",\"AmendPromulgationDate\":20260518,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"353M50000800025\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=353M50000800025_20260521_508M60000800057\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

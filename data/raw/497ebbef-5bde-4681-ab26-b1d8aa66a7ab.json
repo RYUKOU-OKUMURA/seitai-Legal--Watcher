@@ -1,0 +1,14 @@
+{
+  "changeId": "497ebbef-5bde-4681-ab26-b1d8aa66a7ab",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#413M60000800022",
+  "title": "北海道開発局組織規則",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第二十二号\",\"LawName\":\"北海道開発局組織規則\",\"LawNameKana\":\"ほっかいどうかいはつきょくそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"気象業務法及び水防法の一部を改正する法律の施行に伴う国土交通省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年国土交通省令第五十六号\",\"AmendPromulgationDate\":20260515,\"EnforcementDate\":20260529,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800022_20260529_508M60000800056\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

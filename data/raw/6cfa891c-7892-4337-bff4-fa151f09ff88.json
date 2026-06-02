@@ -1,0 +1,14 @@
+{
+  "changeId": "6cfa891c-7892-4337-bff4-fa151f09ff88",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363M50000200004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#363M50000200004",
+  "title": "集落地域整備法施行規則",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十三年農林水産省令第四号\",\"LawName\":\"集落地域整備法施行規則\",\"LawNameKana\":\"しゅうらくちいきせいびほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19880223,\"AmendName\":\"土地改良法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"363M50000200004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363M50000200004_20260521_508M60000200040\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

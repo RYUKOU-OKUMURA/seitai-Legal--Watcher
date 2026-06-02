@@ -1,0 +1,14 @@
+{
+  "changeId": "4c87c97b-5563-4ac9-b1ec-da1265d2259c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000226",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#325AC0000000226",
+  "title": "地方税法",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百二十六号\",\"LawName\":\"地方税法\",\"LawNameKana\":\"ちほうぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500731,\"AmendName\":\"地方税法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"都市再生特別措置法等の一部を改正する法律（令和八年法律第二十三号）附則第一条第二号に掲げる規定の施行の日\",\"LawId\":\"325AC0000000226\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000226_20270526_508AC0000000002\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

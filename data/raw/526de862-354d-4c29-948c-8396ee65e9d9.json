@@ -1,0 +1,14 @@
+{
+  "changeId": "526de862-354d-4c29-948c-8396ee65e9d9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411M50004F02002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260602#411M50004F02002",
+  "title": "特定商取引に関する法律の規定に基づく立入検査をする職員の携帯する身分を示す証明書の様式を定める命令",
+  "detectedAt": "2026-06-02T06:27:34.423Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年総理府・厚生省・農林水産省・通商産業省・運輸省・建設省令第二号\",\"LawName\":\"特定商取引に関する法律の規定に基づく立入検査をする職員の携帯する身分を示す証明書の様式を定める命令\",\"LawNameKana\":\"とくていしょうとりひきにかんするほうりつのきていにもとづくたちいりけんさをするしょくいんのけいたいするみぶんをしめすしょうめいしょのようしきをさだめるめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19991220,\"AmendName\":\"特定商取引に関する法律の規定に基づく立入検査をする職員の携帯する身分を示す証明書の様式を定める命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省・農林水産省・経済産業省・国土交通省令第一号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20260520,\"EnforcementComment\":\"\",\"LawId\":\"411M50004F02002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50004F02002_20260520_508M60000F02001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
