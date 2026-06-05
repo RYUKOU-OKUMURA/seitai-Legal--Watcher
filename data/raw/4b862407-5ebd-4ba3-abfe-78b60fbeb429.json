@@ -1,0 +1,14 @@
+{
+  "changeId": "4b862407-5ebd-4ba3-abfe-78b60fbeb429",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:348AC1000000105",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#348AC1000000105",
+  "title": "動物の愛護及び管理に関する法律",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十八年法律第百五号\",\"LawName\":\"動物の愛護及び管理に関する法律\",\"LawNameKana\":\"どうぶつのあいごおよびかんりにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19731001,\"AmendName\":\"外国為替及び外国貿易法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"348AC1000000105\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=348AC1000000105_20270604_508AC0000000030\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

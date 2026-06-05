@@ -1,0 +1,14 @@
+{
+  "changeId": "61dd64c8-72f5-4390-bc51-a48c13c18955",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0100000113",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#423AC0100000113",
+  "title": "株式会社東日本大震災事業者再生支援機構法",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百十三号\",\"LawName\":\"株式会社東日本大震災事業者再生支援機構法\",\"LawNameKana\":\"かぶしきがいしゃひがしにほんだいしんさいじぎょうしゃさいせいしえんきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111128,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三月を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0100000113\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0100000113_20260904_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

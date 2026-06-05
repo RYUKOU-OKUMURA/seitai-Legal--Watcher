@@ -1,0 +1,14 @@
+{
+  "changeId": "5d3498b0-ad66-47be-a3d2-914ea8369b70",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#423AC0000000081",
+  "title": "総合特別区域法",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第八十一号\",\"LawName\":\"総合特別区域法\",\"LawNameKana\":\"そうごうとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110629,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000081_20261204_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

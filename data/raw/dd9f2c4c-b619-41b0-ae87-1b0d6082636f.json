@@ -1,0 +1,14 @@
+{
+  "changeId": "dd9f2c4c-b619-41b0-ae87-1b0d6082636f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC0000000228",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#324AC0000000228",
+  "title": "外国為替及び外国貿易法",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百二十八号\",\"LawName\":\"外国為替及び外国貿易法\",\"LawNameKana\":\"がいこくかわせおよびがいこくぼうえきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19491201,\"AmendName\":\"外国為替及び外国貿易法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"324AC0000000228\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000228_20270604_508AC0000000030\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "8e32ca57-5885-4955-9a5b-8a1870a3ff14",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409AC0000000123",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#409AC0000000123",
+  "title": "介護保険法",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成九年法律第百二十三号\",\"LawName\":\"介護保険法\",\"LawNameKana\":\"かいごほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19971217,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"409AC0000000123\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409AC0000000123_20270401_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

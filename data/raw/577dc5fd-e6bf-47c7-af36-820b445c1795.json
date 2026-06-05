@@ -1,0 +1,14 @@
+{
+  "changeId": "577dc5fd-e6bf-47c7-af36-820b445c1795",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409AC0000000048",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260605#409AC0000000048",
+  "title": "日本私立学校振興・共済事業団法",
+  "detectedAt": "2026-06-05T06:12:43.490Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成九年法律第四十八号\",\"LawName\":\"日本私立学校振興・共済事業団法\",\"LawNameKana\":\"にほんしりつがっこうしんこうきょうさいじぎょうだんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19970509,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"409AC0000000048\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409AC0000000048_20280604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
