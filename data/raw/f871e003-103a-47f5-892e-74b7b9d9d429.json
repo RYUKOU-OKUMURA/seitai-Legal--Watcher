@@ -1,0 +1,14 @@
+{
+  "changeId": "f871e003-103a-47f5-892e-74b7b9d9d429",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:348M50000002062",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260608#348M50000002062",
+  "title": "自然環境保全法施行規則",
+  "detectedAt": "2026-06-08T06:28:08.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十八年総理府令第六十二号\",\"LawName\":\"自然環境保全法施行規則\",\"LawNameKana\":\"しぜんかんきょうほぜんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19731109,\"AmendName\":\"自然環境保全法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第十七号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260522,\"EnforcementComment\":\"\",\"LawId\":\"348M50000002062\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=348M50000002062_20260522_508M60001000017\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

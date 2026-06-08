@@ -1,0 +1,14 @@
+{
+  "changeId": "5a32925b-03fa-4953-b295-28ededae3991",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60000042003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260608#505M60000042003",
+  "title": "為替取引分析業者に関する命令",
+  "detectedAt": "2026-06-08T06:28:08.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年内閣府・財務省令第三号\",\"LawName\":\"為替取引分析業者に関する命令\",\"LawNameKana\":\"かわせとりひきぶんせきぎょうしゃにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20230526,\"AmendName\":\"為替取引分析業者に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・財務省令第二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"505M60000042003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60000042003_20260601_508M60000042002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
