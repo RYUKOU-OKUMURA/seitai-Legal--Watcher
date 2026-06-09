@@ -1,0 +1,14 @@
+{
+  "changeId": "c78d19f6-84c7-4383-842e-7d7ad9a81017",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000119",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260609#329AC0000000119",
+  "title": "土地区画整理法",
+  "detectedAt": "2026-06-09T06:00:42.691Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百十九号\",\"LawName\":\"土地区画整理法\",\"LawNameKana\":\"とちくかくせいりほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540520,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000119\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000119_20261001_508AC0000000027\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

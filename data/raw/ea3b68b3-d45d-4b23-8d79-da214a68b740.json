@@ -1,0 +1,14 @@
+{
+  "changeId": "ea3b68b3-d45d-4b23-8d79-da214a68b740",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60000002061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260609#505M60000002061",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令",
+  "detectedAt": "2026-06-09T06:00:42.691Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年内閣府令第六十一号\",\"LawName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令\",\"LawNameKana\":\"けいざいしさくをいったいてきにこうずることによるあんぜんほしょうのかくほのすいしんにかんするほうりつにもとづくとくていしゃかいきばんじぎょうしゃのしていとうにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20230809,\"AmendName\":\"資金移動業者に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十一号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"505M60000002061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60000002061_20260601_508M60000002051\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

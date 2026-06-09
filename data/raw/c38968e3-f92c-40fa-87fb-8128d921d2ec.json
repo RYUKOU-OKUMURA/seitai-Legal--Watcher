@@ -1,0 +1,14 @@
+{
+  "changeId": "c38968e3-f92c-40fa-87fb-8128d921d2ec",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328CO0000000242",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260609#328CO0000000242",
+  "title": "職業安定法施行令",
+  "detectedAt": "2026-06-09T06:00:42.691Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十八年政令第二百四十二号\",\"LawName\":\"職業安定法施行令\",\"LawNameKana\":\"しょくぎょうあんていほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19530831,\"AmendName\":\"労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律等の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百八十一号\",\"AmendPromulgationDate\":20260527,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"328CO0000000242\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328CO0000000242_20261001_508CO0000000181\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

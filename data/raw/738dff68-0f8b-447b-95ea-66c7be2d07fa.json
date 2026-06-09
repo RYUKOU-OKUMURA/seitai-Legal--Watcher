@@ -1,0 +1,14 @@
+{
+  "changeId": "738dff68-0f8b-447b-95ea-66c7be2d07fa",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411M50000200031",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260609#411M50000200031",
+  "title": "持続的養殖生産確保法施行規則",
+  "detectedAt": "2026-06-09T06:00:42.691Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年農林水産省令第三十一号\",\"LawName\":\"持続的養殖生産確保法施行規則\",\"LawNameKana\":\"じぞくてきようしょくせいさんかくほほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19990521,\"AmendName\":\"水産資源保護法施行規則及び持続的養殖生産確保法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第十三号\",\"AmendPromulgationDate\":20260309,\"EnforcementDate\":20260609,\"EnforcementComment\":\"\",\"LawId\":\"411M50000200031\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000200031_20260609_508M60000200013\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ae384b73-9472-4072-a2d5-a06ae171cd99",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405M50000040010",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260609#405M50000040010",
+  "title": "協同組合による金融事業に関する法律施行規則",
+  "detectedAt": "2026-06-09T06:00:42.691Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成五年大蔵省令第十号\",\"LawName\":\"協同組合による金融事業に関する法律施行規則\",\"LawNameKana\":\"きょうどうくみあいによるきんゆうじぎょうにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19930303,\"AmendName\":\"資金移動業者に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十一号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"405M50000040010\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405M50000040010_20260601_508M60000002051\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
