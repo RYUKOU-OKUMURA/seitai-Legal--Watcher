@@ -1,0 +1,14 @@
+{
+  "changeId": "e11e657a-49bf-4802-bdff-1b9f2c99a947",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000002023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260610#329M50000002023",
+  "title": "地方税法施行規則",
+  "detectedAt": "2026-06-10T06:13:35.022Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則及び地方税法施行規則の一部を改正する等の省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第四十四号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20261211_508M60000008044\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

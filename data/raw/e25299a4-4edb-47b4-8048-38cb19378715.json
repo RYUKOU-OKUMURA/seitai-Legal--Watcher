@@ -1,0 +1,15 @@
+{
+  "changeId": "e25299a4-4edb-47b4-8048-38cb19378715",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410CO0000000178",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260610#410CO0000000178",
+  "title": "出入国管理及び難民認定法施行令",
+  "detectedAt": "2026-06-10T06:13:35.022Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第百七十八号\",\"LawName\":\"出入国管理及び難民認定法施行令\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19980522,\"AmendName\":\"労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律等の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百八十一号\",\"AmendPromulgationDate\":20260527,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000178\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000178_20261001_508CO0000000181\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 出入国管理及び難民認定法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第百七十八号\",\"LawName\":\"出入国管理及び難民認定法施行令\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19980522,\"AmendName\":\"旅券法施行令及び出入国管理及び難民認定法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百七十七号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000178\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000178_20260701_508CO0000000177\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第百七十八号\",\"LawName\":\"出入国管理及び難民認定法施行令\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19980522,\"AmendName\":\"労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律等の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百八十一号\",\"AmendPromulgationDate\":20260527,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000178\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000178_20261001_508CO0000000181\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
