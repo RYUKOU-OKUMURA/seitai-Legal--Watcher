@@ -1,0 +1,14 @@
+{
+  "changeId": "deb031e7-61e8-4180-b649-19ef23763220",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:357M50000040015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260611#357M50000040015",
+  "title": "信用金庫法施行規則",
+  "detectedAt": "2026-06-11T06:40:04.183Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十七年大蔵省令第十五号\",\"LawName\":\"信用金庫法施行規則\",\"LawNameKana\":\"しんようきんこほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19820331,\"AmendName\":\"資金移動業者に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十一号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"357M50000040015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357M50000040015_20260601_508M60000002051\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "af02e46a-29d4-4707-8a51-57c7f0eabecb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000202016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260611#413M60000202016",
+  "title": "農林中央金庫法施行規則",
+  "detectedAt": "2026-06-11T06:40:04.183Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府・農林水産省令第十六号\",\"LawName\":\"農林中央金庫法施行規則\",\"LawNameKana\":\"のうりんちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010913,\"AmendName\":\"農業協同組合及び農業協同組合連合会の信用事業に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・農林水産省令第五号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"413M60000202016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000202016_20260601_508M60000202005\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

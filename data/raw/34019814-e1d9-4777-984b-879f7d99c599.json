@@ -1,0 +1,15 @@
+{
+  "changeId": "34019814-e1d9-4777-984b-879f7d99c599",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:344M50010000045",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260611#344M50010000045",
+  "title": "農業振興地域の整備に関する法律施行規則",
+  "detectedAt": "2026-06-11T06:40:04.183Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年農林省令第四十五号\",\"LawName\":\"農業振興地域の整備に関する法律施行規則\",\"LawNameKana\":\"のうぎょうしんこうちいきのせいびにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19690926,\"AmendName\":\"農地法施行規則及び農業振興地域の整備に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十一号\",\"AmendPromulgationDate\":20260526,\"EnforcementDate\":20260527,\"EnforcementComment\":\"\",\"LawId\":\"344M50010000045\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50010000045_20260527_508M60000200041\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 農業振興地域の整備に関する法律施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年農林省令第四十五号\",\"LawName\":\"農業振興地域の整備に関する法律施行規則\",\"LawNameKana\":\"のうぎょうしんこうちいきのせいびにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19690926,\"AmendName\":\"土地改良法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20260521,\"EnforcementComment\":\"\",\"LawId\":\"344M50010000045\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50010000045_20260521_508M60000200040\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年農林省令第四十五号\",\"LawName\":\"農業振興地域の整備に関する法律施行規則\",\"LawNameKana\":\"のうぎょうしんこうちいきのせいびにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19690926,\"AmendName\":\"農地法施行規則及び農業振興地域の整備に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十一号\",\"AmendPromulgationDate\":20260526,\"EnforcementDate\":20260527,\"EnforcementComment\":\"\",\"LawId\":\"344M50010000045\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50010000045_20260527_508M60000200041\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

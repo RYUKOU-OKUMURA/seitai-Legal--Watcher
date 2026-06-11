@@ -1,0 +1,14 @@
+{
+  "changeId": "ecbdf944-06da-4885-b167-733761928e74",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:422M60000002004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260611#422M60000002004",
+  "title": "資金移動業者に関する内閣府令",
+  "detectedAt": "2026-06-11T06:40:04.183Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十二年内閣府令第四号\",\"LawName\":\"資金移動業者に関する内閣府令\",\"LawNameKana\":\"しきんいどうぎょうしゃにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20100301,\"AmendName\":\"資金移動業者に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十一号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"422M60000002004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=422M60000002004_20260601_508M60000002051\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
