@@ -2,12 +2,12 @@ export function normalizeUrl(url: string): string {
   try {
     const parsed = new URL(url.trim());
     parsed.hash = "";
-    const params = parsed.searchParams;
-    const sorted = [...params.keys()].sort();
+    const entries = [...parsed.searchParams.entries()].sort(([a], [b]) =>
+      a < b ? -1 : a > b ? 1 : 0,
+    );
     parsed.search = "";
-    for (const key of sorted) {
-      const val = params.get(key);
-      if (val !== null) parsed.searchParams.append(key, val);
+    for (const [key, val] of entries) {
+      parsed.searchParams.append(key, val);
     }
     let path = parsed.pathname;
     if (path.length > 1 && path.endsWith("/")) {

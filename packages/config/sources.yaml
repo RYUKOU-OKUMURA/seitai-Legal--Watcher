@@ -132,13 +132,15 @@ sources:
     alwaysAnalyze: false
     enabled: false
 
+  # トップページの号数変化しか拾えず毎日ゲート落ちするため無効化。
+  # 官報の中身（目次・本文）監視は将来課題。
   - id: kanpo-html
     name: 官報発行サイト
     type: html
     url: https://www.kanpo.go.jp/
     weight: medium
     alwaysAnalyze: false
-    enabled: true
+    enabled: false
     contentSelector: "main"
     followPdfLinks: false
 

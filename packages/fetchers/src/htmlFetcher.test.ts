@@ -26,7 +26,7 @@ describe("extractPdfLinks", () => {
     `);
 
     expect(extractPdfLinks($, "https://example.com/base/page.html", "main")).toEqual([
-      "https://example.com/base/b.pdf",
+      "https://example.com/base/b.pdf?download=1",
       "https://example.com/files/a.pdf",
     ]);
   });

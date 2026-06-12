@@ -19,10 +19,12 @@ export function ruleGate(
     return { pass: false, reasons: ["fetch_failure"] };
   }
 
-  if (alwaysAnalyze || weight === "high") {
-    return { pass: true, reasons: ["high_weight_or_always_analyze"] };
+  if (alwaysAnalyze) {
+    return { pass: true, reasons: ["always_analyze"] };
   }
 
+  // high weight でも一覧の並び替え等で毎日 LLM が走るノイズを避けるため、
+  // 無条件通過は alwaysAnalyze のみとし、キーワード一致を必須にする
   const haystack = `${change.title}\n${change.bodyExcerpt}\n${change.diffText ?? ""}`;
   const matches = countKeywordMatches(haystack, keywords);
 
@@ -30,9 +32,5 @@ export function ruleGate(
     return { pass: true, reasons: [`keyword_match:${matches}`] };
   }
 
-  if (weight === "low") {
-    return { pass: false, reasons: ["low_weight,no_keyword"] };
-  }
-
-  return { pass: false, reasons: ["medium_weight,no_keyword"] };
+  return { pass: false, reasons: [`${weight}_weight,no_keyword`] };
 }

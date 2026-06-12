@@ -10,7 +10,8 @@ describe("loadConfig", () => {
         expect.objectContaining({
           id: "kanpo-html",
           url: "https://www.kanpo.go.jp/",
-          enabled: true,
+          // トップページの号数変化しか拾えないため無効化（中身監視は将来課題）
+          enabled: false,
           contentSelector: "main",
           followPdfLinks: false,
         }),

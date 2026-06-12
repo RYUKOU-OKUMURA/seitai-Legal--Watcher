@@ -74,7 +74,10 @@ function resultMessage(data: unknown): string {
 function isNoResultResponse(source: WatchTargetConfig, res: Response, data: unknown): boolean {
   if (source.id !== "egov-law-api") return false;
   if (res.status !== 404) return false;
-  return resultMessage(data).includes("取得結果が０件でした");
+  if (resultMessage(data).includes("取得結果が０件でした")) return true;
+  // API の文言変更に備え、エラー構造（Result.Code が非0）を返す 404 も 0 件扱いにする
+  const code = getByPath(data, "DataRoot.Result.Code");
+  return code !== undefined && code !== null && String(code) !== "0";
 }
 
 export async function fetchApiSnapshots(

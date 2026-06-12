@@ -93,6 +93,26 @@ export async function runFetchCycle(
           );
         }
       }
+      if (snapshots.length === 0) {
+        const note = "取得0件（フィード形式不一致・パース失敗の可能性）";
+        await store.appendFetchLog({
+          at: fetchedAt,
+          sourceId: source.id,
+          targetKey: `source:${source.id}`,
+          changeType: "empty",
+          note,
+        });
+        sourceRuns.push({
+          sourceId: source.id,
+          sourceName: source.name,
+          status: "empty",
+          url: resolved.url,
+          snapshotCount: 0,
+          changeCount: 0,
+          note,
+        });
+        continue;
+      }
       const failedSnapshot = snapshots.find(
         (snapshot) => snapshot.httpStatus < 200 || snapshot.httpStatus >= 400,
       );

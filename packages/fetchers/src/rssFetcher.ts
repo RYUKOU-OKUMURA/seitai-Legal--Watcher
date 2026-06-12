@@ -21,6 +21,19 @@ function asArray<T>(val: T | T[] | undefined): T[] {
 
 function extractItems(parsed: unknown): RssItem[] {
   const root = parsed as Record<string, unknown>;
+
+  // RSS 1.0 (RDF): e-Gov パブコメ等。<item> は channel の兄弟要素
+  const rdf = root["rdf:RDF"] as Record<string, unknown> | undefined;
+  if (rdf) {
+    const items = asArray(rdf.item as Record<string, unknown> | Record<string, unknown>[]);
+    return items.map((item) => ({
+      title: String(item.title ?? ""),
+      link: String(item.link ?? ""),
+      pubDate: String(item["dc:date"] ?? item.pubDate ?? ""),
+      description: String(item.description ?? ""),
+    }));
+  }
+
   const rss = (root.rss ?? root.feed) as Record<string, unknown> | undefined;
   if (!rss) return [];
 

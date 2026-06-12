@@ -38,8 +38,10 @@ export function buildDiffText(
     .map((pdf) => `PDF_ERROR ${pdf.url}\n${pdf.error}`)
     .sort()
     .join("\n");
+  // prev.bodyExcerpt は保存時に EXCERPT_MAX_CHARS で切り詰め済みのため、
+  // 新側も同じ長さに切らないと長文ページで末尾が偽の追加差分になる
   const oldText = `${prev.title ?? ""}\n${prev.bodyExcerpt}\n${(prev.links ?? []).join("\n")}\n${oldPdfs}\n${oldPdfErrors}`;
-  const newText = `${current.title}\n${current.bodyText}\n${current.links.join("\n")}\n${newPdfs}\n${newPdfErrors}`;
+  const newText = `${current.title}\n${truncateExcerpt(current.bodyText, EXCERPT_MAX_CHARS)}\n${current.links.join("\n")}\n${newPdfs}\n${newPdfErrors}`;
   if (oldText === newText) return undefined;
   return createTwoFilesPatch("previous", "current", oldText, newText) ?? undefined;
 }

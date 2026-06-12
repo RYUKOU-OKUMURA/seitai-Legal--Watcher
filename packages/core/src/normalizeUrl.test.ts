@@ -13,4 +13,10 @@ describe("normalizeUrl", () => {
     const b = normalizeUrl("https://example.com?a=1&b=2");
     expect(a).toBe(b);
   });
+
+  it("preserves all values of duplicate query keys", () => {
+    expect(normalizeUrl("https://example.com?k=1&k=2&a=0")).toBe(
+      "https://example.com/?a=0&k=1&k=2",
+    );
+  });
 });

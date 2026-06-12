@@ -196,6 +196,46 @@ describe("runFetchCycle", () => {
     });
   });
 
+  it("records sources yielding zero snapshots as empty source runs", async () => {
+    // RSS 2.0 でも Atom でも RDF でもない XML → snapshot 0件
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(`<?xml version="1.0"?><unknown><thing/></unknown>`, {
+        status: 200,
+        headers: { "content-type": "application/xml" },
+      }),
+    );
+    const store = new MemoryStateStore();
+    const source: WatchTargetConfig = {
+      id: "rss-source",
+      name: "RSS source",
+      type: "rss",
+      url: "https://example.com/feed.xml",
+      weight: "medium",
+      alwaysAnalyze: false,
+      enabled: true,
+    };
+
+    const result = await runFetchCycle(
+      [source],
+      store,
+      "2026-06-12T00:05:00.000Z",
+    );
+
+    expect(result.changes).toHaveLength(0);
+    expect(store.fetchLogs[0]).toMatchObject({
+      sourceId: "rss-source",
+      targetKey: "source:rss-source",
+      changeType: "empty",
+    });
+    expect(result.sourceRuns[0]).toMatchObject({
+      sourceId: "rss-source",
+      status: "empty",
+      snapshotCount: 0,
+      changeCount: 0,
+    });
+    expect(result.sourceRuns[0]?.note).toContain("取得0件");
+  });
+
   it("records RSS non-2xx responses as failed source runs", async () => {
     vi.spyOn(globalThis, "fetch").mockResolvedValue(
       new Response("blocked", { status: 403 }),

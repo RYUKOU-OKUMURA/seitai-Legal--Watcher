@@ -1,9 +1,41 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { fetchApiSnapshots } from "./apiFetcher.js";
+import { ApiEmptyResultError, fetchApiSnapshots } from "./apiFetcher.js";
 
 describe("fetchApiSnapshots", () => {
   afterEach(() => {
     vi.restoreAllMocks();
+  });
+
+  it("treats e-Gov 404 with nonzero Result.Code as empty even if the message wording changes", async () => {
+    vi.spyOn(globalThis, "fetch").mockResolvedValue(
+      new Response(
+        `<?xml version="1.0" encoding="UTF-8"?>
+        <DataRoot>
+          <Result>
+            <Code>1</Code>
+            <Message>該当するデータが見つかりません。</Message>
+          </Result>
+        </DataRoot>`,
+        { status: 404, headers: { "content-type": "text/xml" } },
+      ),
+    );
+
+    await expect(
+      fetchApiSnapshots(
+        {
+          id: "egov-law-api",
+          name: "e-Gov",
+          type: "api",
+          url: "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612",
+          weight: "medium",
+          alwaysAnalyze: false,
+          enabled: true,
+          stableIdField: "LawId",
+          itemsPath: "DataRoot.ApplData.LawNameListInfo",
+        },
+        "2026-06-12T00:00:00.000Z",
+      ),
+    ).rejects.toBeInstanceOf(ApiEmptyResultError);
   });
 
   it("extracts e-Gov XML update law items by path and stable id", async () => {

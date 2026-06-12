@@ -17,14 +17,32 @@ const baseChange: DetectedChange = {
 };
 
 describe("ruleGate", () => {
-  it("passes high weight without keywords", () => {
+  it("fails high weight without keywords", () => {
     const r = ruleGate(
       { ...baseChange, sourceWeight: "high" },
-      [],
+      ["療養費"],
+      "high",
+      false,
+    );
+    expect(r.pass).toBe(false);
+    expect(r.reasons).toContain("high_weight,no_keyword");
+  });
+
+  it("passes high weight with keyword match", () => {
+    const r = ruleGate(
+      { ...baseChange, sourceWeight: "high", title: "柔道整復療養費の見直し" },
+      ["療養費"],
       "high",
       false,
     );
     expect(r.pass).toBe(true);
+    expect(r.reasons).toContain("keyword_match:1");
+  });
+
+  it("passes without keywords when alwaysAnalyze is set", () => {
+    const r = ruleGate(baseChange, ["療養費"], "low", true);
+    expect(r.pass).toBe(true);
+    expect(r.reasons).toContain("always_analyze");
   });
 
   it("fails low weight without keywords", () => {
