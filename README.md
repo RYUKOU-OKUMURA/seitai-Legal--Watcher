@@ -69,6 +69,9 @@ pnpm daily
 pnpm fetch
 
 # data/raw と llm-log から日次レポートを再生成
+# 注意: ルールゲートは「現行の」keywords.yaml / sources.yaml で再評価される。
+# 過去日のレポートは生成時点の設定のスナップショットであり、設定変更後の
+# 再生成では未分析の内訳・理由が当時と変わりうる（分析済み項目は保持される）。
 pnpm report -- --date 2026-05-26
 
 # LLM 分析失敗分だけ raw snapshot から再分析

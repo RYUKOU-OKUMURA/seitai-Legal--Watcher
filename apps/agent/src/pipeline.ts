@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadConfig } from "@seitai-legal-watch/config";
+import { loadConfig, resolveKeywordsForSource } from "@seitai-legal-watch/config";
 import type { Analysis, DailyRunResult, DetectedChange } from "@seitai-legal-watch/core";
 import { ruleGate } from "@seitai-legal-watch/core";
 import {
@@ -66,7 +66,7 @@ export async function runDailyPipeline(
     const source = config.enabledSources.find((s) => s.id === change.sourceId);
     const gate = ruleGate(
       change,
-      config.keywords,
+      resolveKeywordsForSource(source, config),
       change.sourceWeight,
       source?.alwaysAnalyze ?? false,
     );

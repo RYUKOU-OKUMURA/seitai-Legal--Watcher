@@ -212,6 +212,11 @@ describe("generateDailyReportMarkdown", () => {
         "",
         "対象日: 2026-05-26",
         "",
+        "## 本日の結論",
+        "",
+        "- 関連度: high 1件 / medium 0件 / low 0件",
+        "- 要専門家確認: 1件",
+        "",
         "## 取得・分析状況",
         "",
         "- ソース取得OK: 不明",
@@ -271,7 +276,12 @@ describe("generateDailyReportMarkdown", () => {
         "",
         "## 参考・未分析",
         "",
-        "ルールゲートにより LLM 分析していません。キーワード・ソース重みの見直しを検討してください。",
+        "ルールゲートにより LLM 分析していません（1件）。",
+        "",
+        "- ソース別: S 1件",
+        "",
+        "<details>",
+        "<summary>明細を表示</summary>",
         "",
         "- 未分析タイトル",
         "  - 原典: https://example.com/gated",
@@ -279,12 +289,83 @@ describe("generateDailyReportMarkdown", () => {
         "  - PDF抜粋あり: 1件",
         "  - PDF抽出失敗: 1件",
         "",
+        "</details>",
+        "",
         "---",
         "",
         "※ 本レポートは自動生成です。法的判断の断定ではありません。原典を必ずご確認ください。",
         "",
       ].join("\n"),
     );
+  });
+
+  it("renders low relevance analyses compactly", () => {
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      result: {
+        changes: [
+          change({
+            pdfExcerpts: [
+              {
+                url: "https://example.com/a.pdf",
+                textExcerpt: "PDF本文抜粋",
+                contentHash: "hash",
+              },
+            ],
+          }),
+        ],
+        analyses: [
+          analysis({
+            relevance: "low",
+            importance: "low",
+            unknowns: ["不明点1"],
+          }),
+        ],
+        gatedOut: [],
+        failures: [],
+        analysisFailures: [],
+      },
+    });
+
+    expect(md).toContain("**要約**");
+    expect(md).toContain("- 関連度: low");
+    expect(md).not.toContain("実務影響");
+    expect(md).not.toContain("広告・LP・SNS");
+    expect(md).not.toContain("確認ポイント**");
+    expect(md).not.toContain("不明点1");
+    expect(md).not.toContain("PDF抜粋");
+    expect(md).toContain("業態に直接影響する更新はありません");
+    expect(md).toContain("- 関連度: high 0件 / medium 0件 / low 1件");
+  });
+
+  it("keeps full detail and excerpts for medium relevance analyses", () => {
+    const md = generateDailyReportMarkdown({
+      date: "2026-05-26",
+      checkpointsHeading: "確認ポイント",
+      result: {
+        changes: [
+          change({
+            pdfExcerpts: [
+              {
+                url: "https://example.com/a.pdf",
+                textExcerpt: "PDF本文抜粋",
+                contentHash: "hash",
+              },
+            ],
+          }),
+        ],
+        analyses: [analysis({ relevance: "medium", importance: "medium" })],
+        gatedOut: [],
+        failures: [],
+        analysisFailures: [],
+      },
+    });
+
+    expect(md).toContain("実務影響");
+    expect(md).toContain("PDF本文抜粋");
+    expect(md).toContain("確認1");
+    expect(md).not.toContain("業態に直接影響する更新はありません");
   });
 
   it("renders empty day message", () => {

@@ -42,6 +42,7 @@ export interface WatchTargetConfig {
   followPdfLinks?: boolean;
   pdfLinkSelector?: string;
   pdfMaxLinks?: number;
+  keywordProfile?: string;
 }
 
 export interface TargetState {

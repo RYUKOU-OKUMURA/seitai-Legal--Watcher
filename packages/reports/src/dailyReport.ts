@@ -150,6 +150,25 @@ function appendBootstrapSection(
   }
 }
 
+function appendConclusionSection(lines: string[], sorted: Analysis[]): void {
+  const byRelevance = (rel: string): number =>
+    sorted.filter((a) => a.relevance === rel).length;
+  const high = byRelevance("high");
+  const medium = byRelevance("medium");
+  const low = sorted.length - high - medium;
+  const expertCount = sorted.filter((a) => a.needsExpertReview).length;
+
+  lines.push("## 本日の結論", "");
+  if (high + medium === 0) {
+    lines.push("業態に直接影響する更新はありません。", "");
+  }
+  lines.push(`- 関連度: high ${high}件 / medium ${medium}件 / low ${low}件`);
+  if (expertCount > 0) {
+    lines.push(`- 要専門家確認: ${expertCount}件`);
+  }
+  lines.push("");
+}
+
 function appendRunStatusSection(
   lines: string[],
   result: DailyReportInput["result"],
@@ -208,6 +227,15 @@ function appendAnalyzedSection(
         `**要約**`,
         a.summary,
         "",
+      );
+      // 関連度 low は要約+原典のみのコンパクト表示。フル表示は medium 以上。
+      if (a.relevance === "low") {
+        if (a.needsExpertReview) {
+          lines.push("> 要専門家確認", "");
+        }
+        continue;
+      }
+      lines.push(
         `**実務影響（要確認）**`,
         a.impact,
         "",
@@ -278,7 +306,18 @@ function appendGatedOutSection(
   if (result.gatedOut.length > 0) {
     lines.push("## 参考・未分析", "");
     lines.push(
-      "ルールゲートにより LLM 分析していません。キーワード・ソース重みの見直しを検討してください。",
+      `ルールゲートにより LLM 分析していません（${result.gatedOut.length}件）。`,
+      "",
+    );
+    const bySource = new Map<string, number>();
+    for (const g of result.gatedOut) {
+      bySource.set(g.sourceName, (bySource.get(g.sourceName) ?? 0) + 1);
+    }
+    lines.push(
+      `- ソース別: ${[...bySource.entries()].map(([name, count]) => `${name} ${count}件`).join("、")}`,
+      "",
+      "<details>",
+      "<summary>明細を表示</summary>",
       "",
     );
     for (const g of result.gatedOut) {
@@ -298,6 +337,7 @@ function appendGatedOutSection(
       }
       lines.push("");
     }
+    lines.push("</details>", "");
   }
 }
 
@@ -330,6 +370,7 @@ export function generateDailyReportMarkdown(input: DailyReportInput): string {
     return lines.join("\n");
   }
 
+  appendConclusionSection(lines, sorted);
   appendRunStatusSection(lines, result);
   appendAnalyzedSection(lines, input, contentChanges, sorted);
   appendAnalysisFailuresSection(lines, result);

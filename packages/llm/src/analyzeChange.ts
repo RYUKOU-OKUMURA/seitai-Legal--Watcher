@@ -34,7 +34,8 @@ function mockAnalysis(change: DetectedChange): Analysis {
 
 export async function analyzeChange(
   change: DetectedChange,
-  gate: GateResult,
+  // ゲート結果は内部メタ情報のため LLM 入力に含めない（unknowns への混入防止）
+  _gate: GateResult,
   options?: { cwd?: string; apiKey?: string },
 ): Promise<Analysis> {
   if (process.env.LEGAL_WATCH_MOCK_LLM === "true") {
@@ -50,7 +51,6 @@ export async function analyzeChange(
     title: change.title,
     sourceName: change.sourceName,
     url: change.url,
-    changeType: change.changeType,
     diffText: change.diffText,
     bodyExcerpt: change.bodyExcerpt,
     pdfExcerpts: change.pdfExcerpts?.map((pdf) => ({
@@ -61,7 +61,6 @@ export async function analyzeChange(
     pdfErrors: change.pdfErrors,
     linkedExcerpts: change.linkedExcerpts,
     linkedErrors: change.linkedErrors,
-    gateReasons: gate.reasons,
   });
 
   const fullPrompt = `${DAILY_ANALYSIS_SYSTEM}\n\n---\n\n${userPrompt}`;

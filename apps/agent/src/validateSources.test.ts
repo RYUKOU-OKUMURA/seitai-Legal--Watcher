@@ -35,6 +35,7 @@ const defaultConfig: AppConfig = {
     },
   ],
   keywords: [],
+  keywordProfiles: {},
   display: { operator_label: "Operator", checkpoints_heading: "確認ポイント" },
 };
 
@@ -94,6 +95,7 @@ describe("validateSources", () => {
         },
       ],
       keywords: [],
+      keywordProfiles: {},
       display: {
         operator_label: "Operator",
         checkpoints_heading: "確認ポイント",
@@ -136,6 +138,7 @@ describe("validateSources", () => {
         },
       ],
       keywords: [],
+      keywordProfiles: {},
       display: {
         operator_label: "Operator",
         checkpoints_heading: "確認ポイント",

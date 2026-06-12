@@ -114,6 +114,9 @@ sources:
     enabled: true
     stableIdField: LawId
     itemsPath: DataRoot.ApplData.LawNameListInfo
+    # 「指導」「契約」等の汎用語が法令名に部分一致して無関係法令が
+    # LLM 分析される洪水対策。業態直結語のみで判定する。
+    keywordProfile: strict
 
   - id: ncij-kokumin
     name: 国民生活センター
@@ -193,3 +196,34 @@ sources:
     contentSelector: "main, #contents, .contents, body"
     followPdfLinks: true
     pdfMaxLinks: 3
+
+  - id: mhlw-judo-senmon-iinkai
+    name: 柔道整復療養費検討専門委員会
+    type: html
+    url: https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126707.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main, #contents, .contents, body"
+    # 開催回ごとの資料PDFが大量にあるため一覧の差分監視のみ
+    followPdfLinks: false
+
+  - id: mhlw-ahaki-senmon-iinkai
+    name: あはき療養費検討専門委員会
+    type: html
+    url: https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126708.html
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main, #contents, .contents, body"
+    followPdfLinks: false
+
+  - id: caa-hyoji-sochimeirei
+    name: 消費者庁 景品表示法 措置命令等公表
+    type: html
+    url: https://www.caa.go.jp/policies/policy/representation/fair_labeling/release/
+    weight: high
+    alwaysAnalyze: false
+    enabled: true
+    contentSelector: "main, #contents, .contents, body"
+    followPdfLinks: false

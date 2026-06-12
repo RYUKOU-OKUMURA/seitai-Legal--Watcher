@@ -17,7 +17,20 @@ export interface AppConfig {
   sources: WatchTargetConfig[];
   enabledSources: WatchTargetConfig[];
   keywords: string[];
+  keywordProfiles: Record<string, string[]>;
   display: DisplayFile;
+}
+
+export function resolveKeywordsForSource(
+  source: Pick<WatchTargetConfig, "keywordProfile"> | undefined,
+  config: Pick<AppConfig, "keywords" | "keywordProfiles">,
+): string[] {
+  if (!source?.keywordProfile) return config.keywords;
+  const profile = config.keywordProfiles[source.keywordProfile];
+  if (!profile) {
+    throw new Error(`unknown keywordProfile: ${source.keywordProfile}`);
+  }
+  return profile;
 }
 
 export async function loadConfig(configDir?: string): Promise<AppConfig> {
@@ -35,11 +48,21 @@ export async function loadConfig(configDir?: string): Promise<AppConfig> {
 
   const sources = sourcesFile.sources as WatchTargetConfig[];
   const enabledSources = sources.filter((s) => s.enabled);
+  const keywordProfiles = keywordsFile.profiles ?? {};
+
+  for (const source of sources) {
+    if (source.keywordProfile && !keywordProfiles[source.keywordProfile]) {
+      throw new Error(
+        `source ${source.id} references unknown keywordProfile: ${source.keywordProfile}`,
+      );
+    }
+  }
 
   return {
     sources,
     enabledSources,
     keywords: keywordsFile.keywords,
+    keywordProfiles,
     display,
   };
 }

@@ -14,6 +14,7 @@ export const watchTargetSchema = z.object({
   followPdfLinks: z.boolean().optional(),
   pdfLinkSelector: z.string().optional(),
   pdfMaxLinks: z.number().int().positive().optional(),
+  keywordProfile: z.string().optional(),
 });
 
 export const sourcesFileSchema = z.object({
@@ -22,6 +23,7 @@ export const sourcesFileSchema = z.object({
 
 export const keywordsFileSchema = z.object({
   keywords: z.array(z.string()),
+  profiles: z.record(z.string(), z.array(z.string())).optional(),
 });
 
 export const displayFileSchema = z.object({

@@ -1,6 +1,6 @@
 import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
-import { loadConfig } from "@seitai-legal-watch/config";
+import { loadConfig, resolveKeywordsForSource } from "@seitai-legal-watch/config";
 import type { Analysis, DetectedChange, RawSnapshot } from "@seitai-legal-watch/core";
 import { ruleGate } from "@seitai-legal-watch/core";
 import { generateDailyReportMarkdown } from "@seitai-legal-watch/reports";
@@ -90,7 +90,7 @@ export async function regenerateDailyReportFromLogs(date?: string): Promise<stri
     const source = config.enabledSources.find((s) => s.id === change.sourceId);
     const gate = ruleGate(
       change,
-      config.keywords,
+      resolveKeywordsForSource(source, config),
       change.sourceWeight,
       source?.alwaysAnalyze ?? false,
     );
