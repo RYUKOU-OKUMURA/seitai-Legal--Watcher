@@ -1,0 +1,14 @@
+{
+  "changeId": "1b768c6b-efdb-4a12-b688-9f6bc71c2d5f",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260060",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260060",
+  "title": "厚生年金保険法施行令等の一部を改正する政令案に関する御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/05/22 受付締切日時：2026/06/20 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局年金課",
+  "links": [],
+  "httpStatus": 200
+}

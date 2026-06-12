@@ -1,0 +1,14 @@
+{
+  "changeId": "024fc235-fbf8-4a85-912f-913468dcd39d",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000226",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000226",
+  "title": "子ども・子育て支援法施行令の一部を改正する政令の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/05/29 案の公示日： 受付締切日時： 命令等の公布日：2026/05/29 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局保育政策課",
+  "links": [],
+  "httpStatus": 200
+}

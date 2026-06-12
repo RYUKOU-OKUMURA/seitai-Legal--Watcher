@@ -1,0 +1,14 @@
+{
+  "changeId": "c08faffd-3d23-4ceb-9fd2-1d9bdeae6c4f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#342AC0000000081",
+  "title": "住民基本台帳法",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20310604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

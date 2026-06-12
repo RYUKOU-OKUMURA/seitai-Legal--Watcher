@@ -1,0 +1,14 @@
+{
+  "changeId": "8eed4424-9fc5-4b6a-90bd-0e6a9bce89b5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:358M50400000001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#358M50400000001",
+  "title": "警備業の要件に関する規則",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和五十八年国家公安委員会規則第一号\",\"LawName\":\"警備業の要件に関する規則\",\"LawNameKana\":\"けいびぎょうのようけんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"資金決済に関する法律の一部を改正する法律の施行に伴う関係国家公安委員会規則の整理に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十三号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"358M50400000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50400000001_20260601_508M60400000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "28a35c58-5e34-420b-8bd3-97776bb31de5",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260075",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260075",
+  "title": "「薬局製剤指針の一部改正（案）について（概要）」に関する意見募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/10 受付締切日時：2026/07/10 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線４２２７）",
+  "links": [],
+  "httpStatus": 200
+}

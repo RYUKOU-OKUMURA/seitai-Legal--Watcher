@@ -1,0 +1,14 @@
+{
+  "changeId": "4aca3e26-5bb6-45ee-b3ad-aa98a6619c67",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260070",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260070",
+  "title": "「共済団体向けの総合的な監督指針」の一部改正に関する御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/02 受付締切日時：2026/07/02 00:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省雇用環境・均等局勤労者生活課 労働者協同組合業務室\n電話：03-5253-1111（内線5529）",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ff3c455f-d0cc-4123-aaf4-77f92816fbb5",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260068",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260068",
+  "title": "労働者災害補償保険法の施行に関する事務に使用する文書の様式を定める件の一部を改正する件の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/05/29 案の公示日： 受付締切日時： 命令等の公布日：2026/05/29 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局労災管理課",
+  "links": [],
+  "httpStatus": 200
+}

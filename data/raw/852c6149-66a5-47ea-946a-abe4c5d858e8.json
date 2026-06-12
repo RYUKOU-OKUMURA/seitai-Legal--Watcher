@@ -1,0 +1,14 @@
+{
+  "changeId": "852c6149-66a5-47ea-946a-abe4c5d858e8",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250500",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250500",
+  "title": "医療法第三十条の四第二項第十七号に規定する精神病床に係る基準病床数の算定に使用する数値等の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/10 案の公示日：2026/03/27 受付締切日時：2026/04/26 23:59 命令等の公布日：2026/06/10 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局障害保健福祉部精神・障害保健課\n電話：03-5253-1111（内線：3055）",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "4c80659a-395b-4428-b8d2-1d13850b262d",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495150165",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495150165",
+  "title": "平成28年度厚生労働科学研究費補助金に対する意見募集結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/02 案の公示日：2015/09/25 受付締切日時：2015/10/05 00:00 命令等の公布日： 提出意見数：28 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

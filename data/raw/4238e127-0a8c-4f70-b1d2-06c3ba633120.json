@@ -1,0 +1,14 @@
+{
+  "changeId": "4238e127-0a8c-4f70-b1d2-06c3ba633120",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260260",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260260",
+  "title": "武力攻撃事態等における国民の保護のための措置に関する法律による救援の程度及び方法の基準（平成25年内閣府告示第229号）の一部を改正する告示案に関する御意見募集（パブリックコメント）の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/04 案の公示日：2026/04/24 受付締切日時：2026/05/24 23:59 命令等の公布日：2026/06/05 提出意見数：22 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府政策統括官（防災担当）付参事官（救援担当）付",
+  "links": [],
+  "httpStatus": 200
+}

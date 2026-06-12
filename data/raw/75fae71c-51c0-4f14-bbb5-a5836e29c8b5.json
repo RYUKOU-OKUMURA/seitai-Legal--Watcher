@@ -1,0 +1,14 @@
+{
+  "changeId": "75fae71c-51c0-4f14-bbb5-a5836e29c8b5",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260069",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260069",
+  "title": "「麻薬、麻薬原料植物、向精神薬、麻薬向精神薬原料等を指定する政令の一部を改正する政令案」に係る御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/04 受付締切日時：2026/07/03 14:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局監視指導・麻薬対策課\n電話：03-3595-2436",
+  "links": [],
+  "httpStatus": 200
+}

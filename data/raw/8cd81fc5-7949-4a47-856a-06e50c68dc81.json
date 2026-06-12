@@ -1,0 +1,14 @@
+{
+  "changeId": "8cd81fc5-7949-4a47-856a-06e50c68dc81",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495120413",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495120413",
+  "title": "平成２５年度厚生労働科学研究費補助金の公募（二次）について（案）に対する意見募集結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/02 案の公示日：2013/03/28 受付締切日時：2013/04/06 00:00 命令等の公布日： 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

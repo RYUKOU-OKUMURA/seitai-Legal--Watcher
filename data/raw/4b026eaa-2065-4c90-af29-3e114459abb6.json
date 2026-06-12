@@ -1,0 +1,14 @@
+{
+  "changeId": "4b026eaa-2065-4c90-af29-3e114459abb6",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260072",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260072",
+  "title": "健康保険法施行規則等の一部を改正する省令案に関するご意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/06 受付締切日時：2026/07/06 00:00 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：保険局保険課\n03-3595-2556",
+  "links": [],
+  "httpStatus": 200
+}

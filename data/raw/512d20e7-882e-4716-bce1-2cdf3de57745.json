@@ -1,0 +1,14 @@
+{
+  "changeId": "512d20e7-882e-4716-bce1-2cdf3de57745",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:502M60000800066",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#502M60000800066",
+  "title": "自動車の特定改造等の許可に関する省令",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和二年国土交通省令第六十六号\",\"LawName\":\"自動車の特定改造等の許可に関する省令\",\"LawNameKana\":\"じどうしゃのとくていかいぞうとうのきょかにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20200805,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十九号\",\"AmendPromulgationDate\":20260604,\"EnforcementDate\":20260604,\"EnforcementComment\":\"\",\"LawId\":\"502M60000800066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=502M60000800066_20260604_508M60000800059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "c0c5167c-f027-4e25-8baf-ed0fd41e0e77",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495100195",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495100195",
+  "title": "平成２３年度厚生労働科学研究費補助金の公募について（案）に対する意見募集結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/02 案の公示日：2010/09/14 受付締切日時：2010/09/28 00:00 命令等の公布日： 提出意見数：189 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

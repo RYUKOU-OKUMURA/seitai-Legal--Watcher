@@ -1,0 +1,14 @@
+{
+  "changeId": "f0c6c8d9-bfa8-450c-84f1-7d2f0066e79b",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260019",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260019",
+  "title": "「労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律施行規則の一部を改正する省令（案）」に対する意見募集の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/05/29 案の公示日：2026/04/14 受付締切日時：2026/05/13 23:59 命令等の公布日：2026/05/29 提出意見数：3 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局外国人雇用対策課",
+  "links": [],
+  "httpStatus": 200
+}

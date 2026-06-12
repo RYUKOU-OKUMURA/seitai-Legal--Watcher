@@ -1,0 +1,14 @@
+{
+  "changeId": "3cae492b-ca25-4c40-9eac-59b46e7247fa",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260074",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260074",
+  "title": "受入事業主が講ずべき措置に関する指針の一部を改正する件（案）及び送出事業主が講ずべき措置に関する指針の一部を改正する件（案）に関する御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/09 受付締切日時：2026/07/08 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：職業安定局雇用開発企画課建設・港湾対策室\n03-5253-1111(内線：5803)",
+  "links": [],
+  "httpStatus": 200
+}

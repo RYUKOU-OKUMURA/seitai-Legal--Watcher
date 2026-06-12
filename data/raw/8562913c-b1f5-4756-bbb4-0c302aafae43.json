@@ -1,0 +1,14 @@
+{
+  "changeId": "8562913c-b1f5-4756-bbb4-0c302aafae43",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260076",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260076",
+  "title": "租税特別措置法施行令第二十六条の二十七の三第一項の規定に基づき厚生労働大臣が定める健康の保持増進及び疾病の予防への取組の一部を改正する件の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/05 案の公示日： 受付締切日時： 命令等の公布日：2026/06/05 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省保険局医療介護連携政策課医療費適正化対策推進室",
+  "links": [],
+  "httpStatus": 200
+}

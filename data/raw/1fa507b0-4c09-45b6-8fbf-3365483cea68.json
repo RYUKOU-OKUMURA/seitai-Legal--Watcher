@@ -1,0 +1,14 @@
+{
+  "changeId": "1fa507b0-4c09-45b6-8fbf-3365483cea68",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260065",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260065",
+  "title": "社会福祉士及び介護福祉士法施行令及び精神保健福祉士法施行令の一部を改正する政令案及び社会福祉士及び介護福祉士法施行規則及び精神保健福祉士法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/05/29 受付締切日時：2026/06/29 09:00 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局福祉基盤課福祉人材確保対策室",
+  "links": [],
+  "httpStatus": 200
+}

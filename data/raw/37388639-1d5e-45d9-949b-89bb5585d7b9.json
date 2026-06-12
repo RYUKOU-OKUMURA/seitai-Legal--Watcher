@@ -1,0 +1,14 @@
+{
+  "changeId": "37388639-1d5e-45d9-949b-89bb5585d7b9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410M50000800066",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#410M50000800066",
+  "title": "装置型式指定規則",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年運輸省令第六十六号\",\"LawName\":\"装置型式指定規則\",\"LawNameKana\":\"そうちかたしきしていきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981009,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十九号\",\"AmendPromulgationDate\":20260604,\"EnforcementDate\":20260604,\"EnforcementComment\":\"\",\"LawId\":\"410M50000800066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000800066_20260604_508M60000800059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "bc499d01-a168-4556-b286-611012c2f9b6",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495180012",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495180012",
+  "title": "「特定個人情報保護評価書（全項目評価書）（案）」に対する意見募集の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/03 案の公示日：2018/04/24 受付締切日時：2018/05/25 00:00 命令等の公布日： 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局労災保険業務課\n電話：03-3920-3311\n（内線332、345）",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ee6c667c-ebf7-46bb-a5f2-b524b4ff1f1c",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126073",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126073",
+  "title": "火薬類取締法施行規則の一部を改正する省令（案）等に対する意見公募の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/01 案の公示日：2026/04/06 受付締切日時：2026/05/06 23:59 命令等の公布日：2026/06/01 提出意見数：3 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：産業保安・安全グループ　鉱山・火薬類監理官付",
+  "links": [],
+  "httpStatus": 200
+}

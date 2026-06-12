@@ -1,0 +1,14 @@
+{
+  "changeId": "b1ff884f-c2a5-478d-972e-467a72d0d873",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332AC0000000026",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#332AC0000000026",
+  "title": "租税特別措置法",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十二年法律第二十六号\",\"LawName\":\"租税特別措置法\",\"LawNameKana\":\"そぜいとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和五年法律第三号\",\"AmendPromulgationDate\":20230331,\"EnforcementDate\":20300101,\"EnforcementComment\":\"\",\"LawId\":\"332AC0000000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332AC0000000026_20300101_505AC0000000003\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

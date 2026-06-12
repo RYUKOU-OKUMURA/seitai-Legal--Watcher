@@ -1,0 +1,14 @@
+{
+  "changeId": "24545058-9b19-41cd-90bf-5c10ffff2c60",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000010021",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#507M60000010021",
+  "title": "刑務所、少年刑務所及び拘置所組織規則",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年法務省令第二十一号\",\"LawName\":\"刑務所、少年刑務所及び拘置所組織規則\",\"LawNameKana\":\"けいむしょ、しょうねんけいむしょおよびこうちしょそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20250401,\"AmendName\":\"刑務所、少年刑務所及び拘置所組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第三十二号\",\"AmendPromulgationDate\":20260408,\"EnforcementDate\":20260408,\"EnforcementComment\":\"\",\"LawId\":\"507M60000010021\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000010021_20260408_508M60000010032\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

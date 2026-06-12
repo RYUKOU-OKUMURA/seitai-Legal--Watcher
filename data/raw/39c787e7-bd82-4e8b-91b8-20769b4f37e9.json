@@ -1,0 +1,14 @@
+{
+  "changeId": "39c787e7-bd82-4e8b-91b8-20769b4f37e9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000098",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#425AC0000000098",
+  "title": "産業競争力強化法",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"重要電子計算機に対する不正な行為による被害の防止に関する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和七年法律第四十三号\",\"AmendPromulgationDate\":20250523,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20261001_507AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

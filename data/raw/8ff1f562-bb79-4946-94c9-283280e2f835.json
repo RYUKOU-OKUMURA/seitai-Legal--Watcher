@@ -1,0 +1,14 @@
+{
+  "changeId": "8ff1f562-bb79-4946-94c9-283280e2f835",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126080",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126080",
+  "title": "容器保安規則等の一部を改正する省令（案）等に対する意見募集の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/11 案の公示日：2026/04/10 受付締切日時：2026/05/10 23:59 命令等の公布日：2026/06/11 提出意見数：24 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：経済産業省大臣官房産業保安・安全グループ高圧ガス保安室",
+  "links": [],
+  "httpStatus": 200
+}

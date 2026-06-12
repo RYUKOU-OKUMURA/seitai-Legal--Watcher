@@ -1,0 +1,14 @@
+{
+  "changeId": "cc225c33-4c69-4877-9d66-2a196c4c909e",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495170353",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495170353",
+  "title": "遺伝子治療等臨床研究に関する指針の一部を改正する件（案）に関する御意見募集結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/02 案の公示日：2018/02/06 受付締切日時：2018/03/07 00:00 命令等の公布日： 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

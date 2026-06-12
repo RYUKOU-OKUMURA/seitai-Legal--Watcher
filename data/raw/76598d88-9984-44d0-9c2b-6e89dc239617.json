@@ -1,0 +1,14 @@
+{
+  "changeId": "76598d88-9984-44d0-9c2b-6e89dc239617",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430CO0000000163",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#430CO0000000163",
+  "title": "医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律施行令",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十年政令第百六十三号\",\"LawName\":\"医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律施行令\",\"LawNameKana\":\"いりょうぶんやのけんきゅうかいはつにしするためのとくめいかこういりょうじょうほうおよびかめいかこういりょうじょうほうにかんするほうりつしこうれい\",\"OldLawName\":\"医療分野の研究開発に資するための匿名加工医療情報に関する法律施行令\",\"PromulgationDate\":20180507,\"AmendName\":\"医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百八十七号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"430CO0000000163\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430CO0000000163_20260601_508CO0000000187\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

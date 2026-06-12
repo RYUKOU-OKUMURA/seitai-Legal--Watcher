@@ -1,0 +1,14 @@
+{
+  "changeId": "55d2eecc-1d9b-4582-b2c4-a32b57d3eab8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323CO0000000326",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#323CO0000000326",
+  "title": "医療法施行令",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十三年政令第三百二十六号\",\"LawName\":\"医療法施行令\",\"LawNameKana\":\"いりょうほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19481027,\"AmendName\":\"医療法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百八十六号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"323CO0000000326\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323CO0000000326_20260601_508CO0000000186\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

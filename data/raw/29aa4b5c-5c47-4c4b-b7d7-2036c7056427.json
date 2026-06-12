@@ -1,0 +1,14 @@
+{
+  "changeId": "29aa4b5c-5c47-4c4b-b7d7-2036c7056427",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=595126098",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=595126098",
+  "title": "鉄道車両に固定する容器等の検査及び再検査における規格を定める件の一部を改正する告示（案）に対する意見募集",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/10 受付締切日時：2026/07/09 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：経済産業省大臣官房産業保安・安全グループ高圧ガス保安室／国土交通省鉄道局技術企画課",
+  "links": [],
+  "httpStatus": 200
+}

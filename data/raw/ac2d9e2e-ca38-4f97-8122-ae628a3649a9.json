@@ -1,0 +1,14 @@
+{
+  "changeId": "ac2d9e2e-ca38-4f97-8122-ae628a3649a9",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260018",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260018",
+  "title": "「外国人労働者の雇用管理の改善等に関して事業主が適切に対処するための指針の一部を改正する告示（案）」に対する意見募集の結果について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/05/29 案の公示日：2026/04/14 受付締切日時：2026/05/13 23:59 命令等の公布日：2026/05/29 提出意見数：26 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局外国人雇用対策課",
+  "links": [],
+  "httpStatus": 200
+}

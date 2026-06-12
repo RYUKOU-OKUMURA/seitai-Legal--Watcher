@@ -1,0 +1,14 @@
+{
+  "changeId": "d9ba6aa7-cfa4-4786-8782-b0c0d4ef1439",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260082",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260082",
+  "title": "国民年金法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/09 受付締切日時：2026/07/08 19:00 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局事業管理課",
+  "links": [],
+  "httpStatus": 200
+}

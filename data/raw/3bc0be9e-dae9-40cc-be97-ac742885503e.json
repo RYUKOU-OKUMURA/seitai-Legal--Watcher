@@ -1,0 +1,14 @@
+{
+  "changeId": "3bc0be9e-dae9-40cc-be97-ac742885503e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260612#342AC0000000023",
+  "title": "印紙税法",
+  "detectedAt": "2026-06-12T14:11:15.959Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第二十三号\",\"LawName\":\"印紙税法\",\"LawNameKana\":\"いんしぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670531,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000023_20261204_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
