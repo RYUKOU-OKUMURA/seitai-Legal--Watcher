@@ -1,0 +1,23 @@
+{
+  "changeId": "3009f0b5-d505-49a4-8f18-e43159027187",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260085",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260085",
+  "title": "作業環境測定法施行規則第３条の３第１項第２号の規定に基づき厚生労働大臣が定める要件（案）及び作業環境測定法施行規則第５条の２の２の規定に基づき厚生労働大臣が定める者（案）に関する御意見の募集について",
+  "detectedAt": "2026-06-13T06:07:55.160Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/12 受付締切日時：2026/07/11 19:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260085",
+      "error": "HTTP 403"
+    }
+  ]
+}
