@@ -1,0 +1,14 @@
+{
+  "changeId": "6d5be470-9b99-4f5a-b8e8-8d92051fa78a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60004018001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#508M60004018001",
+  "title": "特定在留カードの様式その他特定在留カードに関し必要な事項を定める命令",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年デジタル庁・総務省・法務省令第一号\",\"LawName\":\"特定在留カードの様式その他特定在留カードに関し必要な事項を定める命令\",\"LawNameKana\":\"とくていざいりゅうかーどのようしきそのたとくていざいりゅうかーどにかんしひつようなじこうをさだめるめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260327,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"508M60004018001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60004018001_20260614_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

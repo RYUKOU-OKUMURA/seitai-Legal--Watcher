@@ -1,0 +1,14 @@
+{
+  "changeId": "94f32de3-fd2e-46ff-be28-045ef9f3a68a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M60000008120",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#415M60000008120",
+  "title": "電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律施行規則",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十五年総務省令第百二十号\",\"LawName\":\"電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律施行規則\",\"LawNameKana\":\"でんししょめいとうにかかるちほうこうきょうだんたいじょうほうしすてむきこうのにんしょうぎょうむにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20030929,\"AmendName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行規則等の一部を改正する命令\",\"AmendNo\":\"令和八年デジタル庁・総務省令第十一号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"415M60000008120\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M60000008120_20260614_508M60004008011\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

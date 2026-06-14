@@ -1,0 +1,14 @@
+{
+  "changeId": "6e724165-8d00-4d82-b79a-c9958458546e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000008020",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#337M50000008020",
+  "title": "地方公務員等共済組合法施行規則",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第二十号\",\"LawName\":\"地方公務員等共済組合法施行規則\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行規則及び地方公務員等共済組合法施行規則等の一部を改正する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第三十九号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008020_20260614_508M60000008039\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

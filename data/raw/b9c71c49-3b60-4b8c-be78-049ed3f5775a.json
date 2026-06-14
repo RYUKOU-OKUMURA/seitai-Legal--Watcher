@@ -1,0 +1,14 @@
+{
+  "changeId": "b9c71c49-3b60-4b8c-be78-049ed3f5775a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411AC0000000136",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#411AC0000000136",
+  "title": "組織的な犯罪の処罰及び犯罪収益の規制等に関する法律",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第百三十六号\",\"LawName\":\"組織的な犯罪の処罰及び犯罪収益の規制等に関する法律\",\"LawNameKana\":\"そしきてきなはんざいのしょばつおよびはんざいしゅうえきのきせいとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19990818,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"411AC0000000136\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000136_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

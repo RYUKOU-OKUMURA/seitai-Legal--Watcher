@@ -1,0 +1,14 @@
+{
+  "changeId": "b082fa31-4194-4bed-82f3-61ca0b07cfc4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403AC0000000071",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#403AC0000000071",
+  "title": "日本国との平和条約に基づき日本の国籍を離脱した者等の出入国管理に関する特例法",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三年法律第七十一号\",\"LawName\":\"日本国との平和条約に基づき日本の国籍を離脱した者等の出入国管理に関する特例法\",\"LawNameKana\":\"にほんこくとのへいわじょうやくにもとづきにほんのこくせきをりだつしたものとうのしゅつにゅうこくかんりにかんするとくれいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19910510,\"AmendName\":\"情報通信技術の進展等に対応するための刑事訴訟法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第三十九号\",\"AmendPromulgationDate\":20250523,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"403AC0000000071\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403AC0000000071_20260614_507AC0000000039\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

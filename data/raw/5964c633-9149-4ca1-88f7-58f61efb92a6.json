@@ -1,0 +1,14 @@
+{
+  "changeId": "5964c633-9149-4ca1-88f7-58f61efb92a6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322CO0000000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#322CO0000000016",
+  "title": "地方自治法施行令",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律の施行に伴う関係政令の整備等及び経過措置に関する政令\",\"AmendNo\":\"令和七年政令第四百二十三号\",\"AmendPromulgationDate\":20251217,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20260614_507CO0000000423\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "a264c4cb-4b89-46de-84d5-c6b1a0090704",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC0000000153",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#414AC0000000153",
+  "title": "電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第百五十三号\",\"LawName\":\"電子署名等に係る地方公共団体情報システム機構の認証業務に関する法律\",\"LawNameKana\":\"でんししょめいとうにかかるちほうこうきょうだんたいじょうほうしすてむきこうのにんしょうぎょうむにかんするほうりつ\",\"OldLawName\":\"電子署名に係る地方公共団体の認証業務に関する法律\",\"PromulgationDate\":20021213,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"414AC0000000153\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC0000000153_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

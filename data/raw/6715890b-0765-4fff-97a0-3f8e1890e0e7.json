@@ -1,0 +1,14 @@
+{
+  "changeId": "6715890b-0765-4fff-97a0-3f8e1890e0e7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:356M50000010054",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#356M50000010054",
+  "title": "出入国管理及び難民認定法施行規則",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十六年法務省令第五十四号\",\"LawName\":\"出入国管理及び難民認定法施行規則\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19811028,\"AmendName\":\"出入国管理及び難民認定法施行規則及び日本国との平和条約に基づき日本の国籍を離脱した者等の出入国管理に関する特例法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第二十号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"356M50000010054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=356M50000010054_20260614_508M60000010020\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

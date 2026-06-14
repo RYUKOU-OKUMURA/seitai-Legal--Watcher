@@ -1,0 +1,14 @@
+{
+  "changeId": "7666e9b8-a86b-4519-a245-990b898fc540",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60004018002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#508M60004018002",
+  "title": "特定特別永住者証明書の様式その他特定特別永住者証明書に関し必要な事項を定める命令",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年デジタル庁・総務省・法務省令第二号\",\"LawName\":\"特定特別永住者証明書の様式その他特定特別永住者証明書に関し必要な事項を定める命令\",\"LawNameKana\":\"とくていとくべつえいじゅうしゃしょうめいしょのようしきそのたとくていとくべつえいじゅうしゃしょうめいしょにかんしひつようなじこうをさだめるめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260327,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"508M60004018002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60004018002_20260614_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "fe798ce4-2539-4505-8f70-82ec943b03de",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M6000000A005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#426M6000000A005",
+  "title": "行政手続における特定の個人を識別するための番号の利用等に関する法律別表の主務省令で定める事務を定める命令",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年内閣府・総務省令第五号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律別表の主務省令で定める事務を定める命令\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつべっぴょうのしゅむしょうれいでさだめるじむをさだめるめいれい\",\"OldLawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律別表第一の主務省令で定める事務を定める命令\",\"PromulgationDate\":20140910,\"AmendName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律別表の主務省令で定める事務を定める命令及び行政手続における特定の個人を識別するための番号の利用等に関する法律第十九条第八号に基づく利用特定個人情報の提供に関する命令の一部を改正する命令\",\"AmendNo\":\"令和七年デジタル庁・総務省令第十一号\",\"AmendPromulgationDate\":20250728,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"426M6000000A005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M6000000A005_20260614_507M60004008011\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

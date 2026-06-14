@@ -1,0 +1,14 @@
+{
+  "changeId": "6eada379-7301-43cc-a6b5-131d7cd96714",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60004000010",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#503M60004000010",
+  "title": "公的給付の支給等の迅速かつ確実な実施のための預貯金口座の登録等に関する法律施行規則",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年デジタル庁令第十号\",\"LawName\":\"公的給付の支給等の迅速かつ確実な実施のための預貯金口座の登録等に関する法律施行規則\",\"LawNameKana\":\"こうてききゅうふのしきゅうとうのじんそくかつかくじつなじっしのためのよちょきんこうざのとうろくとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20211224,\"AmendName\":\"公的給付の支給等の迅速かつ確実な実施のための預貯金口座の登録等に関する法律施行規則の一部を改正する庁令\",\"AmendNo\":\"令和七年デジタル庁令第八号\",\"AmendPromulgationDate\":20250728,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"503M60004000010\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60004000010_20260614_507M60004000008\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

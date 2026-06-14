@@ -1,0 +1,14 @@
+{
+  "changeId": "9d38e9b2-1cf9-4846-a5b6-388ddfccc348",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000018001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#508M60000018001",
+  "title": "特定在留カードの交付の申請に関する規則",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年総務省・法務省令第一号\",\"LawName\":\"特定在留カードの交付の申請に関する規則\",\"LawNameKana\":\"とくていざいりゅうかーどのこうふのしんせいにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260327,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"508M60000018001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000018001_20260614_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

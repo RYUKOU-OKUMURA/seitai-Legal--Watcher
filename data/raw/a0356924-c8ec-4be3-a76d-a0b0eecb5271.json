@@ -1,0 +1,14 @@
+{
+  "changeId": "a0356924-c8ec-4be3-a76d-a0b0eecb5271",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507CO0000000423",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260614#507CO0000000423",
+  "title": "出入国管理及び難民認定法等の一部を改正する法律の施行に伴う関係政令の整備等及び経過措置に関する政令",
+  "detectedAt": "2026-06-14T06:25:23.341Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和七年政令第四百二十三号\",\"LawName\":\"出入国管理及び難民認定法等の一部を改正する法律の施行に伴う関係政令の整備等及び経過措置に関する政令\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうとうのいちぶをかいせいするほうりつのしこうにともなうかんけいせいれいのせいびとうおよびけいかそちにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20251217,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20251217,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"507CO0000000423\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507CO0000000423_20260614_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
