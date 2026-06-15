@@ -1,0 +1,14 @@
+{
+  "changeId": "84a688d6-1fe9-4438-90f5-e34f7c650c54",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406RJNJ15015000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#406RJNJ15015000",
+  "title": "人事院規則一五―一五（非常勤職員の勤務時間及び休暇）",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成六年人事院規則一五―一五\",\"LawName\":\"人事院規則一五―一五（非常勤職員の勤務時間及び休暇）\",\"LawNameKana\":\"じんじいんきそくじゅうごのじゅうごひじょうきんしょくいんのきんむじかんおよびきゅうか\",\"OldLawName\":\"\",\"PromulgationDate\":19940727,\"AmendName\":\"人事院規則一五―一五（非常勤職員の勤務時間及び休暇）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則一五―一五―二三\",\"AmendPromulgationDate\":20260601,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"406RJNJ15015000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406RJNJ15015000_20260601_508RJNJ15015023\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

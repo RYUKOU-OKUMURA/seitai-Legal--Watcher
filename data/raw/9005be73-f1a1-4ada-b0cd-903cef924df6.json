@@ -1,0 +1,14 @@
+{
+  "changeId": "9005be73-f1a1-4ada-b0cd-903cef924df6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333M50000040054",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#333M50000040054",
+  "title": "国家公務員共済組合法施行規則",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十三年大蔵省令第五十四号\",\"LawName\":\"国家公務員共済組合法施行規則\",\"LawNameKana\":\"こっかこうむいんきょうさいくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19581011,\"AmendName\":\"国家公務員共済組合法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第四十五号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"333M50000040054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333M50000040054_20260601_508M60000040045\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

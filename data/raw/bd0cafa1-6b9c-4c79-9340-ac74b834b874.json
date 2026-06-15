@@ -1,0 +1,14 @@
+{
+  "changeId": "bd0cafa1-6b9c-4c79-9340-ac74b834b874",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428M60000400022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#428M60000400022",
+  "title": "一般送配電事業託送供給等約款料金算定規則",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十八年経済産業省令第二十二号\",\"LawName\":\"一般送配電事業託送供給等約款料金算定規則\",\"LawNameKana\":\"いっぱんそうはいでんじぎょうたくそうきょうきゅうとうやっかんりょうきんさんていきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20160318,\"AmendName\":\"一般送配電事業者による託送供給等に係る収入の見通しに関する省令等の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第五十四号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260529,\"EnforcementComment\":\"\",\"LawId\":\"428M60000400022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428M60000400022_20260529_508M60000400054\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

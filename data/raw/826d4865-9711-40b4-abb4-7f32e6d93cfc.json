@@ -1,0 +1,14 @@
+{
+  "changeId": "826d4865-9711-40b4-abb4-7f32e6d93cfc",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004118",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004118",
+  "title": "「ペレットの日本農林規格の廃止等についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/15 案の公示日：2025/04/18 受付締切日時：2025/05/17 23:59 命令等の公布日：2026/06/15 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4357）",
+  "links": [],
+  "httpStatus": 200
+}

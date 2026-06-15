@@ -1,0 +1,14 @@
+{
+  "changeId": "17837f60-7fe8-46d9-aefd-dd92fefd5d4d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50000400088",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#325M50000400088",
+  "title": "火薬類取締法施行規則",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年通商産業省令第八十八号\",\"LawName\":\"火薬類取締法施行規則\",\"LawNameKana\":\"かやくるいとりしまりほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501031,\"AmendName\":\"火薬類取締法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第五十五号\",\"AmendPromulgationDate\":20260601,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"325M50000400088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50000400088_20260601_508M60000400055\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

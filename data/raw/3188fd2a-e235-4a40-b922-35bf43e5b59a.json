@@ -1,0 +1,14 @@
+{
+  "changeId": "3188fd2a-e235-4a40-b922-35bf43e5b59a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000100097",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#508M60000100097",
+  "title": "地方公共団体情報システムの標準化に関する法律第二条第一項に規定する標準化対象事務を定める政令に規定するデジタル庁令・総務省令で定める事務を定める命令第七条第三号に規定する事務の処理に係るシステムに必要とされる機能等に関する標準化基準を定める省令",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年厚生労働省令第九十七号\",\"LawName\":\"地方公共団体情報システムの標準化に関する法律第二条第一項に規定する標準化対象事務を定める政令に規定するデジタル庁令・総務省令で定める事務を定める命令第七条第三号に規定する事務の処理に係るシステムに必要とされる機能等に関する標準化基準を定める省令\",\"LawNameKana\":\"ちほうこうきょうだんたいじょうほうしすてむのひょうじゅんかにかんするほうりつだいにじょうだいいっこうにきていするひょうじゅんかたいしょうじむをさだめるせいれいにきていするでじたるちょうれいそうむしょうれいでさだめるじむをさだめるめいれいだいななじょうだいさんごうにきていするじむのしょりにかかるしすてむにひつようとされるきのうとうにかんするひょうじゅんかきじゅんをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260529,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260529,\"EnforcementComment\":\"\",\"LawId\":\"508M60000100097\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000100097_20260529_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

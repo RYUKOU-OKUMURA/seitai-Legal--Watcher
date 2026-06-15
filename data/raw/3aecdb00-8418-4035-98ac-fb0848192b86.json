@@ -1,0 +1,14 @@
+{
+  "changeId": "3aecdb00-8418-4035-98ac-fb0848192b86",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60001500002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#416M60001500002",
+  "title": "有害性情報の報告に関する省令",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年厚生労働省・経済産業省・環境省令第二号\",\"LawName\":\"有害性情報の報告に関する省令\",\"LawNameKana\":\"ゆうがいせいじょうほうのほうこくにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040318,\"AmendName\":\"有害性情報の報告に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省・経済産業省・環境省令第四号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260529,\"EnforcementComment\":\"\",\"LawId\":\"416M60001500002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60001500002_20260529_508M60001500004\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

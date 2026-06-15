@@ -1,0 +1,14 @@
+{
+  "changeId": "79c2dd3b-6210-4521-b5c6-e2e4d82f1825",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0000000093",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#413AC0000000093",
+  "title": "農林中央金庫法",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第九十三号\",\"LawName\":\"農林中央金庫法\",\"LawNameKana\":\"のうりんちゅうおうきんこほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"農林中央金庫法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十六号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000093\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000093_20260701_508AC0000000016\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

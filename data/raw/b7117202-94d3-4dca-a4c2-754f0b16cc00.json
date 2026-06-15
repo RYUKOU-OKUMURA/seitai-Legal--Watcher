@@ -1,0 +1,14 @@
+{
+  "changeId": "b7117202-94d3-4dca-a4c2-754f0b16cc00",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC1000000051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#419AC1000000051",
+  "title": "日本国憲法の改正手続に関する法律",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第五十一号\",\"LawName\":\"日本国憲法の改正手続に関する法律\",\"LawNameKana\":\"にほんこくけんぽうのかいせいてつづきにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070518,\"AmendName\":\"日本国憲法の改正手続に関する法律の一部を改正する法律\",\"AmendNo\":\"令和三年法律第七十六号\",\"AmendPromulgationDate\":20210618,\"EnforcementDate\":20210918,\"EnforcementComment\":\"\",\"LawId\":\"419AC1000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC1000000051_20210918_503AC1000000076\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

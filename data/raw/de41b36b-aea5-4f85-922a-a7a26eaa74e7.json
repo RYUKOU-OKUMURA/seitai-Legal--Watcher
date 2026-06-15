@@ -1,0 +1,14 @@
+{
+  "changeId": "de41b36b-aea5-4f85-922a-a7a26eaa74e7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403M50400000004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260615#403M50400000004",
+  "title": "暴力団員による不当な行為の防止等に関する法律施行規則",
+  "detectedAt": "2026-06-15T07:07:59.175Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第四号\",\"LawName\":\"暴力団員による不当な行為の防止等に関する法律施行規則\",\"LawNameKana\":\"ぼうりょくだんいんによるふとうなこういのぼうしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911025,\"AmendName\":\"資金決済に関する法律の一部を改正する法律の施行に伴う関係国家公安委員会規則の整理に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十三号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000004_20260601_508M60400000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
