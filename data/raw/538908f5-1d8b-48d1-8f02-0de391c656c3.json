@@ -1,0 +1,23 @@
+{
+  "changeId": "538908f5-1d8b-48d1-8f02-0de391c656c3",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000125",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000125",
+  "title": "「個人情報の保護に関する法律施行規則」の一部を改正する件",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/15 案の公示日： 受付締切日時： 命令等の公布日：2026/06/11 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：個人情報保護委員会事務局（03-6457-9769）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000125",
+      "error": "HTTP 403"
+    }
+  ]
+}

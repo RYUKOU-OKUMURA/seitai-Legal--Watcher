@@ -1,0 +1,14 @@
+{
+  "changeId": "6f495307-c1e6-41e5-a380-8474da1f8399",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000189",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#508CO0000000189",
+  "title": "令和八年四月二十二日に発生した大火による岩手県上閉伊郡大槌町の区域に係る災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第百八十九号\",\"LawName\":\"令和八年四月二十二日に発生した大火による岩手県上閉伊郡大槌町の区域に係る災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令\",\"LawNameKana\":\"れいわはちねんしがつにじゅうににちにはっせいしたたいかによるいわてけんかみへいぐんおおつちちょうのくいきにかかるさいがいについてのげきじんさいがいおよびこれにたいしてきようすべきそちのしていにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260603,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260603,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000189\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000189_20260603_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

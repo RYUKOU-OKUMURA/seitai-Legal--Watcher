@@ -1,0 +1,14 @@
+{
+  "changeId": "46c8453d-c96b-4363-9a75-8cf093bc5642",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430CO0000000051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#430CO0000000051",
+  "title": "刑事訴訟法第三百五十条の二第二項第三号の罪を定める政令",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十年政令第五十一号\",\"LawName\":\"刑事訴訟法第三百五十条の二第二項第三号の罪を定める政令\",\"LawNameKana\":\"けいじそしょうほうだいさんびゃくごじゅうじょうのにだいにこうだいさんごうのつみをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20180322,\"AmendName\":\"円滑な事業再生を図るための事業者の金融機関等に対する債務の調整の手続等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百九十一号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"430CO0000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430CO0000000051_20261211_508CO0000000191\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

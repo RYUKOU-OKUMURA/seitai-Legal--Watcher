@@ -1,0 +1,18 @@
+{
+  "changeId": "62e28400-feec-486d-896a-debacea3766f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417AC0000000123",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#417AC0000000123",
+  "title": "障害者の日常生活及び社会生活を総合的に支援するための法律",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十七年法律第百二十三号\",\"LawName\":\"障害者の日常生活及び社会生活を総合的に支援するための法律\",\"LawNameKana\":\"しょうがいしゃのにちじょうせいかつおよびしゃかいせいかつをそうごうてきにしえんするためのほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20051107,\"AmendName\":\"医療法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第八十七号\",\"AmendPromulgationDate\":20251212,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"417AC0000000123\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417AC0000000123_20281211_507AC0000000087\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

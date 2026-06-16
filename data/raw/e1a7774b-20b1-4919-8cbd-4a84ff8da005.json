@@ -1,0 +1,14 @@
+{
+  "changeId": "e1a7774b-20b1-4919-8cbd-4a84ff8da005",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#342AC0000000035",
+  "title": "登録免許税法",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"太陽電池廃棄物の再資源化等の推進に関する法律\",\"AmendNo\":\"令和八年法律第三十三号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260605,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20260605_508AC0000000033\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "aab761c8-2c18-4d96-8ff7-cc8593cac13c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426CO0000000013",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#426CO0000000013",
+  "title": "産業競争力強化法施行令",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第十三号\",\"LawName\":\"産業競争力強化法施行令\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140117,\"AmendName\":\"円滑な事業再生を図るための事業者の金融機関等に対する債務の調整の手続等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百九十一号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000013\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000013_20261211_508CO0000000191\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "08bdd83a-45ea-4fce-9af8-f2d327fba1c2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426CO0000000358",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#426CO0000000358",
+  "title": "難病の患者に対する医療等に関する法律施行令",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第三百五十八号\",\"LawName\":\"難病の患者に対する医療等に関する法律施行令\",\"LawNameKana\":\"なんびょうのかんじゃにたいするいりょうとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20141112,\"AmendName\":\"児童福祉法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百九十二号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000358\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000358_20260701_508CO0000000192\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "82b406fc-c36c-4221-b2ac-c80a0c93ec5d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328AC0000000245",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260616#328AC0000000245",
+  "title": "私立学校教職員共済法",
+  "detectedAt": "2026-06-16T07:13:54.917Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十八年法律第二百四十五号\",\"LawName\":\"私立学校教職員共済法\",\"LawNameKana\":\"しりつがっこうきょうしょくいんきょうさいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19530821,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"328AC0000000245\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328AC0000000245_20280604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}
