@@ -1,0 +1,14 @@
+{
+  "changeId": "a2138176-7951-48f2-bada-ebb69f844b3e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:349CO0000000202",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#349CO0000000202",
+  "title": "化学物質の審査及び製造等の規制に関する法律施行令",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十九年政令第二百二号\",\"LawName\":\"化学物質の審査及び製造等の規制に関する法律施行令\",\"LawNameKana\":\"かがくぶっしつのしんさおよびせいぞうとうのきせいにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19740607,\"AmendName\":\"化学物質の審査及び製造等の規制に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和七年政令第四百十六号\",\"AmendPromulgationDate\":20251217,\"EnforcementDate\":20260617,\"EnforcementComment\":\"\",\"LawId\":\"349CO0000000202\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=349CO0000000202_20260617_507CO0000000416\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

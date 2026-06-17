@@ -1,0 +1,14 @@
+{
+  "changeId": "398720c9-776c-44f2-891f-24399d9e39b7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414M60000008013",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#414M60000008013",
+  "title": "住民基本台帳法別表第一から別表第六までの総務省令で定める事務を定める省令",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十四年総務省令第十三号\",\"LawName\":\"住民基本台帳法別表第一から別表第六までの総務省令で定める事務を定める省令\",\"LawNameKana\":\"じゅうみんきほんだいちょうほうべっぴょうだいいちからべっぴょうだいろくまでのそうむしょうれいでさだめるじむをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20020212,\"AmendName\":\"住民基本台帳法別表第一から別表第六までの総務省令で定める事務を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第七十五号\",\"AmendPromulgationDate\":20260601,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"414M60000008013\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414M60000008013_20260614_508M60000008075\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

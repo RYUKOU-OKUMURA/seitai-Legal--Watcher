@@ -1,0 +1,14 @@
+{
+  "changeId": "9b0d72e8-d69f-4e00-b97a-9b7d81318570",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420AC0100000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#420AC0100000081",
+  "title": "障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十年法律第八十一号\",\"LawName\":\"障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律\",\"LawNameKana\":\"しょうがいのあるじどうおよびせいとのためのきょうかようとくていとしょとうのふきゅうのそくしんとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20080618,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"420AC0100000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420AC0100000081_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

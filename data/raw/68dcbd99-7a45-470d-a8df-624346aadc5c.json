@@ -1,0 +1,14 @@
+{
+  "changeId": "68dcbd99-7a45-470d-a8df-624346aadc5c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339M50000100038",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#339M50000100038",
+  "title": "特別児童扶養手当等の支給に関する法律施行規則",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十九年厚生省令第三十八号\",\"LawName\":\"特別児童扶養手当等の支給に関する法律施行規則\",\"LawNameKana\":\"とくべつじどうふようてあてとうのしきゅうにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19640828,\"AmendName\":\"特別児童扶養手当等の支給に関する法律施行規則及び障害児福祉手当及び特別障害者手当の支給に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第九十八号\",\"AmendPromulgationDate\":20260604,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"339M50000100038\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339M50000100038_20260801_508M60000100098\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

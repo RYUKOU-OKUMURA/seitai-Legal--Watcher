@@ -1,0 +1,14 @@
+{
+  "changeId": "e7946bbf-6571-4f2d-bb90-b985cb9620d5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341M50002000023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#341M50002000023",
+  "title": "労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律施行規則",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十一年労働省令第二十三号\",\"LawName\":\"労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律施行規則\",\"LawNameKana\":\"ろうどうしさくのそうごうてきなすいしんならびにろうどうしゃのこようのあんていおよびしょくぎょうせいかつのじゅうじつとうにかんするほうりつしこうきそく\",\"OldLawName\":\"雇用対策法施行規則\",\"PromulgationDate\":19660721,\"AmendName\":\"労働施策の総合的な推進並びに労働者の雇用の安定及び職業生活の充実等に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第九十五号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"341M50002000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341M50002000023_20270401_508M60000100095\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

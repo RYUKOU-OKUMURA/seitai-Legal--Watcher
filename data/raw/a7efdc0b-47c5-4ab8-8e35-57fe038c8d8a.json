@@ -1,0 +1,23 @@
+{
+  "changeId": "a7efdc0b-47c5-4ab8-8e35-57fe038c8d8a",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260087",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260087",
+  "title": "「指定難病に係る診断基準及び重症度分類等について」の一部改正（案）に関する御意見の募集について",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/16 受付締切日時：2026/07/15 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局難病対策課\n電話：03-5253-1111　\n内線：2208",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260087",
+      "error": "HTTP 403"
+    }
+  ]
+}

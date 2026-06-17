@@ -1,0 +1,14 @@
+{
+  "changeId": "b58971a3-909e-4bc4-b694-9a8d366a3594",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000132",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#323AC0000000132",
+  "title": "教科書の発行に関する臨時措置法",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三十二号\",\"LawName\":\"教科書の発行に関する臨時措置法\",\"LawNameKana\":\"きょうかしょのはっこうにかんするりんじそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000132\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000132_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "17606779-8c62-41da-bfdb-cb95661eb9af",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503AC1000000083",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#503AC1000000083",
+  "title": "宇宙資源の探査及び開発に関する事業活動の促進に関する法律",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和三年法律第八十三号\",\"LawName\":\"宇宙資源の探査及び開発に関する事業活動の促進に関する法律\",\"LawNameKana\":\"うちゅうしげんのたんさおよびかいはつにかんするじぎょうかつどうのそくしんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20210623,\"AmendName\":\"人工衛星等の打上げ及び人工衛星の管理に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十九号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"503AC1000000083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503AC1000000083_20270616_508AC0000000039\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

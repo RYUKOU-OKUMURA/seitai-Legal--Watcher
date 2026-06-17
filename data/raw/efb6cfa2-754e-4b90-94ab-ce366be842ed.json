@@ -1,0 +1,14 @@
+{
+  "changeId": "efb6cfa2-754e-4b90-94ab-ce366be842ed",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326AC1000000228",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#326AC1000000228",
+  "title": "産業教育振興法",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第二百二十八号\",\"LawName\":\"産業教育振興法\",\"LawNameKana\":\"さんぎょうきょういくしんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19510611,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"326AC1000000228\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC1000000228_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

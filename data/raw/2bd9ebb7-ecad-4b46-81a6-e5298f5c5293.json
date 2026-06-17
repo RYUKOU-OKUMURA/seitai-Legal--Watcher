@@ -1,0 +1,14 @@
+{
+  "changeId": "2bd9ebb7-ecad-4b46-81a6-e5298f5c5293",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000144",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#329AC0000000144",
+  "title": "特別支援学校への就学奨励に関する法律",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百四十四号\",\"LawName\":\"特別支援学校への就学奨励に関する法律\",\"LawNameKana\":\"とくべつしえんがっこうへのしゅうがくしょうれいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19540601,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000144\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000144_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

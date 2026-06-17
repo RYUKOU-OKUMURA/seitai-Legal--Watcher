@@ -1,0 +1,14 @@
+{
+  "changeId": "45f794c1-53b9-4d86-89cf-c423781fced6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000026",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#322AC0000000026",
+  "title": "学校教育法",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第二十六号\",\"LawName\":\"学校教育法\",\"LawNameKana\":\"がっこうきょういくほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470331,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000026_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

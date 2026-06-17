@@ -1,0 +1,18 @@
+{
+  "changeId": "02f51af0-8235-454a-b772-f48ddfd3f3da",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50000100020",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#412M50000100020",
+  "title": "介護給付費及び公費負担医療等に関する費用等の請求に関する命令",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十二年厚生省令第二十号\",\"LawName\":\"介護給付費及び公費負担医療等に関する費用等の請求に関する命令\",\"LawNameKana\":\"かいごきゅうふひおよびこうひふたんいりょうとうにかんするひようとうのせいきゅうにかんするめいれい\",\"OldLawName\":\"介護給付費及び公費負担医療等に関する費用の請求に関する省令,介護給付費及び公費負担医療等に関する費用等の請求に関する省令\",\"PromulgationDate\":20000307,\"AmendName\":\"全世代対応型の持続可能な社会保障制度を構築するための健康保険法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備等に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第五十四号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"412M50000100020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50000100020_20260401_508M60000100054\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

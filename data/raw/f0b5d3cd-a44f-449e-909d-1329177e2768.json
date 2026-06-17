@@ -1,0 +1,14 @@
+{
+  "changeId": "f0b5d3cd-a44f-449e-909d-1329177e2768",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508AC0000000040",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#508AC0000000040",
+  "title": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和八年法律第四十号\",\"LawName\":\"予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律\",\"LawNameKana\":\"よびじえいかんとうのしょくむのえんかつなすいこうをはかるためのこっかこうむいんおよびちほうこうむいんのけんぎょうのとくれいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20260617,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"508AC0000000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508AC0000000040_20270616_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

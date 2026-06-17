@@ -1,0 +1,14 @@
+{
+  "changeId": "42e4c46e-a2b3-40b0-af3d-1f43ba8b1734",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428M60000800017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260617#428M60000800017",
+  "title": "道路運送車両法関係手数料規則",
+  "detectedAt": "2026-06-17T06:59:14.738Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十八年国土交通省令第十七号\",\"LawName\":\"道路運送車両法関係手数料規則\",\"LawNameKana\":\"どうろうんそうしゃりょうほうかんけいてすうりょうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20160318,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第五十九号\",\"AmendPromulgationDate\":20260604,\"EnforcementDate\":20260604,\"EnforcementComment\":\"\",\"LawId\":\"428M60000800017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428M60000800017_20260604_508M60000800059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
