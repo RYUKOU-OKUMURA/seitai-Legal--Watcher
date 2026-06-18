@@ -1,0 +1,23 @@
+{
+  "changeId": "a81f5202-f6ec-4ef0-8db2-e9d682c65110",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260083",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260083",
+  "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第二条第十五項に規定する指定薬物及び同法第七十六条の四に規定する医療等の用途を定める省令の一部を改正する省令について、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-18T06:43:24.842Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/17 案の公示日： 受付締切日時： 命令等の公布日：2026/06/17 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局監視指導・麻薬対策課電話：０３-５２５３-１１１１（内線２６７９）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260083",
+      "error": "HTTP 403"
+    }
+  ]
+}

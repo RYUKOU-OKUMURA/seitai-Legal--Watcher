@@ -1,0 +1,23 @@
+{
+  "changeId": "9cd27734-7e6d-44b1-a33c-cadddaf631e5",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260028",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260028",
+  "title": "労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令案に関する意見募集の結果について",
+  "detectedAt": "2026-06-18T06:43:24.842Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/17 案の公示日：2026/04/23 受付締切日時：2026/05/24 18:00 命令等の公布日：2026/06/17 提出意見数：10 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260028",
+      "error": "HTTP 403"
+    }
+  ]
+}
