@@ -1,0 +1,14 @@
+{
+  "changeId": "76acd19f-7e4a-4eb3-a2db-39039d0788e8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:345AC0000000137",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#345AC0000000137",
+  "title": "廃棄物の処理及び清掃に関する法律",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十五年法律第百三十七号\",\"LawName\":\"廃棄物の処理及び清掃に関する法律\",\"LawNameKana\":\"はいきぶつのしょりおよびせいそうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19701225,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"345AC0000000137\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=345AC0000000137_20281218_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

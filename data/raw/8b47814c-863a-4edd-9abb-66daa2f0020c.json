@@ -1,0 +1,14 @@
+{
+  "changeId": "8b47814c-863a-4edd-9abb-66daa2f0020c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000165",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#322AC0000000165",
+  "title": "郵便法",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百六十五号\",\"LawName\":\"郵便法\",\"LawNameKana\":\"ゆうびんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19471212,\"AmendName\":\"郵便法及び民間事業者による信書の送達に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十二号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000165\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000165_20261218_508AC0000000042\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "3f1652c6-829a-4bb8-b5df-6e934b8061dc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC0000000099",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#414AC0000000099",
+  "title": "民間事業者による信書の送達に関する法律",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第九十九号\",\"LawName\":\"民間事業者による信書の送達に関する法律\",\"LawNameKana\":\"みんかんじぎょうしゃによるしんしょのそうたつにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20020731,\"AmendName\":\"郵便法及び民間事業者による信書の送達に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十二号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"414AC0000000099\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC0000000099_20261218_508AC0000000042\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

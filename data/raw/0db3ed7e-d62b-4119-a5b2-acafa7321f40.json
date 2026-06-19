@@ -1,0 +1,15 @@
+{
+  "changeId": "0db3ed7e-d62b-4119-a5b2-acafa7321f40",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000067",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#322AC0000000067",
+  "title": "地方自治法",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十四号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20270401_508AC0000000044\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方自治法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十四号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20270401_508AC0000000044\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

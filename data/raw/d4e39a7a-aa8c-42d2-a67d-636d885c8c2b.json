@@ -1,0 +1,14 @@
+{
+  "changeId": "d4e39a7a-aa8c-42d2-a67d-636d885c8c2b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430AC0000000080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#430AC0000000080",
+  "title": "特定複合観光施設区域整備法",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三十年法律第八十号\",\"LawName\":\"特定複合観光施設区域整備法\",\"LawNameKana\":\"とくていふくごうかんこうしせつくいきせいびほう\",\"OldLawName\":\"\",\"PromulgationDate\":20180727,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十四号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"430AC0000000080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430AC0000000080_20270609_508AC0000000034\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "af59d0e6-707f-47d8-b978-f04f7bcb6577",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#342AC0000000081",
+  "title": "住民基本台帳法",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20281218_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 住民基本台帳法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20281218_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

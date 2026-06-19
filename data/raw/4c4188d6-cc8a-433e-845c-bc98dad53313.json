@@ -1,0 +1,14 @@
+{
+  "changeId": "4c4188d6-cc8a-433e-845c-bc98dad53313",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412AC0000000044",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#412AC0000000044",
+  "title": "産業技術力強化法",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十二年法律第四十四号\",\"LawName\":\"産業技術力強化法\",\"LawNameKana\":\"さんぎょうぎじゅつりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20000419,\"AmendName\":\"産業技術力強化法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十一号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"412AC0000000044\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412AC0000000044_20270618_508AC0000000041\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

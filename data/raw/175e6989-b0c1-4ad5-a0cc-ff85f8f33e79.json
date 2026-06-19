@@ -1,0 +1,14 @@
+{
+  "changeId": "175e6989-b0c1-4ad5-a0cc-ff85f8f33e79",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506AC0000000041",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260619#506AC0000000041",
+  "title": "資源循環の促進のための再資源化事業等の高度化に関する法律",
+  "detectedAt": "2026-06-19T06:56:04.481Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和六年法律第四十一号\",\"LawName\":\"資源循環の促進のための再資源化事業等の高度化に関する法律\",\"LawNameKana\":\"しげんじゅんかんのそくしんのためのさいしげんかじぎょうとうのこうどかにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20240529,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"506AC0000000041\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506AC0000000041_20281218_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
