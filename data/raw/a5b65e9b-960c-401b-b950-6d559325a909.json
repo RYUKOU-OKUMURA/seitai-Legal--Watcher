@@ -1,0 +1,14 @@
+{
+  "changeId": "a5b65e9b-960c-401b-b950-6d559325a909",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260090",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260090",
+  "title": "「医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四十九条第一項の規定に基づき厚生労働大臣の指定する医薬品の一部を改正する件（令和８年厚生労働省告示第250号）」について",
+  "detectedAt": "2026-06-20T06:10:20.383Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/19 案の公示日： 受付締切日時： 命令等の公布日：2026/06/19 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内2743）",
+  "links": [],
+  "httpStatus": 200
+}

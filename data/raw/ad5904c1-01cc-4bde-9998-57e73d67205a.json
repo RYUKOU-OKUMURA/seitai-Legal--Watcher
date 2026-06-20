@@ -1,0 +1,23 @@
+{
+  "changeId": "ad5904c1-01cc-4bde-9998-57e73d67205a",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260092",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260092",
+  "title": "労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う厚生労働省関係告示の整備等に関する告示案及びサンプリング補助者講習規程（案）に関する御意見の募集について",
+  "detectedAt": "2026-06-20T06:10:20.383Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/19 受付締切日時：2026/07/18 20:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260092",
+      "error": "HTTP 403"
+    }
+  ]
+}

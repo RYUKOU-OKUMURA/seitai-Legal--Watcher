@@ -1,0 +1,14 @@
+{
+  "changeId": "eae0406f-d717-4233-a073-b48812b20a97",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260091",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260091",
+  "title": "「厚生労働大臣が指定する生物由来製品及び特定生物由来製品の一部を改正する件（令和８年厚生労働省告示第251号）」について",
+  "detectedAt": "2026-06-20T06:10:20.383Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/19 案の公示日： 受付締切日時： 命令等の公布日：2026/06/19 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内2743）",
+  "links": [],
+  "httpStatus": 200
+}
