@@ -1,0 +1,15 @@
+{
+  "changeId": "37dd4ee5-4938-438f-9699-a1a150ea2e37",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332AC0000000026",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260622#332AC0000000026",
+  "title": "租税特別措置法",
+  "detectedAt": "2026-06-22T07:10:44.987Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十二年法律第二十六号\",\"LawName\":\"租税特別措置法\",\"LawNameKana\":\"そぜいとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"地域公共交通の活性化及び再生に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十五号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"332AC0000000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332AC0000000026_20261209_508AC0000000035\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 租税特別措置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十二年法律第二十六号\",\"LawName\":\"租税特別措置法\",\"LawNameKana\":\"そぜいとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和五年法律第三号\",\"AmendPromulgationDate\":20230331,\"EnforcementDate\":20300101,\"EnforcementComment\":\"\",\"LawId\":\"332AC0000000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332AC0000000026_20300101_505AC0000000003\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十二年法律第二十六号\",\"LawName\":\"租税特別措置法\",\"LawNameKana\":\"そぜいとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"地域公共交通の活性化及び再生に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十五号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"332AC0000000026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332AC0000000026_20261209_508AC0000000035\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

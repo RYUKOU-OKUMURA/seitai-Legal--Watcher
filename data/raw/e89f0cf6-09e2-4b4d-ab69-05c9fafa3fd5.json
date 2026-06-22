@@ -1,0 +1,14 @@
+{
+  "changeId": "e89f0cf6-09e2-4b4d-ab69-05c9fafa3fd5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419M60000100157",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260622#419M60000100157",
+  "title": "特定健康診査及び特定保健指導の実施に関する基準",
+  "detectedAt": "2026-06-22T07:10:44.987Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十九年厚生労働省令第百五十七号\",\"LawName\":\"特定健康診査及び特定保健指導の実施に関する基準\",\"LawNameKana\":\"とくていけんこうしんさおよびとくていほけんしどうのじっしにかんするきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":20071228,\"AmendName\":\"特定健康診査及び特定保健指導の実施に関する基準の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第九十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260605,\"EnforcementComment\":\"\",\"LawId\":\"419M60000100157\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419M60000100157_20260605_508M60000100099\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
