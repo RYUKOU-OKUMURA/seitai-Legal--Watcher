@@ -1,0 +1,14 @@
+{
+  "changeId": "a30ce861-70ce-4c75-9aa2-3e5f25770560",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335M50004002003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260623#335M50004002003",
+  "title": "道路標識、区画線及び道路標示に関する命令",
+  "detectedAt": "2026-06-23T05:58:47.861Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年総理府・建設省令第三号\",\"LawName\":\"道路標識、区画線及び道路標示に関する命令\",\"LawNameKana\":\"どうろひょうしきくかくせんおよびどうろひょうじにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19601217,\"AmendName\":\"道路標識、区画線及び道路標示に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・国土交通省令第三号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"335M50004002003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50004002003_20260901_508M60000802003\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

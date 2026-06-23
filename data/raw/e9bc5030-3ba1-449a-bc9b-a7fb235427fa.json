@@ -1,0 +1,14 @@
+{
+  "changeId": "e9bc5030-3ba1-449a-bc9b-a7fb235427fa",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:361M50000400088",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260623#361M50000400088",
+  "title": "コンビナート等保安規則",
+  "detectedAt": "2026-06-23T05:58:47.861Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十一年通商産業省令第八十八号\",\"LawName\":\"コンビナート等保安規則\",\"LawNameKana\":\"こんびなーととうほあんきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19861213,\"AmendName\":\"容器保安規則等の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第五十六号\",\"AmendPromulgationDate\":20260611,\"EnforcementDate\":20260612,\"EnforcementComment\":\"\",\"LawId\":\"361M50000400088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=361M50000400088_20260612_508M60000400056\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "93c805f5-f033-4d57-a0b7-8027d5788d00",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260024",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260024",
+  "title": "介護保険施行規則の一部を改正する省令案に対する意見募集の結果について",
+  "detectedAt": "2026-06-23T05:58:47.861Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/22 案の公示日：2026/04/22 受付締切日時：2026/05/21 12:00 命令等の公布日：2026/06/22 提出意見数：4 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省老健局介護保険計画課企画法令係",
+  "links": [],
+  "httpStatus": 200
+}

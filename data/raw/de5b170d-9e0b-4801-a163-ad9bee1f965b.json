@@ -1,0 +1,14 @@
+{
+  "changeId": "de5b170d-9e0b-4801-a163-ad9bee1f965b",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235040015",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235040015",
+  "title": "「公益通報者保護法第十六条第一項の規定による立入検査をする職員の携帯する身分を示す証明書の様式を定める内閣府令（案）」に関する御意見募集の結果について",
+  "detectedAt": "2026-06-23T05:58:47.861Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/23 案の公示日：2026/03/23 受付締切日時：2026/04/21 23:59 命令等の公布日：2026/06/23 提出意見数：6 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁参事官（公益通報・協働担当）（03-3507-8800）",
+  "links": [],
+  "httpStatus": 200
+}

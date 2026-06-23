@@ -1,0 +1,14 @@
+{
+  "changeId": "a6ec2b9a-a59e-46c4-a93a-95e863846634",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341M50000400051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260623#341M50000400051",
+  "title": "冷凍保安規則",
+  "detectedAt": "2026-06-23T05:58:47.861Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十一年通商産業省令第五十一号\",\"LawName\":\"冷凍保安規則\",\"LawNameKana\":\"れいとうほあんきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19660525,\"AmendName\":\"容器保安規則等の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第五十六号\",\"AmendPromulgationDate\":20260611,\"EnforcementDate\":20260612,\"EnforcementComment\":\"\",\"LawId\":\"341M50000400051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341M50000400051_20260612_508M60000400056\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
