@@ -1,0 +1,14 @@
+{
+  "changeId": "00f2738b-2e98-4bec-aa21-f7c669beb6c8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418CO0000000022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#418CO0000000022",
+  "title": "平成十七年度の水田農業構造改革交付金等についての所得税及び法人税の臨時特例に関する法律施行令",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十八年政令第二十二号\",\"LawName\":\"平成十七年度の水田農業構造改革交付金等についての所得税及び法人税の臨時特例に関する法律施行令\",\"LawNameKana\":\"へいせいじゅうななねんどのすいでんのうぎょうこうぞうかいかくこうふきんとうについてのしょとくぜいおよびほうじんぜいのりんじとくれいにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20060216,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20060216,\"EnforcementDate\":20060216,\"EnforcementComment\":\"\",\"LawId\":\"418CO0000000022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418CO0000000022_20060216_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

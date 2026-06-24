@@ -1,0 +1,14 @@
+{
+  "changeId": "30215bc9-d4af-4d50-9c8e-30f791bd50e5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350CO0000000244",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#350CO0000000244",
+  "title": "作業環境測定法施行令",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十年政令第二百四十四号\",\"LawName\":\"作業環境測定法施行令\",\"LawNameKana\":\"さぎょうかんきょうそくていほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19750801,\"AmendName\":\"労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百九十六号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"350CO0000000244\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350CO0000000244_20261001_508CO0000000196\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

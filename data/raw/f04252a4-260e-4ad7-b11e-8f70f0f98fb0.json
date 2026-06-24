@@ -1,0 +1,14 @@
+{
+  "changeId": "f04252a4-260e-4ad7-b11e-8f70f0f98fb0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#423AC0000000051",
+  "title": "非訟事件手続法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第五十一号\",\"LawName\":\"非訟事件手続法\",\"LawNameKana\":\"ひしょうじけんてつづきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110525,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"423AC0000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000051_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

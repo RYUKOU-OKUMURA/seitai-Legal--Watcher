@@ -1,0 +1,14 @@
+{
+  "changeId": "65ef5eae-b875-422f-92df-907776e65c58",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428CO0000000325",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#428CO0000000325",
+  "title": "被災区分所有建物の再建等に関する特別措置法第二条の災害を定める政令",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十八年政令第三百二十五号\",\"LawName\":\"被災区分所有建物の再建等に関する特別措置法第二条の災害を定める政令\",\"LawNameKana\":\"ひさいくぶんしょゆうたてもののさいけんとうにかんするとくべつそちほうだいにじょうのさいがいをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20161005,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20161005,\"EnforcementDate\":20161005,\"EnforcementComment\":\"\",\"LawId\":\"428CO0000000325\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428CO0000000325_20161005_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

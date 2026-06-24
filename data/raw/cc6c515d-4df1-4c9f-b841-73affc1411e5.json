@@ -1,0 +1,14 @@
+{
+  "changeId": "cc6c515d-4df1-4c9f-b841-73affc1411e5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415CO0000000042",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#415CO0000000042",
+  "title": "平成十四年度の水田農業経営確立助成補助金等についての所得税及び法人税の臨時特例に関する法律施行令",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十五年政令第四十二号\",\"LawName\":\"平成十四年度の水田農業経営確立助成補助金等についての所得税及び法人税の臨時特例に関する法律施行令\",\"LawNameKana\":\"へいせいじゅうよねんどのすいでんのうぎょうけいえいかくりつじょせいほじょきんとうについてのしょとくぜいおよびほうじんぜいのりんじとくれいにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20030218,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20030218,\"EnforcementDate\":20030218,\"EnforcementComment\":\"\",\"LawId\":\"415CO0000000042\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415CO0000000042_20030218_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "4d23e715-5462-4942-b50a-cac59b1202b0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:408AC0000000085",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#408AC0000000085",
+  "title": "特定非常災害の被害者の権利利益の保全等を図るための特別措置に関する法律",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成八年法律第八十五号\",\"LawName\":\"特定非常災害の被害者の権利利益の保全等を図るための特別措置に関する法律\",\"LawNameKana\":\"とくていひじょうさいがいのひがいしゃのけんりりえきのほぜんとうをはかるためのとくべつそちにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19960614,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"408AC0000000085\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=408AC0000000085_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

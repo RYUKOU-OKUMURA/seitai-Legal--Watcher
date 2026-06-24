@@ -1,0 +1,14 @@
+{
+  "changeId": "5709f64a-6923-4085-a056-8736ecac5df7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:331AC0000000126",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#331AC0000000126",
+  "title": "労働保険審査官及び労働保険審査会法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十一年法律第百二十六号\",\"LawName\":\"労働保険審査官及び労働保険審査会法\",\"LawNameKana\":\"ろうどうほけんしんさかんおよびろうどうほけんしんさかいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19560604,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"331AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=331AC0000000126_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

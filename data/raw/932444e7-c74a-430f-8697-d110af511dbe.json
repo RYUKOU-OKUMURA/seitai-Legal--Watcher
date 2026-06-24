@@ -1,0 +1,14 @@
+{
+  "changeId": "932444e7-c74a-430f-8697-d110af511dbe",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:402AC0000000030",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#402AC0000000030",
+  "title": "工業所有権に関する手続等の特例に関する法律",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二年法律第三十号\",\"LawName\":\"工業所有権に関する手続等の特例に関する法律\",\"LawNameKana\":\"こうぎょうしょゆうけんにかんするてつづきとうのとくれいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19900613,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"402AC0000000030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=402AC0000000030_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "6d977e09-4d9d-4eb4-9d52-359a7cdc154f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000052",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#423AC0000000052",
+  "title": "家事事件手続法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第五十二号\",\"LawName\":\"家事事件手続法\",\"LawNameKana\":\"かじじけんてつづきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110525,\"AmendName\":\"民法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十五号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0000000052\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000052_20281223_508AC0000000045\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

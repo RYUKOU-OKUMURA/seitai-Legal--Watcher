@@ -1,0 +1,19 @@
+{
+  "changeId": "112cd0fa-e829-40bc-a06a-9aaeacce5f61",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000164",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#322AC0000000164",
+  "title": "児童福祉法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百六十四号\",\"LawName\":\"児童福祉法\",\"LawNameKana\":\"じどうふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19471212,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"322AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000164_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 児童福祉法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百六十四号\",\"LawName\":\"児童福祉法\",\"LawNameKana\":\"じどうふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19471212,\"AmendName\":\"医療法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第八十七号\",\"AmendPromulgationDate\":20251212,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000164_20281211_507AC0000000087\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百六十四号\",\"LawName\":\"児童福祉法\",\"LawNameKana\":\"じどうふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19471212,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"322AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000164_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

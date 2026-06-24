@@ -1,0 +1,14 @@
+{
+  "changeId": "37808ab1-ca9f-4020-bd18-5afc814f23af",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506M60000008117",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#506M60000008117",
+  "title": "令和六年度分の地方交付税の交付額の特例に関する省令",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年総務省令第百十七号\",\"LawName\":\"令和六年度分の地方交付税の交付額の特例に関する省令\",\"LawNameKana\":\"れいわろくねんどぶんのちほうこうふぜいのこうふがくのとくれいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20241224,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20241224,\"EnforcementDate\":20241224,\"EnforcementComment\":\"\",\"LawId\":\"506M60000008117\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60000008117_20241224_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

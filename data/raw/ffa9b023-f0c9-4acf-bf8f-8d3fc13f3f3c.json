@@ -1,0 +1,14 @@
+{
+  "changeId": "ffa9b023-f0c9-4acf-bf8f-8d3fc13f3f3c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341AC0000000111",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#341AC0000000111",
+  "title": "執行官法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十一年法律第百十一号\",\"LawName\":\"執行官法\",\"LawNameKana\":\"しっこうかんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19660701,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"341AC0000000111\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341AC0000000111_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

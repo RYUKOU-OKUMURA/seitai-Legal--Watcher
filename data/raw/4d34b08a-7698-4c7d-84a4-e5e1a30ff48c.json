@@ -1,0 +1,14 @@
+{
+  "changeId": "4d34b08a-7698-4c7d-84a4-e5e1a30ff48c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412AC0000000131",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#412AC0000000131",
+  "title": "著作権等管理事業法",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十二年法律第百三十一号\",\"LawName\":\"著作権等管理事業法\",\"LawNameKana\":\"ちょさくけんとうかんりじぎょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20001129,\"AmendName\":\"著作権法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十八号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"412AC0000000131\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412AC0000000131_20290623_508AC0000000048\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

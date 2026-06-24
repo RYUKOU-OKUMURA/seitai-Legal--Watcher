@@ -1,0 +1,14 @@
+{
+  "changeId": "f5577f94-4d20-47b2-b895-900a4eaf099c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428AC1000000009",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#428AC1000000009",
+  "title": "重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十八年法律第九号\",\"LawName\":\"重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律\",\"LawNameKana\":\"じゅうようしせつのしゅうへんちいきのじょうくうにおけるこがたむじんきとうのひこうのきんしにかんするほうりつ\",\"OldLawName\":\"国会議事堂、内閣総理大臣官邸その他の国の重要な施設等、外国公館等及び原子力事業所の周辺地域の上空における小型無人機等の飛行の禁止に関する法律\",\"PromulgationDate\":20160318,\"AmendName\":\"重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260714,\"EnforcementComment\":\"\",\"LawId\":\"428AC1000000009\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428AC1000000009_20260714_508AC0000000047\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

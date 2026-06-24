@@ -1,0 +1,14 @@
+{
+  "changeId": "ebaafcb9-d266-4303-b35a-8c1fea1d09e4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0100000031",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#413AC0100000031",
+  "title": "配偶者からの暴力の防止及び被害者の保護等に関する法律",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第三十一号\",\"LawName\":\"配偶者からの暴力の防止及び被害者の保護等に関する法律\",\"LawNameKana\":\"はいぐうしゃからのぼうりょくのぼうしおよびひがいしゃのほごとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20010413,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"413AC0100000031\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0100000031_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

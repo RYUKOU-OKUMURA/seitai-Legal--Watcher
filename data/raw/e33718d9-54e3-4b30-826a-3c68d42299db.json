@@ -1,0 +1,14 @@
+{
+  "changeId": "e33718d9-54e3-4b30-826a-3c68d42299db",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000040004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#417M60000040004",
+  "title": "平成十六年度の水田農業構造改革交付金等についての所得税及び法人税の臨時特例に関する法律施行規則",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年財務省令第四号\",\"LawName\":\"平成十六年度の水田農業構造改革交付金等についての所得税及び法人税の臨時特例に関する法律施行規則\",\"LawNameKana\":\"へいせいじゅうろくねんどのすいでんのうぎょうこうぞうかいかくこうふきんとうについてのしょとくぜいおよびほうじんぜいのりんじとくれいにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050216,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20050216,\"EnforcementDate\":20050216,\"EnforcementComment\":\"\",\"LawId\":\"417M60000040004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000040004_20050216_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

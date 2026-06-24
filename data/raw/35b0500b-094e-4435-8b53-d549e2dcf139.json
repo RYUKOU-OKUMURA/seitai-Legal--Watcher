@@ -1,0 +1,15 @@
+{
+  "changeId": "35b0500b-094e-4435-8b53-d549e2dcf139",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420AC0100000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260624#420AC0100000081",
+  "title": "障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律",
+  "detectedAt": "2026-06-24T05:58:26.442Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十年法律第八十一号\",\"LawName\":\"障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律\",\"LawNameKana\":\"しょうがいのあるじどうおよびせいとのためのきょうかようとくていとしょとうのふきゅうのそくしんとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20080618,\"AmendName\":\"著作権法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十八号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"420AC0100000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420AC0100000081_20290623_508AC0000000048\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十年法律第八十一号\",\"LawName\":\"障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律\",\"LawNameKana\":\"しょうがいのあるじどうおよびせいとのためのきょうかようとくていとしょとうのふきゅうのそくしんとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20080618,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"420AC0100000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420AC0100000081_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十年法律第八十一号\",\"LawName\":\"障害のある児童及び生徒のための教科用特定図書等の普及の促進等に関する法律\",\"LawNameKana\":\"しょうがいのあるじどうおよびせいとのためのきょうかようとくていとしょとうのふきゅうのそくしんとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20080618,\"AmendName\":\"著作権法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十八号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"420AC0100000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420AC0100000081_20290623_508AC0000000048\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
