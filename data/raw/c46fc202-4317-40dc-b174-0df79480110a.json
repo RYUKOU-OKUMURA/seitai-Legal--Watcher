@@ -1,0 +1,14 @@
+{
+  "changeId": "c46fc202-4317-40dc-b174-0df79480110a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416AC0000000128",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#416AC0000000128",
+  "title": "金融機能の強化のための特別措置に関する法律",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百二十八号\",\"LawName\":\"金融機能の強化のための特別措置に関する法律\",\"LawNameKana\":\"きんゆうきのうのきょうかのためのとくべつそちにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20040618,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"416AC0000000128\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000128_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

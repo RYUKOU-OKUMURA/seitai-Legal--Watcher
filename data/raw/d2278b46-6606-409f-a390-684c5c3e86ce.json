@@ -1,0 +1,14 @@
+{
+  "changeId": "d2278b46-6606-409f-a390-684c5c3e86ce",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411AC0000000097",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#411AC0000000097",
+  "title": "厚生労働省設置法",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第九十七号\",\"LawName\":\"厚生労働省設置法\",\"LawNameKana\":\"こうせいろうどうしょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19990716,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"411AC0000000097\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000097_20270401_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

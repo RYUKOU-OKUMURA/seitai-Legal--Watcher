@@ -1,0 +1,14 @@
+{
+  "changeId": "ebc0af1d-5d00-44c1-bce5-5d025cc93fb5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000115",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#329AC0000000115",
+  "title": "厚生年金保険法",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百十五号\",\"LawName\":\"厚生年金保険法\",\"LawNameKana\":\"こうせいねんきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540519,\"AmendName\":\"雇用保険法等の一部を改正する法律\",\"AmendNo\":\"令和二年法律第十四号\",\"AmendPromulgationDate\":20200331,\"EnforcementDate\":20200901,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000115_20200901_502AC0000000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

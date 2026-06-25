@@ -1,0 +1,14 @@
+{
+  "changeId": "646bb6a0-8a28-4e5f-ae71-d635e924f65a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405AC0000000044",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#405AC0000000044",
+  "title": "協同組織金融機関の優先出資に関する法律",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成五年法律第四十四号\",\"LawName\":\"協同組織金融機関の優先出資に関する法律\",\"LawNameKana\":\"きょうどうそしききんゆうきかんのゆうせんしゅっしにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19930512,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"405AC0000000044\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405AC0000000044_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

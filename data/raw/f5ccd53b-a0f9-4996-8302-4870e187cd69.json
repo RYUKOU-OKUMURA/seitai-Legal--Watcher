@@ -1,0 +1,14 @@
+{
+  "changeId": "f5ccd53b-a0f9-4996-8302-4870e187cd69",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410AC1000000130",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#410AC1000000130",
+  "title": "金融庁設置法",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十年法律第百三十号\",\"LawName\":\"金融庁設置法\",\"LawNameKana\":\"きんゆうちょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19981016,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"410AC1000000130\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410AC1000000130_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

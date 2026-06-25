@@ -1,0 +1,14 @@
+{
+  "changeId": "5293d86e-4564-4ae0-8787-a1e92b654e63",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260022",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260022",
+  "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令案に関する意見募集の結果について",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/24 案の公示日：2026/04/20 受付締切日時：2026/05/19 23:59 命令等の公布日：2026/06/24 提出意見数：20 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局総務課\n03-5253-1111（内線2186）\n03-3595-2377（直通）",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "1bf5213f-2348-428a-915c-1f818830bc8c",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260650",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260650",
+  "title": "シアナジンに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/24 受付締切日時：2026/07/23 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n評価第一課農薬評価室　中井、藤原\n電話：03(6234)1120又は1164",
+  "links": [],
+  "httpStatus": 200
+}

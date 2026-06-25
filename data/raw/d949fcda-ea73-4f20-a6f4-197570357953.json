@@ -1,0 +1,14 @@
+{
+  "changeId": "d949fcda-ea73-4f20-a6f4-197570357953",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC0000000190",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#414AC0000000190",
+  "title": "金融機関等の組織再編成の促進に関する特別措置法",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第百九十号\",\"LawName\":\"金融機関等の組織再編成の促進に関する特別措置法\",\"LawNameKana\":\"きんゆうきかんとうのそしきさいへんせいのそくしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20021218,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"414AC0000000190\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC0000000190_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

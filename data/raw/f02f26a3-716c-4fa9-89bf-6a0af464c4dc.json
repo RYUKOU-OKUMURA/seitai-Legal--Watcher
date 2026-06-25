@@ -1,0 +1,14 @@
+{
+  "changeId": "f02f26a3-716c-4fa9-89bf-6a0af464c4dc",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495160339",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495160339",
+  "title": "「確定拠出年金法施行規則の一部を改正する省令案」について改めて意見公募手続きを実施した件について",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/24 案の公示日：2016/12/28 受付締切日時：2017/01/26 00:00 命令等の公布日： 提出意見数：1 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局企業年金国民年金基金課\n電話：03-3595-2865",
+  "links": [],
+  "httpStatus": 200
+}

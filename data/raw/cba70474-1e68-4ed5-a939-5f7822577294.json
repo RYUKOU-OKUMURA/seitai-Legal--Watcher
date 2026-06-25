@@ -1,0 +1,14 @@
+{
+  "changeId": "cba70474-1e68-4ed5-a939-5f7822577294",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346AC0000000034",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260625#346AC0000000034",
+  "title": "預金保険法",
+  "detectedAt": "2026-06-25T05:57:09.474Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十六年法律第三十四号\",\"LawName\":\"預金保険法\",\"LawNameKana\":\"よきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19710401,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"346AC0000000034\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346AC0000000034_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
