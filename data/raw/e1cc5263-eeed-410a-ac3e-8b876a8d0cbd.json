@@ -1,0 +1,14 @@
+{
+  "changeId": "e1cc5263-eeed-410a-ac3e-8b876a8d0cbd",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260626#413M60000800001",
+  "title": "国土交通省組織規則",
+  "detectedAt": "2026-06-26T06:00:42.759Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第一号\",\"LawName\":\"国土交通省組織規則\",\"LawNameKana\":\"こくどこうつうしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"国土交通省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第四十四号\",\"AmendPromulgationDate\":20260408,\"EnforcementDate\":20260408,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800001_20260408_508M60000800044\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

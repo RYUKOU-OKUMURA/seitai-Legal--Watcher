@@ -1,0 +1,14 @@
+{
+  "changeId": "24c8899e-579f-4ee8-b53f-5f962e016f73",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260093",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260093",
+  "title": "財団法人日本遺族会に対する国有財産の無償貸付に関する法律第二条第二項の規定による財産使用の承認手続に関する省令を廃止する省令の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-26T06:00:42.759Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/25 案の公示日： 受付締切日時： 命令等の公布日：2026/06/25 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局援護企画課",
+  "links": [],
+  "httpStatus": 200
+}

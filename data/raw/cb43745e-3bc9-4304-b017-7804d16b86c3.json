@@ -1,0 +1,15 @@
+{
+  "changeId": "cb43745e-3bc9-4304-b017-7804d16b86c3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000115",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260626#329AC0000000115",
+  "title": "厚生年金保険法",
+  "detectedAt": "2026-06-26T06:00:42.759Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百十五号\",\"LawName\":\"厚生年金保険法\",\"LawNameKana\":\"こうせいねんきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540519,\"AmendName\":\"社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律\",\"AmendNo\":\"令和七年法律第七十四号\",\"AmendPromulgationDate\":20250620,\"EnforcementDate\":20290401,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000115_20290401_507AC0000000074\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 厚生年金保険法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百十五号\",\"LawName\":\"厚生年金保険法\",\"LawNameKana\":\"こうせいねんきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540519,\"AmendName\":\"雇用保険法等の一部を改正する法律\",\"AmendNo\":\"令和二年法律第十四号\",\"AmendPromulgationDate\":20200331,\"EnforcementDate\":20200901,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000115_20200901_502AC0000000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百十五号\",\"LawName\":\"厚生年金保険法\",\"LawNameKana\":\"こうせいねんきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540519,\"AmendName\":\"社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律\",\"AmendNo\":\"令和七年法律第七十四号\",\"AmendPromulgationDate\":20250620,\"EnforcementDate\":20290401,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000115_20290401_507AC0000000074\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

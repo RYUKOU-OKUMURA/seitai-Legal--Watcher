@@ -1,0 +1,14 @@
+{
+  "changeId": "a2cb6d0f-27da-4d8c-8720-370f298b7312",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50004000025",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260626#327M50004000025",
+  "title": "道路法施行規則",
+  "detectedAt": "2026-06-26T06:00:42.759Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年建設省令第二十五号\",\"LawName\":\"道路法施行規則\",\"LawNameKana\":\"どうろほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520801,\"AmendName\":\"道路法施行規則及び特定車両停留施設の構造及び設備の基準を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第三十八号\",\"AmendPromulgationDate\":20260401,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"327M50004000025\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50004000025_20260401_508M60000800038\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

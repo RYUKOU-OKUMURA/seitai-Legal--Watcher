@@ -1,0 +1,14 @@
+{
+  "changeId": "038f224f-797e-43dd-934d-1751acfea3ef",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004375",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004375",
+  "title": "動物用医薬品及び医薬品の使用の規制に関する省令についての意見・情報の募集について",
+  "detectedAt": "2026-06-26T06:00:42.759Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/26 受付締切日時：2026/07/26 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：農林水産省消費・安全局畜水産安全管理課 \n電話：03-3502-8111（内線4538）",
+  "links": [],
+  "httpStatus": 200
+}
