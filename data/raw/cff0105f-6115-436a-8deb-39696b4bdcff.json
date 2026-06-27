@@ -1,0 +1,14 @@
+{
+  "changeId": "cff0105f-6115-436a-8deb-39696b4bdcff",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260081",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260081",
+  "title": "歯科用骨補填材に関する評価指標（案）に関する御意見の募集について",
+  "detectedAt": "2026-06-27T05:45:37.494Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/26 受付締切日時：2026/07/26 18:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省 医薬局 医療機器審査管理課",
+  "links": [],
+  "httpStatus": 200
+}

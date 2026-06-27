@@ -1,0 +1,23 @@
+{
+  "changeId": "481f21ce-eb0d-4b90-a9ea-00df46f06f39",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260025",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260025",
+  "title": "蚊媒介感染症に関する特定感染症予防指針案の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-06-27T05:45:37.494Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/26 案の公示日：2026/04/24 受付締切日時：2026/05/23 23:59 命令等の公布日：2026/06/26 提出意見数：5 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：健康・生活衛生局感染症対策部感染症対策課 (内線: 8056)",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260025",
+      "error": "HTTP 403"
+    }
+  ]
+}
