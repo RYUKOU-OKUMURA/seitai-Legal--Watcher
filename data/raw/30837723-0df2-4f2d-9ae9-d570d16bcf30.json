@@ -1,0 +1,14 @@
+{
+  "changeId": "30837723-0df2-4f2d-9ae9-d570d16bcf30",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:357M50000040010",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260629#357M50000040010",
+  "title": "銀行法施行規則",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十七年大蔵省令第十号\",\"LawName\":\"銀行法施行規則\",\"LawNameKana\":\"ぎんこうほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19820331,\"AmendName\":\"銀行法施行規則等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十五号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"357M50000040010\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357M50000040010_20270401_508M60000002055\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

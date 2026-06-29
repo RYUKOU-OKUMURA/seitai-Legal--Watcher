@@ -1,0 +1,14 @@
+{
+  "changeId": "e1b28dda-56df-4515-992b-6a0806902b3b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:408M50000040005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260629#408M50000040005",
+  "title": "保険業法施行規則",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成八年大蔵省令第五号\",\"LawName\":\"保険業法施行規則\",\"LawNameKana\":\"ほけんぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19960229,\"AmendName\":\"銀行法施行規則等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十五号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"408M50000040005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=408M50000040005_20270401_508M60000002055\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

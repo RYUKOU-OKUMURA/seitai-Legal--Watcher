@@ -1,0 +1,14 @@
+{
+  "changeId": "9b3382a5-e8ee-44d2-88a5-df009714ced5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339M50001000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260629#339M50001000016",
+  "title": "電波法による伝搬障害の防止に関する規則",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十九年郵政省令第十六号\",\"LawName\":\"電波法による伝搬障害の防止に関する規則\",\"LawNameKana\":\"でんぱほうによるでんぱんしょうがいのぼうしにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19640831,\"AmendName\":\"電波法による伝搬障害の防止に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第七十七号\",\"AmendPromulgationDate\":20260615,\"EnforcementDate\":20260615,\"EnforcementComment\":\"\",\"LawId\":\"339M50001000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339M50001000016_20260615_508M60000008077\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

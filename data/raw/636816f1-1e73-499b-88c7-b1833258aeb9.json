@@ -1,0 +1,14 @@
+{
+  "changeId": "636816f1-1e73-499b-88c7-b1833258aeb9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000010001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260629#413M60000010001",
+  "title": "法務省組織規則",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年法務省令第一号\",\"LawName\":\"法務省組織規則\",\"LawNameKana\":\"ほうむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"法務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"413M60000010001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000010001_20260614_508M60000010040\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

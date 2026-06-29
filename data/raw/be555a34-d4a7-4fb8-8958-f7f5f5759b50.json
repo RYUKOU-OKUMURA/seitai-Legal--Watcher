@@ -1,0 +1,14 @@
+{
+  "changeId": "be555a34-d4a7-4fb8-8958-f7f5f5759b50",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:431M60000010027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260629#431M60000010027",
+  "title": "地方出入国在留管理局組織規則",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十一年法務省令第二十七号\",\"LawName\":\"地方出入国在留管理局組織規則\",\"LawNameKana\":\"ちほうしゅつにゅうこくざいりゅうかんりきょくそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20190329,\"AmendName\":\"地方出入国在留管理局組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第三十九号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"431M60000010027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=431M60000010027_20260614_508M60000010039\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

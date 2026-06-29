@@ -1,0 +1,23 @@
+{
+  "changeId": "82b63ef4-3168-4cc6-8d6c-20bb23926faa",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260096",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260096",
+  "title": "と畜場法施行規則の一部を改正する省令の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-29T06:28:04.043Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/29 案の公示日： 受付締切日時： 命令等の公布日：2026/06/29 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局食品監視安全課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260096",
+      "error": "HTTP 403"
+    }
+  ]
+}
