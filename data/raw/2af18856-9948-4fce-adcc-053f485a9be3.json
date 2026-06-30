@@ -1,0 +1,14 @@
+{
+  "changeId": "2af18856-9948-4fce-adcc-053f485a9be3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC1000000070",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#414AC1000000070",
+  "title": "牛海綿状脳症対策特別措置法",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第七十号\",\"LawName\":\"牛海綿状脳症対策特別措置法\",\"LawNameKana\":\"うしかいめんじょうのうしょうたいさくとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020614,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000070\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000070_20260701_508AC0000000020\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

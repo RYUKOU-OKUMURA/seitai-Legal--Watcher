@@ -1,0 +1,14 @@
+{
+  "changeId": "9282cdf4-2dc1-46f0-a8bb-fbc60f6b2fdb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326AC1000000166",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#326AC1000000166",
+  "title": "家畜伝染病予防法",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第百六十六号\",\"LawName\":\"家畜伝染病予防法\",\"LawNameKana\":\"かちくでんせんびょうよぼうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19510531,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20270501,\"EnforcementComment\":\"\",\"LawId\":\"326AC1000000166\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC1000000166_20270501_508AC0000000020\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

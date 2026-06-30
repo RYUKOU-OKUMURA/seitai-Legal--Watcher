@@ -1,0 +1,14 @@
+{
+  "changeId": "29859f3d-c612-446d-849b-bdd16ce89121",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424M60000100015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#424M60000100015",
+  "title": "児童福祉法に基づく指定通所支援の事業等の人員、設備及び運営に関する基準",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十四年厚生労働省令第十五号\",\"LawName\":\"児童福祉法に基づく指定通所支援の事業等の人員、設備及び運営に関する基準\",\"LawNameKana\":\"じどうふくしほうにもとづくしていつうしょしえんのじぎょうとうのじんいんせつびおよびうんえいにかんするきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":20120203,\"AmendName\":\"学校設置者等及び民間教育保育等事業者による児童対象性暴力等の防止等のための措置に関する法律施行規則\",\"AmendNo\":\"令和七年内閣府令第百四号\",\"AmendPromulgationDate\":20251225,\"EnforcementDate\":20261225,\"EnforcementComment\":\"\",\"LawId\":\"424M60000100015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424M60000100015_20261225_507M60000002104\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

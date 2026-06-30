@@ -1,0 +1,14 @@
+{
+  "changeId": "cb2f2b20-2633-424e-a088-faa0e2865c52",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000002056",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#508M60000002056",
+  "title": "公益通報者保護法第十六条第一項の規定による立入検査をする職員の携帯する身分を示す証明書の様式を定める内閣府令",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府令第五十六号\",\"LawName\":\"公益通報者保護法第十六条第一項の規定による立入検査をする職員の携帯する身分を示す証明書の様式を定める内閣府令\",\"LawNameKana\":\"こうえきつうほうしゃほごほうだいじゅうろくじょうだいいっこうのきていによるたちいりけんさをするしょくいんのけいたいするみぶんをしめすしょうめいしょのようしきをさだめるないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260623,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260623,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"508M60000002056\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000002056_20261201_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

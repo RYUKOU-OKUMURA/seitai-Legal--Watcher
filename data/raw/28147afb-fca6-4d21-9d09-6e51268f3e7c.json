@@ -1,0 +1,15 @@
+{
+  "changeId": "28147afb-fca6-4d21-9d09-6e51268f3e7c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409AC0000000061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#409AC0000000061",
+  "title": "南極地域の環境の保護に関する法律",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成九年法律第六十一号\",\"LawName\":\"南極地域の環境の保護に関する法律\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19970528,\"AmendName\":\"南極地域の環境の保護に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十六号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"409AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409AC0000000061_20260630_508AC0000000036\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 南極地域の環境の保護に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成九年法律第六十一号\",\"LawName\":\"南極地域の環境の保護に関する法律\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19970528,\"AmendName\":\"南極地域の環境の保護に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十六号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":\"\",\"EnforcementComment\":\"環境保護に関する南極条約議定書附属書Ⅵが日本国について効力を生ずる日から起算して一月を経過した日\",\"LawId\":\"409AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409AC0000000061_21171231_508AC0000000036\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成九年法律第六十一号\",\"LawName\":\"南極地域の環境の保護に関する法律\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19970528,\"AmendName\":\"南極地域の環境の保護に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十六号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"409AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409AC0000000061_20260630_508AC0000000036\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

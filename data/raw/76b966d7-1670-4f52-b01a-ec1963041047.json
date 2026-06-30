@@ -1,0 +1,23 @@
+{
+  "changeId": "76b966d7-1670-4f52-b01a-ec1963041047",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260094",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260094",
+  "title": "感染症の予防及び感染症の患者に対する医療に関する法律施行規則の一部を改正する省令の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/29 案の公示日： 受付締切日時： 命令等の公布日：2026/06/29 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局感染症対策部感染症対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260094",
+      "error": "HTTP 403"
+    }
+  ]
+}

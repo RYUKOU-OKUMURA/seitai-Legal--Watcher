@@ -1,0 +1,23 @@
+{
+  "changeId": "c16fba9a-ca8a-419a-b583-a1fa7cfd987e",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260016",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260016",
+  "title": "労働安全衛生規則の一部を改正する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/30 案の公示日：2026/04/10 受付締切日時：2026/05/11 00:00 命令等の公布日：2026/06/30 提出意見数：6 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部労働衛生課\n03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260016",
+      "error": "HTTP 403"
+    }
+  ]
+}

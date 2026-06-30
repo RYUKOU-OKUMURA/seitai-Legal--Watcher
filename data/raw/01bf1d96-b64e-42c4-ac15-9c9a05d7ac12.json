@@ -1,0 +1,14 @@
+{
+  "changeId": "01bf1d96-b64e-42c4-ac15-9c9a05d7ac12",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=195260036",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=195260036",
+  "title": "環境省設置法の一部を改正する法律の施行に伴う建築物石綿含有建材調査者講習等登録規程の一部改正について",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/30 案の公示日： 受付締切日時： 命令等の公布日：2026/06/30 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：環境省水・大気環境局環境管理課環境汚染対策室（０３－５５２１－８２９３）",
+  "links": [],
+  "httpStatus": 200
+}

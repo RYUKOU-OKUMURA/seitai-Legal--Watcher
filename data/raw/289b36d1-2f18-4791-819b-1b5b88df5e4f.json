@@ -1,0 +1,14 @@
+{
+  "changeId": "289b36d1-2f18-4791-819b-1b5b88df5e4f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412CO0000000252",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#412CO0000000252",
+  "title": "厚生労働省組織令",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十二年政令第二百五十二号\",\"LawName\":\"厚生労働省組織令\",\"LawNameKana\":\"こうせいろうどうしょうそしきれい\",\"OldLawName\":\"\",\"PromulgationDate\":20000607,\"AmendName\":\"労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百九十六号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"412CO0000000252\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412CO0000000252_20261001_508CO0000000196\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

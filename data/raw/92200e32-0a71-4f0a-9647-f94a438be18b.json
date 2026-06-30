@@ -1,0 +1,14 @@
+{
+  "changeId": "92200e32-0a71-4f0a-9647-f94a438be18b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:357CO0000000044",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#357CO0000000044",
+  "title": "協同組合による金融事業に関する法律施行令",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十七年政令第四十四号\",\"LawName\":\"協同組合による金融事業に関する法律施行令\",\"LawNameKana\":\"きょうどうくみあいによるきんゆうじぎょうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19820327,\"AmendName\":\"株式会社商工組合中央金庫法施行令等の一部を改正する政令\",\"AmendNo\":\"令和七年政令第二百十一号\",\"AmendPromulgationDate\":20250611,\"EnforcementDate\":20250613,\"EnforcementComment\":\"\",\"LawId\":\"357CO0000000044\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357CO0000000044_20250613_507CO0000000211\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

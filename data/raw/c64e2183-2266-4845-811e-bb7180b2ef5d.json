@@ -1,0 +1,14 @@
+{
+  "changeId": "c64e2183-2266-4845-811e-bb7180b2ef5d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000205",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#329AC0000000205",
+  "title": "日本中央競馬会法",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第二百五号\",\"LawName\":\"日本中央競馬会法\",\"LawNameKana\":\"にほんちゅうおうけいばかいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540701,\"AmendName\":\"日本中央競馬会法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十一号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260910,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000205\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000205_20260910_508AC0000000011\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

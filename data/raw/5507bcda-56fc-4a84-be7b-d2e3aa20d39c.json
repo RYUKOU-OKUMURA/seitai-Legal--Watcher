@@ -1,0 +1,14 @@
+{
+  "changeId": "5507bcda-56fc-4a84-be7b-d2e3aa20d39c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000400050",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#508M60000400050",
+  "title": "二酸化炭素の貯留事業に関する法律施行規則",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年経済産業省令第五十号\",\"LawName\":\"二酸化炭素の貯留事業に関する法律施行規則\",\"LawNameKana\":\"にさんかたんそのちょりゅうじぎょうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260521,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260521,\"EnforcementDate\":20260522,\"EnforcementComment\":\"\",\"LawId\":\"508M60000400050\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000400050_20260522_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

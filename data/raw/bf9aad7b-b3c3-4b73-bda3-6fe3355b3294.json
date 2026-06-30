@@ -1,0 +1,14 @@
+{
+  "changeId": "bf9aad7b-b3c3-4b73-bda3-6fe3355b3294",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347CO0000000318",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260630#347CO0000000318",
+  "title": "労働安全衛生法施行令",
+  "detectedAt": "2026-06-30T06:01:34.381Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十七年政令第三百十八号\",\"LawName\":\"労働安全衛生法施行令\",\"LawNameKana\":\"ろうどうあんぜんえいせいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19720819,\"AmendName\":\"労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第百九十六号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"347CO0000000318\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347CO0000000318_20261001_508CO0000000196\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
