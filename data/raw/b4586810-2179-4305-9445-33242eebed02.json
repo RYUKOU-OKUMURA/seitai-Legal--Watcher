@@ -1,0 +1,14 @@
+{
+  "changeId": "b4586810-2179-4305-9445-33242eebed02",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800151",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#413M60000800151",
+  "title": "鉄道に関する技術上の基準を定める省令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第百五十一号\",\"LawName\":\"鉄道に関する技術上の基準を定める省令\",\"LawNameKana\":\"てつどうにかんするぎじゅつじょうのきじゅんをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20011225,\"AmendName\":\"鉄道に関する技術上の基準を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第二十一号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800151\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800151_20260701_508M60000800021\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

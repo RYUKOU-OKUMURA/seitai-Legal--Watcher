@@ -1,0 +1,14 @@
+{
+  "changeId": "747f0b1f-bdcf-437c-a235-3ecf14337fee",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340CO0000000321",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#340CO0000000321",
+  "title": "金融商品取引法施行令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十年政令第三百二十一号\",\"LawName\":\"金融商品取引法施行令\",\"LawNameKana\":\"きんゆうしょうひんとりひきほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19650930,\"AmendName\":\"金融商品取引法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百七十四号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"340CO0000000321\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340CO0000000321_20260701_508CO0000000174\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

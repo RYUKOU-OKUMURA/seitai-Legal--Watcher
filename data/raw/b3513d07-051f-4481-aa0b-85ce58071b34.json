@@ -1,0 +1,14 @@
+{
+  "changeId": "b3513d07-051f-4481-aa0b-85ce58071b34",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:349M50000500001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#349M50000500001",
+  "title": "新規化学物質の製造又は輸入に係る届出等に関する省令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十九年厚生省・通商産業省令第一号\",\"LawName\":\"新規化学物質の製造又は輸入に係る届出等に関する省令\",\"LawNameKana\":\"しんきかがくぶっしつのせいぞうまたはゆにゅうにかかるとどけでとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19740415,\"AmendName\":\"新規化学物質の製造又は輸入に係る届出等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和七年厚生労働省・経済産業省・環境省令第二号\",\"AmendPromulgationDate\":20251008,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"349M50000500001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=349M50000500001_20260701_507M60001500002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

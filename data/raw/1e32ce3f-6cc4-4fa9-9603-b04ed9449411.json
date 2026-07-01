@@ -1,0 +1,15 @@
+{
+  "changeId": "1e32ce3f-6cc4-4fa9-9603-b04ed9449411",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326AC1000000166",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#326AC1000000166",
+  "title": "家畜伝染病予防法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第百六十六号\",\"LawName\":\"家畜伝染病予防法\",\"LawNameKana\":\"かちくでんせんびょうよぼうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19510531,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"326AC1000000166\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC1000000166_20260701_508AC0000000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 家畜伝染病予防法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第百六十六号\",\"LawName\":\"家畜伝染病予防法\",\"LawNameKana\":\"かちくでんせんびょうよぼうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19510531,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20270501,\"EnforcementComment\":\"\",\"LawId\":\"326AC1000000166\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC1000000166_20270501_508AC0000000020\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第百六十六号\",\"LawName\":\"家畜伝染病予防法\",\"LawNameKana\":\"かちくでんせんびょうよぼうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19510531,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"326AC1000000166\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC1000000166_20260701_508AC0000000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

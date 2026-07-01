@@ -1,0 +1,15 @@
+{
+  "changeId": "fdad4117-0dcd-4a4e-b552-9f49a79da98c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0000000093",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#413AC0000000093",
+  "title": "農林中央金庫法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第九十三号\",\"LawName\":\"農林中央金庫法\",\"LawNameKana\":\"のうりんちゅうおうきんこほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"農林中央金庫法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十六号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000093\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000093_20260701_508AC0000000016\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 農林中央金庫法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第九十三号\",\"LawName\":\"農林中央金庫法\",\"LawNameKana\":\"のうりんちゅうおうきんこほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"農林中央金庫法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十六号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000093\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000093_20260701_508AC0000000016\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第九十三号\",\"LawName\":\"農林中央金庫法\",\"LawNameKana\":\"のうりんちゅうおうきんこほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"農林中央金庫法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十六号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000093\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000093_20260701_508AC0000000016\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

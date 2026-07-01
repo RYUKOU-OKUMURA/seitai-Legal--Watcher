@@ -1,0 +1,14 @@
+{
+  "changeId": "43828752-15f2-4af3-915d-618dd6fa557e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414M60000800005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#414M60000800005",
+  "title": "小型船舶の登録等に関する法律の施行に伴う経過措置を定める省令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十四年国土交通省令第五号\",\"LawName\":\"小型船舶の登録等に関する法律の施行に伴う経過措置を定める省令\",\"LawNameKana\":\"こがたせんぱくのとうろくとうにかんするほうりつのせこうにともなうけいかそちをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20020201,\"AmendName\":\"船舶安全法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十一号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414M60000800005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414M60000800005_20260701_508M60000800061\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

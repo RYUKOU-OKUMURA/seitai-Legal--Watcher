@@ -1,0 +1,14 @@
+{
+  "changeId": "3d3ea30b-5e33-44c3-a2a5-0316c4b42bd6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:427CO0000000378",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#427CO0000000378",
+  "title": "水銀による環境の汚染の防止に関する法律施行令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十七年政令第三百七十八号\",\"LawName\":\"水銀による環境の汚染の防止に関する法律施行令\",\"LawNameKana\":\"すいぎんによるかんきょうのおせんのぼうしにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20151111,\"AmendName\":\"水銀による環境の汚染の防止に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和六年政令第四百二号\",\"AmendPromulgationDate\":20241227,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"427CO0000000378\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=427CO0000000378_20260701_506CO0000000402\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

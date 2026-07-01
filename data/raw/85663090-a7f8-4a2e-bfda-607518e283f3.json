@@ -1,0 +1,14 @@
+{
+  "changeId": "85663090-a7f8-4a2e-bfda-607518e283f3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414M60000800004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#414M60000800004",
+  "title": "小型船舶登録規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十四年国土交通省令第四号\",\"LawName\":\"小型船舶登録規則\",\"LawNameKana\":\"こがたせんぱくとうろくきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20020201,\"AmendName\":\"船舶安全法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十一号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414M60000800004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414M60000800004_20260701_508M60000800061\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

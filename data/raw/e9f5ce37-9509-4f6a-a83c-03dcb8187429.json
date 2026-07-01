@@ -1,0 +1,14 @@
+{
+  "changeId": "e9f5ce37-9509-4f6a-a83c-03dcb8187429",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506AC0000000038",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#506AC0000000038",
+  "title": "二酸化炭素の貯留事業に関する法律",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和六年法律第三十八号\",\"LawName\":\"二酸化炭素の貯留事業に関する法律\",\"LawNameKana\":\"にさんかたんそのちょりゅうじぎょうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20240524,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"506AC0000000038\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506AC0000000038_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

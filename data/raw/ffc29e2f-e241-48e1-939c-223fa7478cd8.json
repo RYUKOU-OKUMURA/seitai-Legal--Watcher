@@ -1,0 +1,14 @@
+{
+  "changeId": "ffc29e2f-e241-48e1-939c-223fa7478cd8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:401CO0000000122",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#401CO0000000122",
+  "title": "旅券法施行令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成元年政令第百二十二号\",\"LawName\":\"旅券法施行令\",\"LawNameKana\":\"りょけんほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19890428,\"AmendName\":\"旅券法施行令及び出入国管理及び難民認定法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百七十七号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"401CO0000000122\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=401CO0000000122_20260701_508CO0000000177\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

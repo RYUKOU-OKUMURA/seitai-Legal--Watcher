@@ -1,0 +1,15 @@
+{
+  "changeId": "52dad3d9-eefd-4000-8944-e3b77470c395",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0000000065",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#413AC0000000065",
+  "title": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第六十五号\",\"LawName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法\",\"LawNameKana\":\"ぽりえんかびふぇにるはいきぶつのてきせいなしょりのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010622,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000065\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000065_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第六十五号\",\"LawName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法\",\"LawNameKana\":\"ぽりえんかびふぇにるはいきぶつのてきせいなしょりのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010622,\"AmendName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十四号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000065\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000065_20270401_508AC0000000044\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第六十五号\",\"LawName\":\"ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法\",\"LawNameKana\":\"ぽりえんかびふぇにるはいきぶつのてきせいなしょりのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20010622,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000065\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000065_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

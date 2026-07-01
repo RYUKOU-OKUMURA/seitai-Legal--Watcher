@@ -1,0 +1,14 @@
+{
+  "changeId": "9fcdf391-866a-4e18-a262-c9a3e34bdffe",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:358M50000800040",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#358M50000800040",
+  "title": "海洋汚染等及び海上災害の防止に関する法律の規定に基づく事業場の認定に関する規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十八年運輸省令第四十号\",\"LawName\":\"海洋汚染等及び海上災害の防止に関する法律の規定に基づく事業場の認定に関する規則\",\"LawNameKana\":\"かいようおせんとうおよびかいじょうさいがいのぼうしにかんするほうりつのきていにもとづくじぎょうばのにんていにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830824,\"AmendName\":\"船舶安全法の規定に基づく事業場の認定に関する規則及び海洋汚染等及び海上災害の防止に関する法律の規定に基づく事業場の認定に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第二号\",\"AmendPromulgationDate\":20260115,\"EnforcementDate\":20260115,\"EnforcementComment\":\"\",\"LawId\":\"358M50000800040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50000800040_20260115_508M60000800002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "4ec89178-ce4c-485a-b642-57bf53ba8d34",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235080088",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235080088",
+  "title": "食品表示基準の一部を改正する内閣府令（案）に関する意見募集について",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/01 受付締切日時：2026/07/30 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁食品表示課\n03-3507-9138",
+  "links": [],
+  "httpStatus": 200
+}

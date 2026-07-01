@@ -1,0 +1,14 @@
+{
+  "changeId": "7b37f3a6-f2de-488b-b417-5df47524c11b",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260099",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260099",
+  "title": "障害者の雇用の促進等に関する法律施行令及び障害者の雇用の促進等に関する法律施行規則の規定に基づ\nき厚生労働大臣が定める様式の一部を改正する件の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/30 案の公示日： 受付締切日時： 命令等の公布日：2026/06/30 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局障害者雇用対策課\n０３－５２５３－１１１１（内線５８３１）",
+  "links": [],
+  "httpStatus": 200
+}

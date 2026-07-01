@@ -1,0 +1,14 @@
+{
+  "changeId": "df49daa1-1559-45a1-8ce7-3de3103f8704",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50080000015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#325M50080000015",
+  "title": "無線局免許手続規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十五号\",\"LawName\":\"無線局免許手続規則\",\"LawNameKana\":\"むせんきょくめんきょてつづききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第五十九号\",\"AmendPromulgationDate\":20260403,\"EnforcementDate\":20260403,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000015_20260403_508M60000008059\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

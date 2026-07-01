@@ -1,0 +1,25 @@
+{
+  "changeId": "922484ea-386c-4f4d-b1be-f3e997956e0e",
+  "sourceId": "mhlw-news",
+  "sourceName": "厚生労働省報道発表（月別一覧）",
+  "sourceWeight": "high",
+  "targetKey": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202607.html",
+  "url": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202607.html",
+  "title": "報道発表資料　2026年7月 ｜厚生労働省",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年7月 報道発表資料 2026年7月 資料一覧 2026年7月1日（水）掲載 戦没者慰霊事業のお知らせ（令和８年７月実施分） NEW 原子力災害対策特別措置法第20条第２項の規定に基づく食品の出荷制限等の解除 NEW 「第15回 健康寿命をのばそう！アワード」（生活習慣病予防分野）の応募受付を開始します。 NEW 被保護者調査（令和８年４月分概数） NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。",
+  "links": [
+    "https://get.adobe.com/jp/reader",
+    "https://www.mhlw.go.jp/houdou_kouhou/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/houdou/index.html",
+    "https://www.mhlw.go.jp/stf/newpage_73944.html",
+    "https://www.mhlw.go.jp/stf/newpage_73972.html",
+    "https://www.mhlw.go.jp/stf/newpage_74082.html",
+    "https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2026/04.html"
+  ],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}

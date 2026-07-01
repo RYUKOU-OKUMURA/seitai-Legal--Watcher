@@ -1,0 +1,14 @@
+{
+  "changeId": "1edcf8dc-3000-4c34-b81f-c0c13b9269a6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363M50000400080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#363M50000400080",
+  "title": "特定物質等の規制等によるオゾン層の保護に関する法律施行規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十三年通商産業省令第八十号\",\"LawName\":\"特定物質等の規制等によるオゾン層の保護に関する法律施行規則\",\"LawNameKana\":\"とくていぶっしつとうのきせいとうによるおぞんそうのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"特定物質の規制等によるオゾン層の保護に関する法律施行規則\",\"PromulgationDate\":19881224,\"AmendName\":\"特定物質等の規制等によるオゾン層の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第十七号\",\"AmendPromulgationDate\":20260324,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"363M50000400080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363M50000400080_20260701_508M60000400017\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

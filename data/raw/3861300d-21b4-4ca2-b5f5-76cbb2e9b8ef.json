@@ -1,0 +1,14 @@
+{
+  "changeId": "3861300d-21b4-4ca2-b5f5-76cbb2e9b8ef",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323M40000100011",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#323M40000100011",
+  "title": "児童福祉法施行規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十三年厚生省令第十一号\",\"LawName\":\"児童福祉法施行規則\",\"LawNameKana\":\"じどうふくしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19480331,\"AmendName\":\"児童福祉法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第十五号\",\"AmendPromulgationDate\":20260330,\"EnforcementDate\":20261225,\"EnforcementComment\":\"\",\"LawId\":\"323M40000100011\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323M40000100011_20261225_508M60000002015\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

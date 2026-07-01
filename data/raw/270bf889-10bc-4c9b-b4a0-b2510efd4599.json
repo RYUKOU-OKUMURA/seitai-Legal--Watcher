@@ -1,0 +1,14 @@
+{
+  "changeId": "270bf889-10bc-4c9b-b4a0-b2510efd4599",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406AC0000000009",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#406AC0000000009",
+  "title": "特定水道利水障害の防止のための水道水源水域の水質の保全に関する特別措置法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成六年法律第九号\",\"LawName\":\"特定水道利水障害の防止のための水道水源水域の水質の保全に関する特別措置法\",\"LawNameKana\":\"とくていすいどうりすいしょうがいのぼうしのためのすいどうすいげんすいいきのすいしつのほぜんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19940304,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"406AC0000000009\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406AC0000000009_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

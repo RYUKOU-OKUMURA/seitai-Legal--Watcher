@@ -1,0 +1,15 @@
+{
+  "changeId": "8b218647-de1f-498d-ac30-f5c331b9b8a2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335AC0000000105",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#335AC0000000105",
+  "title": "道路交通法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第百五号\",\"LawName\":\"道路交通法\",\"LawNameKana\":\"どうろこうつうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600625,\"AmendName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律及び道路交通法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十二号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260721,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000105\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000105_20260721_508AC0000000052\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 道路交通法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第百五号\",\"LawName\":\"道路交通法\",\"LawNameKana\":\"どうろこうつうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600625,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000105\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000105_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第百五号\",\"LawName\":\"道路交通法\",\"LawNameKana\":\"どうろこうつうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600625,\"AmendName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律及び道路交通法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十二号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260721,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000105\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000105_20260721_508AC0000000052\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

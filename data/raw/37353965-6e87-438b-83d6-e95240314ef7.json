@@ -1,0 +1,14 @@
+{
+  "changeId": "37353965-6e87-438b-83d6-e95240314ef7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333AC0000000079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#333AC0000000079",
+  "title": "下水道法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十三年法律第七十九号\",\"LawName\":\"下水道法\",\"LawNameKana\":\"げすいどうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19580424,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"333AC0000000079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333AC0000000079_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

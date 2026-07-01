@@ -1,0 +1,14 @@
+{
+  "changeId": "8c31f662-d23b-4614-a581-8fa0cb66d9b8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:429M60000008079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#429M60000008079",
+  "title": "地方独立行政法人法別表及び地方独立行政法人法施行令第五条第一項の総務省令で定める事務を定める省令",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十九年総務省令第七十九号\",\"LawName\":\"地方独立行政法人法別表及び地方独立行政法人法施行令第五条第一項の総務省令で定める事務を定める省令\",\"LawNameKana\":\"ちほうどくりつぎょうせいほうじんほうべっぴょうおよびちほうどくりつぎょうせいほうじんほうせこうれいだいごじょうだいいっこうのそうむしょうれいでさだめるじむをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20171204,\"AmendName\":\"地方独立行政法人法別表及び地方独立行政法人法施行令第五条第一項の総務省令で定める事務を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第七十六号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"429M60000008079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429M60000008079_20260614_508M60000008076\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

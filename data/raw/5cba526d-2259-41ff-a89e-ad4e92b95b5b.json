@@ -1,0 +1,14 @@
+{
+  "changeId": "5cba526d-2259-41ff-a89e-ad4e92b95b5b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:343AC0000000097",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#343AC0000000097",
+  "title": "大気汚染防止法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十三年法律第九十七号\",\"LawName\":\"大気汚染防止法\",\"LawNameKana\":\"たいきおせんぼうしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19680610,\"AmendName\":\"環境省設置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十二号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"343AC0000000097\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=343AC0000000097_20260701_508AC0000000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "09819c2a-40c2-42cb-85fb-22337a11f991",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326AC0000000267",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#326AC0000000267",
+  "title": "旅券法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十六年法律第二百六十七号\",\"LawName\":\"旅券法\",\"LawNameKana\":\"りょけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19511128,\"AmendName\":\"旅券法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十九号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"326AC0000000267\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326AC0000000267_20260701_508AC0000000019\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

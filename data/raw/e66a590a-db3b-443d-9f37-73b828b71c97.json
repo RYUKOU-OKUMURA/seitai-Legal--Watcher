@@ -1,0 +1,14 @@
+{
+  "changeId": "e66a590a-db3b-443d-9f37-73b828b71c97",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323M40000800008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#323M40000800008",
+  "title": "海難審判法施行規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十三年運輸省令第八号\",\"LawName\":\"海難審判法施行規則\",\"LawNameKana\":\"かいなんしんぱんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19480402,\"AmendName\":\"海難審判法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"323M40000800008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323M40000800008_20260701_508M60000800060\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

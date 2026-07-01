@@ -1,0 +1,14 @@
+{
+  "changeId": "f78ca187-2774-4ded-9ee2-688fd504df92",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126074",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=595126074",
+  "title": "宝石・貴金属等取扱事業者におけるマネー・ローンダリング、テロ資金供与及び拡散金融対策に関するガイドライン（案）に対する意見公募の結果について",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/06/30 案の公示日：2026/04/06 受付締切日時：2026/05/08 23:59 命令等の公布日：2026/06/26 提出意見数：9 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：経済産業省製造産業局鉱物課　電話：03-3501-1511（代表）（内線：4701）、\n経済産業省製造産業局生活製品課　電話：03-3501-1511（代表）（内線：3861）",
+  "links": [],
+  "httpStatus": 200
+}

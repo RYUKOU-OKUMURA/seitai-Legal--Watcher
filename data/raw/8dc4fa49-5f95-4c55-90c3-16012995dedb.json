@@ -1,0 +1,14 @@
+{
+  "changeId": "8dc4fa49-5f95-4c55-90c3-16012995dedb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430AC0000000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#430AC0000000016",
+  "title": "国際観光旅客税法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三十年法律第十六号\",\"LawName\":\"国際観光旅客税法\",\"LawNameKana\":\"こくさいかんこうりょきゃくぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":20180418,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十二号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"430AC0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430AC0000000016_20260701_508AC0000000012\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "742c8065-8f24-4d67-ba25-4d86daaa6a9c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC1000000070",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#414AC1000000070",
+  "title": "牛海綿状脳症対策特別措置法",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第七十号\",\"LawName\":\"牛海綿状脳症対策特別措置法\",\"LawNameKana\":\"うしかいめんじょうのうしょうたいさくとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020614,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000070\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000070_20260701_508AC0000000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 牛海綿状脳症対策特別措置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第七十号\",\"LawName\":\"牛海綿状脳症対策特別措置法\",\"LawNameKana\":\"うしかいめんじょうのうしょうたいさくとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020614,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000070\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000070_20260701_508AC0000000020\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第七十号\",\"LawName\":\"牛海綿状脳症対策特別措置法\",\"LawNameKana\":\"うしかいめんじょうのうしょうたいさくとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020614,\"AmendName\":\"家畜伝染病予防法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十号\",\"AmendPromulgationDate\":20260519,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000070\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000070_20260701_508AC0000000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

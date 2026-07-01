@@ -1,0 +1,14 @@
+{
+  "changeId": "28a66653-218f-4d3a-9d28-ca5c69590cd1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324M50004000014",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260701#324M50004000014",
+  "title": "建設業法施行規則",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十四年建設省令第十四号\",\"LawName\":\"建設業法施行規則\",\"LawNameKana\":\"けんせつぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19490728,\"AmendName\":\"建設業法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六号\",\"AmendPromulgationDate\":20260206,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"324M50004000014\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324M50004000014_20260701_508M60000800006\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

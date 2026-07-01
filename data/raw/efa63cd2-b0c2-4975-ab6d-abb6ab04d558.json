@@ -1,0 +1,23 @@
+{
+  "changeId": "efa63cd2-b0c2-4975-ab6d-abb6ab04d558",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260095",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260095",
+  "title": "抗菌性物質製剤に係る安定供給確保を図るための取組方針改定（案）に関する御意見の募集について",
+  "detectedAt": "2026-07-01T06:16:37.553Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/06/30 受付締切日時：2026/07/30 10:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医薬産業振興・医療情報企画課\n電話：03-5253-1111（内線4472）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260095",
+      "error": "HTTP 403"
+    }
+  ]
+}
