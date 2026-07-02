@@ -1,0 +1,14 @@
+{
+  "changeId": "a534f300-4da5-4a33-b25b-1461268f9c7e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000132",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260702#322AC0000000132",
+  "title": "農業協同組合法",
+  "detectedAt": "2026-07-02T05:48:31.400Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百三十二号\",\"LawName\":\"農業協同組合法\",\"LawNameKana\":\"のうぎょうきょうどうくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19471119,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000132\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000132_20290624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

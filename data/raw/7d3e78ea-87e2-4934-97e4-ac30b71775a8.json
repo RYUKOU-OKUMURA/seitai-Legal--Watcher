@@ -1,0 +1,14 @@
+{
+  "changeId": "7d3e78ea-87e2-4934-97e4-ac30b71775a8",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260680",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260680",
+  "title": "食品安全委員会が自ら行う食品健康影響評価（「自ら評価」）の案件候補の募集について",
+  "detectedAt": "2026-07-02T05:48:31.400Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/01 受付締切日時：2026/07/31 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n情報・勧告広報課 長谷川\n電話：03(6234)1126",
+  "links": [],
+  "httpStatus": 200
+}

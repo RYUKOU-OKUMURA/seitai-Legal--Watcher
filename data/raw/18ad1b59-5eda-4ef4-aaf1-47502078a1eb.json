@@ -1,0 +1,19 @@
+{
+  "changeId": "18ad1b59-5eda-4ef4-aaf1-47502078a1eb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:314AC0000000073",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260702#314AC0000000073",
+  "title": "船員保険法",
+  "detectedAt": "2026-07-02T05:48:31.400Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20290624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 船員保険法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20280604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20290624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "2cd10d1a-65c1-495f-a14d-7f35e6f1b1d9",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495170203",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495170203",
+  "title": "「若年者地域連携事業民間競争入札実施要領（案）」に関する意見募集について",
+  "detectedAt": "2026-07-02T05:48:31.400Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/01 案の公示日：2017/10/06 受付締切日時：2017/10/19 00:00 命令等の公布日： 提出意見数：20 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省人材開発統括官付若年者・キャリア形成支援担当参事官室\n電話：03-5253-1111（内線5331）",
+  "links": [],
+  "httpStatus": 200
+}

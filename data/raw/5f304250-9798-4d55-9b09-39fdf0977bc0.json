@@ -1,0 +1,14 @@
+{
+  "changeId": "5f304250-9798-4d55-9b09-39fdf0977bc0",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260100",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260100",
+  "title": "「生物学的製剤基準の一部を改正する件（案）」に関する御意見の募集について",
+  "detectedAt": "2026-07-02T05:48:31.400Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/02 受付締切日時：2026/08/01 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課",
+  "links": [],
+  "httpStatus": 200
+}
