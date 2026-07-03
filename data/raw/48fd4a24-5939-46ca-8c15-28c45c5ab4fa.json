@@ -1,0 +1,14 @@
+{
+  "changeId": "48fd4a24-5939-46ca-8c15-28c45c5ab4fa",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000120",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260703#323AC0000000120",
+  "title": "国家行政組織法",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百二十号\",\"LawName\":\"国家行政組織法\",\"LawNameKana\":\"こっかぎょうせいそしきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260703,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000120\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000120_20260703_508AC0000000053\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

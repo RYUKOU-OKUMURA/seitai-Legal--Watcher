@@ -1,0 +1,14 @@
+{
+  "changeId": "127b2866-129c-46ef-8fd8-3dbf541fb0d7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000164",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260703#329AC0000000164",
+  "title": "防衛省設置法",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百六十四号\",\"LawName\":\"防衛省設置法\",\"LawNameKana\":\"ぼうえいしょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540609,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":\"\",\"EnforcementComment\":\"令和九年三月三十一日までの間において政令で定める日\",\"LawId\":\"329AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000164_20270331_508AC0000000053\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

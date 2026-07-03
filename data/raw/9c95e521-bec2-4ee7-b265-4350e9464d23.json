@@ -1,0 +1,19 @@
+{
+  "changeId": "9c95e521-bec2-4ee7-b265-4350e9464d23",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416AC0000000112",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260703#416AC0000000112",
+  "title": "武力攻撃事態等における国民の保護のための措置に関する法律",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百十二号\",\"LawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"LawNameKana\":\"ぶりょくこうげきじたいとうにおけるこくみんのほごのためのそちにかんするほうりつ\",\"OldLawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"PromulgationDate\":20040618,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":\"\",\"EnforcementComment\":\"令和九年三月三十一日までの間において政令で定める日\",\"LawId\":\"416AC0000000112\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000112_20270331_508AC0000000053\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 武力攻撃事態等における国民の保護のための措置に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百十二号\",\"LawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"LawNameKana\":\"ぶりょくこうげきじたいとうにおけるこくみんのほごのためのそちにかんするほうりつ\",\"OldLawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"PromulgationDate\":20040618,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"416AC0000000112\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000112_20270604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百十二号\",\"LawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"LawNameKana\":\"ぶりょくこうげきじたいとうにおけるこくみんのほごのためのそちにかんするほうりつ\",\"OldLawName\":\"武力攻撃事態等における国民の保護のための措置に関する法律\",\"PromulgationDate\":20040618,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":\"\",\"EnforcementComment\":\"令和九年三月三十一日までの間において政令で定める日\",\"LawId\":\"416AC0000000112\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000112_20270331_508AC0000000053\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

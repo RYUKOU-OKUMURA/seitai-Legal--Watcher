@@ -1,0 +1,14 @@
+{
+  "changeId": "bc59e475-a46a-4a1c-bd04-d5346e1bbee7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329CO0000000178",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260703#329CO0000000178",
+  "title": "防衛省組織令",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百七十八号\",\"LawName\":\"防衛省組織令\",\"LawNameKana\":\"ぼうえいしょうそしきれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"防衛省組織令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百九十七号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000178\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000178_20260701_508CO0000000197\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "b9c46beb-beb9-4226-9316-617297bbe4c6",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260039",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260039",
+  "title": "確定拠出年金運営管理機関に関する命令の一部を改正する命令案に関する意見募集の結果について",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/02 案の公示日：2026/04/28 受付締切日時：2026/05/28 23:59 命令等の公布日：2026/06/30 提出意見数：2 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局企業年金・個人年金課",
+  "links": [],
+  "httpStatus": 200
+}

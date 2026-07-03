@@ -1,0 +1,14 @@
+{
+  "changeId": "0d8b8bd7-1725-418e-8633-b97cc905abc0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420CO0000000145",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260703#420CO0000000145",
+  "title": "更生保護法施行令",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十年政令第百四十五号\",\"LawName\":\"更生保護法施行令\",\"LawNameKana\":\"こうせいほごほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20080423,\"AmendName\":\"更生保護法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百九十九号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"420CO0000000145\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420CO0000000145_20260701_508CO0000000199\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

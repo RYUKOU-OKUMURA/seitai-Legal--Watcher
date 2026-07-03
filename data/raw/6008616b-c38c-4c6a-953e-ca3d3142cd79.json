@@ -1,0 +1,23 @@
+{
+  "changeId": "6008616b-c38c-4c6a-953e-ca3d3142cd79",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235110029",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235110029",
+  "title": "「食品、添加物等の規格基準の一部を改正する告示（案）」（農薬等（アフィドピロペン等７品目）の残留基準の改正）に関する御意見の募集の結果について",
+  "detectedAt": "2026-07-03T05:42:46.761Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/03 案の公示日：2026/04/14 受付締切日時：2026/05/18 23:59 命令等の公布日：2026/07/03 提出意見数：7 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁食品衛生基準審査課残留農薬等基準審査室\n電話：03-3507-9352",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235110029",
+      "error": "HTTP 403"
+    }
+  ]
+}
