@@ -1,0 +1,14 @@
+{
+  "changeId": "e7f31a82-c5b5-4cbc-b821-889819696b37",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260427",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260427",
+  "title": "「国土強靱化年次計画2026（素案）」に関する意見募集の結果について",
+  "detectedAt": "2026-07-04T05:36:55.246Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/03 案の公示日：2026/04/27 受付締切日時：2026/05/11 23:59 命令等の公布日：2026/07/03 提出意見数：292 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣官房　国土強靱化推進室",
+  "links": [],
+  "httpStatus": 200
+}

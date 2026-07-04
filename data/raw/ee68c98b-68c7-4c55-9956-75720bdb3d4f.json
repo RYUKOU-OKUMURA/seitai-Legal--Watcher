@@ -1,0 +1,23 @@
+{
+  "changeId": "ee68c98b-68c7-4c55-9956-75720bdb3d4f",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260102",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260102",
+  "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四十三条第一項の規定に基づき検査を要するものとして厚生労働大臣の指定する医薬品等の一部を改正する件（案）に関する御意見の募集について",
+  "detectedAt": "2026-07-04T05:36:55.246Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/03 受付締切日時：2026/08/02 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省 医薬局 監視指導・麻薬対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260102",
+      "error": "HTTP 403"
+    }
+  ]
+}
