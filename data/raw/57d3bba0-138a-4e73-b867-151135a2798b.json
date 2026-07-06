@@ -1,0 +1,14 @@
+{
+  "changeId": "57d3bba0-138a-4e73-b867-151135a2798b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409M50000002053",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260706#409M50000002053",
+  "title": "南極地域の環境の保護に関する法律施行規則",
+  "detectedAt": "2026-07-06T06:18:25.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成九年総理府令第五十三号\",\"LawName\":\"南極地域の環境の保護に関する法律施行規則\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19970929,\"AmendName\":\"南極地域の環境の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第十八号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"409M50000002053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409M50000002053_20260630_508M60001000018\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
