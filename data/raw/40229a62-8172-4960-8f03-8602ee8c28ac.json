@@ -1,0 +1,14 @@
+{
+  "changeId": "40229a62-8172-4960-8f03-8602ee8c28ac",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423CO0000000345",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#423CO0000000345",
+  "title": "南スーダン国際平和協力隊の設置等に関する政令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第三百四十五号\",\"LawName\":\"南スーダン国際平和協力隊の設置等に関する政令\",\"LawNameKana\":\"みなみすーだんこくさいへいわきょうりょくたいのせっちとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111118,\"AmendName\":\"南スーダン国際平和協力隊の設置等に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十一号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260624,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000345\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000345_20260624_508CO0000000211\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

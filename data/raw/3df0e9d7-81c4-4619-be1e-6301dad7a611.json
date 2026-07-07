@@ -1,0 +1,14 @@
+{
+  "changeId": "3df0e9d7-81c4-4619-be1e-6301dad7a611",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335CO0000000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#335CO0000000016",
+  "title": "特許法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十五年政令第十六号\",\"LawName\":\"特許法施行令\",\"LawNameKana\":\"とっきょほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19600308,\"AmendName\":\"医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百十号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20270520,\"EnforcementComment\":\"\",\"LawId\":\"335CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335CO0000000016_20270520_508CO0000000210\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

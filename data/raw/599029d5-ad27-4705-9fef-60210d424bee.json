@@ -1,0 +1,15 @@
+{
+  "changeId": "599029d5-ad27-4705-9fef-60210d424bee",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322CO0000000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#322CO0000000016",
+  "title": "地方自治法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百十号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20270520,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20270520_508CO0000000210\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方自治法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律の施行に伴う関係政令の整備等及び経過措置に関する政令\",\"AmendNo\":\"令和七年政令第四百二十三号\",\"AmendPromulgationDate\":20251217,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20260614_507CO0000000423\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百十号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20270520,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20270520_508CO0000000210\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

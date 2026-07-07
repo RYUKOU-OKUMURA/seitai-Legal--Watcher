@@ -1,0 +1,14 @@
+{
+  "changeId": "50b8110d-558b-4f74-83dc-34dd216080ba",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:404CO0000000365",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#404CO0000000365",
+  "title": "自動車から排出される窒素酸化物及び粒子状物質の特定地域における総量の削減等に関する特別措置法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成四年政令第三百六十五号\",\"LawName\":\"自動車から排出される窒素酸化物及び粒子状物質の特定地域における総量の削減等に関する特別措置法施行令\",\"LawNameKana\":\"じどうしゃからはいしゅつされるちっそさんかぶつおよびりゅうしじょうぶっしつのとくていちいきにおけるそうりょうのさくげんとうにかんするとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19921126,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百五号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"404CO0000000365\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=404CO0000000365_20260701_508CO0000000205\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

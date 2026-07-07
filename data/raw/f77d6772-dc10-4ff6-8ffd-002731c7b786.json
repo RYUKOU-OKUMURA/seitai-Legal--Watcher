@@ -1,0 +1,14 @@
+{
+  "changeId": "f77d6772-dc10-4ff6-8ffd-002731c7b786",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423CO0000000409",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#423CO0000000409",
+  "title": "東日本大震災復興特別区域法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第四百九号\",\"LawName\":\"東日本大震災復興特別区域法施行令\",\"LawNameKana\":\"ひがしにほんだいしんさいふっこうとくべつくいきほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111222,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百五号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000409\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000409_20260701_508CO0000000205\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "21642270-c647-4817-8dac-444155807eb9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:431CO0000000072",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#431CO0000000072",
+  "title": "特定複合観光施設区域整備法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十一年政令第七十二号\",\"LawName\":\"特定複合観光施設区域整備法施行令\",\"LawNameKana\":\"とくていふくごうかんこうしせつくいきせいびほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20190329,\"AmendName\":\"医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百十号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20270520,\"EnforcementComment\":\"\",\"LawId\":\"431CO0000000072\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=431CO0000000072_20270520_508CO0000000210\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

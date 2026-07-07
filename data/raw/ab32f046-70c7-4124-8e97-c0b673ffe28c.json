@@ -1,0 +1,15 @@
+{
+  "changeId": "ab32f046-70c7-4124-8e97-c0b673ffe28c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340CO0000000321",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#340CO0000000321",
+  "title": "金融商品取引法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十年政令第三百二十一号\",\"LawName\":\"金融商品取引法施行令\",\"LawNameKana\":\"きんゆうしょうひんとりひきほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19650930,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"340CO0000000321\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340CO0000000321_20260625_508CO0000000207\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 金融商品取引法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十年政令第三百二十一号\",\"LawName\":\"金融商品取引法施行令\",\"LawNameKana\":\"きんゆうしょうひんとりひきほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19650930,\"AmendName\":\"金融商品取引法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百七十四号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"340CO0000000321\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340CO0000000321_20260701_508CO0000000174\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十年政令第三百二十一号\",\"LawName\":\"金融商品取引法施行令\",\"LawNameKana\":\"きんゆうしょうひんとりひきほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19650930,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第二百七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"340CO0000000321\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340CO0000000321_20260625_508CO0000000207\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

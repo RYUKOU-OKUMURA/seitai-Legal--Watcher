@@ -1,0 +1,14 @@
+{
+  "changeId": "711f68fb-d66f-405c-b202-4edaebe575f6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:354CO0000000267",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#354CO0000000267",
+  "title": "エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十四年政令第二百六十七号\",\"LawName\":\"エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律施行令\",\"LawNameKana\":\"えねるぎーのしようのごうりかおよびひかせきえねるぎーへのてんかんとうにかんするほうりつしこうれい\",\"OldLawName\":\"エネルギーの使用の合理化に関する法律施行令,エネルギーの使用の合理化等に関する法律施行令\",\"PromulgationDate\":19790929,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百五号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"354CO0000000267\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=354CO0000000267_20260701_508CO0000000205\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

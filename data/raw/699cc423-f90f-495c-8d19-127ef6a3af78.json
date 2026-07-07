@@ -1,0 +1,14 @@
+{
+  "changeId": "699cc423-f90f-495c-8d19-127ef6a3af78",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347CO0000000186",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#347CO0000000186",
+  "title": "沖縄振興開発金融公庫法施行令",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十七年政令第百八十六号\",\"LawName\":\"沖縄振興開発金融公庫法施行令\",\"LawNameKana\":\"おきなわしんこうかいはつきんゆうこうこほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19720513,\"AmendName\":\"沖縄振興開発金融公庫法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"347CO0000000186\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347CO0000000186_20260701_508CO0000000208\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

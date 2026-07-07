@@ -1,0 +1,14 @@
+{
+  "changeId": "ca9bc695-4e70-4a1f-8e08-08c3b7d9457c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327R00000001003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260707#327R00000001003",
+  "title": "計算証明規則",
+  "detectedAt": "2026-07-07T05:58:43.979Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十七年会計検査院規則第三号\",\"LawName\":\"計算証明規則\",\"LawNameKana\":\"けいさんしょうめいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520607,\"AmendName\":\"計算証明規則の一部を改正する規則\",\"AmendNo\":\"令和八年会計検査院規則第三号\",\"AmendPromulgationDate\":20260522,\"EnforcementDate\":20260522,\"EnforcementComment\":\"\",\"LawId\":\"327R00000001003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327R00000001003_20260522_508R00000001003\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
