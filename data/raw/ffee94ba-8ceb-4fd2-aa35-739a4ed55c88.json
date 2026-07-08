@@ -1,0 +1,14 @@
+{
+  "changeId": "ffee94ba-8ceb-4fd2-aa35-739a4ed55c88",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414M60000102007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#414M60000102007",
+  "title": "労働金庫及び労働金庫連合会の組織再編成の促進のための特別措置に関する命令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十四年内閣府・厚生労働省令第七号\",\"LawName\":\"労働金庫及び労働金庫連合会の組織再編成の促進のための特別措置に関する命令\",\"LawNameKana\":\"ろうどうきんこおよびろうどうきんこれんごうかいのそしきさいへんせいのそくしんのためのとくべつそちにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20021227,\"AmendName\":\"労働金庫及び労働金庫連合会の金融機能の強化のための特別措置に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第九号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"414M60000102007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414M60000102007_20260625_508M60000102009\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

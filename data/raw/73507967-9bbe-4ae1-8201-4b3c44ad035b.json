@@ -1,0 +1,14 @@
+{
+  "changeId": "73507967-9bbe-4ae1-8201-4b3c44ad035b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:330CO0000000228",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#330CO0000000228",
+  "title": "歯科技工士法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十年政令第二百二十八号\",\"LawName\":\"歯科技工士法施行令\",\"LawNameKana\":\"しかぎこうしほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19550907,\"AmendName\":\"栄養士法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十八号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"330CO0000000228\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=330CO0000000228_20261001_508CO0000000218\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "29522c88-cc08-4f4e-a96c-c0f4f4ea827a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:358M50400000001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#358M50400000001",
+  "title": "警備業の要件に関する規則",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和五十八年国家公安委員会規則第一号\",\"LawName\":\"警備業の要件に関する規則\",\"LawNameKana\":\"けいびぎょうのようけんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"358M50400000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50400000001_20260710_508M60400000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 警備業の要件に関する規則\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和五十八年国家公安委員会規則第一号\",\"LawName\":\"警備業の要件に関する規則\",\"LawNameKana\":\"けいびぎょうのようけんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"資金決済に関する法律の一部を改正する法律の施行に伴う関係国家公安委員会規則の整理に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十三号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"358M50400000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50400000001_20260601_508M60400000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和五十八年国家公安委員会規則第一号\",\"LawName\":\"警備業の要件に関する規則\",\"LawNameKana\":\"けいびぎょうのようけんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"358M50400000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50400000001_20260710_508M60400000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "3226bda0-c30f-418f-b6c8-81ad2202a4f1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:504M60000020010",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#504M60000020010",
+  "title": "旅券法施行規則",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和四年外務省令第十号\",\"LawName\":\"旅券法施行規則\",\"LawNameKana\":\"りょけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20221005,\"AmendName\":\"旅券法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年外務省令第二十号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"504M60000020010\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=504M60000020010_20260701_508M60000020020\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

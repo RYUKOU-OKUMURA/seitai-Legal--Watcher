@@ -1,0 +1,14 @@
+{
+  "changeId": "8ada3847-2e7f-4c16-953a-2a9a5887b4e3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000302001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#417M60000302001",
+  "title": "協同組織金融機関の優先出資に関する法律に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する命令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年内閣府・厚生労働省・農林水産省令第一号\",\"LawName\":\"協同組織金融機関の優先出資に関する法律に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する命令\",\"LawNameKana\":\"きょうどうそしききんゆうきかんのゆうせんしゅっしにかんするほうりつにかかるみんかんじぎょうしゃとうがおこなうしょめんのほぞんとうにおけるじょうほうつうしんのぎじゅつのりようにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20050324,\"AmendName\":\"協同組織金融機関の優先出資に関する法律に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省・農林水産省令第一号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"417M60000302001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000302001_20260625_508M60000302001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

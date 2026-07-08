@@ -1,0 +1,14 @@
+{
+  "changeId": "b564633e-2093-4e67-a9e1-4da5a5afa701",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260050",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260050",
+  "title": "年金生活者支援給付金の支給に関する法律施行令の一部を改正する政令案に関する意見募集の結果について",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/08 案の公示日：2026/05/15 受付締切日時：2026/06/14 00:00 命令等の公布日：2026/07/08 提出意見数：7 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局年金課\n電話：03-5253-1111（3529）",
+  "links": [],
+  "httpStatus": 200
+}

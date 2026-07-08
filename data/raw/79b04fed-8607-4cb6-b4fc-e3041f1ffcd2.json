@@ -1,0 +1,14 @@
+{
+  "changeId": "79b04fed-8607-4cb6-b4fc-e3041f1ffcd2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417AC0000000098",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#417AC0000000098",
+  "title": "日本郵政株式会社法",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十七年法律第九十八号\",\"LawName\":\"日本郵政株式会社法\",\"LawNameKana\":\"にほんゆうせいかぶしきがいしゃほう\",\"OldLawName\":\"\",\"PromulgationDate\":20051021,\"AmendName\":\"郵政民営化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"417AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417AC0000000098_20270401_508AC1000000050\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "768a4ef2-53f5-4464-99f6-095a94cd35e6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410CO0000000412",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#410CO0000000412",
+  "title": "介護保険法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第四百十二号\",\"LawName\":\"介護保険法施行令\",\"LawNameKana\":\"かいごほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19981224,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000412\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000412_20260801_508CO0000000219\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

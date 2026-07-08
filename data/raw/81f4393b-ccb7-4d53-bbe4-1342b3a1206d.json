@@ -1,0 +1,14 @@
+{
+  "changeId": "81f4393b-ccb7-4d53-bbe4-1342b3a1206d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50000040016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#406M50000040016",
+  "title": "信用金庫及び信用金庫連合会の優先出資に関する内閣府令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成六年大蔵省令第十六号\",\"LawName\":\"信用金庫及び信用金庫連合会の優先出資に関する内閣府令\",\"LawNameKana\":\"しんようきんこおよびしんようきんこれんごうかいのゆうせんしゅっしにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":19940325,\"AmendName\":\"金融機能の強化のための特別措置に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"406M50000040016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50000040016_20260625_508M60000002057\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

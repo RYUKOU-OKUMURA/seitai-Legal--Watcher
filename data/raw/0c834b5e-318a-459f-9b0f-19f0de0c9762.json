@@ -1,0 +1,14 @@
+{
+  "changeId": "0c834b5e-318a-459f-9b0f-19f0de0c9762",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:336CO0000000013",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#336CO0000000013",
+  "title": "薬剤師法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十六年政令第十三号\",\"LawName\":\"薬剤師法施行令\",\"LawNameKana\":\"やくざいしほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19610126,\"AmendName\":\"栄養士法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十八号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"336CO0000000013\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=336CO0000000013_20261001_508CO0000000218\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

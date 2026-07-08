@@ -1,0 +1,14 @@
+{
+  "changeId": "100a916d-b59f-432d-bca7-585986955e0c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:349M50000400018",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#349M50000400018",
+  "title": "経済産業省関係特定製品の技術上の基準等に関する省令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十九年通商産業省令第十八号\",\"LawName\":\"経済産業省関係特定製品の技術上の基準等に関する省令\",\"LawNameKana\":\"けいざいさんぎょうしょうかんけいとくていせいひんのぎじゅつじょうのきじゅんとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19740305,\"AmendName\":\"経済産業省関係特定製品の技術上の基準等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第四十二号\",\"AmendPromulgationDate\":20260427,\"EnforcementDate\":20260708,\"EnforcementComment\":\"\",\"LawId\":\"349M50000400018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=349M50000400018_20260708_508M60000400042\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

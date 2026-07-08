@@ -1,0 +1,18 @@
+{
+  "changeId": "25c7e102-a58e-40f7-867c-ac5cb6059eff",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:215IO0000000243",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#215IO0000000243",
+  "title": "健康保険法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"勅令\",\"LawNo\":\"大正十五年勅令第二百四十三号\",\"LawName\":\"健康保険法施行令\",\"LawNameKana\":\"けんこうほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19260630,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"215IO0000000243\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=215IO0000000243_20260801_508CO0000000219\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

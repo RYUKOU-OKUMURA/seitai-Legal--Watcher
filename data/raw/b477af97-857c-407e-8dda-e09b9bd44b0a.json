@@ -1,0 +1,14 @@
+{
+  "changeId": "b477af97-857c-407e-8dda-e09b9bd44b0a",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220044",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220044",
+  "title": "「「ICH E11A 小児用医薬品開発における外挿（案）」に関する御意見の募集について」に対して寄せられた御意見について",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/07 案の公示日：2022/05/26 受付締切日時：2022/07/24 23:59 命令等の公布日： 提出意見数：5 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：03-5253-1111（内線 2736）",
+  "links": [],
+  "httpStatus": 200
+}

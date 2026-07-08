@@ -1,0 +1,18 @@
+{
+  "changeId": "e156f332-47df-4174-b4a6-528152cf6aa1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328CO0000000240",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#328CO0000000240",
+  "title": "船員保険法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十八年政令第二百四十号\",\"LawName\":\"船員保険法施行令\",\"LawNameKana\":\"せんいんほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19530831,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"328CO0000000240\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328CO0000000240_20260801_508CO0000000219\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

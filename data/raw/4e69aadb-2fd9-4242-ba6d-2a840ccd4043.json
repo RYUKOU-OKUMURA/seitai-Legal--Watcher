@@ -1,0 +1,14 @@
+{
+  "changeId": "4e69aadb-2fd9-4242-ba6d-2a840ccd4043",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50000002129",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#412M50000002129",
+  "title": "投資信託及び投資法人に関する法律施行規則",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十二年総理府令第百二十九号\",\"LawName\":\"投資信託及び投資法人に関する法律施行規則\",\"LawNameKana\":\"とうししんたくおよびとうしほうじんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20001117,\"AmendName\":\"金融機能の強化のための特別措置に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"412M50000002129\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50000002129_20260625_508M60000002057\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

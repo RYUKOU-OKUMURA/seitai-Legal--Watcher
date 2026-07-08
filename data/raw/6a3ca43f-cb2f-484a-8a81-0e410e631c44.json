@@ -1,0 +1,14 @@
+{
+  "changeId": "6a3ca43f-cb2f-484a-8a81-0e410e631c44",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60000042003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#416M60000042003",
+  "title": "預金保険機構の金融機能強化業務の実施に関し必要な事項を定める命令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府・財務省令第三号\",\"LawName\":\"預金保険機構の金融機能強化業務の実施に関し必要な事項を定める命令\",\"LawNameKana\":\"よきんほけんきこうのきんゆうきのうきょうかぎょうむのじっしにかんしひつようなじこうをさだめるめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040726,\"AmendName\":\"預金保険機構の金融機能強化業務の実施に関し必要な事項を定める命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・財務省令第三号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"416M60000042003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60000042003_20260625_508M60000042003\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

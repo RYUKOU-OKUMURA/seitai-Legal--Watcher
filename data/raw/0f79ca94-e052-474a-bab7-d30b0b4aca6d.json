@@ -1,0 +1,14 @@
+{
+  "changeId": "0f79ca94-e052-474a-bab7-d30b0b4aca6d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341CO0000000387",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#341CO0000000387",
+  "title": "製菓衛生師法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十一年政令第三百八十七号\",\"LawName\":\"製菓衛生師法施行令\",\"LawNameKana\":\"せいかえいせいしほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19661224,\"AmendName\":\"栄養士法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十八号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"341CO0000000387\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341CO0000000387_20261001_508CO0000000218\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "f9da1df3-e046-4e25-b32c-6a5aba8a83f0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403M50400000004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#403M50400000004",
+  "title": "暴力団員による不当な行為の防止等に関する法律施行規則",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第四号\",\"LawName\":\"暴力団員による不当な行為の防止等に関する法律施行規則\",\"LawNameKana\":\"ぼうりょくだんいんによるふとうなこういのぼうしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911025,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000004_20260710_508M60400000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 暴力団員による不当な行為の防止等に関する法律施行規則\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第四号\",\"LawName\":\"暴力団員による不当な行為の防止等に関する法律施行規則\",\"LawNameKana\":\"ぼうりょくだんいんによるふとうなこういのぼうしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911025,\"AmendName\":\"資金決済に関する法律の一部を改正する法律の施行に伴う関係国家公安委員会規則の整理に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十三号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000004_20260601_508M60400000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第四号\",\"LawName\":\"暴力団員による不当な行為の防止等に関する法律施行規則\",\"LawNameKana\":\"ぼうりょくだんいんによるふとうなこういのぼうしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911025,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000004_20260710_508M60400000014\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

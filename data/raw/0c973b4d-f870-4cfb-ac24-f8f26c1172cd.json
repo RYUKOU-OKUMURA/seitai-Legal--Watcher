@@ -1,0 +1,14 @@
+{
+  "changeId": "0c973b4d-f870-4cfb-ac24-f8f26c1172cd",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329CO0000000150",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#329CO0000000150",
+  "title": "関税法施行令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百五十号\",\"LawName\":\"関税法施行令\",\"LawNameKana\":\"かんぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540619,\"AmendName\":\"家畜伝染病予防法施行令及び関税法施行令の一部を改正する等の政令\",\"AmendNo\":\"令和八年政令第二百十七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000150\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000150_20260701_508CO0000000217\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

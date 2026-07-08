@@ -1,0 +1,14 @@
+{
+  "changeId": "815064b7-7032-465f-a402-02833a68f639",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50002040001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#406M50002040001",
+  "title": "労働金庫及び労働金庫連合会の優先出資に関する命令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成六年大蔵省・労働省令第一号\",\"LawName\":\"労働金庫及び労働金庫連合会の優先出資に関する命令\",\"LawNameKana\":\"ろうどうきんこおよびろうどうきんこれんごうかいのゆうせんしゅっしにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19940325,\"AmendName\":\"労働金庫及び労働金庫連合会の金融機能の強化のための特別措置に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第九号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"406M50002040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50002040001_20260625_508M60000102009\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "5300f727-f2a5-43f7-bb5d-0c0dfaffef22",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412CO0000000255",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260708#412CO0000000255",
+  "title": "国土交通省組織令",
+  "detectedAt": "2026-07-08T04:58:29.596Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十二年政令第二百五十五号\",\"LawName\":\"国土交通省組織令\",\"LawNameKana\":\"こくどこうつうしょうそしきれい\",\"OldLawName\":\"\",\"PromulgationDate\":20000607,\"AmendName\":\"国土交通省組織令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十二号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"412CO0000000255\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412CO0000000255_20260701_508CO0000000212\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
