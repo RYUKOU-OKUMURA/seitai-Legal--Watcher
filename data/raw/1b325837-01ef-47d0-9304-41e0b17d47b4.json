@@ -1,0 +1,14 @@
+{
+  "changeId": "1b325837-01ef-47d0-9304-41e0b17d47b4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60000202007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#416M60000202007",
+  "title": "農水産業協同組合の金融機能の強化のための特別措置に関する命令",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府・農林水産省令第七号\",\"LawName\":\"農水産業協同組合の金融機能の強化のための特別措置に関する命令\",\"LawNameKana\":\"のうすいさんぎょうきょうどうくみあいのきんゆうきのうのきょうかのためのとくべつそちにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040726,\"AmendName\":\"農水産業協同組合の金融機能の強化のための特別措置に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・農林水産省令第七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"416M60000202007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60000202007_20260625_508M60000202007\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

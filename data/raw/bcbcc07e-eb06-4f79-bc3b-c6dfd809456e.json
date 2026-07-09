@@ -1,0 +1,15 @@
+{
+  "changeId": "bcbcc07e-eb06-4f79-bc3b-c6dfd809456e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#413M60000800001",
+  "title": "国土交通省組織規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第一号\",\"LawName\":\"国土交通省組織規則\",\"LawNameKana\":\"こくどこうつうしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"国土交通省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十二号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800001_20260701_508M60000800062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 国土交通省組織規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第一号\",\"LawName\":\"国土交通省組織規則\",\"LawNameKana\":\"こくどこうつうしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"国土交通省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第四十四号\",\"AmendPromulgationDate\":20260408,\"EnforcementDate\":20260408,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800001_20260408_508M60000800044\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第一号\",\"LawName\":\"国土交通省組織規則\",\"LawNameKana\":\"こくどこうつうしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"国土交通省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十二号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800001_20260701_508M60000800062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

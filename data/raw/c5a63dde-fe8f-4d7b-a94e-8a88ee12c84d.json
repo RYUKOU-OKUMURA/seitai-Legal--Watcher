@@ -1,0 +1,14 @@
+{
+  "changeId": "c5a63dde-fe8f-4d7b-a94e-8a88ee12c84d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363M50001000046",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#363M50001000046",
+  "title": "電気通信事業報告規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十三年郵政省令第四十六号\",\"LawName\":\"電気通信事業報告規則\",\"LawNameKana\":\"でんきつうしんじぎょうほうこくきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19880730,\"AmendName\":\"電気通信事業法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第七十号\",\"AmendPromulgationDate\":20260525,\"EnforcementDate\":20260527,\"EnforcementComment\":\"\",\"LawId\":\"363M50001000046\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363M50001000046_20260527_508M60000008070\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "8dd2a1fc-9ff8-4be0-98e3-ce5593b3256b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000020004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#327M50000020004",
+  "title": "領事官の徴収する手数料の額を定める省令",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年外務省令第四号\",\"LawName\":\"領事官の徴収する手数料の額を定める省令\",\"LawNameKana\":\"りょうじかんのちょうしゅうするてすうりょうのがくをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19520401,\"AmendName\":\"領事官の徴収する手数料の額を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年外務省令第十八号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"327M50000020004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000020004_20260701_508M60000020018\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

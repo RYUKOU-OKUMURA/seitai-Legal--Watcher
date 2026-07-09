@@ -1,0 +1,14 @@
+{
+  "changeId": "1cab6cc0-29e4-4869-be18-6d766a25c24d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50010000035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#326M50010000035",
+  "title": "家畜伝染病予防法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年農林省令第三十五号\",\"LawName\":\"家畜伝染病予防法施行規則\",\"LawNameKana\":\"かちくでんせんびょうよぼうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19510531,\"AmendName\":\"家畜伝染病予防法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十六号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20270501,\"EnforcementComment\":\"\",\"LawId\":\"326M50010000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50010000035_20270501_508M60000200046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

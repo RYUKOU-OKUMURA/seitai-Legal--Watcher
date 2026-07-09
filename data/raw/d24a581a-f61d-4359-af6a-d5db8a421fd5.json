@@ -1,0 +1,14 @@
+{
+  "changeId": "d24a581a-f61d-4359-af6a-d5db8a421fd5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#413M60000800079",
+  "title": "国土技術政策総合研究所組織規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第七十九号\",\"LawName\":\"国土技術政策総合研究所組織規則\",\"LawNameKana\":\"こくどぎじゅつせいさくそうごうけんきゅうじょそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010330,\"AmendName\":\"国土技術政策総合研究所組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十四号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800079_20260701_508M60000800064\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

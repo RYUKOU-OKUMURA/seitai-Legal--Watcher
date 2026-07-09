@@ -1,0 +1,14 @@
+{
+  "changeId": "c4fb9e4c-12a2-4bc4-93d0-ba843825a929",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340M50000100047",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#340M50000100047",
+  "title": "理学療法士及び作業療法士法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年厚生省令第四十七号\",\"LawName\":\"理学療法士及び作業療法士法施行規則\",\"LawNameKana\":\"りがくりょうほうしおよびさぎょうりょうほうしほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19651020,\"AmendName\":\"栄養士法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"340M50000100047\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000100047_20261001_508M60000100107\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

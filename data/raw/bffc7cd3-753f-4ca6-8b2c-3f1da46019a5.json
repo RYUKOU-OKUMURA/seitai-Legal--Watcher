@@ -1,0 +1,14 @@
+{
+  "changeId": "bffc7cd3-753f-4ca6-8b2c-3f1da46019a5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:401M50000100046",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#401M50000100046",
+  "title": "歯科衛生士法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成元年厚生省令第四十六号\",\"LawName\":\"歯科衛生士法施行規則\",\"LawNameKana\":\"しかえいせいしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19891031,\"AmendName\":\"栄養士法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"401M50000100046\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=401M50000100046_20261001_508M60000100107\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

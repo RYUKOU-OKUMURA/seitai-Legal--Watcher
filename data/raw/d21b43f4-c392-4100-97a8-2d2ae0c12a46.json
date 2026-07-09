@@ -1,0 +1,14 @@
+{
+  "changeId": "d21b43f4-c392-4100-97a8-2d2ae0c12a46",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323M40000100047",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#323M40000100047",
+  "title": "医師法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十三年厚生省令第四十七号\",\"LawName\":\"医師法施行規則\",\"LawNameKana\":\"いしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19481027,\"AmendName\":\"栄養士法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"323M40000100047\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323M40000100047_20261001_508M60000100107\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

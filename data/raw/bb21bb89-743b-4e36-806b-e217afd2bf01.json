@@ -1,0 +1,14 @@
+{
+  "changeId": "bb21bb89-743b-4e36-806b-e217afd2bf01",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000002073",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#327M50000002073",
+  "title": "地方公営企業法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年総理府令第七十三号\",\"LawName\":\"地方公営企業法施行規則\",\"LawNameKana\":\"ちほうこうえいきぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520929,\"AmendName\":\"地方公営企業法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第三十六号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"327M50000002073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000002073_20260401_508M60000008036\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

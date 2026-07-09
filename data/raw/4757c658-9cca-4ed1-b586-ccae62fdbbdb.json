@@ -1,0 +1,14 @@
+{
+  "changeId": "4757c658-9cca-4ed1-b586-ccae62fdbbdb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410M50000100074",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#410M50000100074",
+  "title": "言語聴覚士法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年厚生省令第七十四号\",\"LawName\":\"言語聴覚士法施行規則\",\"LawNameKana\":\"げんごちょうかくしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19980828,\"AmendName\":\"栄養士法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"410M50000100074\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000100074_20261001_508M60000100107\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

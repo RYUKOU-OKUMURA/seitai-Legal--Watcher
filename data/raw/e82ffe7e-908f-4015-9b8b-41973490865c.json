@@ -1,0 +1,14 @@
+{
+  "changeId": "e82ffe7e-908f-4015-9b8b-41973490865c",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260690",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260690",
+  "title": "JPBL014株を利用して生産されたキシラナーゼに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/08 受付締切日時：2026/08/06 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n評価第二課　飯塚、渡邉、山川\n電話：03-6234-1108、1104又は1105",
+  "links": [],
+  "httpStatus": 200
+}

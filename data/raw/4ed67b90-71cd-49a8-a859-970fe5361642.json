@@ -1,0 +1,14 @@
+{
+  "changeId": "4ed67b90-71cd-49a8-a859-970fe5361642",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50000100033",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#326M50000100033",
+  "title": "診療放射線技師法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年厚生省令第三十三号\",\"LawName\":\"診療放射線技師法施行規則\",\"LawNameKana\":\"しんりょうほうしゃせんぎしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19510809,\"AmendName\":\"栄養士法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百七号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"326M50000100033\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000100033_20261001_508M60000100107\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

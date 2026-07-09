@@ -1,0 +1,15 @@
+{
+  "changeId": "2fe1d7b0-db96-4f4a-bef7-27d4a4264937",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000442001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#420M60000442001",
+  "title": "経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府・財務省・経済産業省令第一号\",\"LawName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則\",\"LawNameKana\":\"けいざいさんぎょうしょうざいむしょうないかくふかんけいかぶしきかいしゃしょうこうくみあいちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080213,\"AmendName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・財務省・経済産業省令第一号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260331,\"EnforcementComment\":\"\",\"LawId\":\"420M60000442001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000442001_20260331_508M60000442001\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府・財務省・経済産業省令第一号\",\"LawName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則\",\"LawNameKana\":\"けいざいさんぎょうしょうざいむしょうないかくふかんけいかぶしきかいしゃしょうこうくみあいちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080213,\"AmendName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・財務省・経済産業省令第三号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"420M60000442001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000442001_20270401_508M60000442003\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府・財務省・経済産業省令第一号\",\"LawName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則\",\"LawNameKana\":\"けいざいさんぎょうしょうざいむしょうないかくふかんけいかぶしきかいしゃしょうこうくみあいちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080213,\"AmendName\":\"経済産業省・財務省・内閣府関係株式会社商工組合中央金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・財務省・経済産業省令第一号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260331,\"EnforcementComment\":\"\",\"LawId\":\"420M60000442001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000442001_20260331_508M60000442001\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "d459f292-2a13-444e-ba48-29fe0a73cd8a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60000002067",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#416M60000002067",
+  "title": "金融機能の強化のための特別措置に関する内閣府令",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府令第六十七号\",\"LawName\":\"金融機能の強化のための特別措置に関する内閣府令\",\"LawNameKana\":\"きんゆうきのうのきょうかのためのとくべつそちにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040726,\"AmendName\":\"金融機能の強化のための特別措置に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第五十七号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"416M60000002067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60000002067_20260625_508M60000002057\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

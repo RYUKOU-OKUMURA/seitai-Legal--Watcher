@@ -1,0 +1,14 @@
+{
+  "changeId": "49a5a64b-8d2a-4730-abf2-0f93be41ceba",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340M50000100055",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#340M50000100055",
+  "title": "母子保健法施行規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年厚生省令第五十五号\",\"LawName\":\"母子保健法施行規則\",\"LawNameKana\":\"ぼしほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19651228,\"AmendName\":\"母子保健法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第十二号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"340M50000100055\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000100055_20260401_508M60000002012\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

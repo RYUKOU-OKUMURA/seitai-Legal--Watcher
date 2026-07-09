@@ -1,0 +1,14 @@
+{
+  "changeId": "f0de5f52-2a0c-4d9f-8718-8b2dc462e1c3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M5000100A006",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#412M5000100A006",
+  "title": "総務省所管補助金等交付規則",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十二年総理府・郵政省・自治省令第六号\",\"LawName\":\"総務省所管補助金等交付規則\",\"LawNameKana\":\"そうむしょうしょかんほじょきんとうこうふきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20001227,\"AmendName\":\"総務省所管補助金等交付規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第七十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"412M5000100A006\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M5000100A006_20260625_508M60000008079\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

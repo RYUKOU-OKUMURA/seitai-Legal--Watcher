@@ -1,0 +1,14 @@
+{
+  "changeId": "5d7d8482-f3da-4b51-9c87-11412f8a2ad8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000010041",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260709#420M60000010041",
+  "title": "更生保護委託費支弁基準",
+  "detectedAt": "2026-07-09T05:54:56.871Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年法務省令第四十一号\",\"LawName\":\"更生保護委託費支弁基準\",\"LawNameKana\":\"こうせいほごいたくひしべんきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":20080530,\"AmendName\":\"更生保護委託費支弁基準の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十二号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"420M60000010041\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000010041_20260625_508M60000010042\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
