@@ -1,0 +1,15 @@
+{
+  "changeId": "f455b199-1af3-47c2-9138-f712a43fc88a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403M50400000008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260710#403M50400000008",
+  "title": "暴力的不法行為その他の罪に当たる違法な行為を定める規則",
+  "detectedAt": "2026-07-10T05:53:35.729Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第八号\",\"LawName\":\"暴力的不法行為その他の罪に当たる違法な行為を定める規則\",\"LawNameKana\":\"ぼうりょくてきふほうこういそのたのつみにあたるいほうなこういをさだめるきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911129,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000008_20260710_508M60400000014\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 暴力的不法行為その他の罪に当たる違法な行為を定める規則\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第八号\",\"LawName\":\"暴力的不法行為その他の罪に当たる違法な行為を定める規則\",\"LawNameKana\":\"ぼうりょくてきふほうこういそのたのつみにあたるいほうなこういをさだめるきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911129,\"AmendName\":\"資金決済に関する法律の一部を改正する法律の施行に伴う関係国家公安委員会規則の整理に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十三号\",\"AmendPromulgationDate\":20260529,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000008_20260601_508M60400000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"平成三年国家公安委員会規則第八号\",\"LawName\":\"暴力的不法行為その他の罪に当たる違法な行為を定める規則\",\"LawNameKana\":\"ぼうりょくてきふほうこういそのたのつみにあたるいほうなこういをさだめるきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19911129,\"AmendName\":\"犯罪による収益の移転防止に関する法律の一部を改正する法律の一部の施行に伴う関係国家公安委員会規則の整備に関する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十四号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"403M50400000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50400000008_20260710_508M60400000014\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
