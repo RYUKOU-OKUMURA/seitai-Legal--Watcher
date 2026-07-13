@@ -1,0 +1,14 @@
+{
+  "changeId": "3fc9836c-5f03-4caa-846b-cd940dc985d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000100175",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#413M60000100175",
+  "title": "確定拠出年金法施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年厚生労働省令第百七十五号\",\"LawName\":\"確定拠出年金法施行規則\",\"LawNameKana\":\"かくていきょしゅつねんきんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010723,\"AmendName\":\"社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う関係省令の整備等及び経過措置に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十一号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"413M60000100175\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000100175_20261201_508M60000100111\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

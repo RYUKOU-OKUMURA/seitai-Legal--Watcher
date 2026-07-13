@@ -1,0 +1,14 @@
+{
+  "changeId": "40697986-0e2e-49d0-868e-be7a2a96cc05",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411M50000200068",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#411M50000200068",
+  "title": "犬等の輸出入検疫規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年農林水産省令第六十八号\",\"LawName\":\"犬等の輸出入検疫規則\",\"LawNameKana\":\"いぬとうのゆしゅつにゅうけんえききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19991001,\"AmendName\":\"家畜伝染病予防法施行規則等の一部を改正する等の省令\",\"AmendNo\":\"令和八年農林水産省令第四十七号\",\"AmendPromulgationDate\":20260629,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"411M50000200068\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000200068_20260701_508M60000200047\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

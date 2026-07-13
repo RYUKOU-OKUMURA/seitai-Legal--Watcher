@@ -1,0 +1,14 @@
+{
+  "changeId": "be48283c-681e-4ee8-bd61-f59cef3a1c98",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260700",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260700",
+  "title": "「重要電子計算機に対する不正な行為による被害の防止に関する法律に基づく特別社会基盤事業者による特定侵害事象等の報告等に関する命令第四条第二項の特別社会基盤事業所管大臣及び内閣総理大臣が定める様式案」等に関する意見の募集について",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/13 受付締切日時：2026/08/17 00:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府政策統括官（サイバー安全保障担当）付",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ed4bce41-97ac-40a9-92bb-492a3aaac698",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60000100150",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#503M60000100150",
+  "title": "確定拠出年金における他制度掛金相当額及び共済掛金相当額の算定に関する省令",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年厚生労働省令第百五十号\",\"LawName\":\"確定拠出年金における他制度掛金相当額及び共済掛金相当額の算定に関する省令\",\"LawNameKana\":\"かくていきょしゅつねんきんにおけるたせいどかけきんそうとうがくおよびきょうさいかけきんそうとうがくのさんていにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20210901,\"AmendName\":\"社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う関係省令の整備等及び経過措置に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十一号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"503M60000100150\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60000100150_20261201_508M60000100111\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

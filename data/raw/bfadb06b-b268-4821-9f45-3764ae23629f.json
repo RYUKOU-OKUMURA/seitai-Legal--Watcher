@@ -1,0 +1,14 @@
+{
+  "changeId": "bfadb06b-b268-4821-9f45-3764ae23629f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000F5A001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#420M60000F5A001",
+  "title": "犯罪による収益の移転防止に関する法律施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府・総務省・法務省・財務省・厚生労働省・農林水産省・経済産業省・国土交通省令第一号\",\"LawName\":\"犯罪による収益の移転防止に関する法律施行規則\",\"LawNameKana\":\"はんざいによるしゅうえきのいてんぼうしにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080201,\"AmendName\":\"犯罪による収益の移転防止に関する法律施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・法務省・財務省・厚生労働省・農林水産省・経済産業省・国土交通省令第五号\",\"AmendPromulgationDate\":20260626,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"420M60000F5A001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000F5A001_20270401_508M60000F5A005\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

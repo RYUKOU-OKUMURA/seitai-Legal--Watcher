@@ -1,0 +1,14 @@
+{
+  "changeId": "6741c5bd-6f2e-4f7a-a106-d5ac5ecc6d99",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411M50000200083",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#411M50000200083",
+  "title": "感染症の病原体を媒介するおそれのある動物の輸入に関する規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年農林水産省令第八十三号\",\"LawName\":\"感染症の病原体を媒介するおそれのある動物の輸入に関する規則\",\"LawNameKana\":\"かんせんしょうのびょうげんたいをばいかいするおそれのあるどうぶつのゆにゅうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19991201,\"AmendName\":\"家畜伝染病予防法施行規則等の一部を改正する等の省令\",\"AmendNo\":\"令和八年農林水産省令第四十七号\",\"AmendPromulgationDate\":20260629,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"411M50000200083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000200083_20260701_508M60000200047\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

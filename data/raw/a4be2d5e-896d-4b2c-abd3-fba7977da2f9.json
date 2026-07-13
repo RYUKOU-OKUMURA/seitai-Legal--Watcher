@@ -1,0 +1,14 @@
+{
+  "changeId": "a4be2d5e-896d-4b2c-abd3-fba7977da2f9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M600017C0001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#415M600017C0001",
+  "title": "遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十五年財務省・文部科学省・厚生労働省・農林水産省・経済産業省・環境省令第一号\",\"LawName\":\"遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律施行規則\",\"LawNameKana\":\"いでんしくみかえせいぶつとうのしようとうのきせいによるせいぶつのたようせいのかくほにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20031121,\"AmendName\":\"遺伝子組換え生物等の使用等の規制による生物の多様性の確保に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省・文部科学省・厚生労働省・農林水産省・経済産業省・環境省令第一号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"415M600017C0001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M600017C0001_20260701_508M600017C0001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ee5563b4-9b99-4ca0-b2b9-846742ac56cf",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60001000019",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#417M60001000019",
+  "title": "地方環境局組織規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年環境省令第十九号\",\"LawName\":\"地方環境局組織規則\",\"LawNameKana\":\"ちほうかんきょうきょくそしききそく\",\"OldLawName\":\"地方環境事務所組織規則\",\"PromulgationDate\":20050920,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う環境省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年環境省令第十九号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"417M60001000019\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60001000019_20260701_508M60001000019\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

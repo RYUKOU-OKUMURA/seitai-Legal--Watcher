@@ -1,0 +1,14 @@
+{
+  "changeId": "c2b110ec-e7c0-4ef6-89d4-5dcddb226ac5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000400058",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#508M60000400058",
+  "title": "円滑な事業再生を図るための事業者の金融機関等に対する債務の調整の手続等に関する法律施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年経済産業省令第五十八号\",\"LawName\":\"円滑な事業再生を図るための事業者の金融機関等に対する債務の調整の手続等に関する法律施行規則\",\"LawNameKana\":\"えんかつなじぎょうさいせいをはかるためのじぎょうしゃのきんゆうきかんとうにたいするさいむのちょうせいのてつづきとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260630,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"508M60000400058\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000400058_20261211_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

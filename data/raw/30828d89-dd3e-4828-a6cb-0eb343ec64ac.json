@@ -1,0 +1,14 @@
+{
+  "changeId": "30828d89-dd3e-4828-a6cb-0eb343ec64ac",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430M60001FCA001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#430M60001FCA001",
+  "title": "産業競争力強化法施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"LawName\":\"産業競争力強化法施行規則\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20180706,\"AmendName\":\"産業競争力強化法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第三号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"430M60001FCA001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430M60001FCA001_20260701_508M60001FCA003\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "96928a27-9f24-4d70-b652-f07ab4f944d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60001000033",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#423M60001000033",
+  "title": "平成二十三年三月十一日に発生した東北地方太平洋沖地震に伴う原子力発電所の事故により放出された放射性物質による環境の汚染への対処に関する特別措置法施行規則",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十三年環境省令第三十三号\",\"LawName\":\"平成二十三年三月十一日に発生した東北地方太平洋沖地震に伴う原子力発電所の事故により放出された放射性物質による環境の汚染への対処に関する特別措置法施行規則\",\"LawNameKana\":\"へいせいにじゅうさんねんさんがつじゅういちにちにはっせいしたとうほくちほうたいへいようおきじしんにともなうげんしりょくはつでんしょのじこによりほうしゅつされたほうしゃせいぶっしつによるかんきょうのおせんへのたいしょにかんするとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20111214,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う環境省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年環境省令第十九号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"423M60001000033\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60001000033_20260701_508M60001000019\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

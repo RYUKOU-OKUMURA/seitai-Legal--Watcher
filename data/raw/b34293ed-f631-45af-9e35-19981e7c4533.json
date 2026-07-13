@@ -1,0 +1,14 @@
+{
+  "changeId": "b34293ed-f631-45af-9e35-19981e7c4533",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000102006",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260713#413M60000102006",
+  "title": "確定拠出年金運営管理機関に関する命令",
+  "detectedAt": "2026-07-13T05:24:54.386Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府・厚生労働省令第六号\",\"LawName\":\"確定拠出年金運営管理機関に関する命令\",\"LawNameKana\":\"かくていきょしゅつねんきんうんえいかんりきかんにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20010723,\"AmendName\":\"確定拠出年金運営管理機関に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第十号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"413M60000102006\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000102006_20261201_508M60000102010\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
