@@ -1,0 +1,15 @@
+{
+  "changeId": "cd7789aa-9783-4937-a39b-2eda7a5bacad",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60001200002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#417M60001200002",
+  "title": "特定外来生物による生態系等に係る被害の防止に関する法律施行規則",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年農林水産省・環境省令第二号\",\"LawName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則\",\"LawNameKana\":\"とくていがいらいせいぶつによるせいたいけいとうにかかるひがいのぼうしにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050525,\"AmendName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・環境省令第三号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"417M60001200002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60001200002_20260701_508M60001200003\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 特定外来生物による生態系等に係る被害の防止に関する法律施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年農林水産省・環境省令第二号\",\"LawName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則\",\"LawNameKana\":\"とくていがいらいせいぶつによるせいたいけいとうにかかるひがいのぼうしにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050525,\"AmendName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・環境省令第二号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"417M60001200002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60001200002_20260701_508M60001200002\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年農林水産省・環境省令第二号\",\"LawName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則\",\"LawNameKana\":\"とくていがいらいせいぶつによるせいたいけいとうにかかるひがいのぼうしにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050525,\"AmendName\":\"特定外来生物による生態系等に係る被害の防止に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・環境省令第三号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"417M60001200002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60001200002_20260701_508M60001200003\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

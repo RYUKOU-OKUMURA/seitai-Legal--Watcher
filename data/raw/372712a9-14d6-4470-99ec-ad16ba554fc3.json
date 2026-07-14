@@ -1,0 +1,14 @@
+{
+  "changeId": "372712a9-14d6-4470-99ec-ad16ba554fc3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:427M60001000005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#427M60001000005",
+  "title": "環境省関係地域自然資産区域における自然環境の保全及び持続可能な利用の推進に関する法律施行規則",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十七年環境省令第五号\",\"LawName\":\"環境省関係地域自然資産区域における自然環境の保全及び持続可能な利用の推進に関する法律施行規則\",\"LawNameKana\":\"かんきょうしょうかんけいちいきしぜんしさんくいきにおけるしぜんかんきょうのほぜんおよびじぞくかのうなりようのすいしんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20150306,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う環境省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年環境省令第十九号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"427M60001000005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=427M60001000005_20260701_508M60001000019\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "2fc63565-45fc-4bfa-b36d-1c2ab29e3e7e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60001200002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#505M60001200002",
+  "title": "農薬取締法第四条第一項第十一号の農林水産省令・環境省令で定める場合を定める省令",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年農林水産省・環境省令第二号\",\"LawName\":\"農薬取締法第四条第一項第十一号の農林水産省令・環境省令で定める場合を定める省令\",\"LawNameKana\":\"のうやくとりしまりほうだいよんじょうだいいっこうだいじゅういちごうののうりんすいさんしょうれいかんきょうしょうれいでさだめるばあいをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20230404,\"AmendName\":\"農薬取締法第四条第一項第十一号の農林水産省令・環境省令で定める場合を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・環境省令第六号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"505M60001200002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60001200002_20260701_508M60001200006\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

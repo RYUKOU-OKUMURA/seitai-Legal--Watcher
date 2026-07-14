@@ -1,0 +1,14 @@
+{
+  "changeId": "17733cf7-ba19-46d5-bff0-1cdcb91480d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50010000032",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#326M50010000032",
+  "title": "農産物検査法施行規則",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年農林省令第三十二号\",\"LawName\":\"農産物検査法施行規則\",\"LawNameKana\":\"のうさんぶつけんさほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19510519,\"AmendName\":\"農産物検査法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十九号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"326M50010000032\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50010000032_20260630_508M60000200049\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

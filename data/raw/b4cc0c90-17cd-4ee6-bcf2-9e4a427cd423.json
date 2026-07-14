@@ -1,0 +1,14 @@
+{
+  "changeId": "b4cc0c90-17cd-4ee6-bcf2-9e4a427cd423",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60003FFA001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#420M60003FFA001",
+  "title": "地球温暖化対策の推進に関する法律第二十二条第三項の規定に基づく主務大臣の権限の委任に関する命令",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府・総務省・法務省・外務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省・防衛省令第一号\",\"LawName\":\"地球温暖化対策の推進に関する法律第二十二条第三項の規定に基づく主務大臣の権限の委任に関する命令\",\"LawNameKana\":\"ちきゅうおんだんかたいさくのすいしんにかんするほうりつだいにじゅうにじょうだいさんこうのきていにもとづくしゅむだいじんのけんげんのいにんにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20080613,\"AmendName\":\"温室効果ガス算定排出量等の報告等に関する命令及び地球温暖化対策の推進に関する法律第二十二条第三項の規定に基づく主務大臣の権限の委任に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・法務省・外務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省・防衛省令第二号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"420M60003FFA001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60003FFA001_20260701_508M60003FFA002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

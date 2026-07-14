@@ -1,0 +1,14 @@
+{
+  "changeId": "c32a7fdb-e2ae-47bb-b51c-2bbca81c71a7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60001600001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#503M60001600001",
+  "title": "食品循環資源の再生利用等の促進に関する法律第二十四条第二項の規定による立入検査の際に携帯する職員の身分を示す証明書の様式の特例に関する省令",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年農林水産省・経済産業省・環境省令第一号\",\"LawName\":\"食品循環資源の再生利用等の促進に関する法律第二十四条第二項の規定による立入検査の際に携帯する職員の身分を示す証明書の様式の特例に関する省令\",\"LawNameKana\":\"しょくひんじゅんかんしげんのさいせいりようとうのそくしんにかんするほうりつだいにじゅうよんじょうだいにこうのきていによるたちいりけんさのさいにけいたいするしょくいんのみぶんをしめすしょうめいしょのようしきのとくれいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20211022,\"AmendName\":\"食品循環資源の再生利用等の促進に関する法律第二十四条第二項の規定による立入検査をする職員の携帯する身分を示す証明書の様式を定める省令及び食品循環資源の再生利用等の促進に関する法律第二十四条第二項の規定による立入検査の際に携帯する職員の身分を示す証明書の様式の特例に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・経済産業省・環境省令第一号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"503M60001600001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60001600001_20260701_508M60001600001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

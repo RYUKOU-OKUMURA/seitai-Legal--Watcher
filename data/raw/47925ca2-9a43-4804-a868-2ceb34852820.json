@@ -1,0 +1,14 @@
+{
+  "changeId": "47925ca2-9a43-4804-a868-2ceb34852820",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000800056",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260714#327M50000800056",
+  "title": "航空法施行規則",
+  "detectedAt": "2026-07-14T04:40:01.410Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年運輸省令第五十六号\",\"LawName\":\"航空法施行規則\",\"LawNameKana\":\"こうくうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520731,\"AmendName\":\"航空法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十五号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"327M50000800056\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000800056_20260701_508M60000800065\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
