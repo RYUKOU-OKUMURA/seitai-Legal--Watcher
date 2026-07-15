@@ -1,0 +1,15 @@
+{
+  "changeId": "fd02e7f8-ab93-43b2-a47b-960898d72c48",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:429CO0000000282",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#429CO0000000282",
+  "title": "衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十九年政令第二百八十二号\",\"LawName\":\"衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令\",\"LawNameKana\":\"えいせいりもーとせんしんぐきろくのてきせいなとりあつかいのかくほにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20171115,\"AmendName\":\"衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十一号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"429CO0000000282\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429CO0000000282_20260710_508CO0000000221\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十九年政令第二百八十二号\",\"LawName\":\"衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令\",\"LawNameKana\":\"えいせいりもーとせんしんぐきろくのてきせいなとりあつかいのかくほにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20171115,\"AmendName\":\"外国為替及び外国貿易法の一部を改正する法律の一部の施行に伴う関係政令の整理に関する政令\",\"AmendNo\":\"令和八年政令第百九十四号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260605,\"EnforcementComment\":\"\",\"LawId\":\"429CO0000000282\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429CO0000000282_20260605_508CO0000000194\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十九年政令第二百八十二号\",\"LawName\":\"衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令\",\"LawNameKana\":\"えいせいりもーとせんしんぐきろくのてきせいなとりあつかいのかくほにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20171115,\"AmendName\":\"衛星リモートセンシング記録の適正な取扱いの確保に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十一号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"429CO0000000282\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429CO0000000282_20260710_508CO0000000221\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

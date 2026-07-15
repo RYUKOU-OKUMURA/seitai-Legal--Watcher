@@ -1,0 +1,15 @@
+{
+  "changeId": "3e55d2c8-5feb-4ce7-b486-b1006bfce54e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347M50002000032",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#347M50002000032",
+  "title": "労働安全衛生規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十七年労働省令第三十二号\",\"LawName\":\"労働安全衛生規則\",\"LawNameKana\":\"ろうどうあんぜんえいせいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19720930,\"AmendName\":\"労働安全衛生規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十二号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"347M50002000032\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347M50002000032_20270401_508M60000100112\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 労働安全衛生規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十七年労働省令第三十二号\",\"LawName\":\"労働安全衛生規則\",\"LawNameKana\":\"ろうどうあんぜんえいせいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19720930,\"AmendName\":\"労働安全衛生規則の一部を改正する省令\",\"AmendNo\":\"令和六年厚生労働省令第七十九号\",\"AmendPromulgationDate\":20240425,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"347M50002000032\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347M50002000032_20260701_506M60000100079\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十七年労働省令第三十二号\",\"LawName\":\"労働安全衛生規則\",\"LawNameKana\":\"ろうどうあんぜんえいせいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19720930,\"AmendName\":\"労働安全衛生規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十二号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"347M50002000032\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347M50002000032_20270401_508M60000100112\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

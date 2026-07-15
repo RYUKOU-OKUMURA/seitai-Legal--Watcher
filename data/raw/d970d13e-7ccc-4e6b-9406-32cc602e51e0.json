@@ -1,0 +1,14 @@
+{
+  "changeId": "d970d13e-7ccc-4e6b-9406-32cc602e51e0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000200027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#417M60000200027",
+  "title": "農業協同組合法施行規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年農林水産省令第二十七号\",\"LawName\":\"農業協同組合法施行規則\",\"LawNameKana\":\"のうぎょうきょうどうくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050322,\"AmendName\":\"農業協同組合法施行規則及び水産業協同組合法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第四十八号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"417M60000200027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000200027_20270401_508M60000200048\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "241f836b-9691-4569-a7d0-7631ee0ba725",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800115",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#413M60000800115",
+  "title": "高齢者の居住の安定確保に関する法律施行規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第百十五号\",\"LawName\":\"高齢者の居住の安定確保に関する法律施行規則\",\"LawNameKana\":\"こうれいしゃのきょじゅうのあんていかくほにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010803,\"AmendName\":\"高齢者の居住の安定確保に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第六十六号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260703,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800115_20260703_508M60000800066\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

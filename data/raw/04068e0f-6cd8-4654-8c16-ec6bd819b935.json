@@ -1,0 +1,14 @@
+{
+  "changeId": "04068e0f-6cd8-4654-8c16-ec6bd819b935",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335RJNJ09030000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#335RJNJ09030000",
+  "title": "人事院規則九―三〇（特殊勤務手当）",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和三十五年人事院規則九―三〇\",\"LawName\":\"人事院規則九―三〇（特殊勤務手当）\",\"LawNameKana\":\"じんじいんきそくきゅうのさんじゅうとくしゅきんむてあて\",\"OldLawName\":\"\",\"PromulgationDate\":19600609,\"AmendName\":\"人事院規則九―三〇（特殊勤務手当）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―三〇―一一四\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"335RJNJ09030000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335RJNJ09030000_20260701_508RJNJ09030114\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

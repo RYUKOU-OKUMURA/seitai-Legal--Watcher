@@ -1,0 +1,14 @@
+{
+  "changeId": "0f159442-d9ff-4137-98e3-e27b6f836fc2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000040001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#413M60000040001",
+  "title": "財務省組織規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年財務省令第一号\",\"LawName\":\"財務省組織規則\",\"LawNameKana\":\"ざいむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"国税不服審判所組織規則及び財務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第四十八号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"413M60000040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000040001_20261001_508M60000040048\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

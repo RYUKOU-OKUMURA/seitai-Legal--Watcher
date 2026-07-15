@@ -1,0 +1,14 @@
+{
+  "changeId": "8a4b0552-e27d-4bc7-9bb7-6ba5c401abb7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425M60001400003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#425M60001400003",
+  "title": "使用済小型電子機器等の再資源化の促進に関する法律施行規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十五年経済産業省・環境省令第三号\",\"LawName\":\"使用済小型電子機器等の再資源化の促進に関する法律施行規則\",\"LawNameKana\":\"しようずみこがたでんしききとうのさいしげんかのそくしんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20130306,\"AmendName\":\"使用済小型電子機器等の再資源化の促進に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省・環境省令第九号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"425M60001400003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425M60001400003_20260701_508M60001400009\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

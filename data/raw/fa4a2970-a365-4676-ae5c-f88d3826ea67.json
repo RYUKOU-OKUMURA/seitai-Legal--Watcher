@@ -1,0 +1,14 @@
+{
+  "changeId": "fa4a2970-a365-4676-ae5c-f88d3826ea67",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:345M50000040017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#345M50000040017",
+  "title": "国税不服審判所組織規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十五年大蔵省令第十七号\",\"LawName\":\"国税不服審判所組織規則\",\"LawNameKana\":\"こくぜいふふくしんぱんところそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19700401,\"AmendName\":\"国税不服審判所組織規則及び財務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第四十八号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"345M50000040017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=345M50000040017_20260710_508M60000040048\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

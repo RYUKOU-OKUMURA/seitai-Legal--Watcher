@@ -1,0 +1,14 @@
+{
+  "changeId": "cdde1279-7891-4adf-836e-d237223a548a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000010044",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#417M60000010044",
+  "title": "法務省の所管する法令の規定に基づく民間事業者等が行う書面の保存等における情報通信の技術の利用に関する規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年法務省令第四十四号\",\"LawName\":\"法務省の所管する法令の規定に基づく民間事業者等が行う書面の保存等における情報通信の技術の利用に関する規則\",\"LawNameKana\":\"ほうむしょうのしょかんするほうれいのきていにもとづくみんかんじぎょうしゃとうがおこなうしょめんのほぞんとうにおけるじょうほうつうしんのぎじゅつのりようにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050328,\"AmendName\":\"法務大臣の所管に属する公益信託の引受けの許可及び監督に関する規則を廃止する省令\",\"AmendNo\":\"令和八年法務省令第四十四号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"417M60000010044\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000010044_20260701_508M60000010044\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

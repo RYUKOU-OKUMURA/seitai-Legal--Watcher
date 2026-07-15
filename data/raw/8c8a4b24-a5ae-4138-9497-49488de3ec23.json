@@ -1,0 +1,14 @@
+{
+  "changeId": "8c8a4b24-a5ae-4138-9497-49488de3ec23",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000008016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#507M60000008016",
+  "title": "第二号基礎的電気通信役務の提供に係る第二種交付金及び第二種負担金算定等規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年総務省令第十六号\",\"LawName\":\"第二号基礎的電気通信役務の提供に係る第二種交付金及び第二種負担金算定等規則\",\"LawNameKana\":\"だいにごうきそてきでんきつうしんえきむのていきょうにかかるだいにしゅこうふきんおよびだいにしゅふたんきんさんていきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20250325,\"AmendName\":\"電気通信事業法施行規則及び第二号基礎的電気通信役務の提供に係る第二種交付金及び第二種負担金算定等規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十五号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"507M60000008016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000008016_20260630_508M60000008085\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

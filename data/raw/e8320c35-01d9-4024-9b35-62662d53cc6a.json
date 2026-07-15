@@ -1,0 +1,14 @@
+{
+  "changeId": "e8320c35-01d9-4024-9b35-62662d53cc6a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:360M50001000025",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#360M50001000025",
+  "title": "電気通信事業法施行規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十年郵政省令第二十五号\",\"LawName\":\"電気通信事業法施行規則\",\"LawNameKana\":\"でんきつうしんじぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19850401,\"AmendName\":\"電気通信事業法施行規則及び第二号基礎的電気通信役務の提供に係る第二種交付金及び第二種負担金算定等規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十五号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"360M50001000025\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=360M50001000025_20260630_508M60000008085\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

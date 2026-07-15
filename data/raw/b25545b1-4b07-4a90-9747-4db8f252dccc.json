@@ -1,0 +1,14 @@
+{
+  "changeId": "b25545b1-4b07-4a90-9747-4db8f252dccc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50000040031",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#325M50000040031",
+  "title": "日本銀行の公庫預託金取扱規程",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年大蔵省令第三十一号\",\"LawName\":\"日本銀行の公庫預託金取扱規程\",\"LawNameKana\":\"にほんぎんこうのこうこよたくきんとりあつかいきてい\",\"OldLawName\":\"\",\"PromulgationDate\":19500401,\"AmendName\":\"日本銀行の公庫預託金取扱規程の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第四十六号\",\"AmendPromulgationDate\":20260626,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"325M50000040031\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50000040031_20270401_508M60000040046\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

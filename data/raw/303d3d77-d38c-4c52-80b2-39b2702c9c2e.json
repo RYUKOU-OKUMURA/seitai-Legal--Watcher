@@ -1,0 +1,14 @@
+{
+  "changeId": "303d3d77-d38c-4c52-80b2-39b2702c9c2e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322M40000010094",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260715#322M40000010094",
+  "title": "戸籍法施行規則",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十二年司法省令第九十四号\",\"LawName\":\"戸籍法施行規則\",\"LawNameKana\":\"こせきほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19471229,\"AmendName\":\"戸籍法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十三号\",\"AmendPromulgationDate\":20260626,\"EnforcementDate\":20260626,\"EnforcementComment\":\"\",\"LawId\":\"322M40000010094\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322M40000010094_20260626_508M60000010043\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

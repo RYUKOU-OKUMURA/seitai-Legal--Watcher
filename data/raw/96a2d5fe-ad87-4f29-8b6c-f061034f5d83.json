@@ -1,0 +1,14 @@
+{
+  "changeId": "96a2d5fe-ad87-4f29-8b6c-f061034f5d83",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260710",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260710",
+  "title": "「サイバー対処能力強化法に基づく特別社会基盤事業者による特定侵害事象等の報告等に関する制度の解説（特定重要電子計算機の届出及び特定侵害事象等の報告）（案）」に関する意見の募集について",
+  "detectedAt": "2026-07-15T04:39:45.666Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/15 受付締切日時：2026/08/19 00:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府政策統括官（サイバー安全保障担当）付",
+  "links": [],
+  "httpStatus": 200
+}
