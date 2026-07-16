@@ -1,0 +1,23 @@
+{
+  "changeId": "7de1470d-2721-4a67-ad13-29a766c3cd29",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000127",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000127",
+  "title": "個人情報の保護に関する法律施行規則第八条第三項第一号及び第二号並びに第四十四条第三項並びに行政手続における特定の個人を識別するための番号の利用等に関する法律第二十九条の四第一項及び第二項に基づく特定個人情報の漏えい等に関する報告等に関する規則第三条第三項に規定する個人情報保護委員会が別に定める場合及びその方法を定める件の一部を改正する告示（案）に関する意見募集について",
+  "detectedAt": "2026-07-16T04:50:20.654Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/16 受付締切日時：2026/08/14 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：個人情報保護委員会事務局（監視・監督室）\n03-6457-9680（代表）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000127",
+      "error": "HTTP 403"
+    }
+  ]
+}

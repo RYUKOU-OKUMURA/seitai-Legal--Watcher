@@ -1,0 +1,14 @@
+{
+  "changeId": "68f1f888-5380-4d8c-ba61-e553ba5548db",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260046",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260046",
+  "title": "国民年金法施行規則等の一部を改正する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-07-16T04:50:20.654Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/15 案の公示日：2026/05/01 受付締切日時：2026/06/01 12:00 命令等の公布日：2026/07/15 提出意見数：2 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局事業管理課法令係",
+  "links": [],
+  "httpStatus": 200
+}
