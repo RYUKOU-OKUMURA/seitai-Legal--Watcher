@@ -1,0 +1,14 @@
+{
+  "changeId": "247266ca-8530-4b26-ac51-57fc19276925",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000073",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#323AC0000000073",
+  "title": "国有財産法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第七十三号\",\"LawName\":\"国有財産法\",\"LawNameKana\":\"こくゆうざいさんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480630,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"323AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000073_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

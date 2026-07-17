@@ -1,0 +1,14 @@
+{
+  "changeId": "e4dd2877-69aa-4b9d-85d2-fa67fef00b88",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346AC0000000129",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#346AC0000000129",
+  "title": "沖縄の復帰に伴う特別措置に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十六年法律第百二十九号\",\"LawName\":\"沖縄の復帰に伴う特別措置に関する法律\",\"LawNameKana\":\"おきなわのふっきにともなうとくべつそちにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19711231,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"346AC0000000129\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346AC0000000129_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

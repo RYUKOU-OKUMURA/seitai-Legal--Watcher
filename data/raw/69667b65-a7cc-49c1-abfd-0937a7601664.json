@@ -1,0 +1,15 @@
+{
+  "changeId": "69667b65-a7cc-49c1-abfd-0937a7601664",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#425AC0000000027",
+  "title": "行政手続における特定の個人を識別するための番号の利用等に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第二十七号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20130531,\"AmendName\":\"個人情報の保護に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十六号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"425AC0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000027_20280716_508AC0000000056\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 行政手続における特定の個人を識別するための番号の利用等に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第二十七号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20130531,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律\",\"AmendNo\":\"令和六年法律第五十九号\",\"AmendPromulgationDate\":20240621,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000027_20260614_506AC0000000059\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第二十七号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20130531,\"AmendName\":\"個人情報の保護に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十六号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"425AC0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000027_20280716_508AC0000000056\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

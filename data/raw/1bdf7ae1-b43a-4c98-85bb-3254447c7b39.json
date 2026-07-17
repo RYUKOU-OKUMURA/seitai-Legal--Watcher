@@ -1,0 +1,15 @@
+{
+  "changeId": "1bdf7ae1-b43a-4c98-85bb-3254447c7b39",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC0000000023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#419AC0000000023",
+  "title": "特別会計に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 特別会計に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十五号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_20270714_508AC0000000055\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "cfd8258d-34f0-4415-b173-99b5a622e745",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#325AC0000000061",
+  "title": "国等の債権債務等の金額の端数計算に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第六十一号\",\"LawName\":\"国等の債権債務等の金額の端数計算に関する法律\",\"LawNameKana\":\"くにとうのさいけんさいむとうのきんがくのはすうけいさんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19500331,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"325AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000061_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

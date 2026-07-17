@@ -1,0 +1,14 @@
+{
+  "changeId": "48fa31cb-62e2-4591-a2cf-b3f4ee7e9e68",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405AC0000000091",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#405AC0000000091",
+  "title": "環境基本法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成五年法律第九十一号\",\"LawName\":\"環境基本法\",\"LawNameKana\":\"かんきょうきほんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19931119,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"405AC0000000091\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405AC0000000091_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "1113b0b1-edc2-40db-a779-994243240093",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411AC0000000042",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#411AC0000000042",
+  "title": "行政機関の保有する情報の公開に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第四十二号\",\"LawName\":\"行政機関の保有する情報の公開に関する法律\",\"LawNameKana\":\"ぎょうせいきかんのほゆうするじょうほうのこうかいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19990514,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"411AC0000000042\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000042_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "ab74aca1-9fa2-47b9-aa67-695102d63c3c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415AC0000000057",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#415AC0000000057",
+  "title": "個人情報の保護に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第五十七号\",\"LawName\":\"個人情報の保護に関する法律\",\"LawNameKana\":\"こじんじょうほうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20030530,\"AmendName\":\"個人情報の保護に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十六号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"415AC0000000057\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000057_20280716_508AC0000000056\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 個人情報の保護に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第五十七号\",\"LawName\":\"個人情報の保護に関する法律\",\"LawNameKana\":\"こじんじょうほうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20030530,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"415AC0000000057\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000057_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第五十七号\",\"LawName\":\"個人情報の保護に関する法律\",\"LawNameKana\":\"こじんじょうほうのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20030530,\"AmendName\":\"個人情報の保護に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十六号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"415AC0000000057\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000057_20280716_508AC0000000056\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

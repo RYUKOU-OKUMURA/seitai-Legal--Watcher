@@ -1,0 +1,15 @@
+{
+  "changeId": "a9083de1-9ac2-46e7-b460-5eada7f41840",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000120",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#323AC0000000120",
+  "title": "国家行政組織法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百二十号\",\"LawName\":\"国家行政組織法\",\"LawNameKana\":\"こっかぎょうせいそしきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"323AC0000000120\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000120_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 国家行政組織法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百二十号\",\"LawName\":\"国家行政組織法\",\"LawNameKana\":\"こっかぎょうせいそしきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260703,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000120\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000120_20260703_508AC0000000053\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百二十号\",\"LawName\":\"国家行政組織法\",\"LawNameKana\":\"こっかぎょうせいそしきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"323AC0000000120\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000120_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "b8f3e259-f185-4fd3-84c1-76e3ee7314a7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415AC0000000079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#415AC0000000079",
+  "title": "武力攻撃事態等及び存立危機事態における我が国の平和と独立並びに国及び国民の安全の確保に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第七十九号\",\"LawName\":\"武力攻撃事態等及び存立危機事態における我が国の平和と独立並びに国及び国民の安全の確保に関する法律\",\"LawNameKana\":\"ぶりょくこうげきじたいとうおよびそんりつききじたいにおけるわがくにのへいわとどくりつならびにくにおよびこくみんのあんぜんのかくほにかんするほうりつ\",\"OldLawName\":\"武力攻撃事態等における我が国の平和と独立並びに国及び国民の安全の確保に関する法律\",\"PromulgationDate\":20030613,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"415AC0000000079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000079_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "d2e8c0a0-58a1-474c-8143-2ac21ab34b05",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:404AC0000000079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#404AC0000000079",
+  "title": "国際連合平和維持活動等に対する協力に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成四年法律第七十九号\",\"LawName\":\"国際連合平和維持活動等に対する協力に関する法律\",\"LawNameKana\":\"こくさいれんごうへいわいじかつどうとうにたいするきょうりょくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19920619,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"404AC0000000079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=404AC0000000079_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "f018b857-3160-48d1-93aa-28734ecf0fa1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508AC0000000061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#508AC0000000061",
+  "title": "防災庁設置法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和八年法律第六十一号\",\"LawName\":\"防災庁設置法\",\"LawNameKana\":\"ぼうさいちょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20260717,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"508AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508AC0000000061_20280716_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

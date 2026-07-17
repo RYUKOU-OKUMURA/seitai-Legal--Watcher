@@ -1,0 +1,14 @@
+{
+  "changeId": "9e852190-553d-4159-abc4-6f4dcba8847d",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495230214",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495230214",
+  "title": "「「非天然型構造を有する化学合成ペプチド医薬品の非臨床安全性評価に関するガイドライン」の案に関する御意見の募集について」に対して寄せられたご意見等について",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/17 案の公示日：2023/10/30 受付締切日時：2023/12/29 12:00 命令等の公布日：2026/05/14 提出意見数：41 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線４２３５）",
+  "links": [],
+  "httpStatus": 200
+}

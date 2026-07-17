@@ -1,0 +1,15 @@
+{
+  "changeId": "f2a61bc9-0b63-4b34-814c-4c18a5e2d7c4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426CO0000000155",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#426CO0000000155",
+  "title": "行政手続における特定の個人を識別するための番号の利用等に関する法律施行令",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第百五十五号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行令\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140331,\"AmendName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000155\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000155_20260710_508CO0000000220\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 行政手続における特定の個人を識別するための番号の利用等に関する法律施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第百五十五号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行令\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140331,\"AmendName\":\"出入国管理及び難民認定法等の一部を改正する法律の施行に伴う関係政令の整備等及び経過措置に関する政令\",\"AmendNo\":\"令和七年政令第四百二十三号\",\"AmendPromulgationDate\":20251217,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000155\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000155_20260614_507CO0000000423\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第百五十五号\",\"LawName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行令\",\"LawNameKana\":\"ぎょうせいてつづきにおけるとくていのこじんをしきべつするためのばんごうのりようとうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140331,\"AmendName\":\"行政手続における特定の個人を識別するための番号の利用等に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000155\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000155_20260710_508CO0000000220\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

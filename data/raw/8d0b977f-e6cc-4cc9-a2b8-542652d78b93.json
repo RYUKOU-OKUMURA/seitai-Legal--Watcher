@@ -1,0 +1,14 @@
+{
+  "changeId": "8d0b977f-e6cc-4cc9-a2b8-542652d78b93",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000194",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#322AC0000000194",
+  "title": "国の利害に関係のある訴訟についての法務大臣の権限等に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第百九十四号\",\"LawName\":\"国の利害に関係のある訴訟についての法務大臣の権限等に関する法律\",\"LawNameKana\":\"くにのりがいにかんけいのあるそしょうについてのほうむだいじんのけんげんとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19471217,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"322AC0000000194\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000194_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

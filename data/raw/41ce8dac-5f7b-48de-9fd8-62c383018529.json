@@ -1,0 +1,14 @@
+{
+  "changeId": "41ce8dac-5f7b-48de-9fd8-62c383018529",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000050",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#322AC0000000050",
+  "title": "労働者災害補償保険法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第五十号\",\"LawName\":\"労働者災害補償保険法\",\"LawNameKana\":\"ろうどうしゃさいがいほしょうほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470407,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000050\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000050_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "18120ad8-a67a-4724-bb6a-12ad119fd92c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506AC0000000061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#506AC0000000061",
+  "title": "食料供給困難事態対策法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和六年法律第六十一号\",\"LawName\":\"食料供給困難事態対策法\",\"LawNameKana\":\"しょくりょうきょうきゅうこんなんじたいたいさくほう\",\"OldLawName\":\"\",\"PromulgationDate\":20240621,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"506AC0000000061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506AC0000000061_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

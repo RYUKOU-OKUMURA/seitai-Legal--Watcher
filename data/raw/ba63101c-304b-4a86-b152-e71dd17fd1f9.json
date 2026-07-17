@@ -1,0 +1,14 @@
+{
+  "changeId": "ba63101c-304b-4a86-b152-e71dd17fd1f9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:330AC1000000186",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#330AC1000000186",
+  "title": "原子力基本法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十年法律第百八十六号\",\"LawName\":\"原子力基本法\",\"LawNameKana\":\"げんしりょくきほんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19551219,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"330AC1000000186\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=330AC1000000186_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

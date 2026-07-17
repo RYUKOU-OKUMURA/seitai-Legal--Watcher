@@ -1,0 +1,14 @@
+{
+  "changeId": "7e0a5d97-41c0-4f83-b625-1bc7eca23837",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:429AC0000000028",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#429AC0000000028",
+  "title": "医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十九年法律第二十八号\",\"LawName\":\"医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律\",\"LawNameKana\":\"いりょうぶんやのけんきゅうかいはつにしするためのとくめいかこういりょうじょうほうおよびかめいかこういりょうじょうほうにかんするほうりつ\",\"OldLawName\":\"医療分野の研究開発に資するための匿名加工医療情報に関する法律\",\"PromulgationDate\":20170512,\"AmendName\":\"個人情報の保護に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十六号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"429AC0000000028\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429AC0000000028_20280716_508AC0000000056\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "8c7e2f66-1c3e-49bb-85b8-fadd46ca8689",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411AC0000000060",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#411AC0000000060",
+  "title": "重要影響事態に際して我が国の平和及び安全を確保するための措置に関する法律",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第六十号\",\"LawName\":\"重要影響事態に際して我が国の平和及び安全を確保するための措置に関する法律\",\"LawNameKana\":\"じゅうようえいきょうじたいにさいしてわがくにのへいわおよびあんぜんをかくほするためのそちにかんするほうりつ\",\"OldLawName\":\"周辺事態に際して我が国の平和及び安全を確保するための措置に関する法律\",\"PromulgationDate\":19990528,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"411AC0000000060\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000060_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

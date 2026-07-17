@@ -1,0 +1,14 @@
+{
+  "changeId": "42d56bf4-804c-4404-80a7-cc6a8d90bde8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC0000000117",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#324AC0000000117",
+  "title": "国家公務員宿舎法",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第百十七号\",\"LawName\":\"国家公務員宿舎法\",\"LawNameKana\":\"こっかこうむいんしゅくしゃほう\",\"OldLawName\":\"\",\"PromulgationDate\":19490530,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"324AC0000000117\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000117_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

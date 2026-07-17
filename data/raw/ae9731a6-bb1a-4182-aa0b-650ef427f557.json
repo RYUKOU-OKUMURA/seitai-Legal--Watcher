@@ -1,0 +1,14 @@
+{
+  "changeId": "ae9731a6-bb1a-4182-aa0b-650ef427f557",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:352CO0000000220",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260717#352CO0000000220",
+  "title": "電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令",
+  "detectedAt": "2026-07-17T04:53:07.961Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十二年政令第二百二十号\",\"LawName\":\"電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令\",\"LawNameKana\":\"でんしじょうほうしょりそしきによるゆしゅつにゅうとうかんれんぎょうむのしょりとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19770624,\"AmendName\":\"ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して課する暫定的な不当廉売関税に関する政令\",\"AmendNo\":\"令和八年政令第二百二十四号\",\"AmendPromulgationDate\":20260708,\"EnforcementDate\":20260709,\"EnforcementComment\":\"\",\"LawId\":\"352CO0000000220\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=352CO0000000220_20260709_508CO0000000224\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
