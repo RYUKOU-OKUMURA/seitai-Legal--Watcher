@@ -1,0 +1,15 @@
+{
+  "changeId": "9d329e92-8862-4f52-af8e-54839941ffb6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000086",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260721#425AC0000000086",
+  "title": "自動車の運転により人を死傷させる行為等の処罰に関する法律",
+  "detectedAt": "2026-07-21T04:58:10.223Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第八十六号\",\"LawName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律\",\"LawNameKana\":\"じどうしゃのうんてんによりひとをししょうさせるこういとうのしょばつにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131127,\"AmendName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律及び道路交通法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十二号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260721,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000086_20260721_508AC0000000052\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 自動車の運転により人を死傷させる行為等の処罰に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第八十六号\",\"LawName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律\",\"LawNameKana\":\"じどうしゃのうんてんによりひとをししょうさせるこういとうのしょばつにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131127,\"AmendName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律及び道路交通法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十二号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260721,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000086_20260721_508AC0000000052\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第八十六号\",\"LawName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律\",\"LawNameKana\":\"じどうしゃのうんてんによりひとをししょうさせるこういとうのしょばつにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131127,\"AmendName\":\"自動車の運転により人を死傷させる行為等の処罰に関する法律及び道路交通法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十二号\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260721,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000086_20260721_508AC0000000052\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
