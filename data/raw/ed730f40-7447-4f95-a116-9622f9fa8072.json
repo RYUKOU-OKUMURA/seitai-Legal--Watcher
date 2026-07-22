@@ -1,0 +1,14 @@
+{
+  "changeId": "ed730f40-7447-4f95-a116-9622f9fa8072",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000231",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000231",
+  "title": "児童福祉法施行規則及びこども家庭庁の所管する法律の規定に基づく立入検査等の際に携帯する職員の身分を示す証明書の様式の特例に関する内閣府令の一部を改正する内閣府令案に関する御意見の募集について",
+  "detectedAt": "2026-07-22T04:57:28.262Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/21 受付締切日時：2026/08/20 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁支援局虐待防止対策課",
+  "links": [],
+  "httpStatus": 200
+}
