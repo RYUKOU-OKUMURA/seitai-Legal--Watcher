@@ -1,0 +1,15 @@
+{
+  "changeId": "d9150fe5-7c75-4fbb-9f95-e6fad0dfffa8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0000000086",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#413AC0000000086",
+  "title": "行政機関が行う政策の評価に関する法律",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第八十六号\",\"LawName\":\"行政機関が行う政策の評価に関する法律\",\"LawNameKana\":\"ぎょうせいきかんがおこなうせいさくのひょうかにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20260717,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000086_20260717_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 行政機関が行う政策の評価に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第八十六号\",\"LawName\":\"行政機関が行う政策の評価に関する法律\",\"LawNameKana\":\"ぎょうせいきかんがおこなうせいさくのひょうかにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"413AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000086_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第八十六号\",\"LawName\":\"行政機関が行う政策の評価に関する法律\",\"LawNameKana\":\"ぎょうせいきかんがおこなうせいさくのひょうかにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20010629,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20260717,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000086\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000086_20260717_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

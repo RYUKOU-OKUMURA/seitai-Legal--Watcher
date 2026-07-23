@@ -1,0 +1,15 @@
+{
+  "changeId": "d84e4921-aa04-4bcd-abcb-fac01a392bf2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346AC0000000034",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#346AC0000000034",
+  "title": "預金保険法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十六年法律第三十四号\",\"LawName\":\"預金保険法\",\"LawNameKana\":\"よきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19710401,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"346AC0000000034\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346AC0000000034_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 預金保険法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十六年法律第三十四号\",\"LawName\":\"預金保険法\",\"LawNameKana\":\"よきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19710401,\"AmendName\":\"金融機能の強化のための特別措置に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十五号\",\"AmendPromulgationDate\":20260507,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"346AC0000000034\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346AC0000000034_20260625_508AC0000000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十六年法律第三十四号\",\"LawName\":\"預金保険法\",\"LawNameKana\":\"よきんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19710401,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"346AC0000000034\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346AC0000000034_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

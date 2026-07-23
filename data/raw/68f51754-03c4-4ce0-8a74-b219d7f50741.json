@@ -1,0 +1,14 @@
+{
+  "changeId": "68f51754-03c4-4ce0-8a74-b219d7f50741",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403AC0000000066",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#403AC0000000066",
+  "title": "商品投資に係る事業の規制に関する法律",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三年法律第六十六号\",\"LawName\":\"商品投資に係る事業の規制に関する法律\",\"LawNameKana\":\"しょうひんとうしにかかるじぎょうのきせいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19910502,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"403AC0000000066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403AC0000000066_20260812_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

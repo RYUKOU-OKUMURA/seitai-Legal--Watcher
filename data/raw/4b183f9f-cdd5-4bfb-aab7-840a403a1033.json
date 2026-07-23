@@ -1,0 +1,23 @@
+{
+  "changeId": "4b183f9f-cdd5-4bfb-aab7-840a403a1033",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260114",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260114",
+  "title": "栄養士法施行令等の一部を改正する政令案に関するご意見の募集について",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/23 受付締切日時：2026/08/23 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：健康・生活衛生局健康課\n03-3595-2245",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260114",
+      "error": "HTTP 403"
+    }
+  ]
+}

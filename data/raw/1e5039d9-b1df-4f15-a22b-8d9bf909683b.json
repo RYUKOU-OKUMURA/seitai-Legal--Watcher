@@ -1,0 +1,14 @@
+{
+  "changeId": "1e5039d9-b1df-4f15-a22b-8d9bf909683b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC0000000085",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#419AC0000000085",
+  "title": "株式会社日本政策投資銀行法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第八十五号\",\"LawName\":\"株式会社日本政策投資銀行法\",\"LawNameKana\":\"かぶしきがいしゃにっぽんせいさくとうしぎんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20070613,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"419AC0000000085\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000085_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

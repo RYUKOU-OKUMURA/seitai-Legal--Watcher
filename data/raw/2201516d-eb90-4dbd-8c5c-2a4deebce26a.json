@@ -1,0 +1,15 @@
+{
+  "changeId": "2201516d-eb90-4dbd-8c5c-2a4deebce26a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000039",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#423AC0000000039",
+  "title": "株式会社国際協力銀行法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第三十九号\",\"LawName\":\"株式会社国際協力銀行法\",\"LawNameKana\":\"かぶしきがいしゃこくさいきょうりょくぎんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110502,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0000000039\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000039_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 株式会社国際協力銀行法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第三十九号\",\"LawName\":\"株式会社国際協力銀行法\",\"LawNameKana\":\"かぶしきがいしゃこくさいきょうりょくぎんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110502,\"AmendName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律及び株式会社国際協力銀行法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十八号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0000000039\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000039_20270616_508AC0000000038\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第三十九号\",\"LawName\":\"株式会社国際協力銀行法\",\"LawNameKana\":\"かぶしきがいしゃこくさいきょうりょくぎんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110502,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"423AC0000000039\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000039_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

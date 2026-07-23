@@ -1,0 +1,15 @@
+{
+  "changeId": "de479984-fb1c-41fc-a8ab-69f8597cf415",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000098",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#425AC0000000098",
+  "title": "産業競争力強化法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 産業競争力強化法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

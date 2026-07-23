@@ -1,0 +1,15 @@
+{
+  "changeId": "9565fb72-02de-4312-8396-cf52cc192a65",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#342AC0000000081",
+  "title": "住民基本台帳法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 住民基本台帳法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年六月を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20281218_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

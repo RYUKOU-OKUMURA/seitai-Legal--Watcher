@@ -1,0 +1,14 @@
+{
+  "changeId": "25e2359a-4503-4331-b522-723dd9af5424",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000103",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#323AC0000000103",
+  "title": "公認会計士法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三号\",\"LawName\":\"公認会計士法\",\"LawNameKana\":\"こうにんかいけいしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480706,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000103\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000103_20270401_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

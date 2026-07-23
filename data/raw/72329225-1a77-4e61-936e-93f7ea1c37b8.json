@@ -1,0 +1,14 @@
+{
+  "changeId": "72329225-1a77-4e61-936e-93f7ea1c37b8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328AC0100000227",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#328AC0100000227",
+  "title": "労働金庫法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十八年法律第二百二十七号\",\"LawName\":\"労働金庫法\",\"LawNameKana\":\"ろうどうきんこほう\",\"OldLawName\":\"\",\"PromulgationDate\":19530817,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"328AC0100000227\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328AC0100000227_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

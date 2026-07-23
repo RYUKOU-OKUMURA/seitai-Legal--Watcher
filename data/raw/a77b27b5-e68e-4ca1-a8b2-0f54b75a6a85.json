@@ -1,0 +1,14 @@
+{
+  "changeId": "a77b27b5-e68e-4ca1-a8b2-0f54b75a6a85",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415AC0000000100",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#415AC0000000100",
+  "title": "独立行政法人都市再生機構法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第百号\",\"LawName\":\"独立行政法人都市再生機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんとしさいせいきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20030620,\"AmendName\":\"下水道法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十五号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"415AC0000000100\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000100_20270122_508AC0000000065\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

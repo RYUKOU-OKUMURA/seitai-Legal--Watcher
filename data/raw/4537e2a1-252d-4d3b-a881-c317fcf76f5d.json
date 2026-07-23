@@ -1,0 +1,14 @@
+{
+  "changeId": "4537e2a1-252d-4d3b-a881-c317fcf76f5d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:331AC0000000007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#331AC0000000007",
+  "title": "道路整備特別措置法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十一年法律第七号\",\"LawName\":\"道路整備特別措置法\",\"LawNameKana\":\"どうろせいびとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19560314,\"AmendName\":\"下水道法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十五号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"331AC0000000007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=331AC0000000007_20270122_508AC0000000065\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "4b5726f8-f460-4e06-9900-85ba80465e2d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC0000000213",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260723#324AC0000000213",
+  "title": "簡易郵便局法",
+  "detectedAt": "2026-07-23T05:14:49.748Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百十三号\",\"LawName\":\"簡易郵便局法\",\"LawNameKana\":\"かんいゆうびんきょくほう\",\"OldLawName\":\"\",\"PromulgationDate\":19490615,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"324AC0000000213\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000213_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
