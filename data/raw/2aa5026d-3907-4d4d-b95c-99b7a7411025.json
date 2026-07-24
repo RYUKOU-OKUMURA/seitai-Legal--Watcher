@@ -1,0 +1,15 @@
+{
+  "changeId": "2aa5026d-3907-4d4d-b95c-99b7a7411025",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405AC0000000088",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#405AC0000000088",
+  "title": "行政手続法",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成五年法律第八十八号\",\"LawName\":\"行政手続法\",\"LawNameKana\":\"ぎょうせいてつづきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19931112,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260724,\"EnforcementComment\":\"\",\"LawId\":\"405AC0000000088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405AC0000000088_20260724_508AC0000000066\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 行政手続法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成五年法律第八十八号\",\"LawName\":\"行政手続法\",\"LawNameKana\":\"ぎょうせいてつづきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19931112,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"405AC0000000088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405AC0000000088_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成五年法律第八十八号\",\"LawName\":\"行政手続法\",\"LawNameKana\":\"ぎょうせいてつづきほう\",\"OldLawName\":\"\",\"PromulgationDate\":19931112,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260724,\"EnforcementComment\":\"\",\"LawId\":\"405AC0000000088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405AC0000000088_20260724_508AC0000000066\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

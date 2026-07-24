@@ -1,0 +1,14 @@
+{
+  "changeId": "2b9383f2-aca0-4b3c-9d14-3eb54f7be73c",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=145210736",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=145210736",
+  "title": "恩給給与規則及び国会議員互助年金法施行令を廃止する等の政令附則第二項の規定によりなおその効力を有するものとされた同令第一条の規定による廃止前の国会議員互助年金法施行令の一部を改正する政令（案）に関する意見募集について",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/24 受付締切日時：2026/08/27 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：総務省政策統括官（恩給担当）恩給管理官室\n(TEL:03-5273-1306)",
+  "links": [],
+  "httpStatus": 200
+}

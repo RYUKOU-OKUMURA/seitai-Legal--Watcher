@@ -1,0 +1,15 @@
+{
+  "changeId": "200173c6-d9d7-41f5-a346-06fd4c9a8ba1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000202016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#413M60000202016",
+  "title": "農林中央金庫法施行規則",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府・農林水産省令第十六号\",\"LawName\":\"農林中央金庫法施行規則\",\"LawNameKana\":\"のうりんちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010913,\"AmendName\":\"農業協同組合及び農業協同組合連合会の信用事業に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・農林水産省令第九号\",\"AmendPromulgationDate\":20260709,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"413M60000202016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000202016_20261211_508M60000202009\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 農林中央金庫法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府・農林水産省令第十六号\",\"LawName\":\"農林中央金庫法施行規則\",\"LawNameKana\":\"のうりんちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010913,\"AmendName\":\"農林中央金庫法施行規則及び内閣府・農林水産省関係経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・農林水産省令第八号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"413M60000202016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000202016_20260701_508M60000202008\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府・農林水産省令第十六号\",\"LawName\":\"農林中央金庫法施行規則\",\"LawNameKana\":\"のうりんちゅうおうきんこほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010913,\"AmendName\":\"農業協同組合及び農業協同組合連合会の信用事業に関する命令等の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・農林水産省令第九号\",\"AmendPromulgationDate\":20260709,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"413M60000202016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000202016_20261211_508M60000202009\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

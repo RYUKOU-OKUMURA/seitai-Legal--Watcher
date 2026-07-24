@@ -1,0 +1,15 @@
+{
+  "changeId": "64ae7955-31e5-4ff4-957b-c89e0092a74e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:314AC0000000073",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#314AC0000000073",
+  "title": "船員保険法",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20290624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 船員保険法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20270401_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和十四年法律第七十三号\",\"LawName\":\"船員保険法\",\"LawNameKana\":\"せんいんほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19390406,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三年を超えない範囲内において政令で定める日\",\"LawId\":\"314AC0000000073\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=314AC0000000073_20290624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

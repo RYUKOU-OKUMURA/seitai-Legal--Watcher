@@ -1,0 +1,15 @@
+{
+  "changeId": "88c9210f-e30d-453c-80d9-76e5800c3aa2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:357M50002040001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#357M50002040001",
+  "title": "労働金庫法施行規則",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十七年大蔵省・労働省令第一号\",\"LawName\":\"労働金庫法施行規則\",\"LawNameKana\":\"ろうどうきんこほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19820331,\"AmendName\":\"労働金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第十一号\",\"AmendPromulgationDate\":20260709,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"357M50002040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357M50002040001_20261211_508M60000102011\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 労働金庫法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十七年大蔵省・労働省令第一号\",\"LawName\":\"労働金庫法施行規則\",\"LawNameKana\":\"ろうどうきんこほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19820331,\"AmendName\":\"労働金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第八号\",\"AmendPromulgationDate\":20260612,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"357M50002040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357M50002040001_20270401_508M60000102008\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十七年大蔵省・労働省令第一号\",\"LawName\":\"労働金庫法施行規則\",\"LawNameKana\":\"ろうどうきんこほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19820331,\"AmendName\":\"労働金庫法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・厚生労働省令第十一号\",\"AmendPromulgationDate\":20260709,\"EnforcementDate\":20261211,\"EnforcementComment\":\"\",\"LawId\":\"357M50002040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357M50002040001_20261211_508M60000102011\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "d7098d2a-b294-437d-a6e2-4e22fd7615ab",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260115",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260115",
+  "title": "「平成二十五年八月以降の生活保護法による保護の基準の特例」の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/23 案の公示日： 受付締切日時： 命令等の公布日：2026/02/20 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局保護課",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "11a7fd94-eb09-44a6-89e2-4afaba119ecb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#342AC0000000081",
+  "title": "住民基本台帳法",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20261024_508AC0000000066\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 住民基本台帳法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第八十一号\",\"LawName\":\"住民基本台帳法\",\"LawNameKana\":\"じゅうみんきほんだいちょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670725,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000081_20261024_508AC0000000066\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

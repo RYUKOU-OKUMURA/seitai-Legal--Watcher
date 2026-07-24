@@ -1,0 +1,14 @@
+{
+  "changeId": "d894975d-aa9f-4c32-9eff-5a48c4bf158d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC1000000092",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260724#414AC1000000092",
+  "title": "南海トラフ地震に係る地震防災対策の推進に関する特別措置法",
+  "detectedAt": "2026-07-24T04:59:57.325Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第九十二号\",\"LawName\":\"南海トラフ地震に係る地震防災対策の推進に関する特別措置法\",\"LawNameKana\":\"なんかいとらふじしんにかかるじしんぼうさいたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020726,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法附則第一条第二号に掲げる規定の施行の日\",\"LawId\":\"414AC1000000092\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000092_20280716_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
