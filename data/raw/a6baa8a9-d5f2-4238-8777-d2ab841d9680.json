@@ -1,0 +1,14 @@
+{
+  "changeId": "a6baa8a9-d5f2-4238-8777-d2ab841d9680",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000233",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000233",
+  "title": "地方公共団体情報システムの標準化に関する法律第二条第一項に規定する標準化対象事務を定める政令に規定するデジタル庁令・総務省令で定める事務を定める命令第二条各号に規定する事務の処理に係るシステムに必要とされる機能等に関する標準化基準を定める内閣府令の一部を改正する内閣府令（案）に関する御意見の募集について",
+  "detectedAt": "2026-07-25T04:55:19.719Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/24 受付締切日時：2026/08/06 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局保育政策課企画法令第一係",
+  "links": [],
+  "httpStatus": 200
+}

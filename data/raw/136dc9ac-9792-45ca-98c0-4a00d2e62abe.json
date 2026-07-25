@@ -1,0 +1,14 @@
+{
+  "changeId": "136dc9ac-9792-45ca-98c0-4a00d2e62abe",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000232",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000232",
+  "title": "子ども・子育て支援システムに関して内閣総理大臣が定める機能要件の標準の細目並びに実装区分及び適合基準日並びに帳票要件の標準の実装区分及び適合基準日並びに様式及び細目の一部を改正する件（案）等に関する御意見の募集について",
+  "detectedAt": "2026-07-25T04:55:19.719Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/24 受付締切日時：2026/08/06 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁支援局家庭福祉課企画係",
+  "links": [],
+  "httpStatus": 200
+}
