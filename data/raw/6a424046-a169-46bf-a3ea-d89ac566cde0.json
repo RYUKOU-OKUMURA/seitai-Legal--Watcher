@@ -1,0 +1,14 @@
+{
+  "changeId": "6a424046-a169-46bf-a3ea-d89ac566cde0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000117",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#423AC0000000117",
+  "title": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百十七号\",\"LawName\":\"東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法\",\"LawNameKana\":\"ひがしにほんだいしんさいからのふっこうのためのしさくをじっしするためにひつようなざいげんのかくほにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111202,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第十二号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"次号に掲げる規定の施行の日の属する年の翌年の一月一日\",\"LawId\":\"423AC0000000117\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000117_20280101_508AC0000000012\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

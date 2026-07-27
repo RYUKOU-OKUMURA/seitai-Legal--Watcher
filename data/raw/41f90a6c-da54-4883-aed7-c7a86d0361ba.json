@@ -1,0 +1,14 @@
+{
+  "changeId": "41f90a6c-da54-4883-aed7-c7a86d0361ba",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428M60400000009",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#428M60400000009",
+  "title": "重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行規則",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成二十八年国家公安委員会規則第九号\",\"LawName\":\"重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行規則\",\"LawNameKana\":\"じゅうようしせつのしゅうへんちいきのじょうくうにおけるこがたむじんきとうのひこうのきんしにかんするほうりつしこうきそく\",\"OldLawName\":\"国会議事堂、内閣総理大臣官邸その他の国の重要な施設等、外国公館等及び原子力事業所の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行規則\",\"PromulgationDate\":20160401,\"AmendName\":\"重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行規則の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十五号\",\"AmendPromulgationDate\":20260710,\"EnforcementDate\":20260714,\"EnforcementComment\":\"\",\"LawId\":\"428M60400000009\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428M60400000009_20260714_508M60400000015\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

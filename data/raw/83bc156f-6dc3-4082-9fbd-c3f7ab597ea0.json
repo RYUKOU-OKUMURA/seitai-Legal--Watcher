@@ -1,0 +1,14 @@
+{
+  "changeId": "83bc156f-6dc3-4082-9fbd-c3f7ab597ea0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340M50000040011",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#340M50000040011",
+  "title": "所得税法施行規則",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年大蔵省令第十一号\",\"LawName\":\"所得税法施行規則\",\"LawNameKana\":\"しょとくぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19650331,\"AmendName\":\"所得税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第十七号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日の属する年の翌年の一月一日\",\"LawId\":\"340M50000040011\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000040011_20280101_508M60000040017\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

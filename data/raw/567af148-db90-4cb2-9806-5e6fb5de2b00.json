@@ -1,0 +1,14 @@
+{
+  "changeId": "567af148-db90-4cb2-9806-5e6fb5de2b00",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412M50000002122",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#412M50000002122",
+  "title": "研究開発段階発電用原子炉の設置、運転等に関する規則",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十二年総理府令第百二十二号\",\"LawName\":\"研究開発段階発電用原子炉の設置、運転等に関する規則\",\"LawNameKana\":\"けんきゅうかいはつだんかいはつでんようげんしろのせっちうんてんとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20001106,\"AmendName\":\"試験研究の用に供する原子炉等の設置、運転等に関する規則等の一部を改正する規則\",\"AmendNo\":\"令和八年原子力規制委員会規則第六号\",\"AmendPromulgationDate\":20260710,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"412M50000002122\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412M50000002122_20260710_508M60080000006\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

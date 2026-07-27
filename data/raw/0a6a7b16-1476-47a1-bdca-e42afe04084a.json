@@ -1,0 +1,14 @@
+{
+  "changeId": "0a6a7b16-1476-47a1-bdca-e42afe04084a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:344M50000048001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#344M50000048001",
+  "title": "租税条約等の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律の施行に関する省令",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年大蔵省・自治省令第一号\",\"LawName\":\"租税条約等の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律の施行に関する省令\",\"LawNameKana\":\"そぜいじょうやくとうのじっしにともなうしょとくぜいほうほうじんぜいほうおよびちほうぜいほうのとくれいとうにかんするほうりつのしこうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19690617,\"AmendName\":\"租税条約等の実施に伴う所得税法、法人税法及び地方税法の特例等に関する法律の施行に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省・財務省令第三号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日の属する年の翌年の一月一日\",\"LawId\":\"344M50000048001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50000048001_20280101_508M60000048003\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

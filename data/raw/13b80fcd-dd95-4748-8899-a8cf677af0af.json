@@ -1,0 +1,14 @@
+{
+  "changeId": "13b80fcd-dd95-4748-8899-a8cf677af0af",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000008017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#337M50000008017",
+  "title": "普通交付税に関する省令",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第十七号\",\"LawName\":\"普通交付税に関する省令\",\"LawNameKana\":\"ふつうこうふぜいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620820,\"AmendName\":\"普通交付税に関する省令の一部を改正する省令\",\"AmendNo\":\"令和七年総務省令第百十三号\",\"AmendPromulgationDate\":20251223,\"EnforcementDate\":20251223,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008017_20251223_507M60000008113\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

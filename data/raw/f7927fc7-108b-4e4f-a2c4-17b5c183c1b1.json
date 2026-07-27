@@ -1,0 +1,14 @@
+{
+  "changeId": "f7927fc7-108b-4e4f-a2c4-17b5c183c1b1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332M50000002083",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#332M50000002083",
+  "title": "試験研究の用に供する原子炉等の設置、運転等に関する規則",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十二年総理府令第八十三号\",\"LawName\":\"試験研究の用に供する原子炉等の設置、運転等に関する規則\",\"LawNameKana\":\"しけんけんきゅうのようにきょうするげんしろとうのせっちうんてんとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19571209,\"AmendName\":\"試験研究の用に供する原子炉等の設置、運転等に関する規則等の一部を改正する規則\",\"AmendNo\":\"令和八年原子力規制委員会規則第六号\",\"AmendPromulgationDate\":20260710,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"332M50000002083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332M50000002083_20260710_508M60080000006\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

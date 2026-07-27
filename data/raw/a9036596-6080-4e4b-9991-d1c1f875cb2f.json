@@ -1,0 +1,14 @@
+{
+  "changeId": "a9036596-6080-4e4b-9991-d1c1f875cb2f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409CO0000000363",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260727#409CO0000000363",
+  "title": "内国税の適正な課税の確保を図るための国外送金等に係る調書の提出等に関する法律施行令",
+  "detectedAt": "2026-07-27T05:38:48.188Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成九年政令第三百六十三号\",\"LawName\":\"内国税の適正な課税の確保を図るための国外送金等に係る調書の提出等に関する法律施行令\",\"LawNameKana\":\"ないこくぜいのてきせいなかぜいのかくほをはかるためのこくがいそうきんとうにかかるちょうしょのていしゅつとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19971217,\"AmendName\":\"内国税の適正な課税の確保を図るための国外送金等に係る調書の提出等に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日の属する年の翌年の一月一日\",\"LawId\":\"409CO0000000363\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409CO0000000363_20280101_508CO0000000100\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
