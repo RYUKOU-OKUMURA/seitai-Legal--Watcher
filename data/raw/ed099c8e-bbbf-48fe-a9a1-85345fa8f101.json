@@ -1,0 +1,14 @@
+{
+  "changeId": "ed099c8e-bbbf-48fe-a9a1-85345fa8f101",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60000002061",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260728#505M60000002061",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年内閣府令第六十一号\",\"LawName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令\",\"LawNameKana\":\"けいざいしさくをいったいてきにこうずることによるあんぜんほしょうのかくほのすいしんにかんするほうりつにもとづくとくていしゃかいきばんじぎょうしゃのしていとうにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20230809,\"AmendName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定社会基盤事業者の指定等に関する内閣府令の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第六十一号\",\"AmendPromulgationDate\":20260714,\"EnforcementDate\":\"\",\"EnforcementComment\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律及び株式会社国際協力銀行法の一部を改正する法律（令和八年法律第三十八号）附則第一条第三号に掲げる規定の施行の日\",\"LawId\":\"505M60000002061\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60000002061_20261216_508M60000002061\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

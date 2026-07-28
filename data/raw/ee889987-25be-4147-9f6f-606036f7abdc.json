@@ -1,0 +1,15 @@
+{
+  "changeId": "ee889987-25be-4147-9f6f-606036f7abdc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000067",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260728#322AC0000000067",
+  "title": "地方自治法",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三月を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20260918_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方自治法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"下水道法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十五号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して六月を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20270122_508AC0000000065\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第六十七号\",\"LawName\":\"地方自治法\",\"LawNameKana\":\"ちほうじちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470417,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三月を超えない範囲内において政令で定める日\",\"LawId\":\"322AC0000000067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000067_20260918_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

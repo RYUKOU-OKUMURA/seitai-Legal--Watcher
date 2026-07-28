@@ -1,0 +1,14 @@
+{
+  "changeId": "3594fa21-fcf7-4c8d-8cda-d969f4746df3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350CO0000000207",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260728#350CO0000000207",
+  "title": "特別児童扶養手当等の支給に関する法律施行令",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十年政令第二百七号\",\"LawName\":\"特別児童扶養手当等の支給に関する法律施行令\",\"LawNameKana\":\"とくべつじどうふようてあてとうのしきゅうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19750704,\"AmendName\":\"国民年金法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十六号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"350CO0000000207\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350CO0000000207_20260801_508CO0000000226\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

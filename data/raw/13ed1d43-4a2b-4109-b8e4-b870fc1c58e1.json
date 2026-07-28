@@ -1,0 +1,15 @@
+{
+  "changeId": "13ed1d43-4a2b-4109-b8e4-b870fc1c58e1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430CO0000000364",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260728#430CO0000000364",
+  "title": "年金生活者支援給付金の支給に関する法律施行令",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十年政令第三百六十四号\",\"LawName\":\"年金生活者支援給付金の支給に関する法律施行令\",\"LawNameKana\":\"ねんきんせいかつしゃしえんきゅうふきんのしきゅうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20181228,\"AmendName\":\"国民年金法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十六号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"430CO0000000364\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430CO0000000364_20261001_508CO0000000226\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 年金生活者支援給付金の支給に関する法律施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十年政令第三百六十四号\",\"LawName\":\"年金生活者支援給付金の支給に関する法律施行令\",\"LawNameKana\":\"ねんきんせいかつしゃしえんきゅうふきんのしきゅうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20181228,\"AmendName\":\"年金生活者支援給付金の支給に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十五号\",\"AmendPromulgationDate\":20260708,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"430CO0000000364\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430CO0000000364_20261001_508CO0000000225\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十年政令第三百六十四号\",\"LawName\":\"年金生活者支援給付金の支給に関する法律施行令\",\"LawNameKana\":\"ねんきんせいかつしゃしえんきゅうふきんのしきゅうにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20181228,\"AmendName\":\"国民年金法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十六号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"430CO0000000364\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430CO0000000364_20261001_508CO0000000226\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

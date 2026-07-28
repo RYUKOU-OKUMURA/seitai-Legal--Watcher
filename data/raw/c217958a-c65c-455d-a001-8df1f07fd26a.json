@@ -1,0 +1,14 @@
+{
+  "changeId": "c217958a-c65c-455d-a001-8df1f07fd26a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50010000055",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260728#329M50010000055",
+  "title": "競馬法施行規則",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年農林省令第五十五号\",\"LawName\":\"競馬法施行規則\",\"LawNameKana\":\"けいばほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540913,\"AmendName\":\"競馬法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第五十号\",\"AmendPromulgationDate\":20260714,\"EnforcementDate\":20260714,\"EnforcementComment\":\"\",\"LawId\":\"329M50010000055\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50010000055_20260714_508M60000200050\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

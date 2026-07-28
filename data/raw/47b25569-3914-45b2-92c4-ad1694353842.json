@@ -1,0 +1,14 @@
+{
+  "changeId": "47b25569-3914-45b2-92c4-ad1694353842",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260750",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260750",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定海外事業計画の認定等に関する命令案に関する御意見の募集について",
+  "detectedAt": "2026-07-28T04:53:12.971Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/28 受付締切日時：2026/08/26 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府政策統括官（経済安全保障担当）",
+  "links": [],
+  "httpStatus": 200
+}
