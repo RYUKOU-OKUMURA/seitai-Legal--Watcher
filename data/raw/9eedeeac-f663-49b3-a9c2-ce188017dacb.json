@@ -1,0 +1,14 @@
+{
+  "changeId": "9eedeeac-f663-49b3-a9c2-ce188017dacb",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250082",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250082",
+  "title": "外国人の技能実習の適正な実施及び技能実習生の保護に関する法律施行規則の一部を改正する省令（管路更生職種）案に関する意見募集の結果について",
+  "detectedAt": "2026-07-29T04:58:36.006Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/29 案の公示日：2025/07/01 受付締切日時：2025/07/31 00:00 命令等の公布日：2026/07/29 提出意見数：4 カテゴリー：労働 問合せ先（所管省庁・部局名等）：出入国在留管理庁参事官室\n電話:045-370-9755（6922）\n厚生労働省人材開発統括官付海外人材育成担当参事官室\n電話：03-5253-1111(5905)",
+  "links": [],
+  "httpStatus": 200
+}

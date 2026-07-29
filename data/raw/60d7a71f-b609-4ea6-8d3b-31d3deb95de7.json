@@ -1,0 +1,14 @@
+{
+  "changeId": "60d7a71f-b609-4ea6-8d3b-31d3deb95de7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430M60000100151",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260729#430M60000100151",
+  "title": "年金生活者支援給付金の支給に関する法律施行規則",
+  "detectedAt": "2026-07-29T04:58:36.006Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十年厚生労働省令第百五十一号\",\"LawName\":\"年金生活者支援給付金の支給に関する法律施行規則\",\"LawNameKana\":\"ねんきんせいかつしゃしえんきゅうふきんのしきゅうにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20181228,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十三号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"430M60000100151\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430M60000100151_20261001_508M60000100113\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

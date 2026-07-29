@@ -1,0 +1,14 @@
+{
+  "changeId": "c4bb35d8-cc2e-4e3e-914c-0f6903295c9a",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260023",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260023",
+  "title": "外国人の技能実習の適正な実施及び技能実習生の保護に関する法律施行規則の規定に基づき法務大臣及び厚生労働大臣が定める特定の職種及び作業の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-07-29T04:58:36.006Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/29 案の公示日：2026/04/22 受付締切日時：2026/05/21 23:59 命令等の公布日：2026/07/29 提出意見数：8 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省人材開発統括官付海外人材育成担当参事官室\n電話：03-5253-1111(5192）\n出入国在留管理庁参事官室\n電話:03-3580-4111（2753）",
+  "links": [],
+  "httpStatus": 200
+}

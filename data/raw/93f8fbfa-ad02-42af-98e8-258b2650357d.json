@@ -1,0 +1,23 @@
+{
+  "changeId": "93f8fbfa-ad02-42af-98e8-258b2650357d",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260072",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260072",
+  "title": "健康保険法施行規則等の一部を改正する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-07-29T04:58:36.006Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/29 案の公示日：2026/06/06 受付締切日時：2026/07/06 00:00 命令等の公布日：2026/07/29 提出意見数：980 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：保険局保険課\n03-3595-2556",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260072",
+      "error": "HTTP 403"
+    }
+  ]
+}
