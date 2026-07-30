@@ -1,0 +1,14 @@
+{
+  "changeId": "7e5f5129-9245-40ca-963c-e7c912c60572",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260040",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260040",
+  "title": "中小企業退職金共済法施行令の一部を改正する政令案に関する意見募集の結果について",
+  "detectedAt": "2026-07-30T04:46:53.005Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/29 案の公示日：2026/05/01 受付締切日時：2026/05/31 23:59 命令等の公布日：2026/07/29 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省雇用環境・均等局勤労者生活課\n電話：03-5253-1111（内線5375）",
+  "links": [],
+  "httpStatus": 200
+}

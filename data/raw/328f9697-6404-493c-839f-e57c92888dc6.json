@@ -1,0 +1,14 @@
+{
+  "changeId": "328f9697-6404-493c-839f-e57c92888dc6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421M60000002002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260730#421M60000002002",
+  "title": "標準的な官職を定める政令に規定する内閣官房令で定める標準的な官職等を定める内閣官房令",
+  "detectedAt": "2026-07-30T04:46:53.005Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十一年内閣府令第二号\",\"LawName\":\"標準的な官職を定める政令に規定する内閣官房令で定める標準的な官職等を定める内閣官房令\",\"LawNameKana\":\"ひょうじゅんてきなかんしょくをさだめるせいれいにきていするないかくかんぼうれいでさだめるひょうじゅんてきなかんしょくとうをさだめるないかくかんぼうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20090306,\"AmendName\":\"標準的な官職を定める政令に規定する内閣官房令で定める標準的な官職等を定める内閣官房令の一部を改正する内閣官房令\",\"AmendNo\":\"令和八年内閣官房令第七号\",\"AmendPromulgationDate\":20260722,\"EnforcementDate\":20260722,\"EnforcementComment\":\"\",\"LawId\":\"421M60000002002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421M60000002002_20260722_508M60000001007\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
