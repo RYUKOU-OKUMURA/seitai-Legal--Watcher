@@ -1,0 +1,14 @@
+{
+  "changeId": "230c0462-9679-445e-9b2f-296652bc94ae",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417AC0000000082",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260731#417AC0000000082",
+  "title": "独立行政法人住宅金融支援機構法",
+  "detectedAt": "2026-07-31T05:24:01.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十七年法律第八十二号\",\"LawName\":\"独立行政法人住宅金融支援機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんじゅうたくきんゆうしえんきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20050706,\"AmendName\":\"建築物のエネルギー消費性能の向上等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十五号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"417AC0000000082\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417AC0000000082_20280730_508AC0000000075\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

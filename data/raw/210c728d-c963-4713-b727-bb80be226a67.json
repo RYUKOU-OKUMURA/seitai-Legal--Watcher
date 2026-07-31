@@ -1,0 +1,15 @@
+{
+  "changeId": "210c728d-c963-4713-b727-bb80be226a67",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260731#342AC0000000035",
+  "title": "登録免許税法",
+  "detectedAt": "2026-07-31T05:24:01.785Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"建築物のエネルギー消費性能の向上等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十五号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20280730_508AC0000000075\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 登録免許税法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20270722_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"建築物のエネルギー消費性能の向上等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十五号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20280730_508AC0000000075\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

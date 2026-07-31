@@ -1,0 +1,14 @@
+{
+  "changeId": "014835eb-088d-4178-a7f6-bbd9d9c5341d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424AC0000000084",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260731#424AC0000000084",
+  "title": "都市の低炭素化の促進に関する法律",
+  "detectedAt": "2026-07-31T05:24:01.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十四年法律第八十四号\",\"LawName\":\"都市の低炭素化の促進に関する法律\",\"LawNameKana\":\"としのていたんそかのそくしんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20120905,\"AmendName\":\"建築物のエネルギー消費性能の向上等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十五号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"424AC0000000084\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424AC0000000084_20280730_508AC0000000075\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "901e8a94-a1a7-4264-90cb-0939f85747a5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413AC0000000137",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260731#413AC0000000137",
+  "title": "特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律",
+  "detectedAt": "2026-07-31T05:24:01.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十三年法律第百三十七号\",\"LawName\":\"特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律\",\"LawNameKana\":\"とくていでんきつうしんによるじょうほうのりゅうつうによってはっせいするけんりしんがいとうへのたいしょにかんするほうりつ\",\"OldLawName\":\"特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律\",\"PromulgationDate\":20011130,\"AmendName\":\"公職選挙法及び特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十八号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20270301,\"EnforcementComment\":\"\",\"LawId\":\"413AC0000000137\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413AC0000000137_20270301_508AC1000000058\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

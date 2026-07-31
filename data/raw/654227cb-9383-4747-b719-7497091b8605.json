@@ -1,0 +1,14 @@
+{
+  "changeId": "654227cb-9383-4747-b719-7497091b8605",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508AC0000000028",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260731#508AC0000000028",
+  "title": "国家情報会議設置法",
+  "detectedAt": "2026-07-31T05:24:01.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和八年法律第二十八号\",\"LawName\":\"国家情報会議設置法\",\"LawNameKana\":\"こっかじょうほうかいぎせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20260603,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"508AC0000000028\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508AC0000000028_20260731_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
