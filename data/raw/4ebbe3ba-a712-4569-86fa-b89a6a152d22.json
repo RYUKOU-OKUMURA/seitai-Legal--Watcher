@@ -1,0 +1,21 @@
+{
+  "changeId": "4ebbe3ba-a712-4569-86fa-b89a6a152d22",
+  "sourceId": "mhlw-news",
+  "sourceName": "厚生労働省報道発表（月別一覧）",
+  "sourceWeight": "high",
+  "targetKey": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202608.html",
+  "url": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202608.html",
+  "title": "報道発表資料　2026年8月 ｜厚生労働省",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年8月 報道発表資料 2026年8月 資料一覧 PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。",
+  "links": [
+    "https://get.adobe.com/jp/reader",
+    "https://www.mhlw.go.jp/houdou_kouhou/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/houdou/index.html"
+  ],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}

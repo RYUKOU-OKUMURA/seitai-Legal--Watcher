@@ -1,0 +1,14 @@
+{
+  "changeId": "557a28d7-d5f3-41d4-a693-ae07df9db5f4",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260507",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260507",
+  "title": "水道法施行規則の一部を改正する省令案に関する意見募集について",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/01 受付締切日時：2026/08/30 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：国土交通省水管理・国土保全局上下水道企画課意見募集担当",
+  "links": [],
+  "httpStatus": 200
+}

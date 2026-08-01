@@ -1,0 +1,18 @@
+{
+  "changeId": "03afb40c-174f-4963-ac9e-4a56ed2cd2ec",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333AC0000000192",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260801#333AC0000000192",
+  "title": "国民健康保険法",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十三年法律第百九十二号\",\"LawName\":\"国民健康保険法\",\"LawNameKana\":\"こくみんけんこうほけんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19581227,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"333AC0000000192\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333AC0000000192_20260801_508AC0000000031\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

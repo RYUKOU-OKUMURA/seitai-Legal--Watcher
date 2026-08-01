@@ -1,0 +1,19 @@
+{
+  "changeId": "f0bcfe66-a2a2-4a4b-84ac-96fe58c41732",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337AC0000000152",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260801#337AC0000000152",
+  "title": "地方公務員等共済組合法",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十七年法律第百五十二号\",\"LawName\":\"地方公務員等共済組合法\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"337AC0000000152\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337AC0000000152_20260801_508AC0000000031\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方公務員等共済組合法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十七年法律第百五十二号\",\"LawName\":\"地方公務員等共済組合法\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"337AC0000000152\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337AC0000000152_20270604_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十七年法律第百五十二号\",\"LawName\":\"地方公務員等共済組合法\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"337AC0000000152\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337AC0000000152_20260801_508AC0000000031\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "db4345b8-9f15-496e-86eb-608794cc30ac",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260421",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260421",
+  "title": "「重要インフラ統一基準（案）」に関する意見募集の結果",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/07/31 案の公示日：2026/04/21 受付締切日時：2026/05/17 23:59 命令等の公布日： 提出意見数：164 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣官房　国家サイバー統括室　制度・監督ユニット　重要インフラ統一基準パブリックコメント担当",
+  "links": [],
+  "httpStatus": 200
+}

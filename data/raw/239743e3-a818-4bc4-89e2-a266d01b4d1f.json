@@ -1,0 +1,19 @@
+{
+  "changeId": "239743e3-a818-4bc4-89e2-a266d01b4d1f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410CO0000000412",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260801#410CO0000000412",
+  "title": "介護保険法施行令",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第四百十二号\",\"LawName\":\"介護保険法施行令\",\"LawNameKana\":\"かいごほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19981224,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000412\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000412_20260801_508CO0000000219\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 介護保険法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第四百十二号\",\"LawName\":\"介護保険法施行令\",\"LawNameKana\":\"かいごほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19981224,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000412\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000412_20260801_508CO0000000219\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第四百十二号\",\"LawName\":\"介護保険法施行令\",\"LawNameKana\":\"かいごほけんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19981224,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十九号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000412\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000412_20260801_508CO0000000219\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "e48c2d07-304f-4144-b474-3047c748e85c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350M50000002014",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260801#350M50000002014",
+  "title": "失業者の退職手当支給規則",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年総理府令第十四号\",\"LawName\":\"失業者の退職手当支給規則\",\"LawNameKana\":\"しつぎょうしゃのたいしょくてあてしきゅうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750329,\"AmendName\":\"失業者の退職手当支給規則の一部を改正する内閣官房令\",\"AmendNo\":\"令和八年内閣官房令第四号\",\"AmendPromulgationDate\":20260410,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"350M50000002014\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50000002014_20260801_508M60000001004\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

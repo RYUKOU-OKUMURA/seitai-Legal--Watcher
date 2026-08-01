@@ -1,0 +1,14 @@
+{
+  "changeId": "58bf5500-29e6-4a17-92b6-d5d0447282fd",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260125",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260125",
+  "title": "労働政策審議会職業安定分科会における「2025年度評価　評価シート」に対する意見の募集について",
+  "detectedAt": "2026-08-01T05:17:11.014Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/07/31 受付締切日時：2026/08/30 00:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局雇用政策課雇用政策係",
+  "links": [],
+  "httpStatus": 200
+}
