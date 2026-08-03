@@ -1,0 +1,14 @@
+{
+  "changeId": "41a37fa4-c63b-4435-92eb-ec23aaf86f6f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339AC0000000170",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260803#339AC0000000170",
+  "title": "電気事業法",
+  "detectedAt": "2026-08-03T05:30:23.420Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十九年法律第百七十号\",\"LawName\":\"電気事業法\",\"LawNameKana\":\"でんきじぎょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19640711,\"AmendName\":\"電気事業法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十八号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260803,\"EnforcementComment\":\"\",\"LawId\":\"339AC0000000170\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339AC0000000170_20260803_508AC0000000068\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

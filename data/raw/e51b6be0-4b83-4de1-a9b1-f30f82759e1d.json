@@ -1,0 +1,14 @@
+{
+  "changeId": "e51b6be0-4b83-4de1-a9b1-f30f82759e1d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260803#322AC0000000005",
+  "title": "内閣法",
+  "detectedAt": "2026-08-03T05:30:23.420Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第五号\",\"LawName\":\"内閣法\",\"LawNameKana\":\"ないかくほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470116,\"AmendName\":\"国家情報会議設置法\",\"AmendNo\":\"令和八年法律第二十八号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000005_20260731_508AC0000000028\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

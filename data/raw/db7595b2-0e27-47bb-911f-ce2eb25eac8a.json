@@ -1,0 +1,14 @@
+{
+  "changeId": "db7595b2-0e27-47bb-911f-ce2eb25eac8a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC0000000252",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260803#324AC0000000252",
+  "title": "特別職の職員の給与に関する法律",
+  "detectedAt": "2026-08-03T05:30:23.420Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百五十二号\",\"LawName\":\"特別職の職員の給与に関する法律\",\"LawNameKana\":\"とくべつしょくのしょくいんのきゅうよにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19491212,\"AmendName\":\"国家情報会議設置法\",\"AmendNo\":\"令和八年法律第二十八号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"324AC0000000252\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000252_20260731_508AC0000000028\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

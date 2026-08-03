@@ -1,0 +1,14 @@
+{
+  "changeId": "07b0f80b-84ec-48c5-be71-5ddee5f74979",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:362CO0000000402",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260803#362CO0000000402",
+  "title": "社会福祉士及び介護福祉士法施行令",
+  "detectedAt": "2026-08-03T05:30:23.420Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和六十二年政令第四百二号\",\"LawName\":\"社会福祉士及び介護福祉士法施行令\",\"LawNameKana\":\"しゃかいふくししおよびかいごふくししほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19871215,\"AmendName\":\"社会福祉士及び介護福祉士法施行令及び精神保健福祉士法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百二十九号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20260718,\"EnforcementComment\":\"\",\"LawId\":\"362CO0000000402\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=362CO0000000402_20260718_508CO0000000229\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
