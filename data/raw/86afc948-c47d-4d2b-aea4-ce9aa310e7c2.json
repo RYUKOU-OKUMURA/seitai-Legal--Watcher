@@ -1,0 +1,31 @@
+{
+  "changeId": "86afc948-c47d-4d2b-aea4-ce9aa310e7c2",
+  "sourceId": "mhlw-news",
+  "sourceName": "厚生労働省報道発表（月別一覧）",
+  "sourceWeight": "high",
+  "targetKey": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202608.html",
+  "url": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202608.html",
+  "title": "報道発表資料　2026年8月 ｜厚生労働省",
+  "detectedAt": "2026-08-04T04:53:56.874Z",
+  "changeType": "updated",
+  "bodyExcerpt": "ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年8月 報道発表資料 2026年8月 資料一覧 2026年8月4日（火）掲載 2028（令和10）年度「技能五輪全国大会」を開催します NEW 2026年8月3日（月）掲載 上野厚生労働大臣 閣議後記者会見のお知らせ NEW 第１回厚生労働省ヘルスケアＡＸ・ＤＸ推進本部の開催案内 NEW 原子力災害対策特別措置法第20条第２項の規定に基づく食品の出荷制限の解除 NEW 令和７(2025)年労働争議統計調査の概況 NEW 令和8年度健康増進普及月間記念イベントを開催します NEW 令和８年度「輝くテレワーク賞」の募集を開始します NEW 戦没者慰霊事業のお知らせ（令和８年８月実施分） NEW 「第21回若年者ものづくり競技大会」の入賞者が決定しました NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,13 +1,16 @@\n 報道発表資料　2026年8月 ｜厚生労働省\n-ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年8月 報道発表資料 2026年8月 資料一覧 2026年8月3日（月）掲載 原子力災害対策特別措置法第20条第２項の規定に基づく食品の出荷制限の解除 NEW 令和７(2025)年労働争議統計調査の概況 NEW 令和8年度健康増進普及月間記念イベントを開催します NEW 令和８年度「輝くテレワーク賞」の募集を開始します NEW 戦没者慰霊事業のお知らせ（令和８年８月実施分） NEW 「第21回若年者ものづくり競技大会」の入賞者が決定しました NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n+ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年8月 報道発表資料 2026年8月 資料一覧 2026年8月4日（火）掲載 2028（令和10）年度「技能五輪全国大会」を開催します NEW 2026年8月3日（月）掲載 上野厚生労働大臣 閣議後記者会見のお知らせ NEW 第１回厚生労働省ヘルスケアＡＸ・ＤＸ推進本部の開催案内 NEW 原子力災害対策特別措置法第20条第２項の規定に基づく食品の出荷制限の解除 NEW 令和７(2025)年労働争議統計調査の概況 NEW 令和8年度健康増進普及月間記念イベントを開催します NEW 令和８年度「輝くテレワーク賞」の募集を開始します NEW 戦没者慰霊事業のお知らせ（令和８年８月実施分） NEW 「第21回若年者ものづくり競技大会」の入賞者が決定しました NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n https://get.adobe.com/jp/reader\n https://www.mhlw.go.jp/houdou_kouhou/index.html\n https://www.mhlw.go.jp/index.html\n https://www.mhlw.go.jp/stf/houdou/index.html\n+https://www.mhlw.go.jp/stf/newpage_74390.html\n https://www.mhlw.go.jp/stf/newpage_74526.html\n https://www.mhlw.go.jp/stf/newpage_74673.html\n https://www.mhlw.go.jp/stf/newpage_74936.html\n https://www.mhlw.go.jp/stf/newpage_74941.html\n https://www.mhlw.go.jp/stf/newpage_75150.html\n+https://www.mhlw.go.jp/stf/newpage_75243.html\n+https://www.mhlw.go.jp/stf/shingi/0001210262_00099.html\n https://www.mhlw.go.jp/toukei/list/14-r07.html\n \n",
+  "links": [
+    "https://get.adobe.com/jp/reader",
+    "https://www.mhlw.go.jp/houdou_kouhou/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/houdou/index.html",
+    "https://www.mhlw.go.jp/stf/newpage_74390.html",
+    "https://www.mhlw.go.jp/stf/newpage_74526.html",
+    "https://www.mhlw.go.jp/stf/newpage_74673.html",
+    "https://www.mhlw.go.jp/stf/newpage_74936.html",
+    "https://www.mhlw.go.jp/stf/newpage_74941.html",
+    "https://www.mhlw.go.jp/stf/newpage_75150.html",
+    "https://www.mhlw.go.jp/stf/newpage_75243.html",
+    "https://www.mhlw.go.jp/stf/shingi/0001210262_00099.html",
+    "https://www.mhlw.go.jp/toukei/list/14-r07.html"
+  ],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}

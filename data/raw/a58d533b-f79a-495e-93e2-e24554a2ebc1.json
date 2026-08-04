@@ -1,0 +1,14 @@
+{
+  "changeId": "a58d533b-f79a-495e-93e2-e24554a2ebc1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418M60000002047",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260804#418M60000002047",
+  "title": "投資法人の計算に関する規則",
+  "detectedAt": "2026-08-04T04:53:56.874Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年内閣府令第四十七号\",\"LawName\":\"投資法人の計算に関する規則\",\"LawNameKana\":\"とうしほうじんのけいさんにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060420,\"AmendName\":\"投資法人の計算に関する規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20260717,\"EnforcementComment\":\"\",\"LawId\":\"418M60000002047\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000002047_20260717_508M60000002062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

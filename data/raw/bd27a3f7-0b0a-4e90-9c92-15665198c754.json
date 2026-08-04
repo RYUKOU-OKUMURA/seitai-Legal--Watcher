@@ -1,0 +1,14 @@
+{
+  "changeId": "bd27a3f7-0b0a-4e90-9c92-15665198c754",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260070",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260070",
+  "title": "「共済団体向けの総合的な監督指針案（中小事業主が行う事業に従事する者等の労働災害等に係る共済事業に関する法律）に関する御意見の募集について」に対して寄せられた御意見について",
+  "detectedAt": "2026-08-04T04:53:56.874Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/03 案の公示日：2026/06/02 受付締切日時：2026/07/02 00:00 命令等の公布日：2026/08/03 提出意見数：1 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省雇用環境・均等局勤労者生活課 労働者協同組合業務室\n電話：03-5253-1111（内線5529）",
+  "links": [],
+  "httpStatus": 200
+}

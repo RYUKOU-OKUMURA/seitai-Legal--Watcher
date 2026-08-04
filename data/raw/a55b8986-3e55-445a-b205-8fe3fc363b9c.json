@@ -1,0 +1,14 @@
+{
+  "changeId": "a55b8986-3e55-445a-b205-8fe3fc363b9c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50004000022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260804#337M50004000022",
+  "title": "建築物用地下水の採取の規制に関する法律施行規則",
+  "detectedAt": "2026-08-04T04:53:56.874Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年建設省令第二十二号\",\"LawName\":\"建築物用地下水の採取の規制に関する法律施行規則\",\"LawNameKana\":\"けんちくぶつようちかすいのさいしゅのきせいにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620827,\"AmendName\":\"建築物用地下水の採取の規制に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第二十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20270901,\"EnforcementComment\":\"\",\"LawId\":\"337M50004000022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50004000022_20270901_508M60001000020\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
