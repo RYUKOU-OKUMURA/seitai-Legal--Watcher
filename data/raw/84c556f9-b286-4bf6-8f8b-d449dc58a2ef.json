@@ -1,0 +1,14 @@
+{
+  "changeId": "84c556f9-b286-4bf6-8f8b-d449dc58a2ef",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000002063",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260805#508M60000002063",
+  "title": "日本学術会議の成立時総会の招集の通知に関する内閣府令",
+  "detectedAt": "2026-08-05T04:54:14.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府令第六十三号\",\"LawName\":\"日本学術会議の成立時総会の招集の通知に関する内閣府令\",\"LawNameKana\":\"にほんがくじゅつかいぎのせいりつじそうかいのしょうしゅうのつうちにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260727,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260727,\"EnforcementDate\":20260727,\"EnforcementComment\":\"\",\"LawId\":\"508M60000002063\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000002063_20260727_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

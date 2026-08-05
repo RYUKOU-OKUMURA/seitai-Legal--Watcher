@@ -1,0 +1,14 @@
+{
+  "changeId": "dcc65c53-180d-4fe1-b1df-bb15a74cd810",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326CO0000000377",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260805#326CO0000000377",
+  "title": "検疫法施行令",
+  "detectedAt": "2026-08-05T04:54:14.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十六年政令第三百七十七号\",\"LawName\":\"検疫法施行令\",\"LawNameKana\":\"けんえきほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19511214,\"AmendName\":\"検疫法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百三十一号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260730,\"EnforcementComment\":\"\",\"LawId\":\"326CO0000000377\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326CO0000000377_20260730_508CO0000000231\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

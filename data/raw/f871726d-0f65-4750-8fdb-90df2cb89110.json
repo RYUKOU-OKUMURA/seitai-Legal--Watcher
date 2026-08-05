@@ -1,0 +1,14 @@
+{
+  "changeId": "f871726d-0f65-4750-8fdb-90df2cb89110",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235090013",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=235090013",
+  "title": "独立行政法人国民生活センターの業務運営、財務及び会計並びに人事管理に関する内閣府令の一部を改正する内閣府令について",
+  "detectedAt": "2026-08-05T04:54:14.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/05 案の公示日： 受付締切日時： 命令等の公布日：2026/08/05 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁地方協力課\n（03－3507－8800）",
+  "links": [],
+  "httpStatus": 200
+}

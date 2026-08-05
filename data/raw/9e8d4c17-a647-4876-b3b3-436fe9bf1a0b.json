@@ -1,0 +1,14 @@
+{
+  "changeId": "9e8d4c17-a647-4876-b3b3-436fe9bf1a0b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409CO0000000346",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260805#409CO0000000346",
+  "title": "環境影響評価法施行令",
+  "detectedAt": "2026-08-05T04:54:14.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成九年政令第三百四十六号\",\"LawName\":\"環境影響評価法施行令\",\"LawNameKana\":\"かんきょうえいきょうひょうかほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19971203,\"AmendName\":\"環境影響評価法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百三十号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"409CO0000000346\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409CO0000000346_20270401_508CO0000000230\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "1f7f5bf5-655b-4ff4-860e-683feea3f202",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328AC1000000238",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260805#328AC1000000238",
+  "title": "高等学校の定時制教育及び通信教育の振興等に関する法律",
+  "detectedAt": "2026-08-05T04:54:14.076Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十八年法律第二百三十八号\",\"LawName\":\"高等学校の定時制教育及び通信教育の振興等に関する法律\",\"LawNameKana\":\"こうとうがっこうのていじせいきょういくおよびつうしんきょういくのしんこうとうにかんするほうりつ\",\"OldLawName\":\"高等学校の定時制教育及び通信教育振興法\",\"PromulgationDate\":19530818,\"AmendName\":\"高等学校の定時制教育及び通信教育振興法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十三号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20270123,\"EnforcementComment\":\"\",\"LawId\":\"328AC1000000238\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328AC1000000238_20270123_508AC1000000063\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n-高等学校の定時制教育及び通信教育振興法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十八年法律第二百三十八号\",\"LawName\":\"高等学校の定時制教育及び通信教育振興法\",\"LawNameKana\":\"こうとうがっこうのていじせいきょういくおよびつうしんきょういくしんこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19530818,\"AmendName\":\"学校教育法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十七号\",\"AmendPromulgationDate\":20260617,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"328AC1000000238\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328AC1000000238_20270401_508AC0000000037\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+高等学校の定時制教育及び通信教育の振興等に関する法律\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十八年法律第二百三十八号\",\"LawName\":\"高等学校の定時制教育及び通信教育の振興等に関する法律\",\"LawNameKana\":\"こうとうがっこうのていじせいきょういくおよびつうしんきょういくのしんこうとうにかんするほうりつ\",\"OldLawName\":\"高等学校の定時制教育及び通信教育振興法\",\"PromulgationDate\":19530818,\"AmendName\":\"高等学校の定時制教育及び通信教育振興法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十三号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20270123,\"EnforcementComment\":\"\",\"LawId\":\"328AC1000000238\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328AC1000000238_20270123_508AC1000000063\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
