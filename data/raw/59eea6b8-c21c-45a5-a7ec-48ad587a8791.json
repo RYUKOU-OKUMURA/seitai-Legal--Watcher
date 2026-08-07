@@ -1,0 +1,15 @@
+{
+  "changeId": "59eea6b8-c21c-45a5-a7ec-48ad587a8791",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50080000015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260807#325M50080000015",
+  "title": "無線局免許手続規則",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十五号\",\"LawName\":\"無線局免許手続規則\",\"LawNameKana\":\"むせんきょくめんきょてつづききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260723,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000015_20260723_508M60000008090\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 無線局免許手続規則\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十五号\",\"LawName\":\"無線局免許手続規則\",\"LawNameKana\":\"むせんきょくめんきょてつづききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第五十九号\",\"AmendPromulgationDate\":20260403,\"EnforcementDate\":20260403,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000015_20260403_508M60000008059\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十五号\",\"LawName\":\"無線局免許手続規則\",\"LawNameKana\":\"むせんきょくめんきょてつづききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260723,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000015_20260723_508M60000008090\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

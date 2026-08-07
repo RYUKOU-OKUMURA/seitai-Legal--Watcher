@@ -1,0 +1,14 @@
+{
+  "changeId": "1ba7e39a-072b-4dc9-9dfe-abd87463a8c5",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260047",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260047",
+  "title": "医療機器におけるSBOM導入・運用ガイドライン（第１版）（案）に対する意見募集の結果について",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/06 案の公示日：2026/05/19 受付締切日時：2026/06/19 18:00 命令等の公布日： 提出意見数：101 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省 医薬局 医療機器審査管理課\n電話：03-5253-1111（代表）",
+  "links": [],
+  "httpStatus": 200
+}

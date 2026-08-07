@@ -1,0 +1,14 @@
+{
+  "changeId": "a4189335-050a-462b-9ca0-ad3eda48b152",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508AC1000000069",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260807#508AC1000000069",
+  "title": "国旗の損壊等の処罰に関する法律",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和八年法律第六十九号\",\"LawName\":\"国旗の損壊等の処罰に関する法律\",\"LawNameKana\":\"こっきのそんかいとうのしょばつにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20260724,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260813,\"EnforcementComment\":\"\",\"LawId\":\"508AC1000000069\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508AC1000000069_20260813_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

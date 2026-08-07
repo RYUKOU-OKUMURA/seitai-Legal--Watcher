@@ -1,0 +1,14 @@
+{
+  "changeId": "c2d600f7-1f9d-468a-b594-c2ff6343fc0c",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260135",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260135",
+  "title": "国立研究開発法人医薬基盤・健康・栄養研究所法施行令等の一部を改正する政令案に関する御意見の募集について",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/06 受付締切日時：2026/09/04 12:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：医政局医薬産業振興企画課",
+  "links": [],
+  "httpStatus": 200
+}

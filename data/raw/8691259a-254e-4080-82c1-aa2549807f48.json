@@ -1,0 +1,14 @@
+{
+  "changeId": "8691259a-254e-4080-82c1-aa2549807f48",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260126",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260126",
+  "title": "「ＯＴＣ類似薬の保険給付の見直しの実施に向けた中間とりまとめ」に関する意見公募の実施について",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/06 受付締切日時：2026/08/20 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省保険局医療課",
+  "links": [],
+  "httpStatus": 200
+}

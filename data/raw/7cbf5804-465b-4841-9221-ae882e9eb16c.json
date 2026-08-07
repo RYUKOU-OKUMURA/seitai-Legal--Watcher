@@ -1,0 +1,23 @@
+{
+  "changeId": "7cbf5804-465b-4841-9221-ae882e9eb16c",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260061",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260061",
+  "title": "「専ら医薬品として使用される成分本質（原材料）リスト（植物由来物等）」の改正（案）に関する意見募集の結果について",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/05 案の公示日：2026/05/25 受付締切日時：2026/06/25 00:00 命令等の公布日：2026/08/05 提出意見数：3 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局監視指導・麻薬対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260061",
+      "error": "HTTP 403"
+    }
+  ]
+}

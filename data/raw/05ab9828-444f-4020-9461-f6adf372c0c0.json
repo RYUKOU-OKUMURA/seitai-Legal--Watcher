@@ -1,0 +1,14 @@
+{
+  "changeId": "05ab9828-444f-4020-9461-f6adf372c0c0",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=060260805",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=060260805",
+  "title": "「安全基準等策定ガイドライン（案）」に関する意見の募集について",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/05 受付締切日時：2026/08/26 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣官房　国家サイバー統括室　制度・監督ユニット　安全基準等策定ガイドラインパブリックコメント担当",
+  "links": [],
+  "httpStatus": 200
+}

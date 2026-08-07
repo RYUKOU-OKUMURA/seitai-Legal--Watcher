@@ -1,0 +1,15 @@
+{
+  "changeId": "8c26073f-9b31-419a-a77c-6701141ace82",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000002023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260807#329M50000002023",
+  "title": "地方税法施行規則",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十九号\",\"AmendPromulgationDate\":20260721,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20270101_508M60000008089\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方税法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則及び地方税法施行規則の一部を改正する等の省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第四十四号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20260401_508M60000008044\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十九号\",\"AmendPromulgationDate\":20260721,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20270101_508M60000008089\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

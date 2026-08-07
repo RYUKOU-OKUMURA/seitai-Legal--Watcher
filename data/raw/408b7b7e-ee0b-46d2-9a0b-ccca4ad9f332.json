@@ -1,0 +1,14 @@
+{
+  "changeId": "408b7b7e-ee0b-46d2-9a0b-ccca4ad9f332",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000100001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260807#413M60000100001",
+  "title": "厚生労働省組織規則",
+  "detectedAt": "2026-08-07T04:18:13.994Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年厚生労働省令第一号\",\"LawName\":\"厚生労働省組織規則\",\"LawNameKana\":\"こうせいろうどうしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"厚生労働省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十五号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260730,\"EnforcementComment\":\"\",\"LawId\":\"413M60000100001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000100001_20260730_508M60000100115\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
