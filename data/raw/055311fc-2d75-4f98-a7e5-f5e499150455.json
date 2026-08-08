@@ -1,0 +1,14 @@
+{
+  "changeId": "055311fc-2d75-4f98-a7e5-f5e499150455",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260138",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260138",
+  "title": "「租税特別措置法施行令第二十六条の二十七の三第四項に規定する厚生労働大臣が定める日を廃止する件」の廃止に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-08-08T03:16:00.099Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/07 案の公示日： 受付締切日時： 命令等の公布日：2026/08/07 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医薬産業振興企画課",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "6ab27efc-8c62-4e32-8aa0-67fc75a2b878",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260141",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260141",
+  "title": "地方公共団体情報システムの標準化に関する法律第二条第一項に規定する標準化対象事務を定める政令に規定するデジタル庁令・総務省令で定める事務を定める命令第十三条各号に規定する事務の処理に係るシステムに必要とされる機能等に関する標準化基準を定める省令の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-08-08T03:16:00.099Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/07 案の公示日： 受付締切日時： 命令等の公布日：2026/08/07 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省介護保険計画課\n電話：03-3595-2890",
+  "links": [],
+  "httpStatus": 200
+}

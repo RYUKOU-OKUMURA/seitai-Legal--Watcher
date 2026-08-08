@@ -1,0 +1,23 @@
+{
+  "changeId": "636ab5fa-9ded-4211-a1f9-a51c295281eb",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260131",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260131",
+  "title": "健康保険法等の一部を改正する法律の一部の施行に伴う関係政令の整備等に関する政令案に関するご意見の募集について",
+  "detectedAt": "2026-08-08T03:16:00.099Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/07 受付締切日時：2026/09/06 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省保険局医療課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260131",
+      "error": "HTTP 403"
+    }
+  ]
+}

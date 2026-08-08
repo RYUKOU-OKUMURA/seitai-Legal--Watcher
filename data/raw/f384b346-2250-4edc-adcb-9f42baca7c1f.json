@@ -1,0 +1,14 @@
+{
+  "changeId": "f384b346-2250-4edc-adcb-9f42baca7c1f",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250476",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250476",
+  "title": "地方公共団体情報システムの標準化に関する法律に基づき定める厚生労働省関係システムに関する標準化基準案に関する御意見の結果について",
+  "detectedAt": "2026-08-08T03:16:00.099Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/07 案の公示日：2026/03/11 受付締切日時：2026/03/25 12:00 命令等の公布日： 提出意見数：5 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省政策統括官付情報政策総括担当参事官室",
+  "links": [],
+  "httpStatus": 200
+}
