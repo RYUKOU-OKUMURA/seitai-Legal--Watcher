@@ -1,0 +1,15 @@
+{
+  "changeId": "03663429-6059-4ad3-b3f0-f08708afcc12",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000002040",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260810#329M50000002040",
+  "title": "自衛隊法施行規則",
+  "detectedAt": "2026-08-10T03:43:01.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第四十号\",\"LawName\":\"自衛隊法施行規則\",\"LawNameKana\":\"じえいたいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"自衛隊法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第十八号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002040_20261001_508M60002000018\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 自衛隊法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第四十号\",\"LawName\":\"自衛隊法施行規則\",\"LawNameKana\":\"じえいたいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"自衛隊法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第十六号\",\"AmendPromulgationDate\":20260601,\"EnforcementDate\":20260601,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002040_20260601_508M60002000016\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第四十号\",\"LawName\":\"自衛隊法施行規則\",\"LawNameKana\":\"じえいたいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"自衛隊法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第十八号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002040_20261001_508M60002000018\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

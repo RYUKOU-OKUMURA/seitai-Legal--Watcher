@@ -1,0 +1,14 @@
+{
+  "changeId": "df0193e4-8e4e-487b-8c80-8b64b22ed640",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000002084",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260810#420M60000002084",
+  "title": "行政執行法人の役員の退職管理に関する内閣官房令",
+  "detectedAt": "2026-08-10T03:43:01.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年内閣府令第八十四号\",\"LawName\":\"行政執行法人の役員の退職管理に関する内閣官房令\",\"LawNameKana\":\"ぎょうせいしっこうほうじんのやくいんのたいしょくかんりにかんするないかくかんぼうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20081225,\"AmendName\":\"職員の退職管理に関する内閣官房令及び行政執行法人の役員の退職管理に関する内閣官房令の一部を改正する内閣官房令\",\"AmendNo\":\"令和八年内閣官房令第八号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"420M60000002084\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000002084_20261001_508M60000001008\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

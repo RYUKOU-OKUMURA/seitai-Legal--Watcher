@@ -1,0 +1,14 @@
+{
+  "changeId": "49309eb1-7259-4bfd-b4af-6aad969e7f4f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340M50010000017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260810#340M50010000017",
+  "title": "農林水産技術会議事務局組織規則",
+  "detectedAt": "2026-08-10T03:43:01.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年農林省令第十七号\",\"LawName\":\"農林水産技術会議事務局組織規則\",\"LawNameKana\":\"のうりんすいさんぎじゅつかいぎじむきょくそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19650401,\"AmendName\":\"農林水産技術会議事務局組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第五十一号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260724,\"EnforcementComment\":\"\",\"LawId\":\"340M50010000017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50010000017_20260724_508M60000200051\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

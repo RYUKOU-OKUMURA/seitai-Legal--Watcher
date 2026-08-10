@@ -1,0 +1,14 @@
+{
+  "changeId": "756ebddf-4669-47dd-8248-70b477f18d3c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421CO0000000296",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260810#421CO0000000296",
+  "title": "雇用保険法等の一部を改正する法律の一部の施行に伴う関係政令の整備等及び経過措置に関する政令",
+  "detectedAt": "2026-08-10T03:43:01.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十一年政令第二百九十六号\",\"LawName\":\"雇用保険法等の一部を改正する法律の一部の施行に伴う関係政令の整備等及び経過措置に関する政令\",\"LawNameKana\":\"こようほけんほうとうのいちぶをかいせいするほうりつのいちぶのしこうにともなうかんけいせいれいのせいびとうおよびけいかそちにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20091224,\"AmendName\":\"雇用保険法等の一部を改正する法律の一部の施行に伴う関係政令の整備等及び経過措置に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百三十二号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"421CO0000000296\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421CO0000000296_20260801_508CO0000000232\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

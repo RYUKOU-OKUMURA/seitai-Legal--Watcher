@@ -1,0 +1,15 @@
+{
+  "changeId": "95fdc61f-98f0-49af-98fa-4252ab9d1322",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000008020",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260810#337M50000008020",
+  "title": "地方公務員等共済組合法施行規則",
+  "detectedAt": "2026-08-10T03:43:01.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第二十号\",\"LawName\":\"地方公務員等共済組合法施行規則\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十七号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008020_20260801_508M60000008097\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方公務員等共済組合法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第二十号\",\"LawName\":\"地方公務員等共済組合法施行規則\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行規則及び地方公務員等共済組合法施行規則等の一部を改正する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第三十九号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260614,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008020_20260614_508M60000008039\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第二十号\",\"LawName\":\"地方公務員等共済組合法施行規則\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十七号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008020_20260801_508M60000008097\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
