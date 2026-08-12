@@ -1,0 +1,14 @@
+{
+  "changeId": "5b657061-59d9-47c3-b6ab-433956ee7473",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M60000400039",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260812#415M60000400039",
+  "title": "経済産業省関係構造改革特別区域法第二条第三項に規定する省令の特例に関する措置及びその適用を受ける特定事業を定める省令",
+  "detectedAt": "2026-08-12T03:54:01.768Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十五年経済産業省令第三十九号\",\"LawName\":\"経済産業省関係構造改革特別区域法第二条第三項に規定する省令の特例に関する措置及びその適用を受ける特定事業を定める省令\",\"LawNameKana\":\"けいざいさんぎょうしょうかんけいこうぞうかいかくとくべつくいきほうだいにじょうだいさんこうにきていするしょうれいのとくれいにかんするそちおよびそのてきようをうけるとくていじぎょうをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20030328,\"AmendName\":\"経済産業省関係構造改革特別区域法第二条第三項に規定する省令の特例に関する措置及びその適用を受ける特定事業を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第三十七号\",\"AmendPromulgationDate\":20260401,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"415M60000400039\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M60000400039_20260401_508M60000400037\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "bcdb3b6b-1ed3-4f27-999d-92ef22a2da3e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:351AC0000000057",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260812#351AC0000000057",
+  "title": "特定商取引に関する法律",
+  "detectedAt": "2026-08-12T03:54:01.768Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和五十一年法律第五十七号\",\"LawName\":\"特定商取引に関する法律\",\"LawNameKana\":\"とくていしょうとりひきにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19760604,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"351AC0000000057\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=351AC0000000057_20260812_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "abbc958d-8d87-4fa1-9d22-78ba424e9aa1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC0000000181",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260812#324AC0000000181",
+  "title": "中小企業等協同組合法",
+  "detectedAt": "2026-08-12T03:54:01.768Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第百八十一号\",\"LawName\":\"中小企業等協同組合法\",\"LawNameKana\":\"ちゅうしょうきぎょうとうきょうどうくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19490601,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"324AC0000000181\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000181_20260812_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 中小企業等協同組合法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第百八十一号\",\"LawName\":\"中小企業等協同組合法\",\"LawNameKana\":\"ちゅうしょうきぎょうとうきょうどうくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19490601,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260723,\"EnforcementComment\":\"\",\"LawId\":\"324AC0000000181\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000181_20260723_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第百八十一号\",\"LawName\":\"中小企業等協同組合法\",\"LawNameKana\":\"ちゅうしょうきぎょうとうきょうどうくみあいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19490601,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"324AC0000000181\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC0000000181_20260812_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

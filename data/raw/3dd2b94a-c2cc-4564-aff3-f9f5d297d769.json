@@ -1,0 +1,15 @@
+{
+  "changeId": "3dd2b94a-c2cc-4564-aff3-f9f5d297d769",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410AC0000000090",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260812#410AC0000000090",
+  "title": "投資事業有限責任組合契約に関する法律",
+  "detectedAt": "2026-08-12T03:54:01.768Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十年法律第九十号\",\"LawName\":\"投資事業有限責任組合契約に関する法律\",\"LawNameKana\":\"とうしじぎょうゆうげんせきにんくみあいけいやくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19980603,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"410AC0000000090\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410AC0000000090_20260812_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 投資事業有限責任組合契約に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十年法律第九十号\",\"LawName\":\"投資事業有限責任組合契約に関する法律\",\"LawNameKana\":\"とうしじぎょうゆうげんせきにんくみあいけいやくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19980603,\"AmendName\":\"民法等の一部を改正する法律の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第四十六号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":\"\",\"EnforcementComment\":\"民法等の一部を改正する法律（令和八年法律第四十五号）の施行の日\",\"LawId\":\"410AC0000000090\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410AC0000000090_20281223_508AC0000000046\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十年法律第九十号\",\"LawName\":\"投資事業有限責任組合契約に関する法律\",\"LawNameKana\":\"とうしじぎょうゆうげんせきにんくみあいけいやくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19980603,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260812,\"EnforcementComment\":\"\",\"LawId\":\"410AC0000000090\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410AC0000000090_20260812_508AC0000000064\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
