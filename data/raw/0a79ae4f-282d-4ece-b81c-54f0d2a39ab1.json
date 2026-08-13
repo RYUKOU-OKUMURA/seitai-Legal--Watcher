@@ -1,0 +1,18 @@
+{
+  "changeId": "0a79ae4f-282d-4ece-b81c-54f0d2a39ab1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333CO0000000207",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260813#333CO0000000207",
+  "title": "国家公務員共済組合法施行令",
+  "detectedAt": "2026-08-13T03:58:58.042Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十三年政令第二百七号\",\"LawName\":\"国家公務員共済組合法施行令\",\"LawNameKana\":\"こっかこうむいんきょうさいくみあいほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19580630,\"AmendName\":\"健康保険法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百四十号\",\"AmendPromulgationDate\":20260729,\"EnforcementDate\":20270801,\"EnforcementComment\":\"\",\"LawId\":\"333CO0000000207\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333CO0000000207_20270801_508CO0000000240\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

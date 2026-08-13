@@ -1,0 +1,15 @@
+{
+  "changeId": "00a7135a-1f16-42f1-801b-ae43d359e50b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000131",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260813#323AC0000000131",
+  "title": "刑事訴訟法",
+  "detectedAt": "2026-08-13T03:58:58.042Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三十一号\",\"LawName\":\"刑事訴訟法\",\"LawNameKana\":\"けいじそしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"刑事訴訟法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十七号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260813,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000131\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000131_20260813_508AC0000000067\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 刑事訴訟法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三十一号\",\"LawName\":\"刑事訴訟法\",\"LawNameKana\":\"けいじそしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"刑事訴訟法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十七号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して一年を超えない範囲内において政令で定める日\",\"LawId\":\"323AC0000000131\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000131_20270723_508AC0000000067\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三十一号\",\"LawName\":\"刑事訴訟法\",\"LawNameKana\":\"けいじそしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"刑事訴訟法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十七号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260813,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000131\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000131_20260813_508AC0000000067\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

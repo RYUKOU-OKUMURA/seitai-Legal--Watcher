@@ -1,0 +1,14 @@
+{
+  "changeId": "7e2b2362-f44b-4bad-ab53-d5bb68b12633",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000237",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000237",
+  "title": "特定非常災害の被害者の権利利益の保全等を図るための特別措置に関する法律第三条第二項の規定に基づき同条第一項の特定権利利益に係る期間の延長に関し当該延長後の満了日を令和九年一月二十七日とする措置を指定する件（令和８年こども家庭庁告示第15号）の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-08-13T03:58:58.042Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/12 案の公示日： 受付締切日時： 命令等の公布日：2026/08/12 提出意見数：0 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁支援局障害児支援課\nこども家庭庁支援局家庭福祉課\nこども家庭庁成育局母子保健課",
+  "links": [],
+  "httpStatus": 200
+}

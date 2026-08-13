@@ -1,0 +1,14 @@
+{
+  "changeId": "5ec418dd-2832-4ef9-b5ac-605b82a14617",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405M50000640001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260813#405M50000640001",
+  "title": "ポリエチレンテレフタレート製の容器であって、飲料又は特定調味料が充塡されたものの表示の標準となるべき事項を定める省令",
+  "detectedAt": "2026-08-13T03:58:58.042Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成五年大蔵省・農林水産省・通商産業省令第一号\",\"LawName\":\"ポリエチレンテレフタレート製の容器であって、飲料又は特定調味料が充塡されたものの表示の標準となるべき事項を定める省令\",\"LawNameKana\":\"ぽりえちれんてれふたれーとせいのようきであって、いんりょうまたはとくていちょうみりょうがじゅうてんされたもののひょうじのひょうじゅんとなるべきじこうをさだめるしょうれい\",\"OldLawName\":\"ポリエチレンテレフタレート製の容器であって、飲料又は特定調味料が充てんされたものの表示の標準となるべき事項を定める省令\",\"PromulgationDate\":19930630,\"AmendName\":\"ポリエチレンテレフタレート製の容器であって、飲料又は特定調味料が充塡されたものの表示の標準となるべき事項を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年財務省・農林水産省・経済産業省令第二号\",\"AmendPromulgationDate\":20260730,\"EnforcementDate\":20260730,\"EnforcementComment\":\"\",\"LawId\":\"405M50000640001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405M50000640001_20260730_508M60000640002\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
