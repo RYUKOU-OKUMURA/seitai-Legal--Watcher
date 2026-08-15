@@ -1,0 +1,14 @@
+{
+  "changeId": "41d95f2e-5475-4d4b-a2e8-0cc566d5507a",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260147",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260147",
+  "title": "雇用保険法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-08-15T02:43:05.776Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/15 受付締切日時：2026/09/13 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局外国人雇用対策課",
+  "links": [],
+  "httpStatus": 200
+}
