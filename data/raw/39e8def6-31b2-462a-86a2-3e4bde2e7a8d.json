@@ -1,0 +1,14 @@
+{
+  "changeId": "39e8def6-31b2-462a-86a2-3e4bde2e7a8d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:344CO0000000121",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260817#344CO0000000121",
+  "title": "行政機関職員定員令",
+  "detectedAt": "2026-08-17T02:51:35.366Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十四年政令第百二十一号\",\"LawName\":\"行政機関職員定員令\",\"LawNameKana\":\"ぎょうせいきかんしょくいんていいんれい\",\"OldLawName\":\"\",\"PromulgationDate\":19690516,\"AmendName\":\"行政機関職員定員令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百四十一号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"344CO0000000121\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344CO0000000121_20260731_508CO0000000241\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
