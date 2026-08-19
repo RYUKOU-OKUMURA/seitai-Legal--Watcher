@@ -1,0 +1,23 @@
+{
+  "changeId": "cafbe20f-b4b1-48aa-9c25-30ff532e6a0d",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220432",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220432",
+  "title": "「ボイラー等の開放検査周期認定要領の一部改正について（案）」を制定しないこととした件について",
+  "detectedAt": "2026-08-19T02:48:51.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/17 案の公示日：2023/03/09 受付締切日時：2023/04/07 23:59 命令等の公布日： 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部安全課\n電話：03-3595-3225",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220432",
+      "error": "HTTP 403"
+    }
+  ]
+}

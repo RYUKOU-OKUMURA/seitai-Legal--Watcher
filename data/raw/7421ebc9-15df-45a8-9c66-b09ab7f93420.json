@@ -1,0 +1,23 @@
+{
+  "changeId": "7421ebc9-15df-45a8-9c66-b09ab7f93420",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000128",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000128",
+  "title": "個人情報の保護に関する法律についてのガイドライン（行政機関等編）の一部改正",
+  "detectedAt": "2026-08-19T02:48:51.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/18 案の公示日： 受付締切日時： 命令等の公布日：2026/07/31 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：個人情報保護委員会事務局（03-6457-9748）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=240000128",
+      "error": "HTTP 403"
+    }
+  ]
+}

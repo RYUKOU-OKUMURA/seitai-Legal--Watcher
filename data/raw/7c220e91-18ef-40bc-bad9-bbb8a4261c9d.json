@@ -1,0 +1,23 @@
+{
+  "changeId": "7c220e91-18ef-40bc-bad9-bbb8a4261c9d",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495120354",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495120354",
+  "title": "「ずい道等建設工事における粉じん対策に関するガイドラインの改正について（案）」を制定しないこととした件について",
+  "detectedAt": "2026-08-19T02:48:51.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/17 案の公示日：2013/02/14 受付締切日時：2013/03/15 00:00 命令等の公布日： 提出意見数：2 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課環境改善室\n電話：03-5253-1111（内線：5501）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495120354",
+      "error": "HTTP 403"
+    }
+  ]
+}

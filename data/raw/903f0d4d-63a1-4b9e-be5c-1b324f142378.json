@@ -1,0 +1,14 @@
+{
+  "changeId": "903f0d4d-63a1-4b9e-be5c-1b324f142378",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507AC0000000079",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260819#507AC0000000079",
+  "title": "独立行政法人男女共同参画機構法",
+  "detectedAt": "2026-08-19T02:48:51.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和七年法律第七十九号\",\"LawName\":\"独立行政法人男女共同参画機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんだんじょきょうどうさんかくきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20250627,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20250627,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"507AC0000000079\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507AC0000000079_20260401_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
