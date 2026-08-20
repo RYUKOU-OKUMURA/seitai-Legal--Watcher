@@ -1,0 +1,14 @@
+{
+  "changeId": "4cdda19d-3ea1-4b43-be19-5e10b8d0b8ae",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412CO0000000523",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260820#412CO0000000523",
+  "title": "公益的法人等への一般職の地方公務員の派遣等に関する法律第二条第一項第三号の法人を定める政令",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十二年政令第五百二十三号\",\"LawName\":\"公益的法人等への一般職の地方公務員の派遣等に関する法律第二条第一項第三号の法人を定める政令\",\"LawNameKana\":\"こうえきてきほうじんとうへのいっぱんしょくのちほうこうむいんのはけんとうにかんするほうりつだいにじょうだいいっこうだいさんごうのほうじんをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20001220,\"AmendName\":\"公益的法人等への一般職の地方公務員の派遣等に関する法律第二条第一項第三号の法人を定める政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百五十号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"412CO0000000523\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412CO0000000523_20270401_508CO0000000250\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

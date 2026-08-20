@@ -1,0 +1,14 @@
+{
+  "changeId": "5857a767-fc9a-4598-8866-e1b60fadeb31",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410M50000002081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260820#410M50000002081",
+  "title": "金融庁組織規則",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年総理府令第八十一号\",\"LawName\":\"金融庁組織規則\",\"LawNameKana\":\"きんゆうちょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981215,\"AmendName\":\"金融庁組織規則等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第七十号\",\"AmendPromulgationDate\":20260805,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"410M50000002081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000002081_20260807_508M60000002070\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

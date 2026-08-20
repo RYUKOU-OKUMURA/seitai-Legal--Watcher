@@ -1,0 +1,23 @@
+{
+  "changeId": "c0b7409e-1434-46ef-8cd0-bdc4fa8e4af9",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235110033",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235110033",
+  "title": "「食品、添加物等の規格基準の一部を改正する告示（案）」（農薬等（イミダクロプリド等５品目）の残留基準の改正）に関する御意見の募集について",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/20 受付締切日時：2026/09/18 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁食品衛生基準審査課残留農薬等基準審査室\n電話：03-3507-9352",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235110033",
+      "error": "HTTP 403"
+    }
+  ]
+}

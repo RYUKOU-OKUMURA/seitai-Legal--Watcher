@@ -1,0 +1,14 @@
+{
+  "changeId": "6327606f-9c5b-4f07-b414-cf84a0dcd7b4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60000400001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260820#426M60000400001",
+  "title": "経済産業省関係産業競争力強化法施行規則",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年経済産業省令第一号\",\"LawName\":\"経済産業省関係産業競争力強化法施行規則\",\"LawNameKana\":\"けいざいさんぎょうしょうかんけいさんぎょうきょうそうりょくきょうかほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20140117,\"AmendName\":\"経済産業省関係産業競争力強化法施行規則及び株式会社東日本大震災事業者再生支援機構法第五十九条第一項の要件を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第六十三号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"426M60000400001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60000400001_20260731_508M60000400063\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

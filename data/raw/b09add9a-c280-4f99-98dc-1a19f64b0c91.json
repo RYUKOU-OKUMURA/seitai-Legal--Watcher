@@ -1,0 +1,14 @@
+{
+  "changeId": "b09add9a-c280-4f99-98dc-1a19f64b0c91",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60000008051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260820#416M60000008051",
+  "title": "地方独立行政法人法施行規則",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年総務省令第五十一号\",\"LawName\":\"地方独立行政法人法施行規則\",\"LawNameKana\":\"ちほうどくりつぎょうせいほうじんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20040324,\"AmendName\":\"地方独立行政法人法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百六号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"416M60000008051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60000008051_20260807_508M60000008106\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

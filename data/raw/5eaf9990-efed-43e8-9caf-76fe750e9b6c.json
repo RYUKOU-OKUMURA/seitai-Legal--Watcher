@@ -1,0 +1,14 @@
+{
+  "changeId": "5eaf9990-efed-43e8-9caf-76fe750e9b6c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000254",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260820#508CO0000000254",
+  "title": "溶融亜鉛めっき鋼帯及び鋼板に対して課する暫定的な不当廉売関税に関する政令",
+  "detectedAt": "2026-08-20T02:47:59.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第二百五十四号\",\"LawName\":\"溶融亜鉛めっき鋼帯及び鋼板に対して課する暫定的な不当廉売関税に関する政令\",\"LawNameKana\":\"ようゆうあえんめっきこうたいおよびこうばんにたいしてかするざんていてきなふとうれんばいかんぜいにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260807,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260808,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000254\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000254_20260808_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
