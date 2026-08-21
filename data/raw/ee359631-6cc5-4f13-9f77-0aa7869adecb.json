@@ -1,0 +1,14 @@
+{
+  "changeId": "ee359631-6cc5-4f13-9f77-0aa7869adecb",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260105",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260105",
+  "title": "「栄養士法施行規則等の一部を改正する省令案」に関する御意見募集の結果について",
+  "detectedAt": "2026-08-21T02:53:56.017Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/20 案の公示日：2026/07/08 受付締切日時：2026/08/06 23:59 命令等の公布日：2026/08/20 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：医政局医事課",
+  "links": [],
+  "httpStatus": 200
+}

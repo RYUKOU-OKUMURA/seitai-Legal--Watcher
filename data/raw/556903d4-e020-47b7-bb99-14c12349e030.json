@@ -1,0 +1,15 @@
+{
+  "changeId": "556903d4-e020-47b7-bb99-14c12349e030",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:353M50000400077",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260821#353M50000400077",
+  "title": "実用発電用原子炉の設置、運転等に関する規則",
+  "detectedAt": "2026-08-21T02:53:56.017Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十三年通商産業省令第七十七号\",\"LawName\":\"実用発電用原子炉の設置、運転等に関する規則\",\"LawNameKana\":\"じつようはつでんようげんしろのせっちうんてんとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19781228,\"AmendName\":\"実用発電用原子炉の設置、運転等に関する規則及び研究開発段階発電用原子炉の設置、運転等に関する規則の一部を改正する規則\",\"AmendNo\":\"令和七年原子力規制委員会規則第四号\",\"AmendPromulgationDate\":20250527,\"EnforcementDate\":20250527,\"EnforcementComment\":\"\",\"LawId\":\"353M50000400077\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=353M50000400077_20250527_507M60080000004\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 実用発電用原子炉の設置、運転等に関する規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十三年通商産業省令第七十七号\",\"LawName\":\"実用発電用原子炉の設置、運転等に関する規則\",\"LawNameKana\":\"じつようはつでんようげんしろのせっちうんてんとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19781228,\"AmendName\":\"試験研究の用に供する原子炉等の設置、運転等に関する規則等の一部を改正する規則\",\"AmendNo\":\"令和八年原子力規制委員会規則第六号\",\"AmendPromulgationDate\":20260710,\"EnforcementDate\":20260710,\"EnforcementComment\":\"\",\"LawId\":\"353M50000400077\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=353M50000400077_20260710_508M60080000006\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十三年通商産業省令第七十七号\",\"LawName\":\"実用発電用原子炉の設置、運転等に関する規則\",\"LawNameKana\":\"じつようはつでんようげんしろのせっちうんてんとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19781228,\"AmendName\":\"実用発電用原子炉の設置、運転等に関する規則及び研究開発段階発電用原子炉の設置、運転等に関する規則の一部を改正する規則\",\"AmendNo\":\"令和七年原子力規制委員会規則第四号\",\"AmendPromulgationDate\":20250527,\"EnforcementDate\":20250527,\"EnforcementComment\":\"\",\"LawId\":\"353M50000400077\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=353M50000400077_20250527_507M60080000004\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

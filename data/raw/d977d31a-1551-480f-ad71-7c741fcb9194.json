@@ -1,0 +1,24 @@
+{
+  "changeId": "d977d31a-1551-480f-ad71-7c741fcb9194",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260144",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260144",
+  "title": "医療法施行規則第三十条の三十三の六第一項の規定に基づき厚生労働大臣が定める方法等の一部を改正する告示案に関する御意見の募集について",
+  "detectedAt": "2026-08-21T02:53:56.017Z",
+  "changeType": "updated",
+  "bodyExcerpt": "案の公示日：2026/08/08 受付締切日時：2026/09/07 12:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局地域医療計画課（代表：03-5253-1111）",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n-医療法施行規則第三十条の三十三の六第一項の規定に基づき厚生労働大臣が定 める方法等の一部を改正する告示案に関する御意見の募集について\n+医療法施行規則第三十条の三十三の六第一項の規定に基づき厚生労働大臣が定める方法等の一部を改正する告示案に関する御意見の募集について\n 案の公示日：2026/08/08 受付締切日時：2026/09/07 12:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局地域医療計画課（代表：03-5253-1111）\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260144",
+      "error": "HTTP 403"
+    }
+  ]
+}
