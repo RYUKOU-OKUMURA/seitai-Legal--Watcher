@@ -1,0 +1,24 @@
+{
+  "changeId": "8e5a226f-fe7d-458e-a4ec-1e9f8f0dd9b1",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260092",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260092",
+  "title": "労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う厚生労働省関係告示の整備等に関する告示案及びサンプリング補助者講習規程（案）に関する意見募集の結果について",
+  "detectedAt": "2026-08-22T02:45:31.264Z",
+  "changeType": "updated",
+  "bodyExcerpt": "結果の公示日：2026/08/21 案の公示日：2026/06/19 受付締切日時：2026/07/18 20:00 命令等の公布日：2026/08/21 提出意見数：5 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,5 +1,5 @@\n 労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う厚生労働省関係告示の整備等に関する告示案及びサンプリング補助者講習規程（案）に関する意見募集の結果について\n-結果の公示日：2026/08/07 案の公示日：2026/06/19 受付締切日時：2026/07/18 20:00 命令等の公布日：2026/08/07 提出意見数：5 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n+結果の公示日：2026/08/21 案の公示日：2026/06/19 受付締切日時：2026/07/18 20:00 命令等の公布日：2026/08/21 提出意見数：5 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n 電話：03-5253-1111\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260092",
+      "error": "HTTP 403"
+    }
+  ]
+}
