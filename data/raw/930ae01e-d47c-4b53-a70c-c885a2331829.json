@@ -1,0 +1,14 @@
+{
+  "changeId": "930ae01e-d47c-4b53-a70c-c885a2331829",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:501CO0000000049",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#501CO0000000049",
+  "title": "大学等における修学の支援に関する法律施行令",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和元年政令第四十九号\",\"LawName\":\"大学等における修学の支援に関する法律施行令\",\"LawNameKana\":\"だいがくとうにおけるしゅうがくのしえんにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20190628,\"AmendName\":\"独立行政法人日本学生支援機構法施行令及び大学等における修学の支援に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百四十九号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"501CO0000000049\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=501CO0000000049_20261001_508CO0000000249\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

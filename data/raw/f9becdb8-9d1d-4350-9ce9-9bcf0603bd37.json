@@ -1,0 +1,15 @@
+{
+  "changeId": "f9becdb8-9d1d-4350-9ce9-9bcf0603bd37",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325CO0000000245",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#325CO0000000245",
+  "title": "地方税法施行令",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第二百四十五号\",\"LawName\":\"地方税法施行令\",\"LawNameKana\":\"ちほうぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500731,\"AmendName\":\"地方税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百五十一号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":\"\",\"EnforcementComment\":\"日本国の自衛隊とオランダ王国の軍隊との間における物品又は役務の相互の提供に関する日本国政府とオランダ王国政府との間の協定の効力発生の日\",\"LawId\":\"325CO0000000245\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000245_21171231_508CO0000000251\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方税法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第二百四十五号\",\"LawName\":\"地方税法施行令\",\"LawNameKana\":\"ちほうぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500731,\"AmendName\":\"地方税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百十三号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":20260625,\"EnforcementComment\":\"\",\"LawId\":\"325CO0000000245\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000245_20260625_508CO0000000213\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第二百四十五号\",\"LawName\":\"地方税法施行令\",\"LawNameKana\":\"ちほうぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500731,\"AmendName\":\"地方税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百五十一号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":\"\",\"EnforcementComment\":\"日本国の自衛隊とオランダ王国の軍隊との間における物品又は役務の相互の提供に関する日本国政府とオランダ王国政府との間の協定の効力発生の日\",\"LawId\":\"325CO0000000245\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000245_21171231_508CO0000000251\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

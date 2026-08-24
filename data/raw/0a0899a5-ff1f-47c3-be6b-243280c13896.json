@@ -1,0 +1,14 @@
+{
+  "changeId": "0a0899a5-ff1f-47c3-be6b-243280c13896",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:355M50000040044",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#355M50000040044",
+  "title": "外国為替に関する省令",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十五年大蔵省令第四十四号\",\"LawName\":\"外国為替に関する省令\",\"LawNameKana\":\"がいこくかわせにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19801115,\"AmendName\":\"外国為替に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第五十八号\",\"AmendPromulgationDate\":20260806,\"EnforcementDate\":20260806,\"EnforcementComment\":\"\",\"LawId\":\"355M50000040044\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=355M50000040044_20260806_508M60000040058\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

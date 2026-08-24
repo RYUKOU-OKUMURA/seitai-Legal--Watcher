@@ -1,0 +1,14 @@
+{
+  "changeId": "7e0d69f7-b48c-480b-b446-d76ab637f182",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000400076",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#420M60000400076",
+  "title": "経済産業省関係科学技術・イノベーション創出の活性化に関する法律施行規則",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年経済産業省令第七十六号\",\"LawName\":\"経済産業省関係科学技術・イノベーション創出の活性化に関する法律施行規則\",\"LawNameKana\":\"けいざいさんぎょうしょうかんけいかがくぎじゅついのべーしょんそうしゅつのかっせいかにかんするほうりつしこうきそく\",\"OldLawName\":\"経済産業省関係研究開発システムの改革の推進等による研究開発能力の強化及び研究開発等の効率的推進等に関する法律施行規則\",\"PromulgationDate\":20081021,\"AmendName\":\"経済産業省関係科学技術・イノベーション創出の活性化に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第六十七号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"420M60000400076\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000400076_20260807_508M60000400067\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

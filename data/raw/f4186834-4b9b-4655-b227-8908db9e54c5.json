@@ -1,0 +1,14 @@
+{
+  "changeId": "f4186834-4b9b-4655-b227-8908db9e54c5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50080000010",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#325M50080000010",
+  "title": "放送法施行規則",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十号\",\"LawName\":\"放送法施行規則\",\"LawNameKana\":\"ほうそうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19500630,\"AmendName\":\"放送法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百二号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000010\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000010_20260807_508M60000008102\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

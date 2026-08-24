@@ -1,0 +1,14 @@
+{
+  "changeId": "e83e07f7-cc51-4beb-b496-cdafc8501a0a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:334CO0000000147",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260824#334CO0000000147",
+  "title": "下水道法施行令",
+  "detectedAt": "2026-08-24T02:54:37.850Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十四年政令第百四十七号\",\"LawName\":\"下水道法施行令\",\"LawNameKana\":\"げすいどうほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19590422,\"AmendName\":\"下水道法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百五十七号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260817,\"EnforcementComment\":\"\",\"LawId\":\"334CO0000000147\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=334CO0000000147_20260817_508CO0000000257\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
