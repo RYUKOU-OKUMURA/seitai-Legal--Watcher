@@ -1,0 +1,14 @@
+{
+  "changeId": "5b12f324-9304-439b-b32a-7abad3bce799",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M60000008002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260825#415M60000008002",
+  "title": "独立行政法人統計センターに関する省令",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十五年総務省令第二号\",\"LawName\":\"独立行政法人統計センターに関する省令\",\"LawNameKana\":\"どくりつぎょうせいほうじんとうけいせんたーにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20030108,\"AmendName\":\"独立行政法人統計センターに関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百五号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"415M60000008002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M60000008002_20260807_508M60000008105\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

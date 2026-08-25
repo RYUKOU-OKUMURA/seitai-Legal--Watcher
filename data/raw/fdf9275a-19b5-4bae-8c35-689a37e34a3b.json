@@ -1,0 +1,14 @@
+{
+  "changeId": "fdf9275a-19b5-4bae-8c35-689a37e34a3b",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260026",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260026",
+  "title": "労働政策審議会労働条件分科会における「2024 年度　年度評価　評価シート」に対する意見の募集の結果について",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/24 案の公示日：2026/06/02 受付締切日時：2026/07/01 23:59 命令等の公布日： 提出意見数：4 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働条件政策課",
+  "links": [],
+  "httpStatus": 200
+}

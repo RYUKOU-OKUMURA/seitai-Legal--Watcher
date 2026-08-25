@@ -1,0 +1,14 @@
+{
+  "changeId": "ae571fae-ed82-4aa8-a1e2-ae7e6a103ab9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000261",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260825#508CO0000000261",
+  "title": "令和八年熊本地震による災害についての総合法律支援法第三十条第一項第四号の規定による指定等に関する政令",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第二百六十一号\",\"LawName\":\"令和八年熊本地震による災害についての総合法律支援法第三十条第一項第四号の規定による指定等に関する政令\",\"LawNameKana\":\"れいわはちねんくまもとじしんによるさいがいについてのそうごうほうりつしえんほうだいさんじゅうじょうだいいっこうだいよんごうのきていによるしていとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260807,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000261\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000261_20260807_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "d7e47035-7a8a-4dbe-9969-792df7f9fa53",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000008087",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260825#420M60000008087",
+  "title": "地方公共団体金融機構の財務及び会計に関する省令",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年総務省令第八十七号\",\"LawName\":\"地方公共団体金融機構の財務及び会計に関する省令\",\"LawNameKana\":\"ちほうこうきょうだんたいきんゆうきこうのざいむおよびかいけいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20080731,\"AmendName\":\"地方公共団体金融機構の財務及び会計に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百四号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"420M60000008087\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000008087_20260807_508M60000008104\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

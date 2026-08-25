@@ -1,0 +1,14 @@
+{
+  "changeId": "1bc945a4-2790-4bfb-b729-851334c78f3c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416CO0000000002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260825#416CO0000000002",
+  "title": "独立行政法人日本学生支援機構法施行令",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十六年政令第二号\",\"LawName\":\"独立行政法人日本学生支援機構法施行令\",\"LawNameKana\":\"どくりつぎょうせいほうじんにほんがくせいしえんきこうほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040107,\"AmendName\":\"独立行政法人日本学生支援機構法施行令及び大学等における修学の支援に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百四十九号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"416CO0000000002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416CO0000000002_20261001_508CO0000000249\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

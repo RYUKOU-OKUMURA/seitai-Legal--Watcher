@@ -1,0 +1,14 @@
+{
+  "changeId": "0c3a0001-7c23-4f00-98ee-320e324112b6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347CO0000000095",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260825#347CO0000000095",
+  "title": "沖縄の復帰に伴う法務省関係法令の適用の特別措置等に関する政令",
+  "detectedAt": "2026-08-25T02:49:56.922Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十七年政令第九十五号\",\"LawName\":\"沖縄の復帰に伴う法務省関係法令の適用の特別措置等に関する政令\",\"LawNameKana\":\"おきなわのふっきにともなうほうむしょうかんけいほうれいのてきようのとくべつそちとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19720427,\"AmendName\":\"更生保護制度の充実を図るための保護司法等の一部を改正する法律の施行に伴う関係政令の整理に関する政令\",\"AmendNo\":\"令和八年政令第二百五十三号\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"347CO0000000095\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347CO0000000095_20261201_508CO0000000253\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
