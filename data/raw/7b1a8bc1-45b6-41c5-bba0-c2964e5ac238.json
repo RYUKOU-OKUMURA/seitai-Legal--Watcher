@@ -1,0 +1,14 @@
+{
+  "changeId": "7b1a8bc1-45b6-41c5-bba0-c2964e5ac238",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418M60000200059",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260826#418M60000200059",
+  "title": "農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則",
+  "detectedAt": "2026-08-26T02:56:01.540Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年農林水産省令第五十九号\",\"LawName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則\",\"LawNameKana\":\"のうぎょうのにないてにたいするけいえいあんていのためのこうふきんのこうふにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060627,\"AmendName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第六十五号\",\"AmendPromulgationDate\":20260813,\"EnforcementDate\":20260813,\"EnforcementComment\":\"\",\"LawId\":\"418M60000200059\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000200059_20260813_508M60000200065\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "c17cb07b-bbcb-4dcc-885a-ec3f27a40331",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000238",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000238",
+  "title": "医療的ケア児等及び重症心身障害者並びにそれらの家族に対する支援に関する法律施行令案に関する御意見の募集について",
+  "detectedAt": "2026-08-26T02:56:01.540Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/25 受付締切日時：2026/09/24 12:00 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁支援局障害児支援課",
+  "links": [],
+  "httpStatus": 200
+}

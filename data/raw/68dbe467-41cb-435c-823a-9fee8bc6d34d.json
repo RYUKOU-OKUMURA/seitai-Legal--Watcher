@@ -1,0 +1,14 @@
+{
+  "changeId": "68dbe467-41cb-435c-823a-9fee8bc6d34d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414M60000008064",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260826#414M60000008064",
+  "title": "第一号基礎的電気通信役務の提供に係る第一種交付金及び第一種負担金算定等規則",
+  "detectedAt": "2026-08-26T02:56:01.540Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十四年総務省令第六十四号\",\"LawName\":\"第一号基礎的電気通信役務の提供に係る第一種交付金及び第一種負担金算定等規則\",\"LawNameKana\":\"だいいちごうきそてきでんきつうしんえきむのていきょうにかかるだいいっしゅこうふきんおよびだいいっしゅふたんきんさんていとうきそく\",\"OldLawName\":\"基礎的電気通信役務の提供に係る交付金及び負担金算定等規則\",\"PromulgationDate\":20020619,\"AmendName\":\"電気通信事業法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百七号\",\"AmendPromulgationDate\":20260810,\"EnforcementDate\":20260810,\"EnforcementComment\":\"\",\"LawId\":\"414M60000008064\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414M60000008064_20260810_508M60000008107\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
