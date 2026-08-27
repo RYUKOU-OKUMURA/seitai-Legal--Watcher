@@ -1,0 +1,14 @@
+{
+  "changeId": "4b54a2c3-d3b6-46c8-a582-2a4c4920db12",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250322",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250322",
+  "title": "保健師助産師看護師法施行規則の一部を改正する省令案に関する御意見募集の結果について",
+  "detectedAt": "2026-08-27T12:07:46.652Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/26 案の公示日：2025/12/25 受付締切日時：2026/01/25 23:59 命令等の公布日：2026/03/19 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医事課",
+  "links": [],
+  "httpStatus": 200
+}

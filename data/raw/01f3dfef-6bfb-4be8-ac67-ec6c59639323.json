@@ -1,0 +1,14 @@
+{
+  "changeId": "01f3dfef-6bfb-4be8-ac67-ec6c59639323",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421M60000008029",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260827#421M60000008029",
+  "title": "国家公務員退職手当法の規定に基づく意見の聴取の手続に関する規則",
+  "detectedAt": "2026-08-27T12:07:46.652Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十一年総務省令第二十九号\",\"LawName\":\"国家公務員退職手当法の規定に基づく意見の聴取の手続に関する規則\",\"LawNameKana\":\"こっかこうむいんたいしょくてあてほうのきていにもとづくいけんのちょうしゅのてつづきにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20090331,\"AmendName\":\"国家公務員退職手当法の規定に基づく意見の聴取の手続に関する規則の一部を改正する内閣官房令\",\"AmendNo\":\"令和八年内閣官房令第九号\",\"AmendPromulgationDate\":20260819,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"421M60000008029\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421M60000008029_20261001_508M60000001009\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

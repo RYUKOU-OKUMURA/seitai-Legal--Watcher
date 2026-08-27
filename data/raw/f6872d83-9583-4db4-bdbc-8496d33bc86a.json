@@ -1,0 +1,14 @@
+{
+  "changeId": "f6872d83-9583-4db4-bdbc-8496d33bc86a",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250440",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250440",
+  "title": "言語聴覚士学校養成所指定規則の一部を改正する省令の一部を改正する省令案に関する御意見の募集結果",
+  "detectedAt": "2026-08-27T12:07:46.652Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/26 案の公示日：2026/02/16 受付締切日時：2026/03/17 23:59 命令等の公布日：2026/03/31 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医事課",
+  "links": [],
+  "httpStatus": 200
+}

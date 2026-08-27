@@ -1,0 +1,14 @@
+{
+  "changeId": "2bdbd4d7-44ca-4974-a105-7cefab544e00",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250030",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250030",
+  "title": "「言語聴覚士法第三十三条第二号の規定に基づき厚生労働大臣の指定する科目等の一部を改正する告示の一部を改正する件」に関する御意見募集の結果について",
+  "detectedAt": "2026-08-27T12:07:46.652Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/26 案の公示日：2025/05/02 受付締切日時：2025/06/01 00:00 命令等の公布日：2025/08/13 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医事課",
+  "links": [],
+  "httpStatus": 200
+}

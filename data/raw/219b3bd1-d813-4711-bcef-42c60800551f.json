@@ -1,0 +1,14 @@
+{
+  "changeId": "219b3bd1-d813-4711-bcef-42c60800551f",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260800",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260800",
+  "title": "クロルマジノンに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+  "detectedAt": "2026-08-27T12:07:46.652Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/26 受付締切日時：2026/09/24 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n評価第二課　五島、森本、鶴岡\n電話：03-6234-1094、1151、1095",
+  "links": [],
+  "httpStatus": 200
+}
