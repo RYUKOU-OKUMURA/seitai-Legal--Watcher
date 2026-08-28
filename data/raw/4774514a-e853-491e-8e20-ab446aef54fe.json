@@ -1,0 +1,23 @@
+{
+  "changeId": "4774514a-e853-491e-8e20-ab446aef54fe",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260166",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260166",
+  "title": "「臓器のあっせん業の許可等について」の一部改正案について",
+  "detectedAt": "2026-08-28T13:30:30.414Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/28 受付締切日時：2026/09/28 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局難病対策課移植医療対策推進室",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260166",
+      "error": "HTTP 403"
+    }
+  ]
+}

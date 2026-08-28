@@ -1,0 +1,14 @@
+{
+  "changeId": "891025e4-57bb-4355-8385-ec79797403b7",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260170",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260170",
+  "title": "令和九年度の献血の推進に関する計画を定める件（案）に関する意見募集について",
+  "detectedAt": "2026-08-28T13:30:30.414Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/27 受付締切日時：2026/09/28 17:30 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局血液対策課\n電話：03－5252－1111（内線2908）",
+  "links": [],
+  "httpStatus": 200
+}

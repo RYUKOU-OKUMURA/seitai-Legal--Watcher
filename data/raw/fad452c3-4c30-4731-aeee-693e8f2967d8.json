@@ -1,0 +1,14 @@
+{
+  "changeId": "fad452c3-4c30-4731-aeee-693e8f2967d8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424M60000004003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260828#424M60000004003",
+  "title": "福島復興再生特別措置法施行規則",
+  "detectedAt": "2026-08-28T13:30:30.414Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十四年復興庁令第三号\",\"LawName\":\"福島復興再生特別措置法施行規則\",\"LawNameKana\":\"ふくしまふっこうさいせいとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20120331,\"AmendName\":\"福島復興再生特別措置法施行規則の一部を改正する庁令\",\"AmendNo\":\"令和八年復興庁令第五号\",\"AmendPromulgationDate\":20260817,\"EnforcementDate\":20260817,\"EnforcementComment\":\"\",\"LawId\":\"424M60000004003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424M60000004003_20260817_508M60000004005\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
