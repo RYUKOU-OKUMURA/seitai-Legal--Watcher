@@ -1,0 +1,23 @@
+{
+  "changeId": "afce4761-6ae4-4290-953c-7dd7894ce402",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260168",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260168",
+  "title": "「地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案」に関する御意見の募集について",
+  "detectedAt": "2026-08-29T08:24:15.088Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/08/28 受付締切日時：2026/09/26 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省政策統括官付医療情報連携担当参事官室",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260168",
+      "error": "HTTP 403"
+    }
+  ]
+}
