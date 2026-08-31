@@ -1,0 +1,14 @@
+{
+  "changeId": "cc1f6fd3-87dd-4816-b3df-a00e69d36ee7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000100102",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260831#413M60000100102",
+  "title": "調理師試験の実施に関する事務を行う者等を指定する省令",
+  "detectedAt": "2026-08-31T07:51:22.288Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年厚生労働省令第百二号\",\"LawName\":\"調理師試験の実施に関する事務を行う者等を指定する省令\",\"LawNameKana\":\"ちょうりししけんのじっしにかんするじむをおこなうものとうをしていするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20010330,\"AmendName\":\"調理師試験の実施に関する事務を行う者等を指定する省令の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百二十九号\",\"AmendPromulgationDate\":20260817,\"EnforcementDate\":20260817,\"EnforcementComment\":\"\",\"LawId\":\"413M60000100102\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000100102_20260817_508M60000100129\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
