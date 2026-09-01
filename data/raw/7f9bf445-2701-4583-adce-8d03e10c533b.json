@@ -1,0 +1,14 @@
+{
+  "changeId": "7f9bf445-2701-4583-adce-8d03e10c533b",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004350",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004350",
+  "title": "「そしゃく配慮食品の日本農林規格の確認案についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/01 案の公示日：2026/05/19 受付締切日時：2026/06/17 23:59 命令等の公布日：2026/09/01 提出意見数：1 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4481）",
+  "links": [],
+  "httpStatus": 200
+}

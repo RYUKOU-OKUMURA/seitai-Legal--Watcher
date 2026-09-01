@@ -1,0 +1,15 @@
+{
+  "changeId": "17848e4c-a7ab-4378-b19e-559cf5bfa796",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363CO0000000360",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#363CO0000000360",
+  "title": "消費税法施行令",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和六十三年政令第三百六十号\",\"LawName\":\"消費税法施行令\",\"LawNameKana\":\"しょうひぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"消費税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第九十六号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"363CO0000000360\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363CO0000000360_20260901_508CO0000000096\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 消費税法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和六十三年政令第三百六十号\",\"LawName\":\"消費税法施行令\",\"LawNameKana\":\"しょうひぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"消費税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第九十六号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":\"\",\"EnforcementComment\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和八年法律第六十四号）の施行の日\",\"LawId\":\"363CO0000000360\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363CO0000000360_20270722_508CO0000000096\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和六十三年政令第三百六十号\",\"LawName\":\"消費税法施行令\",\"LawNameKana\":\"しょうひぜいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"消費税法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第九十六号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"363CO0000000360\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363CO0000000360_20260901_508CO0000000096\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

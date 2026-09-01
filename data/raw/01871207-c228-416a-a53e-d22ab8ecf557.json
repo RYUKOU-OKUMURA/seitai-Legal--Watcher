@@ -1,0 +1,23 @@
+{
+  "changeId": "01871207-c228-416a-a53e-d22ab8ecf557",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260106",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260106",
+  "title": "化学物質による健康障害防止のための濃度の基準の適用等に関する技術上の指針の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/08/31 案の公示日：2026/07/10 受付締切日時：2026/08/10 00:00 命令等の公布日：2026/08/31 提出意見数：4 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260106",
+      "error": "HTTP 403"
+    }
+  ]
+}

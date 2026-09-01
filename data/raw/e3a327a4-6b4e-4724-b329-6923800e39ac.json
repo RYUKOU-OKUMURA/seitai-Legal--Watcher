@@ -1,0 +1,14 @@
+{
+  "changeId": "e3a327a4-6b4e-4724-b329-6923800e39ac",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421M60000400022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#421M60000400022",
+  "title": "中小企業における経営の承継の円滑化に関する法律施行規則",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十一年経済産業省令第二十二号\",\"LawName\":\"中小企業における経営の承継の円滑化に関する法律施行規則\",\"LawNameKana\":\"ちゅうしょうぎぎょうにおけるけいえいのしょうけいのえんかつかにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20090331,\"AmendName\":\"中小企業における経営の承継の円滑化に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第三十三号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"421M60000400022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421M60000400022_20260401_508M60000400033\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

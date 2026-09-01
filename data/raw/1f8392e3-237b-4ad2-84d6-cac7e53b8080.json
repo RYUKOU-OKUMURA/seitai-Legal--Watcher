@@ -1,0 +1,14 @@
+{
+  "changeId": "1f8392e3-237b-4ad2-84d6-cac7e53b8080",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50000040017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#325M50000040017",
+  "title": "相続税法施行規則",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年大蔵省令第十七号\",\"LawName\":\"相続税法施行規則\",\"LawNameKana\":\"そうぞくぜいほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19500331,\"AmendName\":\"相続税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和六年財務省令第十六号\",\"AmendPromulgationDate\":20240330,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"325M50000040017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50000040017_20260901_506M60000040016\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

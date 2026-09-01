@@ -1,0 +1,14 @@
+{
+  "changeId": "dc150a0b-72a7-4944-81c3-7276ecb69f83",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335M50000002060",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#335M50000002060",
+  "title": "道路交通法施行規則",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年総理府令第六十号\",\"LawName\":\"道路交通法施行規則\",\"LawNameKana\":\"どうろこうつうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19601203,\"AmendName\":\"道路交通法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和六年内閣府令第六十七号\",\"AmendPromulgationDate\":20240726,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"335M50000002060\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000002060_20260901_506M60000002067\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

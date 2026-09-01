@@ -1,0 +1,14 @@
+{
+  "changeId": "fd31b44d-0b92-45d4-bfdd-e15a835c0dde",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363M50000040053",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#363M50000040053",
+  "title": "消費税法施行規則",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十三年大蔵省令第五十三号\",\"LawName\":\"消費税法施行規則\",\"LawNameKana\":\"しょうひぜいほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"消費税法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第十九号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"363M50000040053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363M50000040053_20260901_508M60000040019\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

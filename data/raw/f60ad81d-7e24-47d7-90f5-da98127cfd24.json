@@ -1,0 +1,14 @@
+{
+  "changeId": "f60ad81d-7e24-47d7-90f5-da98127cfd24",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328M50000040011",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260901#328M50000040011",
+  "title": "酒税の保全及び酒類業組合等に関する法律施行規則",
+  "detectedAt": "2026-09-01T06:56:43.254Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十八年大蔵省令第十一号\",\"LawName\":\"酒税の保全及び酒類業組合等に関する法律施行規則\",\"LawNameKana\":\"しゅぜいのほぜんおよびしゅるいぎょうくみあいとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19530306,\"AmendName\":\"酒税の保全及び酒類業組合等に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和六年財務省令第三十二号\",\"AmendPromulgationDate\":20240330,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"328M50000040011\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328M50000040011_20260901_506M60000040032\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
