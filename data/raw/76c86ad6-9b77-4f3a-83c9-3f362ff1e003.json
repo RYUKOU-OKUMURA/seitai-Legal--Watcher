@@ -1,0 +1,14 @@
+{
+  "changeId": "76c86ad6-9b77-4f3a-83c9-3f362ff1e003",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260167",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260167",
+  "title": "「糖尿病の治療又は予防を目的とした新医薬品の臨床開発に関するガイドライン（案）」に関する御意見の募集について",
+  "detectedAt": "2026-09-02T06:35:36.709Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/01 受付締切日時：2026/09/30 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：03-5253-1111（内線2736、4181）",
+  "links": [],
+  "httpStatus": 200
+}

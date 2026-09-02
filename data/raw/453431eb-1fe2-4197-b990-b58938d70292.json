@@ -1,0 +1,23 @@
+{
+  "changeId": "453431eb-1fe2-4197-b990-b58938d70292",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260111",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260111",
+  "title": "「予防接種実施規則の一部を改正する省令案」に関するご意見募集の結果について",
+  "detectedAt": "2026-09-02T06:35:36.709Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/01 案の公示日：2026/07/18 受付締切日時：2026/08/16 08:00 命令等の公布日：2026/09/01 提出意見数：36 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局感染症対策部予防接種課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260111",
+      "error": "HTTP 403"
+    }
+  ]
+}

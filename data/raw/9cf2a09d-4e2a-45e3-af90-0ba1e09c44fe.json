@@ -1,0 +1,30 @@
+{
+  "changeId": "9cf2a09d-4e2a-45e3-af90-0ba1e09c44fe",
+  "sourceId": "mhlw-news",
+  "sourceName": "厚生労働省報道発表（月別一覧）",
+  "sourceWeight": "high",
+  "targetKey": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202609.html",
+  "url": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202609.html",
+  "title": "報道発表資料　2026年9月 ｜厚生労働省",
+  "detectedAt": "2026-09-02T06:35:36.709Z",
+  "changeType": "updated",
+  "bodyExcerpt": "ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年9月 報道発表資料 2026年9月 資料一覧 2026年9月2日（水）掲載 戦没者慰霊事業のお知らせ（令和８年９月実施分） NEW 被保護者調査（令和８年６月分概数） NEW 2026年9月1日（火）掲載 令和８年度 第１回戦没者の遺骨収集に関する有識者会議の開催について NEW 食品中の放射性物質の検査結果について（１５１０報） NEW 第78回補装具評価検討会 開催案内 NEW 令和７年度 課程変更等のあった看護師等養成所について NEW 第78回「保健文化賞」受賞者が決まりました NEW ９月10日から９月16日は「自殺予防週間」です NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,6 +1,6 @@\n 報道発表資料　2026年9月 ｜厚生労働省\n-ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年9月 報道発表資料 2026年9月 資料一覧 2026年9月1日（火）掲載 令和８年度 第１回戦没者の遺骨収集に関する有識者会議の開催について NEW 食品中の放射性物質の検査結果について（１５１０報） NEW 第78回補装具評価検討会 開催案内 NEW 令和７年度 課程変更等のあった看護師等養成所について NEW 第78回「保健文化賞」受賞者が決まりました NEW ９月10日から９月16日は「自殺予防週間」です NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n+ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年9月 報道発表資料 2026年9月 資料一覧 2026年9月2日（水）掲載 戦没者慰霊事業のお知らせ（令和８年９月実施分） NEW 被保護者調査（令和８年６月分概数） NEW 2026年9月1日（火）掲載 令和８年度 第１回戦没者の遺骨収集に関する有識者会議の開催について NEW 食品中の放射性物質の検査結果について（１５１０報） NEW 第78回補装具評価検討会 開催案内 NEW 令和７年度 課程変更等のあった看護師等養成所について NEW 第78回「保健文化賞」受賞者が決まりました NEW ９月10日から９月16日は「自殺予防週間」です NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n https://get.adobe.com/jp/reader\n https://www.mhlw.go.jp/houdou_kouhou/index.html\n https://www.mhlw.go.jp/index.html\n https://www.mhlw.go.jp/stf/74hosougu_00004.html\n@@ -8,6 +8,8 @@\n https://www.mhlw.go.jp/stf/newpage_75795.html\n https://www.mhlw.go.jp/stf/newpage_75807.html\n https://www.mhlw.go.jp/stf/newpage_75868.html\n https://www.mhlw.go.jp/stf/newpage_75922.html\n+https://www.mhlw.go.jp/stf/newpage_75941.html\n https://www.mhlw.go.jp/stf/r8_jisatsuyoboushukan.html\n+https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2026/06.html\n \n",
+  "links": [
+    "https://get.adobe.com/jp/reader",
+    "https://www.mhlw.go.jp/houdou_kouhou/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/74hosougu_00004.html",
+    "https://www.mhlw.go.jp/stf/houdou/index.html",
+    "https://www.mhlw.go.jp/stf/newpage_75795.html",
+    "https://www.mhlw.go.jp/stf/newpage_75807.html",
+    "https://www.mhlw.go.jp/stf/newpage_75868.html",
+    "https://www.mhlw.go.jp/stf/newpage_75922.html",
+    "https://www.mhlw.go.jp/stf/newpage_75941.html",
+    "https://www.mhlw.go.jp/stf/r8_jisatsuyoboushukan.html",
+    "https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2026/06.html"
+  ],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}
