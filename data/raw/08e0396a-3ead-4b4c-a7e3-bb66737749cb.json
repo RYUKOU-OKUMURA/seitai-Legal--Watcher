@@ -1,0 +1,23 @@
+{
+  "changeId": "08e0396a-3ead-4b4c-a7e3-bb66737749cb",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260172",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260172",
+  "title": "「令和８年熊本地震に際し災害救助法が適用された市町村の区域における石綿による健康被害の救済に関する法律の規定に基づく特別遺族年金の受給権者が報告書を提出すべき日を延長する件」の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/02 案の公示日： 受付締切日時： 命令等の公布日：2026/09/02 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局労災管理課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260172",
+      "error": "HTTP 403"
+    }
+  ]
+}

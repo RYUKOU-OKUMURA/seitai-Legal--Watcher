@@ -1,0 +1,18 @@
+{
+  "changeId": "20438be3-b56b-4f6e-8687-f17426e9e790",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419CO0000000325",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#419CO0000000325",
+  "title": "前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十九年政令第三百二十五号\",\"LawName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令\",\"LawNameKana\":\"ぜんきこうれいしゃこうふきんおよびこうきこうれいしゃいりょうのこっこふたんきんのさんていとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20071031,\"AmendName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百三十四号\",\"AmendPromulgationDate\":20260410,\"EnforcementDate\":20260408,\"EnforcementComment\":\"\",\"LawId\":\"419CO0000000325\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419CO0000000325_20260408_508CO0000000134\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

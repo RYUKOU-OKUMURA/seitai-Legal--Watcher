@@ -1,0 +1,15 @@
+{
+  "changeId": "f2872e88-a101-4e2d-9d77-1607599d94a5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC1000000100",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#325AC1000000100",
+  "title": "公職選挙法",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第百号\",\"LawName\":\"公職選挙法\",\"LawNameKana\":\"こうしょくせんきょほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500415,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"325AC1000000100\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC1000000100_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 公職選挙法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第百号\",\"LawName\":\"公職選挙法\",\"LawNameKana\":\"こうしょくせんきょほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500415,\"AmendName\":\"公職選挙法及び特定電気通信による情報の流通によって発生する権利侵害等への対処に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十八号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20270301,\"EnforcementComment\":\"\",\"LawId\":\"325AC1000000100\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC1000000100_20270301_508AC1000000058\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第百号\",\"LawName\":\"公職選挙法\",\"LawNameKana\":\"こうしょくせんきょほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500415,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"325AC1000000100\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC1000000100_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

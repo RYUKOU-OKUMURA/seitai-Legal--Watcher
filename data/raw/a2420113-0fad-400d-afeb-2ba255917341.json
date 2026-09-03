@@ -1,0 +1,14 @@
+{
+  "changeId": "a2420113-0fad-400d-afeb-2ba255917341",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341AC0000000126",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#341AC0000000126",
+  "title": "入会林野等に係る権利関係の近代化の助長に関する法律",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十一年法律第百二十六号\",\"LawName\":\"入会林野等に係る権利関係の近代化の助長に関する法律\",\"LawNameKana\":\"いりあいりんやとうにかかるけんりかんけいのきんだいかのじょちょうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19660709,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"341AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341AC0000000126_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

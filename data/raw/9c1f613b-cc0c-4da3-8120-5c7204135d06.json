@@ -1,0 +1,14 @@
+{
+  "changeId": "9c1f613b-cc0c-4da3-8120-5c7204135d06",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000218",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#325AC0000000218",
+  "title": "港湾法",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十八号\",\"LawName\":\"港湾法\",\"LawNameKana\":\"こうわんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500531,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000218\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000218_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

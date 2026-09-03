@@ -1,0 +1,14 @@
+{
+  "changeId": "1bcb8d99-a0d5-4cfb-b1b6-54e6b9657d6d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426AC1000000127",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#426AC1000000127",
+  "title": "空家等対策の推進に関する特別措置法",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十六年法律第百二十七号\",\"LawName\":\"空家等対策の推進に関する特別措置法\",\"LawNameKana\":\"あきやとうたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20141127,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"426AC1000000127\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426AC1000000127_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

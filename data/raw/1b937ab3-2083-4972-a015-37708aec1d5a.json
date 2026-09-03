@@ -1,0 +1,14 @@
+{
+  "changeId": "1b937ab3-2083-4972-a015-37708aec1d5a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:356AC0000000076",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#356AC0000000076",
+  "title": "広域臨海環境整備センター法",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和五十六年法律第七十六号\",\"LawName\":\"広域臨海環境整備センター法\",\"LawNameKana\":\"こういきりんかいかんきょうせいびせんたーほう\",\"OldLawName\":\"\",\"PromulgationDate\":19810610,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"356AC0000000076\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=356AC0000000076_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

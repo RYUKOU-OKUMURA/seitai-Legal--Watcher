@@ -1,0 +1,14 @@
+{
+  "changeId": "10da475d-ac6c-42e7-900a-332778b320d6",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260171",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260171",
+  "title": "「令和８年熊本地震に際し災害救助法が適用された市町村の区域における労働者災害補償保険法の規定に基づく年金たる保険給付の受給権者が報告書を提出すべき日を延長する件」の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/02 案の公示日： 受付締切日時： 命令等の公布日：2026/09/02 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局労災管理課",
+  "links": [],
+  "httpStatus": 200
+}

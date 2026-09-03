@@ -1,0 +1,14 @@
+{
+  "changeId": "4c19f970-9e28-473e-bf09-60477a5d8b9e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000131",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260903#325AC0000000131",
+  "title": "電波法",
+  "detectedAt": "2026-09-03T06:38:38.372Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第百三十一号\",\"LawName\":\"電波法\",\"LawNameKana\":\"でんぱほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500502,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和八年法律第二十七号\",\"AmendPromulgationDate\":20260603,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000131\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000131_20260903_508AC0000000027\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
