@@ -1,0 +1,14 @@
+{
+  "changeId": "7e17e8e9-df01-4695-a477-e14390a021e0",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260107",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260107",
+  "title": "「今後のインフラのマネジメントのあり方について 中間とりまとめ」に対する意見募集について",
+  "detectedAt": "2026-09-04T06:41:53.996Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/03 受付締切日時：2026/09/16 15:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：主な問合せ先\n国土交通省 総合政策局 公共事業企画調整課\n代表：03-5253-8111（24543、24514、24544、24554）\n直通：03-5253-8284",
+  "links": [],
+  "httpStatus": 200
+}
