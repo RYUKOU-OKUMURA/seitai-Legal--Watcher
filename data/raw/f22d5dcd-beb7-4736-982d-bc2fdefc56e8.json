@@ -1,0 +1,14 @@
+{
+  "changeId": "f22d5dcd-beb7-4736-982d-bc2fdefc56e8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:407M50004040002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260908#407M50004040002",
+  "title": "不動産特定共同事業法施行規則",
+  "detectedAt": "2026-09-08T06:42:42.964Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成七年大蔵省・建設省令第二号\",\"LawName\":\"不動産特定共同事業法施行規則\",\"LawNameKana\":\"ふどうさんとくていきょうどうじぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19950313,\"AmendName\":\"不動産特定共同事業法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・国土交通省令第四号\",\"AmendPromulgationDate\":20260821,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"407M50004040002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=407M50004040002_20261001_508M60000802004\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

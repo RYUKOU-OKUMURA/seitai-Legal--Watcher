@@ -1,0 +1,14 @@
+{
+  "changeId": "baa80a0a-40c7-4796-9fb5-6db86d310579",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260180",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260180",
+  "title": "社会福祉法等の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令案に関する御意見の募集について",
+  "detectedAt": "2026-09-08T06:42:42.964Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/07 受付締切日時：2026/10/07 20:00 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省老健局認知症施策・地域介護推進課\n03-3595-2889",
+  "links": [],
+  "httpStatus": 200
+}
