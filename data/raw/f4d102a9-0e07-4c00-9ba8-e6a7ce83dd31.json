@@ -1,0 +1,14 @@
+{
+  "changeId": "f4d102a9-0e07-4c00-9ba8-e6a7ce83dd31",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60400000008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260909#423M60400000008",
+  "title": "国家公安委員会行政文書管理規則",
+  "detectedAt": "2026-09-09T06:51:57.821Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"平成二十三年国家公安委員会規則第八号\",\"LawName\":\"国家公安委員会行政文書管理規則\",\"LawNameKana\":\"こっかこうあんいいんかいぎょうせいぶんしょかんりきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20110401,\"AmendName\":\"国家公安委員会行政文書管理規則の一部を改正する規則\",\"AmendNo\":\"令和八年国家公安委員会規則第十八号\",\"AmendPromulgationDate\":20260901,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"423M60400000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60400000008_20270401_508M60400000018\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
