@@ -1,0 +1,14 @@
+{
+  "changeId": "f4b960b2-ffc2-4427-af39-1b9df168f20a",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260840",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260840",
+  "title": "ブロマシルに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+  "detectedAt": "2026-09-10T06:48:12.520Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/09 受付締切日時：2026/10/08 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n評価第一課農薬評価室　櫻井、山口\n電話：03(6234)1193又は1147",
+  "links": [],
+  "httpStatus": 200
+}
