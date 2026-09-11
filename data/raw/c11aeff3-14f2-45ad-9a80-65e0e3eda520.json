@@ -1,0 +1,14 @@
+{
+  "changeId": "c11aeff3-14f2-45ad-9a80-65e0e3eda520",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260860",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260860",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律施行令の一部を改正する政令案に関する御意見の募集について",
+  "detectedAt": "2026-09-11T06:47:58.224Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/10 受付締切日時：2026/10/10 00:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府（経済安全保障担当）",
+  "links": [],
+  "httpStatus": 200
+}
