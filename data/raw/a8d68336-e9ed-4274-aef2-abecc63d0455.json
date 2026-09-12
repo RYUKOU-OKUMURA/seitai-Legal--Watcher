@@ -1,0 +1,23 @@
+{
+  "changeId": "a8d68336-e9ed-4274-aef2-abecc63d0455",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260059",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260059",
+  "title": "厚生年金保険法施行規則及び健康保険法施行規則の一部を改正する省令案に関する御意見の募集の結果について",
+  "detectedAt": "2026-09-12T06:40:02.522Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/11 案の公示日：2026/05/22 受付締切日時：2026/06/20 23:59 命令等の公布日：2026/09/11 提出意見数：7 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：年金局事業管理課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260059",
+      "error": "HTTP 403"
+    }
+  ]
+}

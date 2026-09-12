@@ -1,0 +1,14 @@
+{
+  "changeId": "c24a4688-2b41-4638-8082-bcb009664571",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260081",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260081",
+  "title": "歯科用骨補填材に関する評価指標（案）に関する御意見の募集の結果について",
+  "detectedAt": "2026-09-12T06:40:02.522Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/11 案の公示日：2026/06/26 受付締切日時：2026/07/26 18:00 命令等の公布日： 提出意見数：5 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省 医薬局 医療機器審査管理課\n電話：03-5253-1111（代表）",
+  "links": [],
+  "httpStatus": 200
+}
