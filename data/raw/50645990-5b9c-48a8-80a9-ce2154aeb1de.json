@@ -1,0 +1,14 @@
+{
+  "changeId": "50645990-5b9c-48a8-80a9-ce2154aeb1de",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325CO0000000089",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260914#325CO0000000089",
+  "title": "公職選挙法施行令",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第八十九号\",\"LawName\":\"公職選挙法施行令\",\"LawNameKana\":\"こうしょくせんきょほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500420,\"AmendName\":\"地方自治法施行令及び公職選挙法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百六十二号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"325CO0000000089\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000089_20260903_508CO0000000262\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

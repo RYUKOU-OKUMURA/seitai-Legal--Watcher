@@ -1,0 +1,15 @@
+{
+  "changeId": "b94b2428-1952-475f-884e-cc10a87efdad",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000259",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260914#508CO0000000259",
+  "title": "令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第二百五十九号\",\"LawName\":\"令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令\",\"LawNameKana\":\"れいわはちねんくまもとじしんによるさいがいについてのげきじんさいがいおよびこれにたいしてきようすべきそちのしていにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260807,\"AmendName\":\"令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百六十四号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260828,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000259\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000259_20260828_508CO0000000264\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第二百五十九号\",\"LawName\":\"令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令\",\"LawNameKana\":\"れいわはちねんくまもとじしんによるさいがいについてのげきじんさいがいおよびこれにたいしてきようすべきそちのしていにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260807,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260807,\"EnforcementDate\":20260807,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000259\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000259_20260807_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第二百五十九号\",\"LawName\":\"令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令\",\"LawNameKana\":\"れいわはちねんくまもとじしんによるさいがいについてのげきじんさいがいおよびこれにたいしてきようすべきそちのしていにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260807,\"AmendName\":\"令和八年熊本地震による災害についての激甚災害及びこれに対し適用すべき措置の指定に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百六十四号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260828,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000259\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000259_20260828_508CO0000000264\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

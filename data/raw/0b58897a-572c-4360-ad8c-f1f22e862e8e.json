@@ -1,0 +1,14 @@
+{
+  "changeId": "0b58897a-572c-4360-ad8c-f1f22e862e8e",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=060260914",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=060260914",
+  "title": "防災庁の設置に伴う防災庁令、告示等の制定及び改正に関する御意見募集（パブリックコメント）について",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/14 受付締切日時：2026/10/13 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣官房防災庁設置準備室\n（TEL）03-6230-9073",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "5f9afc09-eab4-4df5-a60c-895b2d6dce38",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60004000001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260914#503M60004000001",
+  "title": "デジタル庁組織規則",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年デジタル庁令第一号\",\"LawName\":\"デジタル庁組織規則\",\"LawNameKana\":\"でじたるちょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20210901,\"AmendName\":\"デジタル庁組織規則の一部を改正する庁令\",\"AmendNo\":\"令和八年デジタル庁令第六号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"503M60004000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60004000001_20260901_508M60004000006\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

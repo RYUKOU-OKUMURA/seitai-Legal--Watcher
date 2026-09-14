@@ -1,0 +1,15 @@
+{
+  "changeId": "6b358348-1db1-4d11-9a95-85006b728388",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506M60002000004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260914#506M60002000004",
+  "title": "自衛官等に対する療養の給付等に関する省令",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年防衛省令第四号\",\"LawName\":\"自衛官等に対する療養の給付等に関する省令\",\"LawNameKana\":\"じえいかんとうにたいするりょうようのきゅうふとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20240329,\"AmendName\":\"自衛官等に対する療養の給付等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第二十号\",\"AmendPromulgationDate\":20260831,\"EnforcementDate\":20260831,\"EnforcementComment\":\"\",\"LawId\":\"506M60002000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60002000004_20260831_508M60002000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 自衛官等に対する療養の給付等に関する省令\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年防衛省令第四号\",\"LawName\":\"自衛官等に対する療養の給付等に関する省令\",\"LawNameKana\":\"じえいかんとうにたいするりょうようのきゅうふとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20240329,\"AmendName\":\"自衛官等に対する療養の給付等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第十九号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"506M60002000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60002000004_20260801_508M60002000019\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年防衛省令第四号\",\"LawName\":\"自衛官等に対する療養の給付等に関する省令\",\"LawNameKana\":\"じえいかんとうにたいするりょうようのきゅうふとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20240329,\"AmendName\":\"自衛官等に対する療養の給付等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第二十号\",\"AmendPromulgationDate\":20260831,\"EnforcementDate\":20260831,\"EnforcementComment\":\"\",\"LawId\":\"506M60002000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60002000004_20260831_508M60002000020\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "5e461ac6-1bbf-402b-bc8c-c2aa390ee709",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:345RJNJ09055000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260914#345RJNJ09055000",
+  "title": "人事院規則九―五五（特地勤務手当等）",
+  "detectedAt": "2026-09-14T07:19:38.984Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十五年人事院規則九―五五\",\"LawName\":\"人事院規則九―五五（特地勤務手当等）\",\"LawNameKana\":\"じんじいんきそくきゅうのごじゅうごとくちきんむてあてとう\",\"OldLawName\":\"\",\"PromulgationDate\":19701217,\"AmendName\":\"人事院規則九―五五（特地勤務手当等）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―五五―一五八\",\"AmendPromulgationDate\":20260901,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"345RJNJ09055000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=345RJNJ09055000_20260901_508RJNJ09055158\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 人事院規則九―五五（特地勤務手当等）\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十五年人事院規則九―五五\",\"LawName\":\"人事院規則九―五五（特地勤務手当等）\",\"LawNameKana\":\"じんじいんきそくきゅうのごじゅうごとくちきんむてあてとう\",\"OldLawName\":\"\",\"PromulgationDate\":19701217,\"AmendName\":\"人事院規則九―五五（特地勤務手当等）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―五五―一五七\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"345RJNJ09055000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=345RJNJ09055000_20260701_508RJNJ09055157\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十五年人事院規則九―五五\",\"LawName\":\"人事院規則九―五五（特地勤務手当等）\",\"LawNameKana\":\"じんじいんきそくきゅうのごじゅうごとくちきんむてあてとう\",\"OldLawName\":\"\",\"PromulgationDate\":19701217,\"AmendName\":\"人事院規則九―五五（特地勤務手当等）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―五五―一五八\",\"AmendPromulgationDate\":20260901,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"345RJNJ09055000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=345RJNJ09055000_20260901_508RJNJ09055158\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
