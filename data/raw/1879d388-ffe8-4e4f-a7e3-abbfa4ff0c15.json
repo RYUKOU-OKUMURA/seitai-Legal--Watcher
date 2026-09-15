@@ -1,0 +1,19 @@
+{
+  "changeId": "1879d388-ffe8-4e4f-a7e3-abbfa4ff0c15",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:357AC0000000080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260915#357AC0000000080",
+  "title": "高齢者の医療の確保に関する法律",
+  "detectedAt": "2026-09-15T06:55:45.790Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和五十七年法律第八十号\",\"LawName\":\"高齢者の医療の確保に関する法律\",\"LawNameKana\":\"こうれいしゃのいりょうのかくほにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19820817,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"357AC0000000080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357AC0000000080_20270401_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 高齢者の医療の確保に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和五十七年法律第八十号\",\"LawName\":\"高齢者の医療の確保に関する法律\",\"LawNameKana\":\"こうれいしゃのいりょうのかくほにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19820817,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"357AC0000000080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357AC0000000080_20260801_508AC0000000031\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和五十七年法律第八十号\",\"LawName\":\"高齢者の医療の確保に関する法律\",\"LawNameKana\":\"こうれいしゃのいりょうのかくほにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19820817,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"357AC0000000080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=357AC0000000080_20270401_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

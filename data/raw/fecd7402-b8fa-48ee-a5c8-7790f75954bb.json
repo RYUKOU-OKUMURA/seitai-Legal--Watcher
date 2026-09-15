@@ -1,0 +1,14 @@
+{
+  "changeId": "fecd7402-b8fa-48ee-a5c8-7790f75954bb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423CO0000000112",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260915#423CO0000000112",
+  "title": "東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律施行令",
+  "detectedAt": "2026-09-15T06:55:45.790Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第百十二号\",\"LawName\":\"東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律施行令\",\"LawNameKana\":\"ひがしにほんだいしんさいのひさいしゃとうにかかるこくぜいかんけいほうりつのりんじとくれいにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20110427,\"AmendName\":\"東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百二号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000112\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000112_20270401_508CO0000000102\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "e623c826-d7b2-40db-a1f4-ccb519dd820e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000126",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260915#423AC0000000126",
+  "title": "特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法",
+  "detectedAt": "2026-09-15T06:55:45.790Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百二十六号\",\"LawName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法\",\"LawNameKana\":\"とくていびーがたかんえんういるすかんせんしゃきゅうふきんとうのしきゅうにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111216,\"AmendName\":\"医療法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第八十七号\",\"AmendPromulgationDate\":20251212,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000126_20270401_507AC0000000087\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

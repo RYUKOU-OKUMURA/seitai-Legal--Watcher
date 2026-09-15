@@ -1,0 +1,14 @@
+{
+  "changeId": "06a460d0-34c6-46ab-b82d-c900667cf2f7",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260720",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260720",
+  "title": "「重要電子計算機に対する不正な行為による被害の防止に関する法律に基づく特別社会基盤事業者による特定侵害事象等の報告等に関する命令第二条第一項ただし書の特別社会基盤事業所管大臣及び内閣総理大臣が指定するもの」（案）に関する意見募集の結果について",
+  "detectedAt": "2026-09-15T06:55:45.790Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/15 案の公示日：2026/07/21 受付締切日時：2026/08/25 00:00 命令等の公布日：2026/09/15 提出意見数：27 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣府政策統括官（サイバー安全保障担当）付",
+  "links": [],
+  "httpStatus": 200
+}

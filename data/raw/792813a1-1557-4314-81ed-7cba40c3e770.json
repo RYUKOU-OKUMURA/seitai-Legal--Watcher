@@ -1,0 +1,14 @@
+{
+  "changeId": "792813a1-1557-4314-81ed-7cba40c3e770",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260088",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260088",
+  "title": "送出労働者に対する不合理な待遇の禁止等に関する指針の一部を改正する告示に関する意見募集の結果について",
+  "detectedAt": "2026-09-15T06:55:45.790Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/14 案の公示日：2026/06/16 受付締切日時：2026/07/15 23:59 命令等の公布日：2026/09/14 提出意見数：2 カテゴリー：労働 問合せ先（所管省庁・部局名等）：職業安定局雇用開発企画課建設・港湾対策室\n03-5253-1111(内線：5803)",
+  "links": [],
+  "httpStatus": 200
+}
