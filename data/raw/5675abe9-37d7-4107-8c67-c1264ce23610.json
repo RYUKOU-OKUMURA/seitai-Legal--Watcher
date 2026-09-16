@@ -1,0 +1,15 @@
+{
+  "changeId": "5675abe9-37d7-4107-8c67-c1264ce23610",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:409M50000002053",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260916#409M50000002053",
+  "title": "南極地域の環境の保護に関する法律施行規則",
+  "detectedAt": "2026-09-16T06:58:10.165Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成九年総理府令第五十三号\",\"LawName\":\"南極地域の環境の保護に関する法律施行規則\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19970929,\"AmendName\":\"南極地域の環境の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第二十四号\",\"AmendPromulgationDate\":20260902,\"EnforcementDate\":\"\",\"EnforcementComment\":\"南極地域の環境の保護に関する法律の一部を改正する法律の施行の日（環境保護に関する南極条約議定書附属書ＶＩが日本国について効力を生ずる日から起算して一月を経過した日）\",\"LawId\":\"409M50000002053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409M50000002053_21171231_508M60001000024\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 南極地域の環境の保護に関する法律施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成九年総理府令第五十三号\",\"LawName\":\"南極地域の環境の保護に関する法律施行規則\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19970929,\"AmendName\":\"南極地域の環境の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第十八号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260630,\"EnforcementComment\":\"\",\"LawId\":\"409M50000002053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409M50000002053_20260630_508M60001000018\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成九年総理府令第五十三号\",\"LawName\":\"南極地域の環境の保護に関する法律施行規則\",\"LawNameKana\":\"なんきょくちいきのかんきょうのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19970929,\"AmendName\":\"南極地域の環境の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第二十四号\",\"AmendPromulgationDate\":20260902,\"EnforcementDate\":\"\",\"EnforcementComment\":\"南極地域の環境の保護に関する法律の一部を改正する法律の施行の日（環境保護に関する南極条約議定書附属書ＶＩが日本国について効力を生ずる日から起算して一月を経過した日）\",\"LawId\":\"409M50000002053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=409M50000002053_21171231_508M60001000024\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

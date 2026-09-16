@@ -1,0 +1,23 @@
+{
+  "changeId": "d51b0b41-a4eb-465e-b420-1a9224d1b686",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235060029",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235060029",
+  "title": "「デジタル取引・特定商取引法等検討会中間取りまとめ」に関する意見募集について",
+  "detectedAt": "2026-09-16T06:58:10.165Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/16 受付締切日時：2026/10/31 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁取引対策課\n03-3507-8800",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235060029",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "changeId": "ab88c1a8-be2a-4d22-adea-25f2a2bca7fa",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235030052",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235030052",
+  "title": "「現代社会における消費者取引の在り方を踏まえた消費者契約法検討会 中間取りまとめ」 に関する意見公募について",
+  "detectedAt": "2026-09-16T06:58:10.165Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/16 受付締切日時：2026/10/31 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：消費者庁消費者制度課\n03-3507-9148",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=235030052",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "da8fc828-2c29-4756-9434-59c37ba8b58f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403AC0000000048",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260916#403AC0000000048",
+  "title": "資源の有効な利用の促進に関する法律",
+  "detectedAt": "2026-09-16T06:58:10.165Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三年法律第四十八号\",\"LawName\":\"資源の有効な利用の促進に関する法律\",\"LawNameKana\":\"しげんのゆうこうなりようのそくしんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19910426,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260916,\"EnforcementComment\":\"\",\"LawId\":\"403AC0000000048\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403AC0000000048_20260916_508AC0000000043\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 資源の有効な利用の促進に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三年法律第四十八号\",\"LawName\":\"資源の有効な利用の促進に関する法律\",\"LawNameKana\":\"しげんのゆうこうなりようのそくしんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19910426,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260916,\"EnforcementComment\":\"\",\"LawId\":\"403AC0000000048\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403AC0000000048_20260916_508AC0000000043\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成三年法律第四十八号\",\"LawName\":\"資源の有効な利用の促進に関する法律\",\"LawNameKana\":\"しげんのゆうこうなりようのそくしんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19910426,\"AmendName\":\"廃棄物の処理及び清掃に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第四十三号\",\"AmendPromulgationDate\":20260619,\"EnforcementDate\":20260916,\"EnforcementComment\":\"\",\"LawId\":\"403AC0000000048\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403AC0000000048_20260916_508AC0000000043\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "4a40899c-cfab-449b-b094-34bd324e9776",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:356M50000010054",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260916#356M50000010054",
+  "title": "出入国管理及び難民認定法施行規則",
+  "detectedAt": "2026-09-16T06:58:10.165Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十六年法務省令第五十四号\",\"LawName\":\"出入国管理及び難民認定法施行規則\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19811028,\"AmendName\":\"出入国管理及び難民認定法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十八号\",\"AmendPromulgationDate\":20260901,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"356M50000010054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=356M50000010054_20260901_508M60000010048\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 出入国管理及び難民認定法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十六年法務省令第五十四号\",\"LawName\":\"出入国管理及び難民認定法施行規則\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19811028,\"AmendName\":\"出入国管理及び難民認定法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十一号\",\"AmendPromulgationDate\":20260623,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"356M50000010054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=356M50000010054_20260701_508M60000010041\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十六年法務省令第五十四号\",\"LawName\":\"出入国管理及び難民認定法施行規則\",\"LawNameKana\":\"しゅつにゅうこくかんりおよびなんみんにんていほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19811028,\"AmendName\":\"出入国管理及び難民認定法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第四十八号\",\"AmendPromulgationDate\":20260901,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"356M50000010054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=356M50000010054_20260901_508M60000010048\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
