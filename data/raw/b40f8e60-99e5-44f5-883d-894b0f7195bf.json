@@ -1,0 +1,15 @@
+{
+  "changeId": "b40f8e60-99e5-44f5-883d-894b0f7195bf",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335M50000100012",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260918#335M50000100012",
+  "title": "国民年金法施行規則",
+  "detectedAt": "2026-09-18T06:50:26.996Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和六年厚生労働省令第三十号\",\"AmendPromulgationDate\":20240227,\"EnforcementDate\":20240401,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20240401_506M60000100030\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 国民年金法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百十三号\",\"AmendPromulgationDate\":20260715,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20261001_508M60000100113\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和六年厚生労働省令第三十号\",\"AmendPromulgationDate\":20240227,\"EnforcementDate\":20240401,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20240401_506M60000100030\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
