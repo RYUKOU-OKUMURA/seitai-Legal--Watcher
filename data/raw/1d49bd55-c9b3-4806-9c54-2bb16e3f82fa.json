@@ -1,0 +1,23 @@
+{
+  "changeId": "1d49bd55-c9b3-4806-9c54-2bb16e3f82fa",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260043",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260043",
+  "title": "医療法等の一部を改正する法律の施行に伴う厚生労働省関係告示の整備等に関する告示案に関する意見募集の結果について",
+  "detectedAt": "2026-09-19T06:49:30.487Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/18 案の公示日：2026/05/01 受付締切日時：2026/05/31 12:00 命令等の公布日：2026/09/18 提出意見数：2 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局地域医療計画課\n電話：03-3595-2194（内線:4128）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260043",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "changeId": "cd63edde-349b-472d-9a6f-d12dab988246",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260192",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260192",
+  "title": "難病の患者に対する医療等に関する法律施行規則第十五条第一項第一号イに規定する厚生労働大臣が定める認定機関が認定する専門医の資格及び児童福祉法施行規則第七条の十第一項第一号に規定する厚生労働大臣が定める認定機関が認定する専門医の資格の一部を改正する告示案に関する御意見の募集について",
+  "detectedAt": "2026-09-19T06:49:30.487Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/19 受付締切日時：2026/10/19 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局難病対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260192",
+      "error": "HTTP 403"
+    }
+  ]
+}
