@@ -1,0 +1,14 @@
+{
+  "changeId": "f6705811-964d-4851-8b6f-3b28d5046d70",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415M60000040071",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260924#415M60000040071",
+  "title": "国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令",
+  "detectedAt": "2026-09-24T06:54:25.762Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十五年財務省令第七十一号\",\"LawName\":\"国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令\",\"LawNameKana\":\"こくぜいかんけいほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするしょうれい\",\"OldLawName\":\"国税関係法令に係る行政手続等における情報通信の技術の利用に関する省令\",\"PromulgationDate\":20030714,\"AmendName\":\"国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和六年財務省令第三十一号\",\"AmendPromulgationDate\":20240330,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"415M60000040071\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415M60000040071_20260924_506M60000040031\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "ede45942-6d77-4137-8a27-5014a7aef9c1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322CO0000000016",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260924#322CO0000000016",
+  "title": "地方自治法施行令",
+  "detectedAt": "2026-09-24T06:54:25.762Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"地方自治法施行令等の一部を改正する政令\",\"AmendNo\":\"令和七年政令第二百三十七号\",\"AmendPromulgationDate\":20250702,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20260924_507CO0000000237\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方自治法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"地方自治法施行令及び公職選挙法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百六十二号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260903,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20260903_508CO0000000262\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十二年政令第十六号\",\"LawName\":\"地方自治法施行令\",\"LawNameKana\":\"ちほうじちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"地方自治法施行令等の一部を改正する政令\",\"AmendNo\":\"令和七年政令第二百三十七号\",\"AmendPromulgationDate\":20250702,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"322CO0000000016\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322CO0000000016_20260924_507CO0000000237\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

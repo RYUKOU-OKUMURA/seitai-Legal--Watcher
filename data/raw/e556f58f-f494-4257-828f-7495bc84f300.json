@@ -1,0 +1,14 @@
+{
+  "changeId": "e556f58f-f494-4257-828f-7495bc84f300",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTLIST",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTLIST",
+  "title": "意見募集案件一覧/労働",
+  "detectedAt": "2026-09-24T06:54:25.762Z",
+  "changeType": "updated",
+  "bodyExcerpt": "",
+  "links": [],
+  "httpStatus": 200
+}

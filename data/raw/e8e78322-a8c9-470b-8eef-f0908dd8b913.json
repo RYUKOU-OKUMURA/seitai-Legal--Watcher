@@ -1,0 +1,14 @@
+{
+  "changeId": "e8e78322-a8c9-470b-8eef-f0908dd8b913",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000008043",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260924#417M60000008043",
+  "title": "市町村の合併の特例に関する法律施行規則",
+  "detectedAt": "2026-09-24T06:54:25.762Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年総務省令第四十三号\",\"LawName\":\"市町村の合併の特例に関する法律施行規則\",\"LawNameKana\":\"しちょうそんのがっぺいのとくれいにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050328,\"AmendName\":\"地方自治法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年総務省令第八十七号\",\"AmendPromulgationDate\":20250826,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"417M60000008043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000008043_20260924_507M60000008087\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
