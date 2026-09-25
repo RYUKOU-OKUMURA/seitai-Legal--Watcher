@@ -1,0 +1,14 @@
+{
+  "changeId": "11417819-3e51-4562-ab26-e17e844f6b22",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418M60000080012",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260925#418M60000080012",
+  "title": "大学の設置等の認可の申請及び届出に係る手続等に関する規則",
+  "detectedAt": "2026-09-25T06:48:48.518Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年文部科学省令第十二号\",\"LawName\":\"大学の設置等の認可の申請及び届出に係る手続等に関する規則\",\"LawNameKana\":\"だいがくのせっちとうのにんかのしんせいおよびとどけでにかかるてつづきとうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060331,\"AmendName\":\"大学設置基準及び大学の設置等の認可の申請及び届出に係る手続等に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第二十九号\",\"AmendPromulgationDate\":20260904,\"EnforcementDate\":20260904,\"EnforcementComment\":\"\",\"LawId\":\"418M60000080012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000080012_20260904_508M60000080029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

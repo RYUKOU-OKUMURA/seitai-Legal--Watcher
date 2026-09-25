@@ -1,0 +1,14 @@
+{
+  "changeId": "a2a0e808-c899-4fc2-85c5-b09f8efc39bb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000100037",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260925#329M50000100037",
+  "title": "厚生年金保険法施行規則",
+  "detectedAt": "2026-09-25T06:48:48.518Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年厚生省令第三十七号\",\"LawName\":\"厚生年金保険法施行規則\",\"LawNameKana\":\"こうせいねんきんほけんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540701,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"平成三十年厚生労働省令第百五十二号\",\"AmendPromulgationDate\":20181228,\"EnforcementDate\":20190801,\"EnforcementComment\":\"\",\"LawId\":\"329M50000100037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000100037_20190801_430M60000100152\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

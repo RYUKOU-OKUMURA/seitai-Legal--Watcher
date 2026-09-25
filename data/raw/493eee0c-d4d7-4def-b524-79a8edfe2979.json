@@ -1,0 +1,15 @@
+{
+  "changeId": "493eee0c-d4d7-4def-b524-79a8edfe2979",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000008017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260925#337M50000008017",
+  "title": "普通交付税に関する省令",
+  "detectedAt": "2026-09-25T06:48:48.518Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第十七号\",\"LawName\":\"普通交付税に関する省令\",\"LawNameKana\":\"ふつうこうふぜいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620820,\"AmendName\":\"普通交付税に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十二号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260724,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008017_20260724_508M60000008092\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 普通交付税に関する省令\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第十七号\",\"LawName\":\"普通交付税に関する省令\",\"LawNameKana\":\"ふつうこうふぜいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620820,\"AmendName\":\"普通交付税に関する省令の一部を改正する省令\",\"AmendNo\":\"令和七年総務省令第百十三号\",\"AmendPromulgationDate\":20251223,\"EnforcementDate\":20251223,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008017_20251223_507M60000008113\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年自治省令第十七号\",\"LawName\":\"普通交付税に関する省令\",\"LawNameKana\":\"ふつうこうふぜいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620820,\"AmendName\":\"普通交付税に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十二号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20260724,\"EnforcementComment\":\"\",\"LawId\":\"337M50000008017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000008017_20260724_508M60000008092\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

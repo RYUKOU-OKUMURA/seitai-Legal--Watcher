@@ -1,0 +1,14 @@
+{
+  "changeId": "259bf0a5-ff1b-4243-b5d3-cdcad4ad08d6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:331M50000080028",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260925#331M50000080028",
+  "title": "大学設置基準",
+  "detectedAt": "2026-09-25T06:48:48.518Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十一年文部省令第二十八号\",\"LawName\":\"大学設置基準\",\"LawNameKana\":\"だいがくせっちきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":19561022,\"AmendName\":\"大学設置基準及び大学の設置等の認可の申請及び届出に係る手続等に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第二十九号\",\"AmendPromulgationDate\":20260904,\"EnforcementDate\":20260904,\"EnforcementComment\":\"\",\"LawId\":\"331M50000080028\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=331M50000080028_20260904_508M60000080029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
