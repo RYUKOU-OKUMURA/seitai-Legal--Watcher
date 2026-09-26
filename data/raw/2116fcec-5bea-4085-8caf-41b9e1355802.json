@@ -1,0 +1,14 @@
+{
+  "changeId": "2116fcec-5bea-4085-8caf-41b9e1355802",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260034",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260034",
+  "title": "「医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第三十六条の七第一項第一号及び第二号の規定に基づき厚生労働大臣が指定する第一類医薬品及び第二類医薬品の一部を改正する件（案）及び医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則第一条第三項第五号の規定に基づき特別の注意を要するものとして厚生労働大臣が指定する第二類医薬品の一部を改正する件（案）」に関する意見募集の結果について",
+  "detectedAt": "2026-09-26T06:48:19.613Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/25 案の公示日：2026/05/01 受付締切日時：2026/05/30 00:00 命令等の公布日：2026/09/25 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：医薬局医薬安全対策課\n03-5253-1111　\n03-3595-2435（直通）",
+  "links": [],
+  "httpStatus": 200
+}
