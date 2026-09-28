@@ -1,0 +1,14 @@
+{
+  "changeId": "2b30aa68-f656-492f-9cda-26f1781fcfa9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:403M50000040054",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260928#403M50000040054",
+  "title": "電子情報処理組織を使用して処理する場合における国税等の徴収関係事務等の取扱いの特例に関する省令",
+  "detectedAt": "2026-09-28T07:53:46.982Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三年大蔵省令第五十四号\",\"LawName\":\"電子情報処理組織を使用して処理する場合における国税等の徴収関係事務等の取扱いの特例に関する省令\",\"LawNameKana\":\"でんしじょうほうしょりそしきをしようしてしょりするばあいにおけるこくぜいとうのちょうしゅうかんけいじむとうのとりあつかいのとくれいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19911225,\"AmendName\":\"国の会計帳簿及び書類の様式等に関する省令等の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第五十九号\",\"AmendPromulgationDate\":20260910,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"403M50000040054\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=403M50000040054_20270101_508M60000040059\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

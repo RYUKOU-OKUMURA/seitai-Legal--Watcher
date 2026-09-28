@@ -1,0 +1,15 @@
+{
+  "changeId": "39d4b563-0ecb-4cc7-a8ce-7417de28ba58",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000100037",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260928#329M50000100037",
+  "title": "厚生年金保険法施行規則",
+  "detectedAt": "2026-09-28T07:53:46.982Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年厚生省令第三十七号\",\"LawName\":\"厚生年金保険法施行規則\",\"LawNameKana\":\"こうせいねんきんほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540701,\"AmendName\":\"消費生活協同組合法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年厚生労働省令第九十二号\",\"AmendPromulgationDate\":20250924,\"EnforcementDate\":20251101,\"EnforcementComment\":\"\",\"LawId\":\"329M50000100037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000100037_20251101_507M60000100092\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 厚生年金保険法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年厚生省令第三十七号\",\"LawName\":\"厚生年金保険法施行規則\",\"LawNameKana\":\"こうせいねんきんほけんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540701,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"平成三十年厚生労働省令第百五十二号\",\"AmendPromulgationDate\":20181228,\"EnforcementDate\":20190801,\"EnforcementComment\":\"\",\"LawId\":\"329M50000100037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000100037_20190801_430M60000100152\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年厚生省令第三十七号\",\"LawName\":\"厚生年金保険法施行規則\",\"LawNameKana\":\"こうせいねんきんほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540701,\"AmendName\":\"消費生活協同組合法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年厚生労働省令第九十二号\",\"AmendPromulgationDate\":20250924,\"EnforcementDate\":20251101,\"EnforcementComment\":\"\",\"LawId\":\"329M50000100037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000100037_20251101_507M60000100092\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "6ee6c66e-ef4a-4707-8555-30b04559a987",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332CO0000000043",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260928#332CO0000000043",
+  "title": "租税特別措置法施行令",
+  "detectedAt": "2026-09-28T07:53:46.982Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行令及び物資の流通の効率化に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百七十号\",\"AmendPromulgationDate\":20260904,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20261016_508CO0000000270\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 租税特別措置法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第九十八号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20260731_508CO0000000098\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行令及び物資の流通の効率化に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百七十号\",\"AmendPromulgationDate\":20260904,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20261016_508CO0000000270\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
