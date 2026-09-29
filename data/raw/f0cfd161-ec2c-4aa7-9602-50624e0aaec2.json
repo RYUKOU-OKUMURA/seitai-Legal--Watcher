@@ -1,0 +1,14 @@
+{
+  "changeId": "f0cfd161-ec2c-4aa7-9602-50624e0aaec2",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004346",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004346",
+  "title": "「障害者が生産行程に携わった食品及び観賞用の植物の日本農林規格の一部改正案についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-09-29T07:38:32.657Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/29 案の公示日：2026/05/19 受付締切日時：2026/06/17 23:59 命令等の公布日： 提出意見数：4 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4482）",
+  "links": [],
+  "httpStatus": 200
+}

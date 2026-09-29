@@ -1,0 +1,14 @@
+{
+  "changeId": "f0051284-6586-43cc-b5bd-2d0ae78b51ff",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426CO0000000172",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260929#426CO0000000172",
+  "title": "雨水の利用の推進に関する法律第二条第二項の法人を定める政令",
+  "detectedAt": "2026-09-29T07:38:32.657Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第百七十二号\",\"LawName\":\"雨水の利用の推進に関する法律第二条第二項の法人を定める政令\",\"LawNameKana\":\"あまみずのりようのすいしんにかんするほうりつだいにじょうだいにこうのほうじんをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140425,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000172\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000172_20261001_508CO0000000286\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
