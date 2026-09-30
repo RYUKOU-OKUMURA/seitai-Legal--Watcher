@@ -1,0 +1,14 @@
+{
+  "changeId": "91b2cb32-d7bd-439a-9c29-78e91bf30429",
+  "sourceId": "egov-pubcomment-result-labor",
+  "sourceName": "e-Govパブコメ 結果公示（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260196",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260196",
+  "title": "「雇用保険法施行規則の一部を改正する省令」の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日： 受付締切日時： 命令等の公布日：2026/09/30 提出意見数：0 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省　人材開発統括官付企業内人材開発支援室",
+  "links": [],
+  "httpStatus": 200
+}

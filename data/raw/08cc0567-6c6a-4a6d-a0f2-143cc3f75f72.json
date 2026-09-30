@@ -1,0 +1,14 @@
+{
+  "changeId": "08cc0567-6c6a-4a6d-a0f2-143cc3f75f72",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:427CO0000000343",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#427CO0000000343",
+  "title": "被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律の施行に伴う厚生年金保険の保険給付等に関する経過措置に関する政令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十七年政令第三百四十三号\",\"LawName\":\"被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律の施行に伴う厚生年金保険の保険給付等に関する経過措置に関する政令\",\"LawNameKana\":\"ひようしゃねんきんせいどのいちげんかとうをはかるためのこうせいねんきんほけんほうとうのいちぶをかいせいするほうりつのせこうにともなうこうせいねんきんほけんのほけんきゅうふとうにかんするけいかそちにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20150930,\"AmendName\":\"社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百七十六号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"427CO0000000343\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=427CO0000000343_20261001_508CO0000000276\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,19 @@
+{
+  "changeId": "06406259-b94a-4633-ace0-1521945b6897",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419CO0000000325",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#419CO0000000325",
+  "title": "前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十九年政令第三百二十五号\",\"LawName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令\",\"LawNameKana\":\"ぜんきこうれいしゃこうふきんおよびこうきこうれいしゃいりょうのこっこふたんきんのさんていとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20071031,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"419CO0000000325\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419CO0000000325_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十九年政令第三百二十五号\",\"LawName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令\",\"LawNameKana\":\"ぜんきこうれいしゃこうふきんおよびこうきこうれいしゃいりょうのこっこふたんきんのさんていとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20071031,\"AmendName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第百三十四号\",\"AmendPromulgationDate\":20260410,\"EnforcementDate\":20260408,\"EnforcementComment\":\"\",\"LawId\":\"419CO0000000325\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419CO0000000325_20260408_508CO0000000134\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十九年政令第三百二十五号\",\"LawName\":\"前期高齢者交付金及び後期高齢者医療の国庫負担金の算定等に関する政令\",\"LawNameKana\":\"ぜんきこうれいしゃこうふきんおよびこうきこうれいしゃいりょうのこっこふたんきんのさんていとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20071031,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"419CO0000000325\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419CO0000000325_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

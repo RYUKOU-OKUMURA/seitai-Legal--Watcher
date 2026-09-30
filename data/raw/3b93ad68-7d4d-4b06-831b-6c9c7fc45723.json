@@ -1,0 +1,18 @@
+{
+  "changeId": "3b93ad68-7d4d-4b06-831b-6c9c7fc45723",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:401CO0000000205",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#401CO0000000205",
+  "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成元年政令第二百五号\",\"LawName\":\"地域における医療及び介護の総合的な確保の促進に関する法律施行令\",\"LawNameKana\":\"ちいきにおけるいりょうおよびかいごのそうごうてきなかくほのそくしんにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19890630,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"401CO0000000205\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=401CO0000000205_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

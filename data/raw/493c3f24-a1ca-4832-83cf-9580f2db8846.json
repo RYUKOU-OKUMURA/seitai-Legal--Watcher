@@ -1,0 +1,18 @@
+{
+  "changeId": "493c3f24-a1ca-4832-83cf-9580f2db8846",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:334CO0000000041",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#334CO0000000041",
+  "title": "国民健康保険の国庫負担金等の算定に関する政令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十四年政令第四十一号\",\"LawName\":\"国民健康保険の国庫負担金等の算定に関する政令\",\"LawNameKana\":\"こくみんけんこうほけんのこっこふたんきんとうのさんていにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19590324,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"334CO0000000041\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=334CO0000000041_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

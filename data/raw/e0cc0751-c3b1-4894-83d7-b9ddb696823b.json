@@ -1,0 +1,14 @@
+{
+  "changeId": "e0cc0751-c3b1-4894-83d7-b9ddb696823b",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004348",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004348",
+  "title": "「錦鯉－用語の日本農林規格の一部改正案についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日：2026/05/19 受付締切日時：2026/06/17 23:59 命令等の公布日：2026/09/30 提出意見数：2 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4481）",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "b6d8195e-19c4-46fb-a795-9402e0e1eabe",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260199",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260199",
+  "title": "医療機器に係る日本産業規格の改正案に関する御意見の募集について",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/29 受付締切日時：2026/11/28 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医療機器審査管理課\n電話：03-5253-1111\n内線番号：4215",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "cbe141b1-2267-4c28-a10b-486c3f6e2a9b",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260200",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260200",
+  "title": "社会福祉法施行令の一部を改正する政令案に関する御意見の募集について",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/09/30 受付締切日時：2026/10/30 00:00 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局地域福祉課\n03-5253-1111",
+  "links": [],
+  "httpStatus": 200
+}

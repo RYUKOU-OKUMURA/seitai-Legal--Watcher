@@ -1,0 +1,18 @@
+{
+  "changeId": "ed7c2923-f71f-487a-abc6-085a1ee6a874",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415CO0000000027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#415CO0000000027",
+  "title": "情報通信技術を活用した行政の推進等に関する法律施行令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十五年政令第二十七号\",\"LawName\":\"情報通信技術を活用した行政の推進等に関する法律施行令\",\"LawNameKana\":\"じょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"行政手続等における情報通信の技術の利用に関する法律施行令\",\"PromulgationDate\":20030131,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"415CO0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415CO0000000027_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

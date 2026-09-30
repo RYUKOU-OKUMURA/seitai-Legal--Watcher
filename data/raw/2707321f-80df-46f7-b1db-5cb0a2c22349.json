@@ -1,0 +1,19 @@
+{
+  "changeId": "2707321f-80df-46f7-b1db-5cb0a2c22349",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329CO0000000179",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#329CO0000000179",
+  "title": "自衛隊法施行令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百七十九号\",\"LawName\":\"自衛隊法施行令\",\"LawNameKana\":\"じえいたいほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000179\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000179_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 自衛隊法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百七十九号\",\"LawName\":\"自衛隊法施行令\",\"LawNameKana\":\"じえいたいほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"自衛隊法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百六十六号\",\"AmendPromulgationDate\":20260828,\"EnforcementDate\":20260828,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000179\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000179_20260828_508CO0000000266\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百七十九号\",\"LawName\":\"自衛隊法施行令\",\"LawNameKana\":\"じえいたいほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540630,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000179\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000179_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

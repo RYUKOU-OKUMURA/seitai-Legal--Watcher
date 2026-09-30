@@ -1,0 +1,14 @@
+{
+  "changeId": "944904c6-77e3-4ff8-802c-0fff85917695",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:331M50000002093",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20260930#331M50000002093",
+  "title": "旧軍人等の遺族に対する恩給等の特例に関する法律の規定により給すべき扶助料又は改定すべき扶助料の請求手続に関する省令",
+  "detectedAt": "2026-09-30T07:40:20.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十一年総理府令第九十三号\",\"LawName\":\"旧軍人等の遺族に対する恩給等の特例に関する法律の規定により給すべき扶助料又は改定すべき扶助料の請求手続に関する省令\",\"LawNameKana\":\"きゅうぐんじんとうのいぞくにたいするおんきゅうとうのとくれいにかんするほうりつのきていによりきゅうすべきふじょりょうまたはかいていすべきふじょりょうのせいきゅうてつづきにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19561229,\"AmendName\":\"恩給給与細則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百九号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"331M50000002093\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=331M50000002093_20261001_508M60000008109\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
