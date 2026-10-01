@@ -1,0 +1,14 @@
+{
+  "changeId": "48ebe325-e5bf-4c68-b06a-9555f27755d8",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260727",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260727",
+  "title": "「人身取引対策行動計画２０２６（仮称）」（案）に対する意見の募集結果について",
+  "detectedAt": "2026-10-01T07:57:53.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日：2026/07/27 受付締切日時：2026/08/09 18:00 命令等の公布日： 提出意見数：58 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：内閣官房副長官補付",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,23 @@
+{
+  "changeId": "9748ea93-b59f-481d-875e-7aabe074bc9d",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260890",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260890",
+  "title": "「医療分野の研究開発に資するための匿名加工医療情報及び仮名加工医療情報に関する法律についてのガイドライン」の一部改定について",
+  "detectedAt": "2026-10-01T07:57:53.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/01 案の公示日： 受付締切日時： 命令等の公布日：2026/10/01 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：内閣府健康・医療戦略推進事務局（03-3539-2875）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=095260890",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "changeId": "5a415e00-cde4-4a27-87f2-340a7e859f1b",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260144",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260144",
+  "title": "医療法施行規則第三十条の三十三の六第一項の規定に基づき厚生労働大臣が定める方法等の一部を改正する告示案に関する意見募集の結果について",
+  "detectedAt": "2026-10-01T07:57:53.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日：2026/08/08 受付締切日時：2026/09/07 12:00 命令等の公布日：2026/09/30 提出意見数：11 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局地域医療計画課（代表：03-5253-1111）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260144",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "changeId": "565cdc4f-eff5-4a90-8c07-847f266c4c7e",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260121",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260121",
+  "title": "医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-10-01T07:57:53.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日：2026/07/29 受付締切日時：2026/08/27 18:00 命令等の公布日：2026/09/30 提出意見数：8 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省政策統括官付医療情報基盤担当参事官室",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260121",
+      "error": "HTTP 403"
+    }
+  ]
+}

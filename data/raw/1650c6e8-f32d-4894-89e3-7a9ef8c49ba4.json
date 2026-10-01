@@ -1,0 +1,23 @@
+{
+  "changeId": "1650c6e8-f32d-4894-89e3-7a9ef8c49ba4",
+  "sourceId": "egov-pubcomment-result-insurance",
+  "sourceName": "e-Govパブコメ 結果公示（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260208",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260208",
+  "title": "健康保険法等の一部を改正する法律の一部の施行に伴う厚生労働省関係告示の整備に関する告示の公布に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-10-01T07:57:53.785Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/09/30 案の公示日： 受付締切日時： 命令等の公布日：2026/09/30 提出意見数：0 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省保険局医療課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260208",
+      "error": "HTTP 403"
+    }
+  ]
+}
