@@ -1,0 +1,14 @@
+{
+  "changeId": "0e413051-e099-44fb-a528-ad4f274b95b3",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000230",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=141000230",
+  "title": "児童福祉施設の設備及び運営に関する基準及び放課後児童健全育成事業の設備及び運営に関する基準の一部を改正する内閣府令案に関する意見募集の結果について",
+  "detectedAt": "2026-10-02T07:42:17.834Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/01 案の公示日：2026/06/24 受付締切日時：2026/07/23 23:59 命令等の公布日：2026/10/01 提出意見数：33 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局成育環境課",
+  "links": [],
+  "httpStatus": 200
+}

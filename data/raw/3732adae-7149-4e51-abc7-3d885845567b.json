@@ -1,0 +1,29 @@
+{
+  "changeId": "3732adae-7149-4e51-abc7-3d885845567b",
+  "sourceId": "mhlw-news",
+  "sourceName": "厚生労働省報道発表（月別一覧）",
+  "sourceWeight": "high",
+  "targetKey": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202610.html",
+  "url": "https://www.mhlw.go.jp/stf/houdou/houdou_list_202610.html",
+  "title": "報道発表資料　2026年10月 ｜厚生労働省",
+  "detectedAt": "2026-10-02T07:42:17.834Z",
+  "changeType": "updated",
+  "bodyExcerpt": "ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年10月 報道発表資料 2026年10月 資料一覧 2026年10月2日（金）掲載 ロシア連邦政府等から提供された抑留者に関する資料を日本側の資料と照合し、抑留中に死亡した者の個人を特定しました NEW 一般職業紹介状況(令和8年8月分)について NEW 2026年10月1日（木）掲載 上野厚生労働大臣 閣議後記者会見のお知らせ NEW 戦没者慰霊事業のお知らせ（令和８年10月実施分） NEW 令和８年度栄養関係功労者に対する厚生労働大臣表彰について NEW 「ハタラクエール2027」応募受付の開始について NEW 世界メンタルヘルスデー2026に応援サポーターとして リラックマ・コリラックマが登場 取組開始から8年目、内閣府主催「ともともフェスタ2026」に初参画 シルバーリボンジャパン主催イベントへの参画や 自治体・企業における「心のサポーター」養成も推進 NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,11 +1,14 @@\n 報道発表資料　2026年10月 ｜厚生労働省\n-ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年10月 報道発表資料 2026年10月 資料一覧 2026年10月1日（木）掲載 戦没者慰霊事業のお知らせ（令和８年10月実施分） NEW 令和８年度栄養関係功労者に対する厚生労働大臣表彰について NEW 「ハタラクエール2027」応募受付の開始について NEW 世界メンタルヘルスデー2026に応援サポーターとして リラックマ・コリラックマが登場 取組開始から8年目、内閣府主催「ともともフェスタ2026」に初参画 シルバーリボンジャパン主催イベントへの参画や 自治体・企業における「心のサポーター」養成も推進 NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n+ホーム > 報道・広報 > 報道発表資料 > 報道発表資料 2026年10月 報道発表資料 2026年10月 資料一覧 2026年10月2日（金）掲載 ロシア連邦政府等から提供された抑留者に関する資料を日本側の資料と照合し、抑留中に死亡した者の個人を特定しました NEW 一般職業紹介状況(令和8年8月分)について NEW 2026年10月1日（木）掲載 上野厚生労働大臣 閣議後記者会見のお知らせ NEW 戦没者慰霊事業のお知らせ（令和８年10月実施分） NEW 令和８年度栄養関係功労者に対する厚生労働大臣表彰について NEW 「ハタラクエール2027」応募受付の開始について NEW 世界メンタルヘルスデー2026に応援サポーターとして リラックマ・コリラックマが登場 取組開始から8年目、内閣府主催「ともともフェスタ2026」に初参画 シルバーリボンジャパン主催イベントへの参画や 自治体・企業における「心のサポーター」養成も推進 NEW PDFファイルを見るためには、Adobe Readerというソフトが必要です。Adobe Readerは無料で配布されていますので、こちらからダウンロードしてください。\n https://get.adobe.com/jp/reader\n https://www.mhlw.go.jp/houdou_kouhou/index.html\n https://www.mhlw.go.jp/index.html\n https://www.mhlw.go.jp/stf/houdou/index.html\n+https://www.mhlw.go.jp/stf/newpage_76250.html\n https://www.mhlw.go.jp/stf/newpage_76263.html\n https://www.mhlw.go.jp/stf/newpage_76271.html\n https://www.mhlw.go.jp/stf/newpage_76387.html\n https://www.mhlw.go.jp/stf/newpage_76396.html\n+https://www.mhlw.go.jp/stf/newpage_76397.html\n+https://www.mhlw.go.jp/stf/newpage_76538.html\n \n",
+  "links": [
+    "https://get.adobe.com/jp/reader",
+    "https://www.mhlw.go.jp/houdou_kouhou/index.html",
+    "https://www.mhlw.go.jp/index.html",
+    "https://www.mhlw.go.jp/stf/houdou/index.html",
+    "https://www.mhlw.go.jp/stf/newpage_76250.html",
+    "https://www.mhlw.go.jp/stf/newpage_76263.html",
+    "https://www.mhlw.go.jp/stf/newpage_76271.html",
+    "https://www.mhlw.go.jp/stf/newpage_76387.html",
+    "https://www.mhlw.go.jp/stf/newpage_76396.html",
+    "https://www.mhlw.go.jp/stf/newpage_76397.html",
+    "https://www.mhlw.go.jp/stf/newpage_76538.html"
+  ],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": []
+}
