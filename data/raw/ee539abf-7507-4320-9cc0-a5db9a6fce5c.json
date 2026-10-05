@@ -1,0 +1,14 @@
+{
+  "changeId": "ee539abf-7507-4320-9cc0-a5db9a6fce5c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000010018",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261005#417M60000010018",
+  "title": "不動産登記規則",
+  "detectedAt": "2026-10-05T07:52:09.191Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年法務省令第十八号\",\"LawName\":\"不動産登記規則\",\"LawNameKana\":\"ふどうさんとうききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20050218,\"AmendName\":\"不動産登記規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第二十三号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20261005,\"EnforcementComment\":\"\",\"LawId\":\"417M60000010018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000010018_20261005_508M60000010023\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

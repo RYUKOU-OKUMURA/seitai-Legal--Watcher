@@ -1,0 +1,14 @@
+{
+  "changeId": "b55d4a9e-ee23-4059-b044-fbcc0f1a2249",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:212IO0000000369",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261005#212IO0000000369",
+  "title": "恩給給与規則",
+  "detectedAt": "2026-10-05T07:52:09.191Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"勅令\",\"LawNo\":\"大正十二年勅令第三百六十九号\",\"LawName\":\"恩給給与規則\",\"LawNameKana\":\"おんきゅうきゅうよきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19230822,\"AmendName\":\"恩給給与規則及び国会議員互助年金法施行令を廃止する等の政令附則第二項の規定によりなおその効力を有するものとされた同令第一条の規定による廃止前の国会議員互助年金法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十二号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"212IO0000000369\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=212IO0000000369_20261001_508CO0000000282\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "a1f6a1ed-822c-498f-97ab-f283a2c82579",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000002022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261005#507M60000002022",
+  "title": "公認会計士法の審判手続における参考人及び鑑定人の旅費及び手当に関する内閣府令",
+  "detectedAt": "2026-10-05T07:52:09.191Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年内閣府令第二十二号\",\"LawName\":\"公認会計士法の審判手続における参考人及び鑑定人の旅費及び手当に関する内閣府令\",\"LawNameKana\":\"こうにんかいけいしほうのしんぱんてつづきにおけるさんこうにんおよびかんていにんのりょひおよびてあてにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20250326,\"AmendName\":\"公認会計士法の規定による課徴金に関する内閣府令の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十一号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261130,\"EnforcementComment\":\"\",\"LawId\":\"507M60000002022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000002022_20261130_508M60000002081\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

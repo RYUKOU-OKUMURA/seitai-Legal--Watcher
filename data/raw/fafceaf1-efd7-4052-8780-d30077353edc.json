@@ -1,0 +1,14 @@
+{
+  "changeId": "fafceaf1-efd7-4052-8780-d30077353edc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341CO0000000248",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261005#341CO0000000248",
+  "title": "官公需についての中小企業者の受注の確保に関する法律施行令",
+  "detectedAt": "2026-10-05T07:52:09.191Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十一年政令第二百四十八号\",\"LawName\":\"官公需についての中小企業者の受注の確保に関する法律施行令\",\"LawNameKana\":\"かんこうじゅについてのちゅうしょうきぎょうしゃのじゅちゅうのかくほにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19660711,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"341CO0000000248\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341CO0000000248_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

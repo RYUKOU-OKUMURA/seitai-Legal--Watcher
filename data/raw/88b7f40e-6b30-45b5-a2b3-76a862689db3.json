@@ -1,0 +1,14 @@
+{
+  "changeId": "88b7f40e-6b30-45b5-a2b3-76a862689db3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347M50000040026",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261005#347M50000040026",
+  "title": "外国債等の発行者の内容等の開示に関する内閣府令",
+  "detectedAt": "2026-10-05T07:52:09.191Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十七年大蔵省令第二十六号\",\"LawName\":\"外国債等の発行者の内容等の開示に関する内閣府令\",\"LawNameKana\":\"がいこくさいとうのはっこうしゃのないようとうのかいじにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":19720427,\"AmendName\":\"金融商品取引法第二条に規定する定義に関する内閣府令等の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第七十九号\",\"AmendPromulgationDate\":20260915,\"EnforcementDate\":20261005,\"EnforcementComment\":\"\",\"LawId\":\"347M50000040026\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347M50000040026_20261005_508M60000002079\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
