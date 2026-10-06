@@ -1,0 +1,15 @@
+{
+  "changeId": "38a4dd74-cf46-455c-a14b-57ee88096eea",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416M60001FCA002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#416M60001FCA002",
+  "title": "外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第二号\",\"LawName\":\"外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\",\"LawNameKana\":\"がいこくかわせほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうきそく\",\"OldLawName\":\"外国為替法令に係る行政手続等における情報通信の技術の利用に関する法律施行規則\",\"PromulgationDate\":20041201,\"AmendName\":\"対内直接投資等に関する命令及び外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20270104,\"EnforcementComment\":\"\",\"LawId\":\"416M60001FCA002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60001FCA002_20270104_508M60001FCA006\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第二号\",\"LawName\":\"外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\",\"LawNameKana\":\"がいこくかわせほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうきそく\",\"OldLawName\":\"外国為替法令に係る行政手続等における情報通信の技術の利用に関する法律施行規則\",\"PromulgationDate\":20041201,\"AmendName\":\"外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第五号\",\"AmendPromulgationDate\":20260909,\"EnforcementDate\":20270104,\"EnforcementComment\":\"\",\"LawId\":\"416M60001FCA002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60001FCA002_20270104_508M60001FCA005\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十六年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第二号\",\"LawName\":\"外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\",\"LawNameKana\":\"がいこくかわせほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうきそく\",\"OldLawName\":\"外国為替法令に係る行政手続等における情報通信の技術の利用に関する法律施行規則\",\"PromulgationDate\":20041201,\"AmendName\":\"対内直接投資等に関する命令及び外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20270104,\"EnforcementComment\":\"\",\"LawId\":\"416M60001FCA002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416M60001FCA002_20270104_508M60001FCA006\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

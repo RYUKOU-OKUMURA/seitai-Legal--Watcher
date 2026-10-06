@@ -1,0 +1,14 @@
+{
+  "changeId": "52957353-fdae-445d-8f49-e8aa64b81620",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:405CO0000000163",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#405CO0000000163",
+  "title": "皇太子徳仁親王の婚姻を記念するための五万円の貨幣の形式等に関する政令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成五年政令第百六十三号\",\"LawName\":\"皇太子徳仁親王の婚姻を記念するための五万円の貨幣の形式等に関する政令\",\"LawNameKana\":\"こうたいしなるひとしんのうのこんいんをきねんするためのごまんえんのかへいのけいしきとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19930430,\"AmendName\":\"通貨の単位及び貨幣の発行等に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十五号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20260916,\"EnforcementComment\":\"\",\"LawId\":\"405CO0000000163\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=405CO0000000163_20260916_508CO0000000285\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

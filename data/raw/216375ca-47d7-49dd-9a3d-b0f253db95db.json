@@ -1,0 +1,14 @@
+{
+  "changeId": "216375ca-47d7-49dd-9a3d-b0f253db95db",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425CO0000000022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#425CO0000000022",
+  "title": "国等による障害者就労施設等からの物品等の調達の推進等に関する法律施行令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十五年政令第二十二号\",\"LawName\":\"国等による障害者就労施設等からの物品等の調達の推進等に関する法律施行令\",\"LawNameKana\":\"くにとうによるしょうがいしゃしゅうろうしせつとうからのぶっぴんとうのちょうたつのすいしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20130130,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"425CO0000000022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425CO0000000022_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

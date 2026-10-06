@@ -1,0 +1,14 @@
+{
+  "changeId": "eaffd124-237f-44ed-a0c0-375fe1ff0054",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428CO0000000008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#428CO0000000008",
+  "title": "建築物のエネルギー消費性能の向上等に関する法律施行令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十八年政令第八号\",\"LawName\":\"建築物のエネルギー消費性能の向上等に関する法律施行令\",\"LawNameKana\":\"けんちくぶつのえねるぎーしょうひせいのうのこうじょうとうにかんするほうりつしこうれい\",\"OldLawName\":\"建築物のエネルギー消費性能の向上に関する法律施行令\",\"PromulgationDate\":20160115,\"AmendName\":\"建築物のエネルギー消費性能の向上等に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百九十二号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"428CO0000000008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428CO0000000008_20270401_508CO0000000292\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

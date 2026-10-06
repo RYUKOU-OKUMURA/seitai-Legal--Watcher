@@ -1,0 +1,14 @@
+{
+  "changeId": "479b7428-dd73-4ddd-b2bc-dae2ad7359b0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420CO0000000390",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#420CO0000000390",
+  "title": "行政執行法人の役員の退職管理に関する政令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十年政令第三百九十号\",\"LawName\":\"行政執行法人の役員の退職管理に関する政令\",\"LawNameKana\":\"ぎょうせいしっこうほうじんのやくいんのたいしょくかんりにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20081225,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"420CO0000000390\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420CO0000000390_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

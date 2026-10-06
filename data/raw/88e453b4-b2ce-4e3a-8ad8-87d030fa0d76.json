@@ -1,0 +1,14 @@
+{
+  "changeId": "88e453b4-b2ce-4e3a-8ad8-87d030fa0d76",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:412CO0000000556",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#412CO0000000556",
+  "title": "国等による環境物品等の調達の推進等に関する法律第二条第二項の法人を定める政令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十二年政令第五百五十六号\",\"LawName\":\"国等による環境物品等の調達の推進等に関する法律第二条第二項の法人を定める政令\",\"LawNameKana\":\"くにとうによるかんきょうぶっぴんとうのちょうたつのすいしんとうにかんするほうりつだいにじょうだいにこうのほうじんをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20001227,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"412CO0000000556\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=412CO0000000556_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

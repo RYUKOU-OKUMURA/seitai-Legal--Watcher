@@ -1,0 +1,14 @@
+{
+  "changeId": "4d0098ef-48c0-4221-9bdc-8d1cca639253",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000500001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#507M60000500001",
+  "title": "厚生労働省・経済産業省関係経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく供給確保計画の認定等に関する省令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年厚生労働省・経済産業省令第一号\",\"LawName\":\"厚生労働省・経済産業省関係経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく供給確保計画の認定等に関する省令\",\"LawNameKana\":\"こうせいろうどうしょう・けいざいさんぎょうしょうかんけいけいざいしさくをいったいてきにこうずることによるあんぜんほしょうのかくほのすいしんにかんするほうりつにもとづくきょうきゅうかくほけいかくのにんていとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20251226,\"AmendName\":\"厚生労働省・経済産業省関係経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく供給確保計画の認定等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省・経済産業省令第一号\",\"AmendPromulgationDate\":20260918,\"EnforcementDate\":20260918,\"EnforcementComment\":\"\",\"LawId\":\"507M60000500001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000500001_20260918_508M60000500001\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,19 @@
+{
+  "changeId": "e0a6f032-0d3c-4d93-945a-9bfaccd9f08b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415CO0000000027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#415CO0000000027",
+  "title": "情報通信技術を活用した行政の推進等に関する法律施行令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十五年政令第二十七号\",\"LawName\":\"情報通信技術を活用した行政の推進等に関する法律施行令\",\"LawNameKana\":\"じょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"行政手続等における情報通信の技術の利用に関する法律施行令\",\"PromulgationDate\":20030131,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"415CO0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415CO0000000027_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 情報通信技術を活用した行政の推進等に関する法律施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十五年政令第二十七号\",\"LawName\":\"情報通信技術を活用した行政の推進等に関する法律施行令\",\"LawNameKana\":\"じょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"行政手続等における情報通信の技術の利用に関する法律施行令\",\"PromulgationDate\":20030131,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う関係政令の整備及び経過措置に関する政令\",\"AmendNo\":\"令和八年政令第二百七十四号\",\"AmendPromulgationDate\":20260911,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"415CO0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415CO0000000027_20261001_508CO0000000274\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十五年政令第二十七号\",\"LawName\":\"情報通信技術を活用した行政の推進等に関する法律施行令\",\"LawNameKana\":\"じょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"行政手続等における情報通信の技術の利用に関する法律施行令\",\"PromulgationDate\":20030131,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"415CO0000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415CO0000000027_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

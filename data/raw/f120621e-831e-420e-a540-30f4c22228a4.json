@@ -1,0 +1,14 @@
+{
+  "changeId": "f120621e-831e-420e-a540-30f4c22228a4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000042007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#508M60000042007",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定海外事業計画の認定等に関する命令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府・財務省令第七号\",\"LawName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定海外事業計画の認定等に関する命令\",\"LawNameKana\":\"けいざいしさくをいったいてきにこうずることによるあんぜんほしょうのかくほのすいしんにかんするほうりつにもとづくとくていかいがいじぎょうけいかくのにんていとうにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260918,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260918,\"EnforcementDate\":20260918,\"EnforcementComment\":\"\",\"LawId\":\"508M60000042007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000042007_20260918_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

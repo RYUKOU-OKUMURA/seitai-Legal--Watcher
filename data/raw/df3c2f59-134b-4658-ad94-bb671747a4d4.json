@@ -1,0 +1,14 @@
+{
+  "changeId": "df3c2f59-134b-4658-ad94-bb671747a4d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000042005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#508M60000042005",
+  "title": "株式会社国際協力銀行法施行規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府・財務省令第五号\",\"LawName\":\"株式会社国際協力銀行法施行規則\",\"LawNameKana\":\"かぶしきがいしゃこくさいきょうりょくぎんこうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260916,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20260918,\"EnforcementComment\":\"\",\"LawId\":\"508M60000042005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000042005_20260918_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

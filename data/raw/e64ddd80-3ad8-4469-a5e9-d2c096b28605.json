@@ -1,0 +1,14 @@
+{
+  "changeId": "e64ddd80-3ad8-4469-a5e9-d2c096b28605",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:355M50000400030",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#355M50000400030",
+  "title": "経済産業省特定業種石油等消費統計調査規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十五年通商産業省令第三十号\",\"LawName\":\"経済産業省特定業種石油等消費統計調査規則\",\"LawNameKana\":\"けいざいさんぎょうしょうとくていぎょうしゅせきゆとうしょうひとうけいちょうさきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19800819,\"AmendName\":\"経済産業省特定業種石油等消費統計調査規則の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第七十一号\",\"AmendPromulgationDate\":20260924,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"355M50000400030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=355M50000400030_20270101_508M60000400071\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

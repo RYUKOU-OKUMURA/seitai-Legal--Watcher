@@ -1,0 +1,15 @@
+{
+  "changeId": "ce9a8db7-04fa-43e3-9a51-cb5e91667734",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410M50000200083",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#410M50000200083",
+  "title": "種苗法施行規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年農林水産省令第八十三号\",\"LawName\":\"種苗法施行規則\",\"LawNameKana\":\"しゅびょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981203,\"AmendName\":\"農林水産省関係福島復興再生特別措置法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第六十八号\",\"AmendPromulgationDate\":20260924,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"410M50000200083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000200083_20260924_508M60000200068\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 種苗法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年農林水産省令第八十三号\",\"LawName\":\"種苗法施行規則\",\"LawNameKana\":\"しゅびょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981203,\"AmendName\":\"種苗法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第十六号\",\"AmendPromulgationDate\":20260323,\"EnforcementDate\":20260323,\"EnforcementComment\":\"\",\"LawId\":\"410M50000200083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000200083_20260323_508M60000200016\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年農林水産省令第八十三号\",\"LawName\":\"種苗法施行規則\",\"LawNameKana\":\"しゅびょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981203,\"AmendName\":\"農林水産省関係福島復興再生特別措置法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第六十八号\",\"AmendPromulgationDate\":20260924,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"410M50000200083\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000200083_20260924_508M60000200068\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

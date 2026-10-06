@@ -1,0 +1,14 @@
+{
+  "changeId": "f467f48e-842e-4445-b14c-9723c3656144",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325CO0000000338",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#325CO0000000338",
+  "title": "建築基準法施行令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第三百三十八号\",\"LawName\":\"建築基準法施行令\",\"LawNameKana\":\"けんちくきじゅんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19501116,\"AmendName\":\"建築基準法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十四号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"325CO0000000338\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000338_20261101_508CO0000000284\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "16bc5c19-2d36-4e97-a835-5c06731ce588",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419CO0000000344",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#419CO0000000344",
+  "title": "国等における温室効果ガス等の排出の削減に配慮した契約の推進に関する法律第二条第三項の法人を定める政令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十九年政令第三百四十四号\",\"LawName\":\"国等における温室効果ガス等の排出の削減に配慮した契約の推進に関する法律第二条第三項の法人を定める政令\",\"LawNameKana\":\"くにとうにおけるおんしつこうかがすとうのはいしゅつのさくげんにはいりょしたけいやくのすいしんにかんするほうりつだいにじょうだいさんこうのほうじんをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20071121,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"419CO0000000344\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419CO0000000344_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

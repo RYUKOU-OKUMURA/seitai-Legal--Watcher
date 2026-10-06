@@ -1,0 +1,14 @@
+{
+  "changeId": "bd92d2f8-a867-4333-b6bc-2afb28009e8c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419M60000800080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#419M60000800080",
+  "title": "地域公共交通の活性化及び再生に関する法律施行規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十九年国土交通省令第八十号\",\"LawName\":\"地域公共交通の活性化及び再生に関する法律施行規則\",\"LawNameKana\":\"ちいきこうきょうこうつうのかっせいかおよびさいせいにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20070926,\"AmendName\":\"地域公共交通の活性化及び再生に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第七十四号\",\"AmendPromulgationDate\":20260918,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"419M60000800080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419M60000800080_20261016_508M60000800074\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

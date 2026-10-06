@@ -1,0 +1,14 @@
+{
+  "changeId": "ddff5923-bb01-46f1-a875-364603f679af",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60000800033",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#426M60000800033",
+  "title": "国土交通省関係国家戦略特別区域法施行規則",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年国土交通省令第三十三号\",\"LawName\":\"国土交通省関係国家戦略特別区域法施行規則\",\"LawNameKana\":\"こくどこうつうしょうかんけいこっかせんりゃくとくべつくいきほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20140328,\"AmendName\":\"道路運送法施行規則及び国土交通省関係国家戦略特別区域法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第七十五号\",\"AmendPromulgationDate\":20260918,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"426M60000800033\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60000800033_20261016_508M60000800075\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

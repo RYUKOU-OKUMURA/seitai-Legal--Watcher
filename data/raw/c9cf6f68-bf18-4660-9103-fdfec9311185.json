@@ -1,0 +1,14 @@
+{
+  "changeId": "c9cf6f68-bf18-4660-9103-fdfec9311185",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424M60000040015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#424M60000040015",
+  "title": "株式会社国際協力銀行の会計に関する省令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十四年財務省令第十五号\",\"LawName\":\"株式会社国際協力銀行の会計に関する省令\",\"LawNameKana\":\"かぶしきがいしゃこくさいきょうりょくぎんこうのかいけいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20120326,\"AmendName\":\"株式会社国際協力銀行の会計に関する命令\",\"AmendNo\":\"令和八年内閣府・財務省令第六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20260918,\"EnforcementComment\":\"\",\"LawId\":\"424M60000040015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424M60000040015_20260918_508M60000042006\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "1a8d175d-f0a0-4637-960f-d3f8f4b7d4f2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:351CO0000000252",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261006#351CO0000000252",
+  "title": "高年齢者等の雇用の安定等に関する法律施行令",
+  "detectedAt": "2026-10-06T08:17:08.313Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十一年政令第二百五十二号\",\"LawName\":\"高年齢者等の雇用の安定等に関する法律施行令\",\"LawNameKana\":\"こうねんれいしゃとうのこようのあんていとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19760928,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"351CO0000000252\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=351CO0000000252_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
