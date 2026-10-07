@@ -1,0 +1,14 @@
+{
+  "changeId": "c5d316ff-b86f-48dc-972e-260c4d98427a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50000800075",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261007#326M50000800075",
+  "title": "道路運送法施行規則",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年運輸省令第七十五号\",\"LawName\":\"道路運送法施行規則\",\"LawNameKana\":\"どうろうんそうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19510818,\"AmendName\":\"道路運送法施行規則及び国土交通省関係国家戦略特別区域法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第七十五号\",\"AmendPromulgationDate\":20260918,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"326M50000800075\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000800075_20261016_508M60000800075\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

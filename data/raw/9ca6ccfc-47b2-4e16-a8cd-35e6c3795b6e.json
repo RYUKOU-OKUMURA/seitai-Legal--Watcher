@@ -1,0 +1,14 @@
+{
+  "changeId": "9ca6ccfc-47b2-4e16-a8cd-35e6c3795b6e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335CO0000000292",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261007#335CO0000000292",
+  "title": "障害者の雇用の促進等に関する法律施行令",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十五年政令第二百九十二号\",\"LawName\":\"障害者の雇用の促進等に関する法律施行令\",\"LawNameKana\":\"しょうがいしゃのこようのそくしんとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19601201,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"335CO0000000292\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335CO0000000292_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

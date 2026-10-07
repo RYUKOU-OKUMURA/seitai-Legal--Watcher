@@ -1,0 +1,14 @@
+{
+  "changeId": "1740d76d-10e5-420e-b5fd-896de635e0de",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:355M50007FC2001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261007#355M50007FC2001",
+  "title": "対内直接投資等に関する命令",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十五年総理府・大蔵省・文部省・厚生省・農林水産省・通商産業省・運輸省・郵政省・労働省・建設省令第一号\",\"LawName\":\"対内直接投資等に関する命令\",\"LawNameKana\":\"たいないちょくせつとうしとうにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19801120,\"AmendName\":\"対内直接投資等に関する命令及び外国為替法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20270104,\"EnforcementComment\":\"\",\"LawId\":\"355M50007FC2001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=355M50007FC2001_20270104_508M60001FCA006\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

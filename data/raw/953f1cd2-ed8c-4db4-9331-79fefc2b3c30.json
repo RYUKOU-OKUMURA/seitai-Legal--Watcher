@@ -1,0 +1,14 @@
+{
+  "changeId": "953f1cd2-ed8c-4db4-9331-79fefc2b3c30",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000241",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000241",
+  "title": "幼児教育WG・保育専門委員会取りまとめ（案）に関する御意見の募集について",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/06 受付締切日時：2026/11/05 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局成育基盤企画課",
+  "links": [],
+  "httpStatus": 200
+}

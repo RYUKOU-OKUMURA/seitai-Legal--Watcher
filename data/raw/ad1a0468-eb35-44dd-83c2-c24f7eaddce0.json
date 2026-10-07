@@ -1,0 +1,14 @@
+{
+  "changeId": "ad1a0468-eb35-44dd-83c2-c24f7eaddce0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:417M60000002017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261007#417M60000002017",
+  "title": "金融商品取引法第六章の二の規定による課徴金に関する内閣府令",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十七年内閣府令第十七号\",\"LawName\":\"金融商品取引法第六章の二の規定による課徴金に関する内閣府令\",\"LawNameKana\":\"きんゆうしょうひんとりひきほうだいろくしょうのにのきていによるかちょうきんにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20050304,\"AmendName\":\"金融商品取引法第六章の二の規定による課徴金に関する内閣府令の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261130,\"EnforcementComment\":\"\",\"LawId\":\"417M60000002017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=417M60000002017_20261130_508M60000002080\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

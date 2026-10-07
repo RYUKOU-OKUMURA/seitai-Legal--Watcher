@@ -1,0 +1,14 @@
+{
+  "changeId": "fd4037a6-2957-4aa9-877e-d20296069f41",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:338CO0000000011",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261007#338CO0000000011",
+  "title": "指定都市又は中核市の指定があつた場合における必要な事項を定める政令",
+  "detectedAt": "2026-10-07T07:52:18.810Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十八年政令第十一号\",\"LawName\":\"指定都市又は中核市の指定があつた場合における必要な事項を定める政令\",\"LawNameKana\":\"していとしまたはちゅうかくしのしていがあつたばあいにおけるひつようなじこうをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19630128,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"338CO0000000011\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=338CO0000000011_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
