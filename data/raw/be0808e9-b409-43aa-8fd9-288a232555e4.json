@@ -1,0 +1,14 @@
+{
+  "changeId": "be0808e9-b409-43aa-8fd9-288a232555e4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000110004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261008#507M60000110004",
+  "title": "外国人の育成就労の適正な実施及び育成就労外国人の保護に関する法律施行規則",
+  "detectedAt": "2026-10-08T08:08:33.166Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年法務省・厚生労働省令第四号\",\"LawName\":\"外国人の育成就労の適正な実施及び育成就労外国人の保護に関する法律施行規則\",\"LawNameKana\":\"がいこくじんのいくせいしゅうろうのてきせいなじっしおよびいくせいしゅうろうがいこくじんのほごにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20250930,\"AmendName\":\"外国人の育成就労の適正な実施及び育成就労外国人の保護に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年法務省・厚生労働省令第三号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"507M60000110004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000110004_20270401_508M60000110003\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

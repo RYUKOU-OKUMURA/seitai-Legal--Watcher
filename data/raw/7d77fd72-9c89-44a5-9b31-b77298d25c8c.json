@@ -1,0 +1,14 @@
+{
+  "changeId": "7d77fd72-9c89-44a5-9b31-b77298d25c8c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:505M60000020002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261008#505M60000020002",
+  "title": "外務省の所管する法令に係る情報通信技術を利用する方法による国の歳入等の納付に関する法律施行規則",
+  "detectedAt": "2026-10-08T08:08:33.166Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和五年外務省令第二号\",\"LawName\":\"外務省の所管する法令に係る情報通信技術を利用する方法による国の歳入等の納付に関する法律施行規則\",\"LawNameKana\":\"がいむしょうのしょかんするほうれいにかかるじょうほうつうしんぎじゅつをりようするほうほうによるくにのさいにゅうとうののうふにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20230210,\"AmendName\":\"外務省の所管する法令に係る情報通信技術を利用する方法による国の歳入等の納付に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和七年外務省令第七号\",\"AmendPromulgationDate\":20250327,\"EnforcementDate\":20250401,\"EnforcementComment\":\"\",\"LawId\":\"505M60000020002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=505M60000020002_20250401_507M60000020007\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

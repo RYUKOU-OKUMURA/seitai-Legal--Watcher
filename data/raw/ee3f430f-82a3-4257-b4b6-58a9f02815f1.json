@@ -1,0 +1,14 @@
+{
+  "changeId": "ee3f430f-82a3-4257-b4b6-58a9f02815f1",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTLIST",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTLIST",
+  "title": "意見募集案件一覧/社会保険",
+  "detectedAt": "2026-10-08T08:08:33.166Z",
+  "changeType": "updated",
+  "bodyExcerpt": "",
+  "links": [],
+  "httpStatus": 200
+}
