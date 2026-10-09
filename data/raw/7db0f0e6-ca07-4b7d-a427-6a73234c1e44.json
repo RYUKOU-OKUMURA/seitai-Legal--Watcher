@@ -1,0 +1,14 @@
+{
+  "changeId": "7db0f0e6-ca07-4b7d-a427-6a73234c1e44",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339M50004000009",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#339M50004000009",
+  "title": "不動産の鑑定評価に関する法律施行規則",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十九年建設省令第九号\",\"LawName\":\"不動産の鑑定評価に関する法律施行規則\",\"LawNameKana\":\"ふどうさんのかんていひょうかにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19640328,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"339M50004000009\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339M50004000009_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

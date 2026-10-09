@@ -1,0 +1,14 @@
+{
+  "changeId": "ddc27dfd-53fa-4727-b435-13c67393619d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424CO0000000185",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#424CO0000000185",
+  "title": "内閣府設置法第四条第三項第八号の人工衛星等を定める政令",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十四年政令第百八十五号\",\"LawName\":\"内閣府設置法第四条第三項第八号の人工衛星等を定める政令\",\"LawNameKana\":\"ないかくふせっちほうだいよんじょうだいさんこうだいはちごうのじんこうえいせいとうをさだめるせいれい\",\"OldLawName\":\"内閣府設置法第四条第三項第七号の六の人工衛星等を定める政令,内閣府設置法第四条第三項第七号の七の人工衛星等を定める政令\",\"PromulgationDate\":20120711,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"424CO0000000185\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424CO0000000185_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

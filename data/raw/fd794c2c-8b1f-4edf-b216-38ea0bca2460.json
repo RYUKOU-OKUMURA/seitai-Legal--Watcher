@@ -1,0 +1,14 @@
+{
+  "changeId": "fd794c2c-8b1f-4edf-b216-38ea0bca2460",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60002001001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#508M60002001001",
+  "title": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律第三条第一項の規定による予備自衛官等の兼業に関する規則",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣官房・防衛省令第一号\",\"LawName\":\"予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律第三条第一項の規定による予備自衛官等の兼業に関する規則\",\"LawNameKana\":\"よびじえいかんとうのしょくむのえんかつなすいこうをはかるためのこっかこうむいんおよびちほうこうむいんのけんぎょうのとくれいにかんするほうりつだいさんじょうだいいっこうのきていによるよびじえいかんとうのけんぎょうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260928,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260928,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"508M60002001001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60002001001_20270401_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

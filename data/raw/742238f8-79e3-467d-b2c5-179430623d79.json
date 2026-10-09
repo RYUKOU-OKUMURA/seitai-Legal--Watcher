@@ -1,0 +1,14 @@
+{
+  "changeId": "742238f8-79e3-467d-b2c5-179430623d79",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:348RJNJ16002000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#348RJNJ16002000",
+  "title": "人事院規則一六―二（在外公館に勤務する職員、船員である職員等に係る災害補償の特例）",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十八年人事院規則一六―二\",\"LawName\":\"人事院規則一六―二（在外公館に勤務する職員、船員である職員等に係る災害補償の特例）\",\"LawNameKana\":\"じんじいんきそくじゅうろくのにざいがいこうかんにきんむするしょくいんせんいんであるしょくいんとうにかかるさいがいほしょうのとくれい\",\"OldLawName\":\"\",\"PromulgationDate\":19731101,\"AmendName\":\"人事院規則一六―〇（職員の災害補償）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則一六―〇―八二\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"348RJNJ16002000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=348RJNJ16002000_20261001_508RJNJ16000082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

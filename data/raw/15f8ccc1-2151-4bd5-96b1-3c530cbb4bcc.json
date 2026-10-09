@@ -1,0 +1,18 @@
+{
+  "changeId": "15f8ccc1-2151-4bd5-96b1-3c530cbb4bcc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416AC0000000117",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#416AC0000000117",
+  "title": "武力攻撃事態及び存立危機事態における捕虜等の取扱いに関する法律",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百十七号\",\"LawName\":\"武力攻撃事態及び存立危機事態における捕虜等の取扱いに関する法律\",\"LawNameKana\":\"ぶりょくこうげきじたいおよびそんりつききじたいにおけるほりょとうのとりあつかいにかんするほうりつ\",\"OldLawName\":\"武力攻撃事態における捕虜等の取扱いに関する法律\",\"PromulgationDate\":20040618,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20270301,\"EnforcementComment\":\"\",\"LawId\":\"416AC0000000117\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000117_20270301_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

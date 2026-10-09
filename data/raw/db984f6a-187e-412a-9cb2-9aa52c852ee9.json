@@ -1,0 +1,15 @@
+{
+  "changeId": "db984f6a-187e-412a-9cb2-9aa52c852ee9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423CO0000000409",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#423CO0000000409",
+  "title": "東日本大震災復興特別区域法施行令",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第四百九号\",\"LawName\":\"東日本大震災復興特別区域法施行令\",\"LawNameKana\":\"ひがしにほんだいしんさいふっこうとくべつくいきほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111222,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000409\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000409_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 東日本大震災復興特別区域法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第四百九号\",\"LawName\":\"東日本大震災復興特別区域法施行令\",\"LawNameKana\":\"ひがしにほんだいしんさいふっこうとくべつくいきほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111222,\"AmendName\":\"環境省設置法の一部を改正する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百五号\",\"AmendPromulgationDate\":20260624,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000409\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000409_20260701_508CO0000000205\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第四百九号\",\"LawName\":\"東日本大震災復興特別区域法施行令\",\"LawNameKana\":\"ひがしにほんだいしんさいふっこうとくべつくいきほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111222,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000409\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000409_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

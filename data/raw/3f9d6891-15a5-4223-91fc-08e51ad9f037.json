@@ -1,0 +1,14 @@
+{
+  "changeId": "3f9d6891-15a5-4223-91fc-08e51ad9f037",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424CO0000000022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#424CO0000000022",
+  "title": "復興庁組織令",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十四年政令第二十二号\",\"LawName\":\"復興庁組織令\",\"LawNameKana\":\"ふっこうちょうそしきれい\",\"OldLawName\":\"\",\"PromulgationDate\":20120201,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"424CO0000000022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424CO0000000022_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

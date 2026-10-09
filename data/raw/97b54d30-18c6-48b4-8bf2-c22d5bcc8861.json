@@ -1,0 +1,18 @@
+{
+  "changeId": "97b54d30-18c6-48b4-8bf2-c22d5bcc8861",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335AC0000000146",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261009#335AC0000000146",
+  "title": "薬剤師法",
+  "detectedAt": "2026-10-09T08:08:09.525Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第百四十六号\",\"LawName\":\"薬剤師法\",\"LawNameKana\":\"やくざいしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600810,\"AmendName\":\"健康保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十一号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20270301,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000146\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000146_20270301_508AC0000000031\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}
