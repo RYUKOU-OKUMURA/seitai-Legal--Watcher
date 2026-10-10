@@ -1,0 +1,14 @@
+{
+  "changeId": "fe9cbadf-5c01-445a-ab38-c5ee03de9036",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260217",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260217",
+  "title": "「男女雇用機会均等対策基本方針（案）」に関する意見の募集について",
+  "detectedAt": "2026-10-10T07:52:30.332Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/09 受付締切日時：2026/11/07 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省雇用環境・均等局雇用機会均等課\n電話：03-5253-1111（内線 7846）",
+  "links": [],
+  "httpStatus": 200
+}

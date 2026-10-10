@@ -1,0 +1,14 @@
+{
+  "changeId": "17b0c376-d45a-46b9-a5d8-29e4af67a3d1",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260112",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260112",
+  "title": "第二十改正日本薬局方作成基本方針(案)に関する御意見募集の結果について",
+  "detectedAt": "2026-10-10T07:52:30.332Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/09 案の公示日：2026/08/08 受付締切日時：2026/09/07 00:00 命令等の公布日：2026/10/09 提出意見数：20 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線２７４１）",
+  "links": [],
+  "httpStatus": 200
+}
