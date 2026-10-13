@@ -1,0 +1,14 @@
+{
+  "changeId": "40a01d1e-a2c7-4485-a128-96bbeac4f02d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423CO0000000132",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261013#423CO0000000132",
+  "title": "東日本大震災に対処するための特別の財政援助及び助成に関する法律の農林水産省関係規定の施行等に関する政令",
+  "detectedAt": "2026-10-13T08:40:18.169Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十三年政令第百三十二号\",\"LawName\":\"東日本大震災に対処するための特別の財政援助及び助成に関する法律の農林水産省関係規定の施行等に関する政令\",\"LawNameKana\":\"ひがしにほんだいしんさいにたいしょするためのとくべつのざいせいえんじょおよびじょせいにかんするほうりつののうりんすいさんしょうかんけいきていのしこうとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20110502,\"AmendName\":\"農業近代化資金融通法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百号\",\"AmendPromulgationDate\":20260928,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"423CO0000000132\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423CO0000000132_20261001_508CO0000000300\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

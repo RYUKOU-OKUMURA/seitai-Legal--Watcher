@@ -1,0 +1,14 @@
+{
+  "changeId": "93a25274-791c-4899-a521-b7850d509770",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000002088",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261013#508M60000002088",
+  "title": "日本学術会議法施行規則",
+  "detectedAt": "2026-10-13T08:40:18.169Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府令第八十八号\",\"LawName\":\"日本学術会議法施行規則\",\"LawNameKana\":\"にほんがくじゅつかいぎほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20261001,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"508M60000002088\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000002088_20261001_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

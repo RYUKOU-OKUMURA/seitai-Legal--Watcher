@@ -1,0 +1,14 @@
+{
+  "changeId": "e29e5524-b325-45a5-b5e0-1e4f8600fb4b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:309M10011000001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261013#309M10011000001",
+  "title": "漁船特殊規程",
+  "detectedAt": "2026-10-13T08:40:18.169Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和九年逓信省・農林省令\",\"LawName\":\"漁船特殊規程\",\"LawNameKana\":\"ぎょせんとくしゅきてい\",\"OldLawName\":\"\",\"PromulgationDate\":19340205,\"AmendName\":\"漁船特殊規程の一部を改正する省令\",\"AmendNo\":\"令和五年農林水産省・国土交通省令第二号\",\"AmendPromulgationDate\":20230310,\"EnforcementDate\":\"\",\"EnforcementComment\":\"千九百七十七年の漁船の安全のためのトレモリノス国際条約に関する千九百九十三年のトレモリノス議定書の規定の実施に関する二千十二年のケープタウン協定が日本国について効力を生ずる日\",\"LawId\":\"309M10011000001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=309M10011000001_21171231_505M60000A00002\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
