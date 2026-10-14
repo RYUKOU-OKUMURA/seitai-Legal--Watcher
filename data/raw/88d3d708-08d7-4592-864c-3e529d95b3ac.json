@@ -1,0 +1,14 @@
+{
+  "changeId": "88d3d708-08d7-4592-864c-3e529d95b3ac",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411CO0000000253",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261014#411CO0000000253",
+  "title": "重要影響事態に際して我が国の平和及び安全を確保するための措置に関する法律第三条第一項第四号の関係行政機関を定める政令",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十一年政令第二百五十三号\",\"LawName\":\"重要影響事態に際して我が国の平和及び安全を確保するための措置に関する法律第三条第一項第四号の関係行政機関を定める政令\",\"LawNameKana\":\"じゅうようえいきょうじたいにさいしてわがくにのへいわおよびあんぜんをかくほするためのそちにかんするほうりつだいさんじょうだいいっこうだいよんごうのかんけいぎょうせいきかんをさだめるせいれい\",\"OldLawName\":\"周辺事態に際して我が国の平和及び安全を確保するための措置に関する法律第三条第一項第四号の関係行政機関を定める政令\",\"PromulgationDate\":19990818,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"411CO0000000253\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411CO0000000253_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

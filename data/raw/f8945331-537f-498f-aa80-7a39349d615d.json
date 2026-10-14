@@ -1,0 +1,14 @@
+{
+  "changeId": "f8945331-537f-498f-aa80-7a39349d615d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426CO0000000336",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261014#426CO0000000336",
+  "title": "特定秘密の保護に関する法律施行令",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十六年政令第三百三十六号\",\"LawName\":\"特定秘密の保護に関する法律施行令\",\"LawNameKana\":\"とくていひみつのほごにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20141017,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"426CO0000000336\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426CO0000000336_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

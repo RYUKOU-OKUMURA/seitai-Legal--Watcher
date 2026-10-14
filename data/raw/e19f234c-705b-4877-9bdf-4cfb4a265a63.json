@@ -1,0 +1,14 @@
+{
+  "changeId": "e19f234c-705b-4877-9bdf-4cfb4a265a63",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329CO0000000149",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261014#329CO0000000149",
+  "title": "日米相互防衛援助協定等に伴う秘密保護法施行令",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十九年政令第百四十九号\",\"LawName\":\"日米相互防衛援助協定等に伴う秘密保護法施行令\",\"LawNameKana\":\"にちべいそうごぼうえいえんじょきょうていとうにともなうひみつほごほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19540618,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"329CO0000000149\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329CO0000000149_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

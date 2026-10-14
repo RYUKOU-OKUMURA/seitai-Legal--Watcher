@@ -1,0 +1,14 @@
+{
+  "changeId": "cf331711-58d8-4e9e-9c2b-d58ddb64c6a4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341CO0000000312",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261014#341CO0000000312",
+  "title": "防衛省職員の災害補償に関する政令",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十一年政令第三百十二号\",\"LawName\":\"防衛省職員の災害補償に関する政令\",\"LawNameKana\":\"ぼうえいしょうしょくいんのさいがいほしょうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19660908,\"AmendName\":\"防衛省設置法等の一部を改正する法律の一部の施行に伴う関係政令の整理に関する政令\",\"AmendNo\":\"令和八年政令第三百八号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"341CO0000000312\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341CO0000000312_20261001_508CO0000000308\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

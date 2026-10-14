@@ -1,0 +1,14 @@
+{
+  "changeId": "0465f781-501d-473e-9ef0-43f66a8967eb",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220366",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220366",
+  "title": "「義肢装具士学校養成所指定規則の一部を改正する省令案」 に関する御意見募集の結果について",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/13 案の公示日：2023/01/31 受付締切日時：2023/03/01 23:59 命令等の公布日：2025/03/31 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局医事課\n電話：03-3595-2196",
+  "links": [],
+  "httpStatus": 200
+}

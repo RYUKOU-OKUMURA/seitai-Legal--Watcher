@@ -1,0 +1,14 @@
+{
+  "changeId": "0c9aab2c-ca55-40e3-9308-4392eb4e07d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416CO0000000356",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261014#416CO0000000356",
+  "title": "国立研究開発法人医薬基盤・健康・栄養研究所法施行令",
+  "detectedAt": "2026-10-14T06:52:16.698Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十六年政令第三百五十六号\",\"LawName\":\"国立研究開発法人医薬基盤・健康・栄養研究所法施行令\",\"LawNameKana\":\"こくりつけんきゅうかいはつほうじんいやくきばんけんこうえいようけんきゅうしょほうしこうれい\",\"OldLawName\":\"独立行政法人医薬基盤研究所法施行令,独立行政法人医薬基盤・健康・栄養研究所法施行令\",\"PromulgationDate\":20041117,\"AmendName\":\"国立研究開発法人医薬基盤・健康・栄養研究所法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百九号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20260930,\"EnforcementComment\":\"\",\"LawId\":\"416CO0000000356\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416CO0000000356_20260930_508CO0000000309\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
