@@ -1,0 +1,14 @@
+{
+  "changeId": "5119848d-8c7e-4e84-9e68-0ace08d487f3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:344M50000002045",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#344M50000002045",
+  "title": "防衛省職員給与施行規則",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年総理府令第四十五号\",\"LawName\":\"防衛省職員給与施行規則\",\"LawNameKana\":\"ぼうえいしょうしょくいんきゅうよしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19691202,\"AmendName\":\"防衛省設置法等の一部を改正する法律の一部の施行に伴う関係省令の整理に関する省令\",\"AmendNo\":\"令和八年防衛省令第二十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"344M50000002045\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50000002045_20261001_508M60002000024\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

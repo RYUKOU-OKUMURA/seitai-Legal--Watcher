@@ -1,0 +1,14 @@
+{
+  "changeId": "e203aba9-180f-431b-b653-d1525faf60e7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428CO0000000224",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#428CO0000000224",
+  "title": "重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十八年政令第二百二十四号\",\"LawName\":\"重要施設の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行令\",\"LawNameKana\":\"じゅうようしせつのしゅうへんちいきのじょうくうにおけるこがたむじんきとうのひこうのきんしにかんするほうりつしこうれい\",\"OldLawName\":\"国会議事堂、内閣総理大臣官邸その他の国の重要な施設等、外国公館等及び原子力事業所の周辺地域の上空における小型無人機等の飛行の禁止に関する法律施行令\",\"PromulgationDate\":20160520,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"428CO0000000224\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428CO0000000224_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "a8de8e6f-8995-4616-b92a-f529a4f686e6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000304",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#508CO0000000304",
+  "title": "防災庁組織令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第三百四号\",\"LawName\":\"防災庁組織令\",\"LawNameKana\":\"ぼうさいちょうそしきれい\",\"OldLawName\":\"\",\"PromulgationDate\":20260930,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000304\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000304_20261102_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

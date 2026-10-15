@@ -1,0 +1,14 @@
+{
+  "changeId": "a3e81390-a268-48aa-9d1e-02026793096f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800025",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#413M60000800025",
+  "title": "地方航空局組織規則",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第二十五号\",\"LawName\":\"地方航空局組織規則\",\"LawNameKana\":\"ちほうこうくうきょくそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"地方航空局組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第七十九号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800025\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800025_20261001_508M60000800079\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "6446e866-ff64-4fba-9246-625063d28245",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339M50000002035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#339M50000002035",
+  "title": "防衛省の職員に対する寒冷地手当支給規則",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十九年総理府令第三十五号\",\"LawName\":\"防衛省の職員に対する寒冷地手当支給規則\",\"LawNameKana\":\"ぼうえいしょうのしょくいんにたいするかんれいちてあてしきゅうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19640828,\"AmendName\":\"防衛省設置法等の一部を改正する法律の一部の施行に伴う関係省令の整理に関する省令\",\"AmendNo\":\"令和八年防衛省令第二十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"339M50000002035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339M50000002035_20261001_508M60002000024\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

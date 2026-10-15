@@ -1,0 +1,14 @@
+{
+  "changeId": "b8eb35df-b1c0-4f50-9b69-06c3fd7abbbe",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000002012",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#327M50000002012",
+  "title": "内閣府所管旅費取扱規則",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年総理府令第十二号\",\"LawName\":\"内閣府所管旅費取扱規則\",\"LawNameKana\":\"ないかくふしょかんりょひとりあつかいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520423,\"AmendName\":\"内閣府所管旅費取扱規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"327M50000002012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000002012_20261001_508M60000002084\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

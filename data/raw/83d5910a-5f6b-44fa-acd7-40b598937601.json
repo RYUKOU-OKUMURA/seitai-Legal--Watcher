@@ -1,0 +1,14 @@
+{
+  "changeId": "83d5910a-5f6b-44fa-acd7-40b598937601",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:431M60000200008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#431M60000200008",
+  "title": "日本農林規格等に関する法律等に規定する検査身分証明書の様式を定める省令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十一年農林水産省令第八号\",\"LawName\":\"日本農林規格等に関する法律等に規定する検査身分証明書の様式を定める省令\",\"LawNameKana\":\"にほんほうりんきかくとうにかんするほうりつとうにきていするけんさみぶんしょうめいしょのようしきをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20190206,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"431M60000200008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=431M60000200008_20270401_508M60000200071\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

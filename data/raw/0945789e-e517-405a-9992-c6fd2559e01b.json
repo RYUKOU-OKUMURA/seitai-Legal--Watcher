@@ -1,0 +1,15 @@
+{
+  "changeId": "0945789e-e517-405a-9992-c6fd2559e01b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337CO0000000352",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#337CO0000000352",
+  "title": "地方公務員等共済組合法施行令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十七年政令第三百五十二号\",\"LawName\":\"地方公務員等共済組合法施行令\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行令及び地方公務員等共済組合法施行令及び被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律及び地方公務員等共済組合法及び被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律の一部を改正する法律の施行に伴う地方公務員等共済組合法による長期給付等に関する経過措置に関する政令の一部を改正する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20271001,\"EnforcementComment\":\"\",\"LawId\":\"337CO0000000352\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337CO0000000352_20271001_508CO0000000311\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方公務員等共済組合法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十七年政令第三百五十二号\",\"LawName\":\"地方公務員等共済組合法施行令\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"日本学術会議法の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第二百八十六号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"337CO0000000352\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337CO0000000352_20261001_508CO0000000286\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十七年政令第三百五十二号\",\"LawName\":\"地方公務員等共済組合法施行令\",\"LawNameKana\":\"ちほうこうむいんとうきょうさいくみあいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620908,\"AmendName\":\"地方公務員等共済組合法施行令及び地方公務員等共済組合法施行令及び被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律及び地方公務員等共済組合法及び被用者年金制度の一元化等を図るための厚生年金保険法等の一部を改正する法律の一部を改正する法律の施行に伴う地方公務員等共済組合法による長期給付等に関する経過措置に関する政令の一部を改正する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20271001,\"EnforcementComment\":\"\",\"LawId\":\"337CO0000000352\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337CO0000000352_20271001_508CO0000000311\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "5abf1bdc-e7e5-4378-936b-0e9e77966850",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337CO0000000288",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#337CO0000000288",
+  "title": "災害対策基本法施行令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十七年政令第二百八十八号\",\"LawName\":\"災害対策基本法施行令\",\"LawNameKana\":\"さいがいたいさくきほんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19620709,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"337CO0000000288\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337CO0000000288_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

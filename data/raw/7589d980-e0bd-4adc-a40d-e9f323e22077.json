@@ -1,0 +1,14 @@
+{
+  "changeId": "7589d980-e0bd-4adc-a40d-e9f323e22077",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421M60000200041",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#421M60000200041",
+  "title": "米穀の新用途への利用の促進に関する法律施行規則",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十一年農林水産省令第四十一号\",\"LawName\":\"米穀の新用途への利用の促進に関する法律施行規則\",\"LawNameKana\":\"べいこくのしんようとへのりようのそくしんにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20090630,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"421M60000200041\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421M60000200041_20270401_508M60000200071\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

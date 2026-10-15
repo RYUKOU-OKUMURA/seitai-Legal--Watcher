@@ -1,0 +1,14 @@
+{
+  "changeId": "0e1362a3-c560-4c54-911c-2389cae7ab93",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410CO0000000361",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#410CO0000000361",
+  "title": "被災者生活再建支援法施行令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十年政令第三百六十一号\",\"LawName\":\"被災者生活再建支援法施行令\",\"LawNameKana\":\"ひさいしゃせいかつさいけんしえんほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19981105,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"410CO0000000361\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410CO0000000361_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

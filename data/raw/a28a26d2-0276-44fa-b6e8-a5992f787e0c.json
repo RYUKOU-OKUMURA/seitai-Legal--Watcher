@@ -1,0 +1,14 @@
+{
+  "changeId": "a28a26d2-0276-44fa-b6e8-a5992f787e0c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:328CO0000000425",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261015#328CO0000000425",
+  "title": "私立学校教職員共済法施行令",
+  "detectedAt": "2026-10-15T06:40:16.458Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十八年政令第四百二十五号\",\"LawName\":\"私立学校教職員共済法施行令\",\"LawNameKana\":\"しりつがっこうきょうしょくいんきょうさいほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19531226,\"AmendName\":\"私立学校教職員共済法施行令等の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百十二号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"328CO0000000425\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=328CO0000000425_20261001_508CO0000000312\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
