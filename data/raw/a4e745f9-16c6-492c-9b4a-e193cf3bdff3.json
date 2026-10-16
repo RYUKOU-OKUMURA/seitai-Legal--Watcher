@@ -1,0 +1,19 @@
+{
+  "changeId": "a4e745f9-16c6-492c-9b4a-e193cf3bdff3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411M50000100036",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#411M50000100036",
+  "title": "介護保険法施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年厚生省令第三十六号\",\"LawName\":\"介護保険法施行規則\",\"LawNameKana\":\"かいごほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19990331,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"411M50000100036\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000100036_20261001_508M60000100144\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 介護保険法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年厚生省令第三十六号\",\"LawName\":\"介護保険法施行規則\",\"LawNameKana\":\"かいごほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19990331,\"AmendName\":\"介護保険法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百五号\",\"AmendPromulgationDate\":20260622,\"EnforcementDate\":20260801,\"EnforcementComment\":\"\",\"LawId\":\"411M50000100036\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000100036_20260801_508M60000100105\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十一年厚生省令第三十六号\",\"LawName\":\"介護保険法施行規則\",\"LawNameKana\":\"かいごほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19990331,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"411M50000100036\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411M50000100036_20261001_508M60000100144\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

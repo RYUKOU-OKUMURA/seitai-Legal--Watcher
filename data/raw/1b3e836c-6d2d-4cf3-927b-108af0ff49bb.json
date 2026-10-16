@@ -1,0 +1,15 @@
+{
+  "changeId": "1b3e836c-6d2d-4cf3-927b-108af0ff49bb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50080000018",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#325M50080000018",
+  "title": "無線設備規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十八号\",\"LawName\":\"無線設備規則\",\"LawNameKana\":\"むせんせつびきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"電波法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十五号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000018_20261001_508M60000008115\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 無線設備規則\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十八号\",\"LawName\":\"無線設備規則\",\"LawNameKana\":\"むせんせつびきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第九十五号\",\"AmendPromulgationDate\":20260730,\"EnforcementDate\":20260730,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000018_20260730_508M60000008095\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十五年電波監理委員会規則第十八号\",\"LawName\":\"無線設備規則\",\"LawNameKana\":\"むせんせつびきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501130,\"AmendName\":\"電波法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十五号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"325M50080000018\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50080000018_20261001_508M60000008115\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

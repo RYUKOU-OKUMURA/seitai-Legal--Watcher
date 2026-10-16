@@ -1,0 +1,14 @@
+{
+  "changeId": "f55b5267-8af5-4016-9123-5335a0e6c6d3",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000243",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000243",
+  "title": "「保育所における感染症対策ガイドライン（2026年改訂版）」案に関する御意見の募集について",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/16 受付締切日時：2026/11/15 00:00 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局成育基盤企画課",
+  "links": [],
+  "httpStatus": 200
+}

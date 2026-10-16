@@ -1,0 +1,14 @@
+{
+  "changeId": "d07457fe-0826-4aac-b7e2-ccdd51c79052",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419M60000800072",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#419M60000800072",
+  "title": "海洋構築物等に係る安全水域の設定等に関する法律施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十九年国土交通省令第七十二号\",\"LawName\":\"海洋構築物等に係る安全水域の設定等に関する法律施行規則\",\"LawNameKana\":\"かいようこうちくぶつとうにかかるあんぜんすいいきのせっていとうにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20070719,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"419M60000800072\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419M60000800072_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

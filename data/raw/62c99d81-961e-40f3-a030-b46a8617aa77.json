@@ -1,0 +1,15 @@
+{
+  "changeId": "62c99d81-961e-40f3-a030-b46a8617aa77",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:358M50000002001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#358M50000002001",
+  "title": "警備業法施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十八年総理府令第一号\",\"LawName\":\"警備業法施行規則\",\"LawNameKana\":\"けいびぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"警備業法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"358M50000002001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50000002001_20261001_508M60000002085\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 警備業法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十八年総理府令第一号\",\"LawName\":\"警備業法施行規則\",\"LawNameKana\":\"けいびぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"道路交通法施行規則及び警備業法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和六年内閣府令第六十一号\",\"AmendPromulgationDate\":20240627,\"EnforcementDate\":20240627,\"EnforcementComment\":\"\",\"LawId\":\"358M50000002001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50000002001_20240627_506M60000002061\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十八年総理府令第一号\",\"LawName\":\"警備業法施行規則\",\"LawNameKana\":\"けいびぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19830110,\"AmendName\":\"警備業法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"358M50000002001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=358M50000002001_20261001_508M60000002085\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

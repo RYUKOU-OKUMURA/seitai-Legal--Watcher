@@ -1,0 +1,19 @@
+{
+  "changeId": "4408cf02-cea2-4a8e-8596-75dad8d4a81c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:340M50000100055",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#340M50000100055",
+  "title": "母子保健法施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年厚生省令第五十五号\",\"LawName\":\"母子保健法施行規則\",\"LawNameKana\":\"ぼしほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19651228,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴うこども家庭庁関係内閣府令の整理に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十七号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"340M50000100055\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000100055_20261001_508M60000002087\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 母子保健法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年厚生省令第五十五号\",\"LawName\":\"母子保健法施行規則\",\"LawNameKana\":\"ぼしほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19651228,\"AmendName\":\"母子保健法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第十二号\",\"AmendPromulgationDate\":20260327,\"EnforcementDate\":20260401,\"EnforcementComment\":\"\",\"LawId\":\"340M50000100055\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000100055_20260401_508M60000002012\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十年厚生省令第五十五号\",\"LawName\":\"母子保健法施行規則\",\"LawNameKana\":\"ぼしほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19651228,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴うこども家庭庁関係内閣府令の整理に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十七号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"340M50000100055\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=340M50000100055_20261001_508M60000002087\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

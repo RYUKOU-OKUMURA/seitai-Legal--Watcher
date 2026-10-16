@@ -1,0 +1,15 @@
+{
+  "changeId": "a43254d5-0d41-4e8f-b0fa-13f54af45c05",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418M60000200059",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#418M60000200059",
+  "title": "農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年農林水産省令第五十九号\",\"LawName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則\",\"LawNameKana\":\"のうぎょうのにないてにたいするけいえいあんていのためのこうふきんのこうふにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060627,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"418M60000200059\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000200059_20270401_508M60000200071\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年農林水産省令第五十九号\",\"LawName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則\",\"LawNameKana\":\"のうぎょうのにないてにたいするけいえいあんていのためのこうふきんのこうふにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060627,\"AmendName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第六十五号\",\"AmendPromulgationDate\":20260813,\"EnforcementDate\":20260813,\"EnforcementComment\":\"\",\"LawId\":\"418M60000200059\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000200059_20260813_508M60000200065\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年農林水産省令第五十九号\",\"LawName\":\"農業の担い手に対する経営安定のための交付金の交付に関する法律施行規則\",\"LawNameKana\":\"のうぎょうのにないてにたいするけいえいあんていのためのこうふきんのこうふにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060627,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"418M60000200059\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000200059_20270401_508M60000200071\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

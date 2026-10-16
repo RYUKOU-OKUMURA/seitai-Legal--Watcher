@@ -1,0 +1,14 @@
+{
+  "changeId": "bb60ce94-f1ca-4e6b-903c-205f69d7ee61",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50000800050",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#406M50000800050",
+  "title": "航空法の一部を改正する法律の一部の施行に伴う経過措置を定める省令",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成六年運輸省令第五十号\",\"LawName\":\"航空法の一部を改正する法律の一部の施行に伴う経過措置を定める省令\",\"LawNameKana\":\"こうくうほうのいちぶをかいせいするほうりつのいちぶのせこうにともなうけいかそちをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19941109,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"406M50000800050\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50000800050_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

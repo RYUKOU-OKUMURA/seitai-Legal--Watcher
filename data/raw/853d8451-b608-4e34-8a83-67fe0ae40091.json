@@ -1,0 +1,14 @@
+{
+  "changeId": "853d8451-b608-4e34-8a83-67fe0ae40091",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000240005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#508M60000240005",
+  "title": "財務省及び農林水産省の所管する法令に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年財務省・農林水産省令第五号\",\"LawName\":\"財務省及び農林水産省の所管する法令に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則\",\"LawNameKana\":\"ざいむしょうおよびのうりんすいさんしょうのしょかんするほうれいにかかるみんかんじぎょうしゃとうがおこなうしょめんのほぞんとうにおけるじょうほうつうしんのぎじゅつのりようにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260930,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"508M60000240005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000240005_20270401_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

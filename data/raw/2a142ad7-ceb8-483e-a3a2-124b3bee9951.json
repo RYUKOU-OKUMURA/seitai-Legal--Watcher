@@ -1,0 +1,14 @@
+{
+  "changeId": "2a142ad7-ceb8-483e-a3a2-124b3bee9951",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC0000000059",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#419AC0000000059",
+  "title": "地域公共交通の活性化及び再生に関する法律",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第五十九号\",\"LawName\":\"地域公共交通の活性化及び再生に関する法律\",\"LawNameKana\":\"ちいきこうきょうこうつうのかっせいかおよびさいせいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070525,\"AmendName\":\"地域公共交通の活性化及び再生に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第三十五号\",\"AmendPromulgationDate\":20260610,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"419AC0000000059\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000059_20261016_508AC0000000035\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

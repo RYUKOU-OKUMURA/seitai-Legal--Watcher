@@ -1,0 +1,15 @@
+{
+  "changeId": "499040bb-7aea-41e8-953a-7f49cf3a6d65",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339RJNJ09017000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#339RJNJ09017000",
+  "title": "人事院規則九―一七（俸給の特別調整額）",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和三十九年人事院規則九―一七\",\"LawName\":\"人事院規則九―一七（俸給の特別調整額）\",\"LawNameKana\":\"じんじいんきそくきゅうのじゅうななほうきゅうのとくべつちょうせいがく\",\"OldLawName\":\"\",\"PromulgationDate\":19641226,\"AmendName\":\"人事院規則九―一七（俸給の特別調整額）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―一七―一七九\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"339RJNJ09017000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339RJNJ09017000_20261001_508RJNJ09017179\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 人事院規則九―一七（俸給の特別調整額）\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和三十九年人事院規則九―一七\",\"LawName\":\"人事院規則九―一七（俸給の特別調整額）\",\"LawNameKana\":\"じんじいんきそくきゅうのじゅうななほうきゅうのとくべつちょうせいがく\",\"OldLawName\":\"\",\"PromulgationDate\":19641226,\"AmendName\":\"人事院規則九―一七（俸給の特別調整額）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―一七―一七七\",\"AmendPromulgationDate\":20260701,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"339RJNJ09017000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339RJNJ09017000_20260701_508RJNJ09017177\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和三十九年人事院規則九―一七\",\"LawName\":\"人事院規則九―一七（俸給の特別調整額）\",\"LawNameKana\":\"じんじいんきそくきゅうのじゅうななほうきゅうのとくべつちょうせいがく\",\"OldLawName\":\"\",\"PromulgationDate\":19641226,\"AmendName\":\"人事院規則九―一七（俸給の特別調整額）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則九―一七―一七九\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"339RJNJ09017000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339RJNJ09017000_20261001_508RJNJ09017179\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

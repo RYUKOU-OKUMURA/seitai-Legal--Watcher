@@ -1,0 +1,14 @@
+{
+  "changeId": "53934f63-d794-42c9-a7b6-87afcb4c7488",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000240004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#508M60000240004",
+  "title": "財務省・農林水産省関係主要食糧の需給及び価格の安定に関する法律施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年財務省・農林水産省令第四号\",\"LawName\":\"財務省・農林水産省関係主要食糧の需給及び価格の安定に関する法律施行規則\",\"LawNameKana\":\"ざいむしょうのうりんすいさんしょうかんけいしゅようしょくりょうのじゅきゅうおよびかかくのあんていにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260930,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"508M60000240004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000240004_20270401_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

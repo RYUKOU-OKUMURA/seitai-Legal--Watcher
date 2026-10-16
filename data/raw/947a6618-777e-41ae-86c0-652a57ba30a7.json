@@ -1,0 +1,14 @@
+{
+  "changeId": "947a6618-777e-41ae-86c0-652a57ba30a7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:407M50000200017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#407M50000200017",
+  "title": "主要食糧の需給及び価格の安定に関する法律施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成七年農林水産省令第十七号\",\"LawName\":\"主要食糧の需給及び価格の安定に関する法律施行規則\",\"LawNameKana\":\"しゅようしょくりょうのじゅきゅうおよびかかくのあんていにかんするほうりつせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19950327,\"AmendName\":\"主要食糧の需給及び価格の安定に関する法律施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十一号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"407M50000200017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=407M50000200017_20270401_508M60000200071\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "fa60c4ee-46ca-441e-b15b-2b31e47e2545",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333M50000100053",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261016#333M50000100053",
+  "title": "国民健康保険法施行規則",
+  "detectedAt": "2026-10-16T06:32:40.266Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十三年厚生省令第五十三号\",\"LawName\":\"国民健康保険法施行規則\",\"LawNameKana\":\"こくみんけんこうほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19581227,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"333M50000100053\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333M50000100053_20261001_508M60000100144\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}
