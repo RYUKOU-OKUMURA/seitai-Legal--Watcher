@@ -497,3 +497,5 @@
 {"at":"2026-10-16T06:32:40.266Z","changeId":"fa60c4ee-46ca-441e-b15b-2b31e47e2545","status":"error","error":"[plan_required] Cloud Agent is not available for free users. Please upgrade to Pro."}
 {"at":"2026-10-16T06:32:40.266Z","changeId":"ccfdc193-339b-460a-add7-0024ab974b68","status":"error","error":"[plan_required] Cloud Agent is not available for free users. Please upgrade to Pro."}
 {"at":"2026-10-16T06:32:40.266Z","changeId":"3c82549b-b994-443e-b3b0-ca4307f365da","status":"error","error":"[plan_required] Cloud Agent is not available for free users. Please upgrade to Pro."}
+{"at":"2026-10-17T06:22:04.265Z","changeId":"cc8af9f3-71ee-4283-bf82-d5515e778062","status":"error","error":"[plan_required] Cloud Agent is not available for free users. Please upgrade to Pro."}
+{"at":"2026-10-17T06:22:04.265Z","changeId":"1753f02e-644c-4c92-9992-2b084c650975","status":"error","error":"[plan_required] Cloud Agent is not available for free users. Please upgrade to Pro."}

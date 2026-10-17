@@ -1,0 +1,23 @@
+{
+  "changeId": "1753f02e-644c-4c92-9992-2b084c650975",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260168",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260168",
+  "title": "地域における医療及び介護の総合的な確保の促進に関する法律施行規則の一部を改正する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-10-17T06:22:04.265Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/16 案の公示日：2026/08/28 受付締切日時：2026/09/26 23:59 命令等の公布日：2026/10/16 提出意見数：21 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省政策統括官付医療情報連携担当参事官室（03-5253-1111）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260168",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "c153361d-f681-4db6-b240-2f3e4a0bf2a1",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260213",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260213",
+  "title": "資金移動業者の口座への賃金支払に関する資金移動業者向けガイドライン（改正案）に関する御意見の募集について",
+  "detectedAt": "2026-10-17T06:22:04.265Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/16 受付締切日時：2026/11/16 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局賃金課\n電話：03-5253-1111（内線5677）",
+  "links": [],
+  "httpStatus": 200
+}
