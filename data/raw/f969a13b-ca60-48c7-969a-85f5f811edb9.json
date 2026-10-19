@@ -1,0 +1,14 @@
+{
+  "changeId": "f969a13b-ca60-48c7-969a-85f5f811edb9",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60000100063",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#426M60000100063",
+  "title": "放課後児童健全育成事業の設備及び運営に関する基準",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年厚生労働省令第六十三号\",\"LawName\":\"放課後児童健全育成事業の設備及び運営に関する基準\",\"LawNameKana\":\"ほうかごじどうけんぜんいくせいじぎょうのせつびおよびうんえいにかんするきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":20140430,\"AmendName\":\"児童福祉施設の設備及び運営に関する基準及び放課後児童健全育成事業の設備及び運営に関する基準の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"426M60000100063\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60000100063_20270401_508M60000002090\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "923d6052-583b-49c4-a4c1-9587ddf17a2a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325CO0000000201",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#325CO0000000201",
+  "title": "建築士法施行令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第二百一号\",\"LawName\":\"建築士法施行令\",\"LawNameKana\":\"けんちくしほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500622,\"AmendName\":\"建築士法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百二十四号\",\"AmendPromulgationDate\":20261009,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"325CO0000000201\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000201_20270401_508CO0000000324\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

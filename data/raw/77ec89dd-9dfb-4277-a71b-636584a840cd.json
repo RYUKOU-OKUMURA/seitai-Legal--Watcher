@@ -1,0 +1,14 @@
+{
+  "changeId": "77ec89dd-9dfb-4277-a71b-636584a840cd",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000100032",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#327M50000100032",
+  "title": "母体保護法施行規則",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年厚生省令第三十二号\",\"LawName\":\"母体保護法施行規則\",\"LawNameKana\":\"ぼたいほごほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520804,\"AmendName\":\"母体保護法施行規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十一号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"327M50000100032\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000100032_20261001_508M60000002091\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,18 @@
+{
+  "changeId": "a9e61b7f-253c-4b96-8e33-77d1d6be6d75",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506M60000002115",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#506M60000002115",
+  "title": "医療情報基盤・診療報酬審査支払機構の支援納付金関係業務に係る業務方法書に記載すべき事項を定める内閣府令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年内閣府令第百十五号\",\"LawName\":\"医療情報基盤・診療報酬審査支払機構の支援納付金関係業務に係る業務方法書に記載すべき事項を定める内閣府令\",\"LawNameKana\":\"いりょうじょうほうきばんしんりょうほうしゅうしんさしはらいきこうのしえんのうふきんかんけいぎょうむにかかるぎょうむほうほうしょにきさいすべきじこうをさだめるないかくふれい\",\"OldLawName\":\"社会保険診療報酬支払基金の支援納付金関係業務に係る業務方法書に記載すべき事項を定める内閣府令\",\"PromulgationDate\":20241226,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴うこども家庭庁関係内閣府令の整理に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十七号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"506M60000002115\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60000002115_20261001_508M60000002087\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

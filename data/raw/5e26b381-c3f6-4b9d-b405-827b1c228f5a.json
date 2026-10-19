@@ -1,0 +1,18 @@
+{
+  "changeId": "5e26b381-c3f6-4b9d-b405-827b1c228f5a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506M60000100006",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#506M60000100006",
+  "title": "医療情報基盤・診療報酬審査支払機構の流行初期医療確保措置関係業務に係る財務及び会計に関する省令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和六年厚生労働省令第六号\",\"LawName\":\"医療情報基盤・診療報酬審査支払機構の流行初期医療確保措置関係業務に係る財務及び会計に関する省令\",\"LawNameKana\":\"いりょうじょうほうきばんしんりょうほうしゅうしんさしはらいきこうのりゅうこうしょきいりょうかくほそちかんけいぎょうむにかかるざいむおよびかいけいにかんするしょうれい\",\"OldLawName\":\"社会保険診療報酬支払基金の流行初期医療確保措置関係業務に係る財務及び会計に関する省令\",\"PromulgationDate\":20240117,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"506M60000100006\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506M60000100006_20261001_508M60000100144\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

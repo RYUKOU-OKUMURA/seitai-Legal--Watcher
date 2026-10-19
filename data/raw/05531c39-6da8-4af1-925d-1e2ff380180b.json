@@ -1,0 +1,14 @@
+{
+  "changeId": "05531c39-6da8-4af1-925d-1e2ff380180b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346M50004000029",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#346M50004000029",
+  "title": "積立式宅地建物販売業法施行規則",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十六年建設省令第二十九号\",\"LawName\":\"積立式宅地建物販売業法施行規則\",\"LawNameKana\":\"つみたてしきたくちたてものはんばいぎょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19711214,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"346M50004000029\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346M50004000029_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

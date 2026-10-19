@@ -1,0 +1,18 @@
+{
+  "changeId": "1ff132d0-3721-44ef-9291-3106dc7e61c1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60000100168",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#503M60000100168",
+  "title": "社会保険診療報酬支払基金の支払基金連結情報提供業務に係る財務及び会計に関する省令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年厚生労働省令第百六十八号\",\"LawName\":\"社会保険診療報酬支払基金の支払基金連結情報提供業務に係る財務及び会計に関する省令\",\"LawNameKana\":\"しゃかいほけんしんりょうほうしゅうしはらいききんのしはらいききんれんけつじょうほうていきょうぎょうむにかかるざいむおよびかいけいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20210930,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"503M60000100168\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60000100168_20261001_508M60000100144\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "39c0c39d-f4a8-46c3-acea-187329d7403f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:410M50000080039",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#410M50000080039",
+  "title": "スポーツ振興投票の実施等に関する法律施行規則",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十年文部省令第三十九号\",\"LawName\":\"スポーツ振興投票の実施等に関する法律施行規則\",\"LawNameKana\":\"すぽーつしんこうとうひょうのじっしとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19981119,\"AmendName\":\"スポーツ振興投票の実施等に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第三十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"410M50000080039\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=410M50000080039_20261001_508M60000080032\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

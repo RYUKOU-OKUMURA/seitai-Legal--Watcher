@@ -1,0 +1,18 @@
+{
+  "changeId": "14694d9c-e1db-4bbe-994e-b2a15dcae28f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60000100145",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#423M60000100145",
+  "title": "医療情報基盤・診療報酬審査支払機構の特定Ｂ型肝炎ウイルス感染者給付金等支給関係業務に係る業務方法書に記載すべき事項を定める省令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十三年厚生労働省令第百四十五号\",\"LawName\":\"医療情報基盤・診療報酬審査支払機構の特定Ｂ型肝炎ウイルス感染者給付金等支給関係業務に係る業務方法書に記載すべき事項を定める省令\",\"LawNameKana\":\"いりょうじょうほうきばんしんりょうほうしゅうしんさしはらいきこうのとくていびーがたかんえんういるすかんせんしゃきゅうふきんとうしきゅうかんけいぎょうむにかかるぎょうむほうほうしょにきさいすべきじこうをさだめるしょうれい\",\"OldLawName\":\"社会保険診療報酬支払基金の特定Ｂ型肝炎ウイルス感染者給付金等支給関係業務に係る業務方法書に記載すべき事項を定める省令\",\"PromulgationDate\":20111216,\"AmendName\":\"医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"423M60000100145\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60000100145_20261001_508M60000100144\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

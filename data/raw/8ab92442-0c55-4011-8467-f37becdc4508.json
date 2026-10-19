@@ -1,0 +1,14 @@
+{
+  "changeId": "8ab92442-0c55-4011-8467-f37becdc4508",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60002000006",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#507M60002000006",
+  "title": "統合作戦司令部組織規則",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年防衛省令第六号\",\"LawName\":\"統合作戦司令部組織規則\",\"LawNameKana\":\"とうごうさくせんしれいぶそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20250321,\"AmendName\":\"統合作戦司令部組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年防衛省令第二十二号\",\"AmendPromulgationDate\":20260928,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"507M60002000006\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60002000006_20261001_508M60002000022\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

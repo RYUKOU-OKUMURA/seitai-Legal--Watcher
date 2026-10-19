@@ -1,0 +1,14 @@
+{
+  "changeId": "09575766-48b2-40dc-8399-9f21cdd33325",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000800047",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#337M50000800047",
+  "title": "救命艇手規則",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年運輸省令第四十七号\",\"LawName\":\"救命艇手規則\",\"LawNameKana\":\"きゅうめいていしゅきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620926,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"337M50000800047\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000800047_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "9fd20a87-7e10-49d6-9fb2-4f246ecf85b0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000800103",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#413M60000800103",
+  "title": "車道及び側帯の舗装の構造の基準に関する省令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年国土交通省令第百三号\",\"LawName\":\"車道及び側帯の舗装の構造の基準に関する省令\",\"LawNameKana\":\"しゃどうおよびそくたいのほそうのこうぞうのきじゅんにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20010626,\"AmendName\":\"車道及び側帯の舗装の構造の基準に関する省令\",\"AmendNo\":\"令和八年国土交通省令第七十七号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"413M60000800103\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000800103_20270401_508M60000800077\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

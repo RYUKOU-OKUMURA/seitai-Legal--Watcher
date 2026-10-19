@@ -1,0 +1,14 @@
+{
+  "changeId": "431bfc77-de24-45ae-81ef-d02d0ec0be36",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:205M10000040030",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#205M10000040030",
+  "title": "大正五年大蔵省令第三十号（歳入納付ニ使用スル証券ニ関スル件ニ依ル証券ノ納付ニ関スル制限ノ件）",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"大正五年大蔵省令第三十号\",\"LawName\":\"大正五年大蔵省令第三十号（歳入納付ニ使用スル証券ニ関スル件ニ依ル証券ノ納付ニ関スル制限ノ件）\",\"LawNameKana\":\"さいにゅうのうふにしようするしょうけんにかんするけんによるしょうけんののうふにかんするせいげんのけん\",\"OldLawName\":\"\",\"PromulgationDate\":19161221,\"AmendName\":\"大正五年勅令第二百五十六号第六条第一項による証券の納付に関する制限を定める省令及び証券をもつてする歳入納付に関する法律施行細則の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第六十三号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20270331,\"EnforcementComment\":\"\",\"LawId\":\"205M10000040030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=205M10000040030_20270331_508M60000040063\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

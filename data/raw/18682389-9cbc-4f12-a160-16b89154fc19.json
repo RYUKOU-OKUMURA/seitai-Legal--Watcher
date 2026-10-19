@@ -1,0 +1,14 @@
+{
+  "changeId": "18682389-9cbc-4f12-a160-16b89154fc19",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:431M60000010005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261019#431M60000010005",
+  "title": "特定技能雇用契約及び一号特定技能外国人支援計画の基準等を定める省令",
+  "detectedAt": "2026-10-19T07:04:52.514Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十一年法務省令第五号\",\"LawName\":\"特定技能雇用契約及び一号特定技能外国人支援計画の基準等を定める省令\",\"LawNameKana\":\"とくていぎのうこようけいやくおよびいちごうとくていぎのうがいこくじんしえんけいかくのきじゅんとうをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20190315,\"AmendName\":\"特定技能雇用契約及び一号特定技能外国人支援計画の基準等を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第五十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"431M60000010005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=431M60000010005_20261001_508M60000010050\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
