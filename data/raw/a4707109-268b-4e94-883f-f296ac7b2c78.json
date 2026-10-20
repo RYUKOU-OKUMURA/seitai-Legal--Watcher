@@ -1,0 +1,15 @@
+{
+  "changeId": "a4707109-268b-4e94-883f-f296ac7b2c78",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326M50000800067",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261020#326M50000800067",
+  "title": "道路運送車両の保安基準",
+  "detectedAt": "2026-10-20T06:49:47.772Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年運輸省令第六十七号\",\"LawName\":\"道路運送車両の保安基準\",\"LawNameKana\":\"どうろうんそうしゃりょうのほあんきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":19510728,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261020,\"EnforcementComment\":\"\",\"LawId\":\"326M50000800067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000800067_20261020_508M60000800080\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 道路運送車両の保安基準\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年運輸省令第六十七号\",\"LawName\":\"道路運送車両の保安基準\",\"LawNameKana\":\"どうろうんそうしゃりょうのほあんきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":19510728,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261020,\"EnforcementComment\":\"\",\"LawId\":\"326M50000800067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000800067_20261020_508M60000800080\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十六年運輸省令第六十七号\",\"LawName\":\"道路運送車両の保安基準\",\"LawNameKana\":\"どうろうんそうしゃりょうのほあんきじゅん\",\"OldLawName\":\"\",\"PromulgationDate\":19510728,\"AmendName\":\"道路運送車両の保安基準等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261020,\"EnforcementComment\":\"\",\"LawId\":\"326M50000800067\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326M50000800067_20261020_508M60000800080\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "fb84df9b-f060-445d-8333-54fc9a868ac4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:429M60000400022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261020#429M60000400022",
+  "title": "ガス事業託送供給約款料金算定規則",
+  "detectedAt": "2026-10-20T06:49:47.772Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十九年経済産業省令第二十二号\",\"LawName\":\"ガス事業託送供給約款料金算定規則\",\"LawNameKana\":\"がすじぎょうたくそうきょうきゅうやっかんりょうきんさんていきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20170328,\"AmendName\":\"ガス事業法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年経済産業省令第五十五号\",\"AmendPromulgationDate\":20250714,\"EnforcementDate\":20250715,\"EnforcementComment\":\"\",\"LawId\":\"429M60000400022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=429M60000400022_20250715_507M60000400055\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

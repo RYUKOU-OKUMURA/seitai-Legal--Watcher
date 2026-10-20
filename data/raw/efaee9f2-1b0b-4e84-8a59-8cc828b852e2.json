@@ -1,0 +1,14 @@
+{
+  "changeId": "efaee9f2-1b0b-4e84-8a59-8cc828b852e2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:504M60000400015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261020#504M60000400015",
+  "title": "輸出貿易管理令別表第二の三の規定に基づき貨物を定める省令",
+  "detectedAt": "2026-10-20T06:49:47.772Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和四年経済産業省令第十五号\",\"LawName\":\"輸出貿易管理令別表第二の三の規定に基づき貨物を定める省令\",\"LawNameKana\":\"ゆしゅつぼうえきかんりれいべっぴょうだいにのさんのきていにもとづきかもつをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20220315,\"AmendName\":\"輸出貿易管理令別表第二の三の規定に基づき貨物を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第七十六号\",\"AmendPromulgationDate\":20261009,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"504M60000400015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=504M60000400015_20261016_508M60000400076\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
