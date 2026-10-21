@@ -1,0 +1,23 @@
+{
+  "changeId": "1b4b0bba-7a52-46ee-b113-f1a8d996b278",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260229",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260229",
+  "title": "「労働安全衛生規則第五百七十七条の二第二項の規定に基づき厚生労働大臣が定める物及び厚生労働大臣が定める濃度の基準の一部を改正する件（案）」に関する御意見の募集について",
+  "detectedAt": "2026-10-21T06:44:39.097Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260229",
+      "error": "HTTP 403"
+    }
+  ]
+}

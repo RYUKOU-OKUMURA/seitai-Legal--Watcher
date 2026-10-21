@@ -1,0 +1,23 @@
+{
+  "changeId": "aab876f3-5934-4bb2-b343-709e3cff0512",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260230",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260230",
+  "title": "「労働安全衛生規則第三十四条の二の六の二の規定に基づきリスクアセスメント及びその結果に基づく措置の実施に支障を生じないものとして厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について",
+  "detectedAt": "2026-10-21T06:44:39.097Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260230",
+      "error": "HTTP 403"
+    }
+  ]
+}

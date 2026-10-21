@@ -1,0 +1,23 @@
+{
+  "changeId": "8462f4b3-0b1a-4a47-8504-065451c83ba9",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260232",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260232",
+  "title": "化学物質による健康障害防止のための濃度の基準の適用等に関する技術上の指針の一部を改正する件（案）に関する御意見の募集について",
+  "detectedAt": "2026-10-21T06:44:39.097Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課　\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260232",
+      "error": "HTTP 403"
+    }
+  ]
+}

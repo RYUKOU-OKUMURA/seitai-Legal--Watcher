@@ -1,0 +1,23 @@
+{
+  "changeId": "0e4b1ec7-54cd-45ef-92e7-db5aee5727e9",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260227",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260227",
+  "title": "「労働安全衛生規則第五百九十四条の二第一項の規定に基づき皮膚若しくは眼に障害を与えるおそれ又は皮膚から吸収され、若しくは皮膚に侵入して、健康障害を生ずるおそれがあることが明らかな物として厚生労働大臣が定めるものの一部を改正する告示案」に関する御意見の募集について",
+  "detectedAt": "2026-10-21T06:44:39.097Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課化学物質評価室\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260227",
+      "error": "HTTP 403"
+    }
+  ]
+}

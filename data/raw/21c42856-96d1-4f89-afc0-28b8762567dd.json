@@ -1,0 +1,23 @@
+{
+  "changeId": "21c42856-96d1-4f89-afc0-28b8762567dd",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260226",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260226",
+  "title": "「労働安全衛生法施行令の一部を改正する政令案」及び「労働安全衛生規則の一部を改正する省令案」に関する御意見の募集について",
+  "detectedAt": "2026-10-21T06:44:39.097Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260226",
+      "error": "HTTP 403"
+    }
+  ]
+}
