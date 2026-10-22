@@ -1,0 +1,23 @@
+{
+  "changeId": "13b1b3c6-1a48-46fc-954f-e8eadecc337a",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000131",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000131",
+  "title": "個人情報の保護に関する法律施行規則及び行政手続における特定の個人を識別するための番号の利用等に関する法律第二十九条の四第一項及び第二項に基づく特定個人情報の漏えい等に関する報告等に関する規則の一部を改正する規則（案）の意見募集について",
+  "detectedAt": "2026-10-22T06:47:48.954Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/21 受付締切日時：2026/11/20 17:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：個人情報保護委員会事務局（個人情報保護制度担当室）\n03-6457-9680（代表）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=240000131",
+      "error": "HTTP 403"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "d095b939-4da2-45d1-a768-aed0db687bb3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000035",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261022#342AC0000000035",
+  "title": "登録免許税法",
+  "detectedAt": "2026-10-22T06:47:48.954Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"物資の流通の効率化に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十一号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20261101_508AC0000000021\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 登録免許税法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"金融商品取引法及び資金決済に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十四号\",\"AmendPromulgationDate\":20260723,\"EnforcementDate\":20260723,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20260723_508AC0000000064\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第三十五号\",\"LawName\":\"登録免許税法\",\"LawNameKana\":\"とうろくめんきょぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670612,\"AmendName\":\"物資の流通の効率化に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十一号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000035\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000035_20261101_508AC0000000021\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

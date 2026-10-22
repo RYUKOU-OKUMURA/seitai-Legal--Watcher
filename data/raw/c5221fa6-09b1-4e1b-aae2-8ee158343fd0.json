@@ -1,0 +1,14 @@
+{
+  "changeId": "c5221fa6-09b1-4e1b-aae2-8ee158343fd0",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004347",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004347",
+  "title": "「有機藻類の日本農林規格の一部改正案についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-10-22T06:47:48.954Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/22 案の公示日：2026/05/19 受付締切日時：2026/06/17 23:59 命令等の公布日：2026/10/22 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4481）",
+  "links": [],
+  "httpStatus": 200
+}

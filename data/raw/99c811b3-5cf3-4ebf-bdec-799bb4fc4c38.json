@@ -1,0 +1,14 @@
+{
+  "changeId": "99c811b3-5cf3-4ebf-bdec-799bb4fc4c38",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC0000000180",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261022#414AC0000000180",
+  "title": "独立行政法人鉄道建設・運輸施設整備支援機構法",
+  "detectedAt": "2026-10-22T06:47:48.954Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第百八十号\",\"LawName\":\"独立行政法人鉄道建設・運輸施設整備支援機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんてつどうけんせつうんゆしせつせいびしえんきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20021218,\"AmendName\":\"物資の流通の効率化に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十一号\",\"AmendPromulgationDate\":20260520,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"414AC0000000180\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC0000000180_20261101_508AC0000000021\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

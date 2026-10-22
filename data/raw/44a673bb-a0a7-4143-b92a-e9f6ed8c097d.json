@@ -1,0 +1,23 @@
+{
+  "changeId": "44a673bb-a0a7-4143-b92a-e9f6ed8c097d",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260146",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260146",
+  "title": "「医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四条第五項第三号の規定に基づき厚生労働大臣が指定する要指導医薬品の一部を改正する件（案）」に関する意見募集の結果について",
+  "detectedAt": "2026-10-22T06:47:48.954Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/22 案の公示日：2026/08/20 受付締切日時：2026/09/20 00:00 命令等の公布日：2026/10/22 提出意見数：8 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線２７３８）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260146",
+      "error": "HTTP 403"
+    }
+  ]
+}
