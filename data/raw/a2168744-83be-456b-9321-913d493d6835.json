@@ -1,0 +1,24 @@
+{
+  "changeId": "a2168744-83be-456b-9321-913d493d6835",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260228",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260228",
+  "title": "「労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について",
+  "detectedAt": "2026-10-23T06:41:20.935Z",
+  "changeType": "updated",
+  "bodyExcerpt": "案の公示日：2026/10/20 受付締切日時：2026/11/18 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n電話：03-5253-1111",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,5 +1,5 @@\n 「労働安全衛生規則第五百七十七条の二第五項の規定に基づきがん原性がある物として厚生労働大臣が定めるものの一部を改正する件（案）」に関する御意見の募集について\n-案の公示日：2026/10/20 受付締切日時：2026/11/18 16:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n+案の公示日：2026/10/20 受付締切日時：2026/11/18 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省労働基準局安全衛生部化学物質対策課\n 電話：03-5253-1111\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260228",
+      "error": "HTTP 403"
+    }
+  ]
+}
