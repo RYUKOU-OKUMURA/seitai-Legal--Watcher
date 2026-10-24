@@ -1,0 +1,15 @@
+{
+  "changeId": "25cd468c-fa07-4de7-9d0c-7446139760e1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322AC0000000004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261024#322AC0000000004",
+  "title": "皇室経済法",
+  "detectedAt": "2026-10-24T06:38:48.996Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第四号\",\"LawName\":\"皇室経済法\",\"LawNameKana\":\"こうしつけいざいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470116,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000004_20261024_508AC0000000066\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 皇室経済法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第四号\",\"LawName\":\"皇室経済法\",\"LawNameKana\":\"こうしつけいざいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470116,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000004_20261024_508AC0000000066\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十二年法律第四号\",\"LawName\":\"皇室経済法\",\"LawNameKana\":\"こうしつけいざいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19470116,\"AmendName\":\"皇室典範等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十六号\",\"AmendPromulgationDate\":20260724,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"322AC0000000004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322AC0000000004_20261024_508AC0000000066\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

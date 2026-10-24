@@ -1,0 +1,14 @@
+{
+  "changeId": "edcb13de-20a9-46f6-b13e-fd3f8acfef23",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004434",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004434",
+  "title": "防災重点農業用ため池に係る防災工事等基本指針の一部改正案についての意見・情報の募集について",
+  "detectedAt": "2026-10-24T06:38:48.996Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/10/23 受付締切日時：2026/11/24 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省農村振興局整備部防災課 \n電話：03-3502-8111（内線5660）",
+  "links": [],
+  "httpStatus": 200
+}

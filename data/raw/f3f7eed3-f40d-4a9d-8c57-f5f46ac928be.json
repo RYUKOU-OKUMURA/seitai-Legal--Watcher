@@ -1,0 +1,14 @@
+{
+  "changeId": "f3f7eed3-f40d-4a9d-8c57-f5f46ac928be",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000010049",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261024#508M60000010049",
+  "title": "皇族の身分を離れた者等の戸籍の取扱い等に関する法律施行規則",
+  "detectedAt": "2026-10-24T06:38:48.996Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年法務省令第四十九号\",\"LawName\":\"皇族の身分を離れた者等の戸籍の取扱い等に関する法律施行規則\",\"LawNameKana\":\"こうぞくのみぶんをはなれたものとうのこせきのとりあつかいとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20260916,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"508M60000010049\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000010049_20261024_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

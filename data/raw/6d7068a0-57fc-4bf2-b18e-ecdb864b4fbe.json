@@ -1,0 +1,15 @@
+{
+  "changeId": "6d7068a0-57fc-4bf2-b18e-ecdb864b4fbe",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342CO0000000292",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261024#342CO0000000292",
+  "title": "住民基本台帳法施行令",
+  "detectedAt": "2026-10-24T06:38:48.996Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十二年政令第二百九十二号\",\"LawName\":\"住民基本台帳法施行令\",\"LawNameKana\":\"じゅうみんきほんだいちょうほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19670911,\"AmendName\":\"住民基本台帳法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十一号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"342CO0000000292\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342CO0000000292_20261024_508CO0000000281\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 住民基本台帳法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十二年政令第二百九十二号\",\"LawName\":\"住民基本台帳法施行令\",\"LawNameKana\":\"じゅうみんきほんだいちょうほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19670911,\"AmendName\":\"住民基本台帳法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十一号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"342CO0000000292\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342CO0000000292_20261024_508CO0000000281\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十二年政令第二百九十二号\",\"LawName\":\"住民基本台帳法施行令\",\"LawNameKana\":\"じゅうみんきほんだいちょうほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19670911,\"AmendName\":\"住民基本台帳法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第二百八十一号\",\"AmendPromulgationDate\":20260916,\"EnforcementDate\":20261024,\"EnforcementComment\":\"\",\"LawId\":\"342CO0000000292\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342CO0000000292_20261024_508CO0000000281\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
