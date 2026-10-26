@@ -1,0 +1,14 @@
+{
+  "changeId": "ec46561d-1297-45c0-b4ce-85bdca2a2e4d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60001200001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261026#426M60001200001",
+  "title": "農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律に基づく設備整備計画の認定等に関する省令",
+  "detectedAt": "2026-10-26T07:11:52.451Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年農林水産省・環境省令第一号\",\"LawName\":\"農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律に基づく設備整備計画の認定等に関する省令\",\"LawNameKana\":\"のうりんぎょぎょうのけんぜんなはってんとちょうわのとれたさいせいかのうえねるぎーでんきのはつでんのそくしんにかんするほうりつにもとづくせつびせいびけいかくのにんていとうにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20140430,\"AmendName\":\"農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律に基づく設備整備計画の認定等に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省・環境省令第八号\",\"AmendPromulgationDate\":20261009,\"EnforcementDate\":20261009,\"EnforcementComment\":\"\",\"LawId\":\"426M60001200001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60001200001_20261009_508M60001200008\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

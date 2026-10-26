@@ -1,0 +1,14 @@
+{
+  "changeId": "4c6139f3-4c3d-42e8-bbf1-2086ce70ccca",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60000200033",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261026#426M60000200033",
+  "title": "農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律施行規則",
+  "detectedAt": "2026-10-26T07:11:52.451Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年農林水産省令第三十三号\",\"LawName\":\"農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律施行規則\",\"LawNameKana\":\"のうりんぎょぎょうのけんぜんなはってんとちょうわのとれたさいせいかのうえねるぎーでんきのはつでんのそくしんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20140430,\"AmendName\":\"農地法施行規則及び農林漁業の健全な発展と調和のとれた再生可能エネルギー電気の発電の促進に関する法律施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年農林水産省令第七十二号\",\"AmendPromulgationDate\":20261009,\"EnforcementDate\":20261009,\"EnforcementComment\":\"\",\"LawId\":\"426M60000200033\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60000200033_20261009_508M60000200072\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

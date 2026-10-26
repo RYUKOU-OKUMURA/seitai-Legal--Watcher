@@ -1,0 +1,14 @@
+{
+  "changeId": "25f9cb4d-8a57-4915-b174-ea6da068b757",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:361M50000008022",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261026#361M50000008022",
+  "title": "救助隊の編成、装備及び配置の基準を定める省令",
+  "detectedAt": "2026-10-26T07:11:52.451Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十一年自治省令第二十二号\",\"LawName\":\"救助隊の編成、装備及び配置の基準を定める省令\",\"LawNameKana\":\"きゅうじょたいのへんせいそうびおよびはいちのきじゅんをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19861001,\"AmendName\":\"救助隊の編成、装備及び配置の基準を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十六号\",\"AmendPromulgationDate\":20261009,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"361M50000008022\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=361M50000008022_20270401_508M60000008116\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
