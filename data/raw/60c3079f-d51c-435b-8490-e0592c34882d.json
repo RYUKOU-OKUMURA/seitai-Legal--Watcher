@@ -1,0 +1,15 @@
+{
+  "changeId": "60c3079f-d51c-435b-8490-e0592c34882d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329M50000002023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261027#329M50000002023",
+  "title": "地方税法施行規則",
+  "detectedAt": "2026-10-27T06:59:24.484Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十九号\",\"AmendPromulgationDate\":20260721,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20261001_508M60000008089\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方税法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第四十五号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20261101_508M60000008045\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十九年総理府令第二十三号\",\"LawName\":\"地方税法施行規則\",\"LawNameKana\":\"ちほうぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19540513,\"AmendName\":\"地方税法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第八十九号\",\"AmendPromulgationDate\":20260721,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"329M50000002023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329M50000002023_20261001_508M60000008089\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
