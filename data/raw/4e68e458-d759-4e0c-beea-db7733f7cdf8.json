@@ -1,0 +1,14 @@
+{
+  "changeId": "4e68e458-d759-4e0c-beea-db7733f7cdf8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425M60000008058",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#425M60000008058",
+  "title": "国家公務員退職手当法の規定による早期退職希望者の募集及び認定の制度に係る書面の様式等を定める内閣官房令",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十五年総務省令第五十八号\",\"LawName\":\"国家公務員退職手当法の規定による早期退職希望者の募集及び認定の制度に係る書面の様式等を定める内閣官房令\",\"LawNameKana\":\"こっかこうむいんたいしょくてあてほうのきていによるそうきたいしょくきぼうしゃのぼしゅうおよびにんていのせいどにかかるしょめんのようしきとうをさだめるないかくかんぼうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20130524,\"AmendName\":\"国家公務員退職手当法の規定による早期退職希望者の募集及び認定の制度に係る書面の様式等を定める内閣官房令及び国家公務員退職手当法附則第十二項、第十四項及び第十六項の規定による退職手当の基本額の特例等に関する内閣官房令の一部を改正する内閣官房令\",\"AmendNo\":\"令和八年内閣官房令第十号\",\"AmendPromulgationDate\":20261022,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"425M60000008058\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425M60000008058_20261102_508M60000001010\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

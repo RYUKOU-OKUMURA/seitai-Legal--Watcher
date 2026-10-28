@@ -1,0 +1,15 @@
+{
+  "changeId": "5b4c0e1c-9cfc-475f-a6b4-595b344095a5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000211",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#325AC0000000211",
+  "title": "地方交付税法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"地方交付税法及び特別会計に関する法律の一部を改正する法律\",\"AmendNo\":\"平成三十年法律第四号\",\"AmendPromulgationDate\":20180331,\"EnforcementDate\":20180401,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20180401_430AC0000000004\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方交付税法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"地方交付税法及び特別会計に関する法律の一部を改正する法律\",\"AmendNo\":\"平成三十年法律第四号\",\"AmendPromulgationDate\":20180331,\"EnforcementDate\":20180401,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20180401_430AC0000000004\",\"EnforcementFlg\":0,\"AuthFlg\":1}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

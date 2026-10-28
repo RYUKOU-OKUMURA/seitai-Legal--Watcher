@@ -1,0 +1,14 @@
+{
+  "changeId": "708c114e-f28e-456c-bd57-7b6a3ba0ea9f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:361M50000008024",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#361M50000008024",
+  "title": "動力消防ポンプの技術上の規格を定める省令",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十一年自治省令第二十四号\",\"LawName\":\"動力消防ポンプの技術上の規格を定める省令\",\"LawNameKana\":\"どうりょくしょうぼうぽんぷのぎじゅつじょうのきかくをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19861015,\"AmendName\":\"動力消防ポンプの技術上の規格を定める省令の一部を改正する省令\",\"AmendNo\":\"令和七年総務省令第七十四号\",\"AmendPromulgationDate\":20250730,\"EnforcementDate\":20250730,\"EnforcementComment\":\"\",\"LawId\":\"361M50000008024\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=361M50000008024_20250730_507M60000008074\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

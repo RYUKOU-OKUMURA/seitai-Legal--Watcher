@@ -1,0 +1,14 @@
+{
+  "changeId": "44ddc03e-cd19-4771-bcb5-e205a14ce256",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:334AC0000000125",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#334AC0000000125",
+  "title": "意匠法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十四年法律第百二十五号\",\"LawName\":\"意匠法\",\"LawNameKana\":\"いしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19590413,\"AmendName\":\"刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律\",\"AmendNo\":\"令和四年法律第六十八号\",\"AmendPromulgationDate\":20220617,\"EnforcementDate\":20220617,\"EnforcementComment\":\"\",\"LawId\":\"334AC0000000125\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=334AC0000000125_20220617_504AC0000000068\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

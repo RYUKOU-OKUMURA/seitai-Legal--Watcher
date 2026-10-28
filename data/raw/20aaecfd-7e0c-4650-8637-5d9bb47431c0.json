@@ -1,0 +1,15 @@
+{
+  "changeId": "20aaecfd-7e0c-4650-8637-5d9bb47431c0",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:324AC1000000283",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#324AC1000000283",
+  "title": "身体障害者福祉法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百八十三号\",\"LawName\":\"身体障害者福祉法\",\"LawNameKana\":\"しんたいしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19491226,\"AmendName\":\"障害者の日常生活及び社会生活を総合的に支援するための法律等の一部を改正する法律\",\"AmendNo\":\"令和四年法律第百四号\",\"AmendPromulgationDate\":20221216,\"EnforcementDate\":20221216,\"EnforcementComment\":\"\",\"LawId\":\"324AC1000000283\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC1000000283_20221216_504AC0000000104\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 身体障害者福祉法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百八十三号\",\"LawName\":\"身体障害者福祉法\",\"LawNameKana\":\"しんたいしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19491226,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"324AC1000000283\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC1000000283_20280624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十四年法律第二百八十三号\",\"LawName\":\"身体障害者福祉法\",\"LawNameKana\":\"しんたいしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19491226,\"AmendName\":\"障害者の日常生活及び社会生活を総合的に支援するための法律等の一部を改正する法律\",\"AmendNo\":\"令和四年法律第百四号\",\"AmendPromulgationDate\":20221216,\"EnforcementDate\":20221216,\"EnforcementComment\":\"\",\"LawId\":\"324AC1000000283\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=324AC1000000283_20221216_504AC0000000104\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

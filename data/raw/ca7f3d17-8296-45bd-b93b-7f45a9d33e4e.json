@@ -1,0 +1,15 @@
+{
+  "changeId": "ca7f3d17-8296-45bd-b93b-7f45a9d33e4e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415AC0000000118",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#415AC0000000118",
+  "title": "地方独立行政法人法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第百十八号\",\"LawName\":\"地方独立行政法人法\",\"LawNameKana\":\"ちほうどくりつぎょうせいほうじんほう\",\"OldLawName\":\"\",\"PromulgationDate\":20030716,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"平成二十八年法律第四十七号\",\"AmendPromulgationDate\":20160520,\"EnforcementDate\":20170401,\"EnforcementComment\":\"\",\"LawId\":\"415AC0000000118\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000118_20170401_428AC0000000047\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方独立行政法人法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第百十八号\",\"LawName\":\"地方独立行政法人法\",\"LawNameKana\":\"ちほうどくりつぎょうせいほうじんほう\",\"OldLawName\":\"\",\"PromulgationDate\":20030716,\"AmendName\":\"地方自治法の一部を改正する法律\",\"AmendNo\":\"令和六年法律第六十五号\",\"AmendPromulgationDate\":20240626,\"EnforcementDate\":20260924,\"EnforcementComment\":\"\",\"LawId\":\"415AC0000000118\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000118_20260924_506AC0000000065\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第百十八号\",\"LawName\":\"地方独立行政法人法\",\"LawNameKana\":\"ちほうどくりつぎょうせいほうじんほう\",\"OldLawName\":\"\",\"PromulgationDate\":20030716,\"AmendName\":\"地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"平成二十八年法律第四十七号\",\"AmendPromulgationDate\":20160520,\"EnforcementDate\":20170401,\"EnforcementComment\":\"\",\"LawId\":\"415AC0000000118\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000118_20170401_428AC0000000047\",\"EnforcementFlg\":0,\"AuthFlg\":1}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "f01afc40-e6b8-4ae9-abd9-b2a5e2d0ec09",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419M60000008119",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#419M60000008119",
+  "title": "地域公共交通の活性化及び再生に関する法律第十二条、第十七条及び第二十五条の二に規定する軌道運送高度化事業、道路運送高度化事業及び鉄道事業再構築事業を定める省令",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十九年総務省令第百十九号\",\"LawName\":\"地域公共交通の活性化及び再生に関する法律第十二条、第十七条及び第二十五条の二に規定する軌道運送高度化事業、道路運送高度化事業及び鉄道事業再構築事業を定める省令\",\"LawNameKana\":\"ちいきこうきょうこうつうのかっせいかおよびさいせいにかんするほうりつだいじゅうにじょうだいじゅうななじょうおよびだいにじゅうごじょうのににきていするきどううんそうこうどかじぎょうどうろうんそうこうどかじぎょうおよびてつどうじぎょうさいこうちくじぎょうをさだめるしょうれい\",\"OldLawName\":\"地域公共交通の活性化及び再生に関する法律第十二条及び第十七条に規定する軌道運送高度化事業及び道路運送高度化事業を定める省令\",\"PromulgationDate\":20070928,\"AmendName\":\"地域公共交通の活性化及び再生に関する法律第十二条及び第十七条に規定する軌道運送高度化事業及び道路運送高度化事業を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十七号\",\"AmendPromulgationDate\":20261013,\"EnforcementDate\":20261016,\"EnforcementComment\":\"\",\"LawId\":\"419M60000008119\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419M60000008119_20261016_508M60000008117\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

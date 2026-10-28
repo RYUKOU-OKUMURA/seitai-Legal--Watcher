@@ -1,0 +1,14 @@
+{
+  "changeId": "cf47c4dd-435f-43c5-9e5d-40008ef01208",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339CO0000000029",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#339CO0000000029",
+  "title": "組合等登記令",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十九年政令第二十九号\",\"LawName\":\"組合等登記令\",\"LawNameKana\":\"くみあいとうとうきれい\",\"OldLawName\":\"\",\"PromulgationDate\":19640323,\"AmendName\":\"会社法の一部を改正する法律及び会社法の一部を改正する法律の施行に伴う関係法律の整備等に関する法律の一部の施行に伴う法務省関係政令の整備に関する政令\",\"AmendNo\":\"令和四年政令第二百四十九号\",\"AmendPromulgationDate\":20220721,\"EnforcementDate\":20220901,\"EnforcementComment\":\"\",\"LawId\":\"339CO0000000029\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339CO0000000029_20220901_504CO0000000249\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

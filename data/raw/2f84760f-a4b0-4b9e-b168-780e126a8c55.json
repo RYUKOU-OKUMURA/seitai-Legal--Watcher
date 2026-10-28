@@ -1,0 +1,14 @@
+{
+  "changeId": "2f84760f-a4b0-4b9e-b168-780e126a8c55",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:343M50002100001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#343M50002100001",
+  "title": "社会保険労務士法施行規則",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十三年厚生省・労働省令第一号\",\"LawName\":\"社会保険労務士法施行規則\",\"LawNameKana\":\"しゃかいほけんろうむしほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19681128,\"AmendName\":\"デジタル社会の形成を図るための規制改革を推進するための厚生労働省関係省令の一部を改正する省令\",\"AmendNo\":\"令和五年厚生労働省令第百六十五号\",\"AmendPromulgationDate\":20231227,\"EnforcementDate\":20231227,\"EnforcementComment\":\"\",\"LawId\":\"343M50002100001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=343M50002100001_20231227_505M60000100165\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

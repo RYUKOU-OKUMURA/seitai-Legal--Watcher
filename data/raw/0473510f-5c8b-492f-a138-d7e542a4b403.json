@@ -1,0 +1,15 @@
+{
+  "changeId": "0473510f-5c8b-492f-a138-d7e542a4b403",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335AC0000000037",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#335AC0000000037",
+  "title": "知的障害者福祉法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第三十七号\",\"LawName\":\"知的障害者福祉法\",\"LawNameKana\":\"ちてきしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600331,\"AmendName\":\"障害者の日常生活及び社会生活を総合的に支援するための法律等の一部を改正する法律\",\"AmendNo\":\"令和四年法律第百四号\",\"AmendPromulgationDate\":20221216,\"EnforcementDate\":20221216,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000037_20221216_504AC0000000104\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 知的障害者福祉法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第三十七号\",\"LawName\":\"知的障害者福祉法\",\"LawNameKana\":\"ちてきしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600331,\"AmendName\":\"社会福祉法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十一号\",\"AmendPromulgationDate\":20260625,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して二年を超えない範囲内において政令で定める日\",\"LawId\":\"335AC0000000037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000037_20280624_508AC0000000051\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第三十七号\",\"LawName\":\"知的障害者福祉法\",\"LawNameKana\":\"ちてきしょうがいしゃふくしほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600331,\"AmendName\":\"障害者の日常生活及び社会生活を総合的に支援するための法律等の一部を改正する法律\",\"AmendNo\":\"令和四年法律第百四号\",\"AmendPromulgationDate\":20221216,\"EnforcementDate\":20221216,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000037\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000037_20221216_504AC0000000104\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

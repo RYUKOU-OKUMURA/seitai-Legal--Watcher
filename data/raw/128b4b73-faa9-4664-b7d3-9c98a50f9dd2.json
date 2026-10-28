@@ -1,0 +1,14 @@
+{
+  "changeId": "128b4b73-faa9-4664-b7d3-9c98a50f9dd2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:503M60001000007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#503M60001000007",
+  "title": "第一種動物取扱業者及び第二種動物取扱業者が取り扱う動物の管理の方法等の基準を定める省令",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和三年環境省令第七号\",\"LawName\":\"第一種動物取扱業者及び第二種動物取扱業者が取り扱う動物の管理の方法等の基準を定める省令\",\"LawNameKana\":\"だいいっしゅどうぶつとりあつかいぎょうしゃおよびだいにしゅどうぶつとりあつかいぎょうしゃがとりあつかうどうぶつのかんりのほうほうとうのきじゅんをさだめるしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20210401,\"AmendName\":\"第一種動物取扱業者及び第二種動物取扱業者が取り扱う動物の管理の方法等の基準を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年環境省令第二十八号\",\"AmendPromulgationDate\":20261015,\"EnforcementDate\":20270601,\"EnforcementComment\":\"\",\"LawId\":\"503M60001000007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=503M60001000007_20270601_508M60001000028\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

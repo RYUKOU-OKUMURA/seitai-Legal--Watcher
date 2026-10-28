@@ -1,0 +1,14 @@
+{
+  "changeId": "be33732d-adf6-4281-931f-acbab5ff05e7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:401AC0000000091",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#401AC0000000091",
+  "title": "民事保全法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成元年法律第九十一号\",\"LawName\":\"民事保全法\",\"LawNameKana\":\"みんじほぜんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19891222,\"AmendName\":\"民事関係手続等における情報通信技術の活用等の推進を図るための関係法律の整備に関する法律\",\"AmendNo\":\"令和五年法律第五十三号\",\"AmendPromulgationDate\":20230614,\"EnforcementDate\":20230614,\"EnforcementComment\":\"\",\"LawId\":\"401AC0000000091\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=401AC0000000091_20230614_505AC0000000053\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "faf8875b-1238-4c20-9cc1-90d4407fb4fd",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:349M50010040001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#349M50010040001",
+  "title": "中小漁業融資保証法施行規則",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十九年大蔵省・農林省令第一号\",\"LawName\":\"中小漁業融資保証法施行規則\",\"LawNameKana\":\"ちゅうしょうぎょぎょうゆうしほしょうほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19740801,\"AmendName\":\"中小漁業融資保証法施行規則の一部を改正する命令\",\"AmendNo\":\"令和四年内閣府・農林水産省令第七号\",\"AmendPromulgationDate\":20220331,\"EnforcementDate\":20220401,\"EnforcementComment\":\"\",\"LawId\":\"349M50010040001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=349M50010040001_20220401_504M60000202007\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

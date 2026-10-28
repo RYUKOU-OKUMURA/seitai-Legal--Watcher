@@ -1,0 +1,14 @@
+{
+  "changeId": "359f9933-cbf1-4b95-a5ea-0f1a1967fded",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335AC0000000036",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#335AC0000000036",
+  "title": "関税暫定措置法",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和三十五年法律第三十六号\",\"LawName\":\"関税暫定措置法\",\"LawNameKana\":\"かんぜいざんていそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19600331,\"AmendName\":\"関税定率法等の一部を改正する法律\",\"AmendNo\":\"平成二十九年法律第十三号\",\"AmendPromulgationDate\":20170331,\"EnforcementDate\":20170401,\"EnforcementComment\":\"\",\"LawId\":\"335AC0000000036\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335AC0000000036_20170401_429AC0000000013\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

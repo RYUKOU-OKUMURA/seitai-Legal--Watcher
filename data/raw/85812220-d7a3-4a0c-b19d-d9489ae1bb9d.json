@@ -1,0 +1,15 @@
+{
+  "changeId": "85812220-d7a3-4a0c-b19d-d9489ae1bb9d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:335M50000100012",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#335M50000100012",
+  "title": "国民年金法施行規則",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"公的年金制度の財政基盤及び最低保障機能の強化等のための国民年金法等の一部を改正する法律の施行に伴う厚生労働省関係省令の整備及び経過措置に関する省令\",\"AmendNo\":\"平成二十九年厚生労働省令第十一号\",\"AmendPromulgationDate\":20170224,\"EnforcementDate\":20170801,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20170801_429M60000100011\",\"EnforcementFlg\":0,\"AuthFlg\":1}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 国民年金法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"国民年金法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和六年厚生労働省令第三十号\",\"AmendPromulgationDate\":20240227,\"EnforcementDate\":20240401,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20240401_506M60000100030\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十五年厚生省令第十二号\",\"LawName\":\"国民年金法施行規則\",\"LawNameKana\":\"こくみんねんきんほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19600423,\"AmendName\":\"公的年金制度の財政基盤及び最低保障機能の強化等のための国民年金法等の一部を改正する法律の施行に伴う厚生労働省関係省令の整備及び経過措置に関する省令\",\"AmendNo\":\"平成二十九年厚生労働省令第十一号\",\"AmendPromulgationDate\":20170224,\"EnforcementDate\":20170801,\"EnforcementComment\":\"\",\"LawId\":\"335M50000100012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=335M50000100012_20170801_429M60000100011\",\"EnforcementFlg\":0,\"AuthFlg\":1}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

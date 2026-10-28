@@ -1,0 +1,14 @@
+{
+  "changeId": "d3b6ef3a-5d62-460a-83c5-a17e026331ca",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC1000000095",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261028#325AC1000000095",
+  "title": "一般職の職員の給与に関する法律",
+  "detectedAt": "2026-10-28T07:41:48.482Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第九十五号\",\"LawName\":\"一般職の職員の給与に関する法律\",\"LawNameKana\":\"いっぱんしょくのしょくいんのきゅうよにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19500403,\"AmendName\":\"刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律\",\"AmendNo\":\"令和四年法律第六十八号\",\"AmendPromulgationDate\":20220617,\"EnforcementDate\":20220617,\"EnforcementComment\":\"\",\"LawId\":\"325AC1000000095\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC1000000095_20220617_504AC0000000068\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
