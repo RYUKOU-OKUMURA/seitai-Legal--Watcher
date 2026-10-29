@@ -1,0 +1,14 @@
+{
+  "changeId": "10ea2864-8c10-40a8-b4ad-2dc09e75b2fc",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000008001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261029#413M60000008001",
+  "title": "総務省組織規則",
+  "detectedAt": "2026-10-29T07:46:05.169Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年総務省令第一号\",\"LawName\":\"総務省組織規則\",\"LawNameKana\":\"そうむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"総務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十八号\",\"AmendPromulgationDate\":20261016,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000008001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000008001_20261102_508M60000008118\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
