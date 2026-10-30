@@ -1,0 +1,15 @@
+{
+  "changeId": "9f7316f3-d598-4e31-81af-6c19985c6056",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:411AC0000000089",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261030#411AC0000000089",
+  "title": "内閣府設置法",
+  "detectedAt": "2026-10-30T07:52:11.817Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第八十九号\",\"LawName\":\"内閣府設置法\",\"LawNameKana\":\"ないかくふせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19990716,\"AmendName\":\"国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律\",\"AmendNo\":\"令和八年法律第七十八号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"411AC0000000089\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000089_20261030_508AC1000000078\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 内閣府設置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第八十九号\",\"LawName\":\"内閣府設置法\",\"LawNameKana\":\"ないかくふせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19990716,\"AmendName\":\"国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律\",\"AmendNo\":\"令和八年法律第七十八号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して三月を超えない範囲内において政令で定める日\",\"LawId\":\"411AC0000000089\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000089_20261030_508AC1000000078\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十一年法律第八十九号\",\"LawName\":\"内閣府設置法\",\"LawNameKana\":\"ないかくふせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19990716,\"AmendName\":\"国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律\",\"AmendNo\":\"令和八年法律第七十八号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"411AC0000000089\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=411AC0000000089_20261030_508AC1000000078\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

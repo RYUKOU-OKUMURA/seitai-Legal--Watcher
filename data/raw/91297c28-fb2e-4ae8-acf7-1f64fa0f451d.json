@@ -1,0 +1,14 @@
+{
+  "changeId": "91297c28-fb2e-4ae8-acf7-1f64fa0f451d",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260183",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260183",
+  "title": "障害者福祉システムに関して内閣総理大臣及び厚生労働大臣が定める機能要件の標準の細目並びに実装区分及び適合基準日並びに帳票要件の標準の細目並びに実装区分及び適合基準日その他書面の出力に際し必要な事項の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-10-30T07:52:11.817Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/29 案の公示日：2026/09/11 受付締切日時：2026/09/24 18:30 命令等の公布日： 提出意見数：10 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省社会・援護局障害保健福祉部企画課",
+  "links": [],
+  "httpStatus": 200
+}

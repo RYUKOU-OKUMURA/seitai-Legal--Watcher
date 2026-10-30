@@ -1,0 +1,14 @@
+{
+  "changeId": "0c07a37d-2d88-4c3d-bae4-7e234d2c98d0",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250336",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495250336",
+  "title": "医薬品添加物規格2018を改正する件（案）に関する御意見の募集結果について",
+  "detectedAt": "2026-10-30T07:52:11.817Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/30 案の公示日：2026/01/16 受付締切日時：2026/02/15 00:00 命令等の公布日： 提出意見数：14 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：０３－５２５３－１１１１（内線２７７５）",
+  "links": [],
+  "httpStatus": 200
+}

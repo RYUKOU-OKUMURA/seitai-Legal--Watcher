@@ -1,0 +1,14 @@
+{
+  "changeId": "196e09e7-37c7-4653-aecd-6bba153a2a54",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:424AC1000000080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261030#424AC1000000080",
+  "title": "大都市地域における特別区の設置に関する法律",
+  "detectedAt": "2026-10-30T07:52:11.817Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十四年法律第八十号\",\"LawName\":\"大都市地域における特別区の設置に関する法律\",\"LawNameKana\":\"だいとしちいきにおけるとくべつくのせっちにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20120905,\"AmendName\":\"国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律\",\"AmendNo\":\"令和八年法律第七十八号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"424AC1000000080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=424AC1000000080_20261030_508AC1000000078\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
