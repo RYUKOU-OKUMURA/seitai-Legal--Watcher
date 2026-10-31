@@ -1,0 +1,14 @@
+{
+  "changeId": "442a8a8f-870e-4670-85cd-002cd93318d9",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=295261030",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=295261030",
+  "title": "東日本大震災復興特別区域法施行規則の一部を改正する庁令について",
+  "detectedAt": "2026-10-31T07:41:35.076Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/10/30 案の公示日： 受付締切日時： 命令等の公布日：2026/10/30 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：復興庁加速化交付金・国土交通班　\n電話：03-6328-0223",
+  "links": [],
+  "httpStatus": 200
+}
