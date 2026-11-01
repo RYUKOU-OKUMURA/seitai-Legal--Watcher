@@ -1,0 +1,15 @@
+{
+  "changeId": "6c0c0385-b560-49fd-b445-acc399b28c41",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:363AC0000000108",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261101#363AC0000000108",
+  "title": "消費税法",
+  "detectedAt": "2026-11-01T08:20:36.434Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和六十三年法律第百八号\",\"LawName\":\"消費税法\",\"LawNameKana\":\"しょうひぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第十三号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"363AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363AC0000000108_20261101_507AC0000000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 消費税法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和六十三年法律第百八号\",\"LawName\":\"消費税法\",\"LawNameKana\":\"しょうひぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"科学技術・イノベーション創出の活性化に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十九号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して九月を超えない範囲内において政令で定める日\",\"LawId\":\"363AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363AC0000000108_20270416_508AC0000000059\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和六十三年法律第百八号\",\"LawName\":\"消費税法\",\"LawNameKana\":\"しょうひぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19881230,\"AmendName\":\"所得税法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第十三号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"363AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=363AC0000000108_20261101_507AC0000000013\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

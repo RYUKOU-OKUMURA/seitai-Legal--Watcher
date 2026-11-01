@@ -1,0 +1,14 @@
+{
+  "changeId": "73cc0a62-c24a-4b9d-9fd7-2ce4d34c79a1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000040036",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261101#420M60000040036",
+  "title": "財務省関係構造改革特別区域法施行規則",
+  "detectedAt": "2026-11-01T08:20:36.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年財務省令第三十六号\",\"LawName\":\"財務省関係構造改革特別区域法施行規則\",\"LawNameKana\":\"ざいむしょうかんけいこうぞうかいかくとくべつくいきほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080521,\"AmendName\":\"租税特別措置法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年財務省令第二十六号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"420M60000040036\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000040036_20261101_507M60000040026\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

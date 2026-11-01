@@ -1,0 +1,15 @@
+{
+  "changeId": "9eb92db2-48ef-412e-a629-6af064d8952d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332M50000040015",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261101#332M50000040015",
+  "title": "租税特別措置法施行規則",
+  "detectedAt": "2026-11-01T08:20:36.434Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十二年大蔵省令第十五号\",\"LawName\":\"租税特別措置法施行規則\",\"LawNameKana\":\"そぜいとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年財務省令第二十六号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"332M50000040015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332M50000040015_20261101_507M60000040026\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 租税特別措置法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十二年大蔵省令第十五号\",\"LawName\":\"租税特別措置法施行規則\",\"LawNameKana\":\"そぜいとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第二十一号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20260901,\"EnforcementComment\":\"\",\"LawId\":\"332M50000040015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332M50000040015_20260901_508M60000040021\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十二年大蔵省令第十五号\",\"LawName\":\"租税特別措置法施行規則\",\"LawNameKana\":\"そぜいとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和七年財務省令第二十六号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"332M50000040015\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332M50000040015_20261101_507M60000040026\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

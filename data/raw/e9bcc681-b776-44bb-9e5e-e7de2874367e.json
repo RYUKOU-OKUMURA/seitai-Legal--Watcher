@@ -1,0 +1,14 @@
+{
+  "changeId": "e9bcc681-b776-44bb-9e5e-e7de2874367e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:337M50000040028",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261101#337M50000040028",
+  "title": "国税通則法施行規則",
+  "detectedAt": "2026-11-01T08:20:36.434Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十七年大蔵省令第二十八号\",\"LawName\":\"国税通則法施行規則\",\"LawNameKana\":\"こくぜいつうそくほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19620402,\"AmendName\":\"国税通則法施行規則の一部を改正する省令\",\"AmendNo\":\"令和七年財務省令第二十五号\",\"AmendPromulgationDate\":20250331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"337M50000040028\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=337M50000040028_20261101_507M60000040025\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
