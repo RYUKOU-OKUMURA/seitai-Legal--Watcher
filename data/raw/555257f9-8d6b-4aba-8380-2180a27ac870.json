@@ -1,0 +1,15 @@
+{
+  "changeId": "555257f9-8d6b-4aba-8380-2180a27ac870",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000080001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#413M60000080001",
+  "title": "文部科学省組織規則",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年文部科学省令第一号\",\"LawName\":\"文部科学省組織規則\",\"LawNameKana\":\"もんぶかがくしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"文部科学省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第三十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000080001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000080001_20261102_508M60000080030\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 文部科学省組織規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年文部科学省令第一号\",\"LawName\":\"文部科学省組織規則\",\"LawNameKana\":\"もんぶかがくしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"文部科学省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第三十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000080001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000080001_20261102_508M60000080030\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年文部科学省令第一号\",\"LawName\":\"文部科学省組織規則\",\"LawNameKana\":\"もんぶかがくしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"文部科学省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年文部科学省令第三十号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000080001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000080001_20261102_508M60000080030\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

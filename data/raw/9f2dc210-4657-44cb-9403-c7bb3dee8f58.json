@@ -1,0 +1,14 @@
+{
+  "changeId": "9f2dc210-4657-44cb-9403-c7bb3dee8f58",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:346M50000008013",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#346M50000008013",
+  "title": "自動車重量譲与税法施行規則",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十六年自治省令第十三号\",\"LawName\":\"自動車重量譲与税法施行規則\",\"LawNameKana\":\"じどうしゃじゅうりょうじょうよぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19710705,\"AmendName\":\"地方税法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十九号\",\"AmendPromulgationDate\":20261021,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"346M50000008013\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=346M50000008013_20270401_508M60000008119\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

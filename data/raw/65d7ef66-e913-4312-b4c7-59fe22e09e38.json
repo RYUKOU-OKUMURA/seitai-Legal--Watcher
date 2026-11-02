@@ -1,0 +1,15 @@
+{
+  "changeId": "65d7ef66-e913-4312-b4c7-59fe22e09e38",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418AC0000000051",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#418AC0000000051",
+  "title": "競争の導入による公共サービスの改革に関する法律",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十八年法律第五十一号\",\"LawName\":\"競争の導入による公共サービスの改革に関する法律\",\"LawNameKana\":\"きょうそうのどうにゅうによるこうきょうさーびすのかいかくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20060602,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"418AC0000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418AC0000000051_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 競争の導入による公共サービスの改革に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十八年法律第五十一号\",\"LawName\":\"競争の導入による公共サービスの改革に関する法律\",\"LawNameKana\":\"きょうそうのどうにゅうによるこうきょうさーびすのかいかくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20060602,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"418AC0000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418AC0000000051_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十八年法律第五十一号\",\"LawName\":\"競争の導入による公共サービスの改革に関する法律\",\"LawNameKana\":\"きょうそうのどうにゅうによるこうきょうさーびすのかいかくにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20060602,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"418AC0000000051\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418AC0000000051_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

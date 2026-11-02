@@ -1,0 +1,14 @@
+{
+  "changeId": "20350f4a-601d-41c7-844d-cc9190574f1b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325CO0000000077",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#325CO0000000077",
+  "title": "国等の債権債務等の金額の端数計算に関する法律施行令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十五年政令第七十七号\",\"LawName\":\"国等の債権債務等の金額の端数計算に関する法律施行令\",\"LawNameKana\":\"くにとうのさいけんさいむとうのきんがくのはすうけいさんにかんするほうりつせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19500401,\"AmendName\":\"特許法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"平成二十八年政令第十八号\",\"AmendPromulgationDate\":20160122,\"EnforcementDate\":20160401,\"EnforcementComment\":\"\",\"LawId\":\"325CO0000000077\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325CO0000000077_20160401_428CO0000000018\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

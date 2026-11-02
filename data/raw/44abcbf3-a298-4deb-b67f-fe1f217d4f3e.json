@@ -1,0 +1,14 @@
+{
+  "changeId": "44abcbf3-a298-4deb-b67f-fe1f217d4f3e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416CO0000000182",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#416CO0000000182",
+  "title": "独立行政法人中小企業基盤整備機構法施行令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十六年政令第百八十二号\",\"LawName\":\"独立行政法人中小企業基盤整備機構法施行令\",\"LawNameKana\":\"どくりつぎょうせいほうじんちゅうしょうきぎょうきばんせいびきこうほうせこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20040526,\"AmendName\":\"物資の流通の効率化に関する法律施行令及び独立行政法人中小企業基盤整備機構法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百二十九号\",\"AmendPromulgationDate\":20261021,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"416CO0000000182\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416CO0000000182_20261101_508CO0000000329\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

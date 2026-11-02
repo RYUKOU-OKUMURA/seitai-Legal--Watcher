@@ -1,0 +1,14 @@
+{
+  "changeId": "f17725f1-7ea9-431c-92f7-59e9b931a127",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:348AC0100000082",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#348AC0100000082",
+  "title": "災害弔慰金の支給等に関する法律",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十八年法律第八十二号\",\"LawName\":\"災害弔慰金の支給等に関する法律\",\"LawNameKana\":\"さいがいちょういきんのしきゅうとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19730918,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"348AC0100000082\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=348AC0100000082_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

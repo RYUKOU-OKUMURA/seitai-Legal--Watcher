@@ -1,0 +1,15 @@
+{
+  "changeId": "37e41ccd-eaff-4f78-8732-33cffe703d42",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000108",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#425AC0000000108",
+  "title": "特定秘密の保護に関する法律",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百八号\",\"LawName\":\"特定秘密の保護に関する法律\",\"LawNameKana\":\"とくていひみつのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000108_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 特定秘密の保護に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百八号\",\"LawName\":\"特定秘密の保護に関する法律\",\"LawNameKana\":\"とくていひみつのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法（令和八年法律第六十一号）の施行の日\",\"LawId\":\"425AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000108_20261231_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百八号\",\"LawName\":\"特定秘密の保護に関する法律\",\"LawNameKana\":\"とくていひみつのほごにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000108\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000108_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

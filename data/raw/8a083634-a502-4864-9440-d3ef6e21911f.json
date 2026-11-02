@@ -1,0 +1,15 @@
+{
+  "changeId": "8a083634-a502-4864-9440-d3ef6e21911f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325AC0000000211",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#325AC0000000211",
+  "title": "地方交付税法",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方交付税法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"地方交付税法及び特別会計に関する法律の一部を改正する法律\",\"AmendNo\":\"平成三十年法律第四号\",\"AmendPromulgationDate\":20180331,\"EnforcementDate\":20180401,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20180401_430AC0000000004\",\"EnforcementFlg\":0,\"AuthFlg\":1}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十五年法律第二百十一号\",\"LawName\":\"地方交付税法\",\"LawNameKana\":\"ちほうこうふぜいほう\",\"OldLawName\":\"\",\"PromulgationDate\":19500530,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"325AC0000000211\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325AC0000000211_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

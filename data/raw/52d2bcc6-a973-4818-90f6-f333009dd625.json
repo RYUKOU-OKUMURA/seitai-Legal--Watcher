@@ -1,0 +1,14 @@
+{
+  "changeId": "52d2bcc6-a973-4818-90f6-f333009dd625",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60000008087",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#423M60000008087",
+  "title": "標準テレビジョン放送等のうちデジタル放送に関する送信の標準方式",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十三年総務省令第八十七号\",\"LawName\":\"標準テレビジョン放送等のうちデジタル放送に関する送信の標準方式\",\"LawNameKana\":\"ひょうじゅんてれびじょんほうそうとうのうちでじたるほうそうにかんするそうしんのひょうじゅんほうしき\",\"OldLawName\":\"\",\"PromulgationDate\":20110629,\"AmendName\":\"\",\"AmendNo\":\"平成二十八年総務省令第七十七号\",\"AmendPromulgationDate\":20160729,\"EnforcementDate\":20160729,\"EnforcementComment\":\"\",\"LawId\":\"423M60000008087\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60000008087_20160729_428M60000008077\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

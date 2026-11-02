@@ -1,0 +1,14 @@
+{
+  "changeId": "616a109d-1290-4e27-a2dd-ab8245ea70f2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:347CO0000000112",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#347CO0000000112",
+  "title": "沖縄の復帰に伴う運輸省関係法令の適用の特別措置等に関する政令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和四十七年政令第百十二号\",\"LawName\":\"沖縄の復帰に伴う運輸省関係法令の適用の特別措置等に関する政令\",\"LawNameKana\":\"おきなわのふっきにともなううんゆしょうかんけいほうれいのてきようのとくべつそちとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19720428,\"AmendName\":\"\",\"AmendNo\":\"平成二十年政令第三百六十四号\",\"AmendPromulgationDate\":20081203,\"EnforcementDate\":20090401,\"EnforcementComment\":\"\",\"LawId\":\"347CO0000000112\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=347CO0000000112_20090401_420CO0000000364\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

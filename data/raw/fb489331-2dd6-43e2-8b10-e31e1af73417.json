@@ -1,0 +1,15 @@
+{
+  "changeId": "fb489331-2dd6-43e2-8b10-e31e1af73417",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:333CO0000000216",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#333CO0000000216",
+  "title": "台風常襲地帯の指定基準に関する政令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十三年政令第二百十六号\",\"LawName\":\"台風常襲地帯の指定基準に関する政令\",\"LawNameKana\":\"たいふうじょうしゅうちたいのしていきじゅんにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19580711,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"333CO0000000216\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333CO0000000216_20261102_508CO0000000305\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 台風常襲地帯の指定基準に関する政令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十三年政令第二百十六号\",\"LawName\":\"台風常襲地帯の指定基準に関する政令\",\"LawNameKana\":\"たいふうじょうしゅうちたいのしていきじゅんにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19580711,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"333CO0000000216\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333CO0000000216_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十三年政令第二百十六号\",\"LawName\":\"台風常襲地帯の指定基準に関する政令\",\"LawNameKana\":\"たいふうじょうしゅうちたいのしていきじゅんにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":19580711,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"333CO0000000216\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=333CO0000000216_20261102_508CO0000000305\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "84e9c0ec-180c-497d-8619-9c3cf8a19231",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:331M50000002007",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#331M50000002007",
+  "title": "地方揮発油譲与税法施行規則",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十一年総理府令第七号\",\"LawName\":\"地方揮発油譲与税法施行規則\",\"LawNameKana\":\"ちほうきはつゆじょうよぜいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19560309,\"AmendName\":\"地方税法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十九号\",\"AmendPromulgationDate\":20261021,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"331M50000002007\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=331M50000002007_20270401_508M60000008119\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

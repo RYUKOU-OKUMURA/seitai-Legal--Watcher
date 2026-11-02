@@ -1,0 +1,15 @@
+{
+  "changeId": "fdb67128-282a-4cf3-9e1e-d63d6803fdd8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC1000000092",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#414AC1000000092",
+  "title": "南海トラフ地震に係る地震防災対策の推進に関する特別措置法",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第九十二号\",\"LawName\":\"南海トラフ地震に係る地震防災対策の推進に関する特別措置法\",\"LawNameKana\":\"なんかいとらふじしんにかかるじしんぼうさいたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020726,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000092\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000092_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 南海トラフ地震に係る地震防災対策の推進に関する特別措置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第九十二号\",\"LawName\":\"南海トラフ地震に係る地震防災対策の推進に関する特別措置法\",\"LawNameKana\":\"なんかいとらふじしんにかかるじしんぼうさいたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020726,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"防災庁設置法附則第一条第二号に掲げる規定の施行の日\",\"LawId\":\"414AC1000000092\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000092_20280716_508AC0000000062\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第九十二号\",\"LawName\":\"南海トラフ地震に係る地震防災対策の推進に関する特別措置法\",\"LawNameKana\":\"なんかいとらふじしんにかかるじしんぼうさいたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20020726,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"414AC1000000092\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC1000000092_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

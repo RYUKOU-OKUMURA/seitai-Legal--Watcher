@@ -1,0 +1,15 @@
+{
+  "changeId": "6e60182c-ab12-4f05-9a8e-efec3fa0cbd1",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421AC0000000066",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#421AC0000000066",
+  "title": "公文書等の管理に関する法律",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十一年法律第六十六号\",\"LawName\":\"公文書等の管理に関する法律\",\"LawNameKana\":\"こうぶんしょとうのかんりにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20090701,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"421AC0000000066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421AC0000000066_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 公文書等の管理に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十一年法律第六十六号\",\"LawName\":\"公文書等の管理に関する法律\",\"LawNameKana\":\"こうぶんしょとうのかんりにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20090701,\"AmendName\":\"科学技術・イノベーション創出の活性化に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十九号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して九月を超えない範囲内において政令で定める日\",\"LawId\":\"421AC0000000066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421AC0000000066_20270416_508AC0000000059\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十一年法律第六十六号\",\"LawName\":\"公文書等の管理に関する法律\",\"LawNameKana\":\"こうぶんしょとうのかんりにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20090701,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"421AC0000000066\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421AC0000000066_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

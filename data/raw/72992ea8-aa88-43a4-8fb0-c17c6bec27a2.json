@@ -1,0 +1,14 @@
+{
+  "changeId": "72992ea8-aa88-43a4-8fb0-c17c6bec27a2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418CO0000000143",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#418CO0000000143",
+  "title": "郵政民営化委員会令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成十八年政令第百四十三号\",\"LawName\":\"郵政民営化委員会令\",\"LawNameKana\":\"ゆうせいみんえいかいいんかいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20060331,\"AmendName\":\"郵政民営化委員会令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百三十一号\",\"AmendPromulgationDate\":20261021,\"EnforcementDate\":20261021,\"EnforcementComment\":\"\",\"LawId\":\"418CO0000000143\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418CO0000000143_20261021_508CO0000000331\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

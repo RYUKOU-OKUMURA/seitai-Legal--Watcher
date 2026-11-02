@@ -1,0 +1,14 @@
+{
+  "changeId": "1bf057e0-64da-4779-b1b6-89bd7bc73582",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416AC1000000027",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#416AC1000000027",
+  "title": "日本海溝・千島海溝周辺海溝型地震に係る地震防災対策の推進に関する特別措置法",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第二十七号\",\"LawName\":\"日本海溝・千島海溝周辺海溝型地震に係る地震防災対策の推進に関する特別措置法\",\"LawNameKana\":\"にほんかいこうちしまかいこうしゅうへんかいこうがたじしんにかかるじしんぼうさいたいさくのすいしんにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20040402,\"AmendName\":\"防災庁設置法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"令和八年法律第六十二号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"416AC1000000027\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC1000000027_20261102_508AC0000000062\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

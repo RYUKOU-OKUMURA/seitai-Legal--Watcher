@@ -1,0 +1,15 @@
+{
+  "changeId": "aeb91b87-5e03-42a0-8e81-e3e0937f6c00",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:329AC0000000164",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#329AC0000000164",
+  "title": "防衛省設置法",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百六十四号\",\"LawName\":\"防衛省設置法\",\"LawNameKana\":\"ぼうえいしょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540609,\"AmendName\":\"駐留軍等の再編の円滑な実施に関する特別措置法の一部を改正する法律\",\"AmendNo\":\"平成二十九年法律第六号\",\"AmendPromulgationDate\":20170331,\"EnforcementDate\":20170331,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000164_20170331_429AC0000000006\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 防衛省設置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百六十四号\",\"LawName\":\"防衛省設置法\",\"LawNameKana\":\"ぼうえいしょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540609,\"AmendName\":\"防衛省設置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第五十三号\",\"AmendPromulgationDate\":20260703,\"EnforcementDate\":\"\",\"EnforcementComment\":\"令和九年三月三十一日までの間において政令で定める日\",\"LawId\":\"329AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000164_20270331_508AC0000000053\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十九年法律第百六十四号\",\"LawName\":\"防衛省設置法\",\"LawNameKana\":\"ぼうえいしょうせっちほう\",\"OldLawName\":\"\",\"PromulgationDate\":19540609,\"AmendName\":\"駐留軍等の再編の円滑な実施に関する特別措置法の一部を改正する法律\",\"AmendNo\":\"平成二十九年法律第六号\",\"AmendPromulgationDate\":20170331,\"EnforcementDate\":20170331,\"EnforcementComment\":\"\",\"LawId\":\"329AC0000000164\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=329AC0000000164_20170331_429AC0000000006\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

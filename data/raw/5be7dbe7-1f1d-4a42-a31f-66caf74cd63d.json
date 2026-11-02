@@ -1,0 +1,15 @@
+{
+  "changeId": "5be7dbe7-1f1d-4a42-a31f-66caf74cd63d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341RJNJ17000000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#341RJNJ17000000",
+  "title": "人事院規則一七―〇（管理職員等の範囲）",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十一年人事院規則一七―〇\",\"LawName\":\"人事院規則一七―〇（管理職員等の範囲）\",\"LawNameKana\":\"じんじいんきそくじゅうななのぜろかんりしょくいんとうのはんい\",\"OldLawName\":\"\",\"PromulgationDate\":19660709,\"AmendName\":\"人事院規則一七―〇（管理職員等の範囲）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則一七―〇―一五四\",\"AmendPromulgationDate\":20261020,\"EnforcementDate\":20261020,\"EnforcementComment\":\"\",\"LawId\":\"341RJNJ17000000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341RJNJ17000000_20261020_508RJNJ17000154\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 人事院規則一七―〇（管理職員等の範囲）\n-{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十一年人事院規則一七―〇\",\"LawName\":\"人事院規則一七―〇（管理職員等の範囲）\",\"LawNameKana\":\"じんじいんきそくじゅうななのぜろかんりしょくいんとうのはんい\",\"OldLawName\":\"\",\"PromulgationDate\":19660709,\"AmendName\":\"人事院規則一七―〇（管理職員等の範囲）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則一七―〇―一五三\",\"AmendPromulgationDate\":20260722,\"EnforcementDate\":20260722,\"EnforcementComment\":\"\",\"LawId\":\"341RJNJ17000000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341RJNJ17000000_20260722_508RJNJ17000153\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和四十一年人事院規則一七―〇\",\"LawName\":\"人事院規則一七―〇（管理職員等の範囲）\",\"LawNameKana\":\"じんじいんきそくじゅうななのぜろかんりしょくいんとうのはんい\",\"OldLawName\":\"\",\"PromulgationDate\":19660709,\"AmendName\":\"人事院規則一七―〇（管理職員等の範囲）の一部を改正する人事院規則\",\"AmendNo\":\"令和八年人事院規則一七―〇―一五四\",\"AmendPromulgationDate\":20261020,\"EnforcementDate\":20261020,\"EnforcementComment\":\"\",\"LawId\":\"341RJNJ17000000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341RJNJ17000000_20261020_508RJNJ17000154\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "ec28c573-b55b-43cb-a559-4fc56643e813",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322M30000040046",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#322M30000040046",
+  "title": "昭和二十二年大蔵省令第四十六号（社寺等に無償で貸し付けてある国有財産の処分に関する法律施行規則）",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十二年大蔵省令第四十六号\",\"LawName\":\"昭和二十二年大蔵省令第四十六号（社寺等に無償で貸し付けてある国有財産の処分に関する法律施行規則）\",\"LawNameKana\":\"しゃじとうにむしょうでかしつけてあるこくゆうざいさんのしょぶんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19470501,\"AmendName\":\"\",\"AmendNo\":\"平成十二年大蔵省令第六十九号\",\"AmendPromulgationDate\":20000821,\"EnforcementDate\":20010106,\"EnforcementComment\":\"\",\"LawId\":\"322M30000040046\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322M30000040046_20010106_412M50000040069\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

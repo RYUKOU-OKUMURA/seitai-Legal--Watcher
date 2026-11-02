@@ -1,0 +1,15 @@
+{
+  "changeId": "691b0b01-336c-414d-8398-0777712e93f2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000008001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#413M60000008001",
+  "title": "総務省組織規則",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年総務省令第一号\",\"LawName\":\"総務省組織規則\",\"LawNameKana\":\"そうむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"総務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十八号\",\"AmendPromulgationDate\":20261016,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000008001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000008001_20261102_508M60000008118\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 総務省組織規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年総務省令第一号\",\"LawName\":\"総務省組織規則\",\"LawNameKana\":\"そうむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"総務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十八号\",\"AmendPromulgationDate\":20261016,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000008001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000008001_20261102_508M60000008118\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年総務省令第一号\",\"LawName\":\"総務省組織規則\",\"LawNameKana\":\"そうむしょうそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"総務省組織規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百十八号\",\"AmendPromulgationDate\":20261016,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"413M60000008001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000008001_20261102_508M60000008118\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

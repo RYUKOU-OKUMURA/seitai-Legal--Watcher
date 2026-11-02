@@ -1,0 +1,15 @@
+{
+  "changeId": "a1cc10b6-d1a4-4155-b60c-76802ddb3f2d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:421CO0000000030",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261102#421CO0000000030",
+  "title": "標準的な官職を定める政令",
+  "detectedAt": "2026-11-02T08:35:04.080Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十一年政令第三十号\",\"LawName\":\"標準的な官職を定める政令\",\"LawNameKana\":\"ひょうじゅんてきなかんしょくをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20090306,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"421CO0000000030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421CO0000000030_20261102_508CO0000000305\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 標準的な官職を定める政令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十一年政令第三十号\",\"LawName\":\"標準的な官職を定める政令\",\"LawNameKana\":\"ひょうじゅんてきなかんしょくをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20090306,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"421CO0000000030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421CO0000000030_20261102_508CO0000000305\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十一年政令第三十号\",\"LawName\":\"標準的な官職を定める政令\",\"LawNameKana\":\"ひょうじゅんてきなかんしょくをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20090306,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律の施行に伴う関係政令の整備に関する政令\",\"AmendNo\":\"令和八年政令第三百五号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"421CO0000000030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=421CO0000000030_20261102_508CO0000000305\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
