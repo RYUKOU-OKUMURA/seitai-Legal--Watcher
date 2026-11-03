@@ -1,0 +1,14 @@
+{
+  "changeId": "786a6bf2-186b-4e15-a3fb-1a0d5b30de93",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260247",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260247",
+  "title": "「遺伝子治療等臨床研究に関する指針」を廃止する告示（案）に関する御意見の募集について",
+  "detectedAt": "2026-11-03T08:47:32.360Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/02 受付締切日時：2026/12/01 23:59 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

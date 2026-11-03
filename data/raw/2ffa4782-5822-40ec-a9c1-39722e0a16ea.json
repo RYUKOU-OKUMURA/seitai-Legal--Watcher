@@ -1,0 +1,14 @@
+{
+  "changeId": "2ffa4782-5822-40ec-a9c1-39722e0a16ea",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=595320120",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=595320120",
+  "title": "高圧ガス保安法に基づく指定完成検査機関等の指定について等の一部を改正する規程（案）に対する意見募集",
+  "detectedAt": "2026-11-03T08:47:32.360Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/02 受付締切日時：2026/12/01 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：経済産業省大臣官房産業保安・安全グループ高圧ガス保安室",
+  "links": [],
+  "httpStatus": 200
+}

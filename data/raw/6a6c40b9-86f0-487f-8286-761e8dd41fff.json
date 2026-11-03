@@ -1,0 +1,14 @@
+{
+  "changeId": "6a6c40b9-86f0-487f-8286-761e8dd41fff",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000245",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000245",
+  "title": "幼保連携型認定こども園の学級の編制、職員、設備及び運営に関する基準の一部を改正する命令案に関する御意見の募集について",
+  "detectedAt": "2026-11-03T08:47:32.360Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/02 受付締切日時：2026/12/01 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局保育政策課企画法令第一係",
+  "links": [],
+  "httpStatus": 200
+}

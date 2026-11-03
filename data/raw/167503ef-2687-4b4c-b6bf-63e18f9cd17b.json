@@ -1,0 +1,14 @@
+{
+  "changeId": "167503ef-2687-4b4c-b6bf-63e18f9cd17b",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000246",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000246",
+  "title": "就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律第三条第二項及び第四項の規定に基づき内閣総理大臣及び文部科学大臣が定める施設の設備及び運営に関する基準の一部を改正する件案に関する御意見の募集について",
+  "detectedAt": "2026-11-03T08:47:32.360Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/02 受付締切日時：2026/12/01 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁成育局保育政策課企画法令第一係",
+  "links": [],
+  "httpStatus": 200
+}

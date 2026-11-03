@@ -1,0 +1,14 @@
+{
+  "changeId": "f1f92d66-cfa3-4299-928d-ea1bca1ea2bd",
+  "sourceId": "egov-pubcomment-result-safety",
+  "sourceName": "e-Govパブコメ 結果公示（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260914",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=060260914",
+  "title": "防災庁の設置に伴う防災庁令、告示等の制定及び改正について",
+  "detectedAt": "2026-11-03T08:47:32.360Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/02 案の公示日：2026/09/14 受付締切日時：2026/10/13 23:59 命令等の公布日：2026/11/02 提出意見数：0 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：防災庁統括官（総合政策担当）付参事官（政策調整担当）付\n（TEL）03-5797-7611",
+  "links": [],
+  "httpStatus": 200
+}
