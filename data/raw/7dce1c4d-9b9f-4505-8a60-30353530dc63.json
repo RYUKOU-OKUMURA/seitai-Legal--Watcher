@@ -1,0 +1,15 @@
+{
+  "changeId": "7dce1c4d-9b9f-4505-8a60-30353530dc63",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350M50002000003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261104#350M50002000003",
+  "title": "雇用保険法施行規則",
+  "detectedAt": "2026-11-04T08:16:45.382Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年労働省令第三号\",\"LawName\":\"雇用保険法施行規則\",\"LawNameKana\":\"こようほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750310,\"AmendName\":\"雇用保険法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十九号\",\"AmendPromulgationDate\":20261022,\"EnforcementDate\":20261022,\"EnforcementComment\":\"\",\"LawId\":\"350M50002000003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50002000003_20261022_508M60000100149\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 雇用保険法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年労働省令第三号\",\"LawName\":\"雇用保険法施行規則\",\"LawNameKana\":\"こようほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750310,\"AmendName\":\"雇用保険法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十七号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"350M50002000003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50002000003_20261001_508M60000100147\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年労働省令第三号\",\"LawName\":\"雇用保険法施行規則\",\"LawNameKana\":\"こようほけんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750310,\"AmendName\":\"雇用保険法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年厚生労働省令第百四十九号\",\"AmendPromulgationDate\":20261022,\"EnforcementDate\":20261022,\"EnforcementComment\":\"\",\"LawId\":\"350M50002000003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50002000003_20261022_508M60000100149\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

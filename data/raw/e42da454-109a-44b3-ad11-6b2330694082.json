@@ -1,0 +1,14 @@
+{
+  "changeId": "e42da454-109a-44b3-ad11-6b2330694082",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:360M50001000030",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261104#360M50001000030",
+  "title": "事業用電気通信設備規則",
+  "detectedAt": "2026-11-04T08:16:45.382Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和六十年郵政省令第三十号\",\"LawName\":\"事業用電気通信設備規則\",\"LawNameKana\":\"じぎょうようでんきつうしんせつびきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19850401,\"AmendName\":\"電気通信事業法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百二十号\",\"AmendPromulgationDate\":20261022,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"360M50001000030\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=360M50001000030_20261101_508M60000008120\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
