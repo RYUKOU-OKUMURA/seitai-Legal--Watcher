@@ -1,0 +1,14 @@
+{
+  "changeId": "5b75a907-83ec-4547-8b76-6b58426bda3e",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004443",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004443",
+  "title": "合板等のホルムアルデヒド放散量の試験方法の日本農林規格案についての意見・情報の募集について",
+  "detectedAt": "2026-11-05T08:41:56.232Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/05 受付締切日時：2026/12/04 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4357）",
+  "links": [],
+  "httpStatus": 200
+}
