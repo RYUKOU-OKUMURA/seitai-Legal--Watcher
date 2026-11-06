@@ -1,0 +1,14 @@
+{
+  "changeId": "d2577d17-bfb6-4e62-b57e-65b129a74cfa",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000332",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261106#508CO0000000332",
+  "title": "医療的ケア児等及び重症心身障害者並びにそれらの家族に対する支援に関する法律第十四条第一項の政令で定める市を定める政令",
+  "detectedAt": "2026-11-06T08:43:20.976Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第三百三十二号\",\"LawName\":\"医療的ケア児等及び重症心身障害者並びにそれらの家族に対する支援に関する法律第十四条第一項の政令で定める市を定める政令\",\"LawNameKana\":\"いりょうてきけあじとうおよびじゅうしょうしんしんしょうがいしゃならびにそれらのかぞくにたいするしえんにかんするほうりつだいじゅうよんじょうだいいっこうのせいれいでさだめるしをさだめるせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20261023,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261023,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000332\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000332_20270401_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
