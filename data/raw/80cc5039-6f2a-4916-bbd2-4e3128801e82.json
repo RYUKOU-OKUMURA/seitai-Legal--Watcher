@@ -1,0 +1,14 @@
+{
+  "changeId": "80cc5039-6f2a-4916-bbd2-4e3128801e82",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000335",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261109#508CO0000000335",
+  "title": "国家社会機能継続性確保施策・副首都整備推進本部令",
+  "detectedAt": "2026-11-09T08:49:45.408Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第三百三十五号\",\"LawName\":\"国家社会機能継続性確保施策・副首都整備推進本部令\",\"LawNameKana\":\"こっかしゃかいきのうけいぞくせいかくほしさくふくしゅとせいびすいしんほんぶれい\",\"OldLawName\":\"\",\"PromulgationDate\":20261028,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261028,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000335\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000335_20261030_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
