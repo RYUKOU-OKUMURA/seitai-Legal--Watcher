@@ -1,0 +1,14 @@
+{
+  "changeId": "b21d0aaf-7bdc-42ab-be0e-59115de55519",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004445",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=550004445",
+  "title": "魚類の鮮度（K値）試験方法 －高速液体クロマトグラフ法の日本農林規格の確認案についての意見・情報の募集について",
+  "detectedAt": "2026-11-10T08:55:46.370Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/10 受付締切日時：2026/12/09 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：農林水産省大臣官房新事業・食品産業部食品製造課基準認証室 \n電話：03-3502-8111（内線4481）",
+  "links": [],
+  "httpStatus": 200
+}

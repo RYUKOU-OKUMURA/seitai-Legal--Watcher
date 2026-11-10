@@ -1,0 +1,14 @@
+{
+  "changeId": "75962bd1-6099-4325-92da-8b9d7bec7eab",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000002092",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261110#508M60000002092",
+  "title": "国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律施行規則",
+  "detectedAt": "2026-11-10T08:55:46.370Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年内閣府令第九十二号\",\"LawName\":\"国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律施行規則\",\"LawNameKana\":\"こっかしゃかいきのうけいぞくせいかくほしさくおよびふくしゅとのせいびにかかるしさくのすいしんにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20261030,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"508M60000002092\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000002092_20261030_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

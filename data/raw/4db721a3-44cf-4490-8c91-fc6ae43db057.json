@@ -1,0 +1,14 @@
+{
+  "changeId": "4db721a3-44cf-4490-8c91-fc6ae43db057",
+  "sourceId": "egov-pubcomment-list-welfare",
+  "sourceName": "e-Govパブコメ 意見募集（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000247",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000247",
+  "title": "学校設置者等及び民間教育保育等事業者による児童対象性暴力等の防止等のための措置に関する法律施行規則の一部を改正する内閣府令（案）に関する御意見の募集について",
+  "detectedAt": "2026-11-10T08:55:46.370Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/09 受付締切日時：2026/11/18 23:59 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：こども家庭庁支援局参事官（こども性暴力防止担当）付",
+  "links": [],
+  "httpStatus": 200
+}

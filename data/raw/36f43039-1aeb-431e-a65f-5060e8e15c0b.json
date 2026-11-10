@@ -1,0 +1,14 @@
+{
+  "changeId": "36f43039-1aeb-431e-a65f-5060e8e15c0b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:344M50000020008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261110#344M50000020008",
+  "title": "研修員手当の号の適用に関する規則",
+  "detectedAt": "2026-11-10T08:55:46.370Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和四十四年外務省令第八号\",\"LawName\":\"研修員手当の号の適用に関する規則\",\"LawNameKana\":\"けんしゅういんてあてのごうのてきようにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19690612,\"AmendName\":\"研修員手当の号の適用に関する規則の一部を改正する省令\",\"AmendNo\":\"令和八年外務省令第二十四号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"344M50000020008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=344M50000020008_20261101_508M60000020024\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
