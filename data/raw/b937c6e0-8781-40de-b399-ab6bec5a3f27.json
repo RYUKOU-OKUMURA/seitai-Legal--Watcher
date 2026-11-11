@@ -1,0 +1,14 @@
+{
+  "changeId": "b937c6e0-8781-40de-b399-ab6bec5a3f27",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:504CO0000000394",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261111#504CO0000000394",
+  "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律施行令",
+  "detectedAt": "2026-11-11T08:35:58.884Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和四年政令第三百九十四号\",\"LawName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律施行令\",\"LawNameKana\":\"けいざいしさくをいったいてきにこうずることによるあんぜんほしょうのかくほのすいしんにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20221223,\"AmendName\":\"経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百三十六号\",\"AmendPromulgationDate\":20261028,\"EnforcementDate\":20261028,\"EnforcementComment\":\"\",\"LawId\":\"504CO0000000394\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=504CO0000000394_20261028_508CO0000000336\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

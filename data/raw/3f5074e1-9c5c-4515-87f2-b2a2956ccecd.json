@@ -1,0 +1,14 @@
+{
+  "changeId": "3f5074e1-9c5c-4515-87f2-b2a2956ccecd",
+  "sourceId": "egov-pubcomment-result-welfare",
+  "sourceName": "e-Govパブコメ 結果公示（社会福祉）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260163",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260163",
+  "title": "障害福祉サービス等及び障害児通所支援等の円滑な実施を確保するための基本的な指針の一部を改正する件（案）に関する意見募集の結果について",
+  "detectedAt": "2026-11-11T08:35:58.884Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/10 案の公示日：2026/08/26 受付締切日時：2026/09/24 23:59 命令等の公布日：2026/11/10 提出意見数：13 カテゴリー：社会福祉 問合せ先（所管省庁・部局名等）：厚生労働省障害保健福祉部障害福祉課\n電話：03-5253-1111（代表）",
+  "links": [],
+  "httpStatus": 200
+}

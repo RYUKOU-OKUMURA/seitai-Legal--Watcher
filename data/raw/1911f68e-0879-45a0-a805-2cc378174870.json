@@ -1,0 +1,14 @@
+{
+  "changeId": "1911f68e-0879-45a0-a805-2cc378174870",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:406M50000008045",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261111#406M50000008045",
+  "title": "政党助成法施行規則",
+  "detectedAt": "2026-11-11T08:35:58.884Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成六年自治省令第四十五号\",\"LawName\":\"政党助成法施行規則\",\"LawNameKana\":\"せいとうじょせいほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19941128,\"AmendName\":\"政治資金規正法施行規則及び政党助成法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百二十五号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"406M50000008045\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=406M50000008045_20270101_508M60000008125\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

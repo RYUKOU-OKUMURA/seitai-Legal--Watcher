@@ -1,0 +1,14 @@
+{
+  "changeId": "ecb51b70-4972-4af6-b09d-6748ed1dffc6",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260510",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=155260510",
+  "title": "下水道の整備及び基盤の強化に関する基本的な方針（案）に関するパブリックコメントの募集について",
+  "detectedAt": "2026-11-11T08:35:58.884Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/10 受付締切日時：2026/12/10 11:00 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：国土交通省水管理・国土保全局上下水道企画課意見募集担当",
+  "links": [],
+  "httpStatus": 200
+}

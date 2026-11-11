@@ -1,0 +1,14 @@
+{
+  "changeId": "f9a314cf-fdcc-4734-ac9e-aa65b3218212",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:350M50000008017",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261111#350M50000008017",
+  "title": "政治資金規正法施行規則",
+  "detectedAt": "2026-11-11T08:35:58.884Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和五十年自治省令第十七号\",\"LawName\":\"政治資金規正法施行規則\",\"LawNameKana\":\"せいじしきんきせいほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19750926,\"AmendName\":\"政治資金規正法施行規則及び政党助成法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百二十五号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20270101,\"EnforcementComment\":\"\",\"LawId\":\"350M50000008017\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=350M50000008017_20270101_508M60000008125\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
