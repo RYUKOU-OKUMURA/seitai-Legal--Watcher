@@ -1,0 +1,14 @@
+{
+  "changeId": "1d7f30a8-ead7-4db4-bfab-ffb23a8ee8c4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:426M60000800041",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261112#426M60000800041",
+  "title": "小笠原諸島振興開発特別措置法施行規則",
+  "detectedAt": "2026-11-12T08:56:47.986Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十六年国土交通省令第四十一号\",\"LawName\":\"小笠原諸島振興開発特別措置法施行規則\",\"LawNameKana\":\"おがさわらしょとうしんこうかいはつとくべつそちほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20140331,\"AmendName\":\"小笠原諸島振興開発特別措置法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十六号\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"426M60000800041\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=426M60000800041_20261102_508M60000800086\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

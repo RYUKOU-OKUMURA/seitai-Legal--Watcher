@@ -1,0 +1,14 @@
+{
+  "changeId": "420fb4cf-6e3b-4976-b16e-bb3abbe4f490",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:418M60000008003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261112#418M60000008003",
+  "title": "日本郵政株式会社法施行規則",
+  "detectedAt": "2026-11-12T08:56:47.986Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十八年総務省令第三号\",\"LawName\":\"日本郵政株式会社法施行規則\",\"LawNameKana\":\"にほんゆうせいかぶしきがいしゃほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20060120,\"AmendName\":\"日本郵政株式会社法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年総務省令第百二十三号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"418M60000008003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=418M60000008003_20261201_508M60000008123\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

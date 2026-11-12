@@ -1,0 +1,14 @@
+{
+  "changeId": "4995340c-ee72-4543-8757-6f21a1d41a35",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:504RJNJ09147000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261112#504RJNJ09147000",
+  "title": "人事院規則九―一四七（給与法附則第八項の規定による俸給月額）",
+  "detectedAt": "2026-11-12T08:56:47.986Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"令和四年人事院規則九―一四七\",\"LawName\":\"人事院規則九―一四七（給与法附則第八項の規定による俸給月額）\",\"LawNameKana\":\"じんじいんきそくきゅうのひゃくよんじゅうななきゅうよほうふそくだいはっこうのきていによるほうきゅうげつがく\",\"OldLawName\":\"\",\"PromulgationDate\":20220218,\"AmendName\":\"人事院規則一―八三（防災庁設置法等の施行に伴う関係人事院規則の整備に関する人事院規則）\",\"AmendNo\":\"令和八年人事院規則一―八三\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"504RJNJ09147000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=504RJNJ09147000_20261102_508RJNJ01083000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

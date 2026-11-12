@@ -1,0 +1,14 @@
+{
+  "changeId": "8eeedc4a-9bac-445f-8545-e66150a792ca",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260920",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=095260920",
+  "title": "クロチアニジン及び d•d-T80-プラレトリンを有効成分とする畜舎噴霧剤（ヌーベルショット、トリプルアクセル）に係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+  "detectedAt": "2026-11-12T08:56:47.986Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/11 受付締切日時：2026/12/10 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：【本件連絡先】\n内閣府食品安全委員会事務局\n評価第二課　五島、森本、鶴岡\n電話：03-6234-1094、1151、1095",
+  "links": [],
+  "httpStatus": 200
+}
