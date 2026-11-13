@@ -1,0 +1,14 @@
+{
+  "changeId": "1f0b19f1-4037-46cf-8e0c-2fd2138cc46e",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:413M60000002004",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261113#413M60000002004",
+  "title": "沖縄総合事務局組織規則",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十三年内閣府令第四号\",\"LawName\":\"沖縄総合事務局組織規則\",\"LawNameKana\":\"おきなわそうごうじむきょくそしききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20010106,\"AmendName\":\"沖縄総合事務局組織規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十四号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"413M60000002004\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=413M60000002004_20261101_508M60000002094\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

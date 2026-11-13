@@ -1,0 +1,15 @@
+{
+  "changeId": "732c57fb-1c84-417e-ae0c-f418986523cb",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:352CO0000000220",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261113#352CO0000000220",
+  "title": "電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十二年政令第二百二十号\",\"LawName\":\"電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令\",\"LawNameKana\":\"でんしじょうほうしょりそしきによるゆしゅつにゅうとうかんれんぎょうむのしょりとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19770624,\"AmendName\":\"ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して課する暫定的な不当廉売関税に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百四十号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261031,\"EnforcementComment\":\"\",\"LawId\":\"352CO0000000220\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=352CO0000000220_20261031_508CO0000000340\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十二年政令第二百二十号\",\"LawName\":\"電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令\",\"LawNameKana\":\"でんしじょうほうしょりそしきによるゆしゅつにゅうとうかんれんぎょうむのしょりとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19770624,\"AmendName\":\"関税定率法等の一部を改正する法律の施行に伴う関係政令の整備等に関する政令\",\"AmendNo\":\"令和八年政令第八十五号\",\"AmendPromulgationDate\":20260331,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"352CO0000000220\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=352CO0000000220_20261101_508CO0000000085\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和五十二年政令第二百二十号\",\"LawName\":\"電子情報処理組織による輸出入等関連業務の処理等に関する法律施行令\",\"LawNameKana\":\"でんしじょうほうしょりそしきによるゆしゅつにゅうとうかんれんぎょうむのしょりとうにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19770624,\"AmendName\":\"ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して課する暫定的な不当廉売関税に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百四十号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261031,\"EnforcementComment\":\"\",\"LawId\":\"352CO0000000220\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=352CO0000000220_20261031_508CO0000000340\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

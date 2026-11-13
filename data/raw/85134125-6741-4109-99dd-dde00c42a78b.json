@@ -1,0 +1,14 @@
+{
+  "changeId": "85134125-6741-4109-99dd-dde00c42a78b",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220424",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495220424",
+  "title": "「ICH M13A 即放性経口固形製剤の生物学的同等性（案）」に関する御意見の募集の結果について",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/12 案の公示日：2023/03/22 受付締切日時：2023/05/22 23:59 命令等の公布日：2026/11/12 提出意見数：373 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医薬局医薬品審査管理課\n電話：03-5253-1111（内線4228）",
+  "links": [],
+  "httpStatus": 200
+}

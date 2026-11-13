@@ -1,0 +1,14 @@
+{
+  "changeId": "739c93cb-aeee-4526-974b-bb3e15a855ac",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:504RJNJ11011000",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261113#504RJNJ11011000",
+  "title": "人事院規則一一―一一（管理監督職勤務上限年齢による降任等）",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"令和四年人事院規則一一―一一\",\"LawName\":\"人事院規則一一―一一（管理監督職勤務上限年齢による降任等）\",\"LawNameKana\":\"じんじいんきそくじゅういちのじゅういちかんりかんとくしょくきんむじょうげんねんれいによるこうにんとう\",\"OldLawName\":\"\",\"PromulgationDate\":20220218,\"AmendName\":\"人事院規則一―八三（防災庁設置法等の施行に伴う関係人事院規則の整備に関する人事院規則）\",\"AmendNo\":\"令和八年人事院規則一―八三\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"504RJNJ11011000\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=504RJNJ11011000_20261102_508RJNJ01083000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

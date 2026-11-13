@@ -1,0 +1,14 @@
+{
+  "changeId": "56d7cd34-f533-42e8-8882-14633e7c8cee",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:428CO0000000303",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261113#428CO0000000303",
+  "title": "規制改革推進会議令",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成二十八年政令第三百三号\",\"LawName\":\"規制改革推進会議令\",\"LawNameKana\":\"きせいかいかくすいしんかいぎれい\",\"OldLawName\":\"\",\"PromulgationDate\":20160907,\"AmendName\":\"規制改革推進会議令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百四十三号\",\"AmendPromulgationDate\":20261105,\"EnforcementDate\":20261105,\"EnforcementComment\":\"\",\"LawId\":\"428CO0000000303\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=428CO0000000303_20261105_508CO0000000343\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,15 @@
+{
+  "changeId": "48920568-3376-4da4-8527-3f7db3de3dc5",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:327M50000002012",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261113#327M50000002012",
+  "title": "内閣府所管旅費取扱規則",
+  "detectedAt": "2026-11-13T08:53:01.048Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年総理府令第十二号\",\"LawName\":\"内閣府所管旅費取扱規則\",\"LawNameKana\":\"ないかくふしょかんりょひとりあつかいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520423,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律等の施行に伴う内閣府本府関係内閣府令の整備等に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十三号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"327M50000002012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000002012_20261102_508M60000002093\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 内閣府所管旅費取扱規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年総理府令第十二号\",\"LawName\":\"内閣府所管旅費取扱規則\",\"LawNameKana\":\"ないかくふしょかんりょひとりあつかいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520423,\"AmendName\":\"内閣府所管旅費取扱規則の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第八十四号\",\"AmendPromulgationDate\":20260930,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"327M50000002012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000002012_20261001_508M60000002084\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十七年総理府令第十二号\",\"LawName\":\"内閣府所管旅費取扱規則\",\"LawNameKana\":\"ないかくふしょかんりょひとりあつかいきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19520423,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律等の施行に伴う内閣府本府関係内閣府令の整備等に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十三号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"327M50000002012\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=327M50000002012_20261102_508M60000002093\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
