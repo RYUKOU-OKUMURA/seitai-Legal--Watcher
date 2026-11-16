@@ -1,0 +1,14 @@
+{
+  "changeId": "57ac5f1a-7ffb-4cc6-9ee9-b71068da1a4a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423M60000802008",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261116#423M60000802008",
+  "title": "指定避難施設の管理及び協定避難施設の管理協定に関する命令",
+  "detectedAt": "2026-11-16T08:44:50.564Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十三年内閣府・国土交通省令第八号\",\"LawName\":\"指定避難施設の管理及び協定避難施設の管理協定に関する命令\",\"LawNameKana\":\"していひなんしせつのかんりおよびきょうていひなんしせつのかんりきょうていにかんするめいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20111226,\"AmendName\":\"指定避難施設の管理及び協定避難施設の管理協定に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・国土交通省令第七号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"423M60000802008\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423M60000802008_20261102_508M60000802007\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "2fb60ddc-4cb8-4d8f-8f63-88aabe3f196b",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322M4000094A001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261116#322M4000094A001",
+  "title": "災害救助法施行規則",
+  "detectedAt": "2026-11-16T08:44:50.564Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十二年総理庁・厚生省・内務省・大蔵省・運輸省令第一号\",\"LawName\":\"災害救助法施行規則\",\"LawNameKana\":\"さいがいきゅうじょほうせこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19471030,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律等の施行に伴う内閣府本府関係内閣府令の整備等に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十三号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"322M4000094A001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322M4000094A001_20261102_508M60000002093\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

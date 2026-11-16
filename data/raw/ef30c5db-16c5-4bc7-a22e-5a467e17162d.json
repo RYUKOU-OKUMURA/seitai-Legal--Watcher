@@ -1,0 +1,14 @@
+{
+  "changeId": "ef30c5db-16c5-4bc7-a22e-5a467e17162d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:339M50000010046",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261116#339M50000010046",
+  "title": "各種法人等登記規則",
+  "detectedAt": "2026-11-16T08:44:50.564Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和三十九年法務省令第四十六号\",\"LawName\":\"各種法人等登記規則\",\"LawNameKana\":\"かくしゅほうじんとうききそく\",\"OldLawName\":\"\",\"PromulgationDate\":19640331,\"AmendName\":\"商業登記規則等の一部を改正する省令\",\"AmendNo\":\"令和八年法務省令第五十一号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"339M50000010046\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=339M50000010046_20261201_508M60000010051\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

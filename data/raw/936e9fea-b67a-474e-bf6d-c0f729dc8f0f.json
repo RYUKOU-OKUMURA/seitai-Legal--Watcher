@@ -1,0 +1,14 @@
+{
+  "changeId": "936e9fea-b67a-474e-bf6d-c0f729dc8f0f",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419M60000002052",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261116#419M60000002052",
+  "title": "金融商品取引業等に関する内閣府令",
+  "detectedAt": "2026-11-16T08:44:50.564Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成十九年内閣府令第五十二号\",\"LawName\":\"金融商品取引業等に関する内閣府令\",\"LawNameKana\":\"きんゆうしょうひんとりひきぎょうとうにかんするないかくふれい\",\"OldLawName\":\"\",\"PromulgationDate\":20070806,\"AmendName\":\"金融商品取引業等に関する内閣府令の一部を改正する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十五号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261030,\"EnforcementComment\":\"\",\"LawId\":\"419M60000002052\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419M60000002052_20261030_508M60000002095\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
