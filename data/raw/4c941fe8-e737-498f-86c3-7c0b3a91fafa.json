@@ -1,0 +1,14 @@
+{
+  "changeId": "4c941fe8-e737-498f-86c3-7c0b3a91fafa",
+  "sourceId": "egov-pubcomment-list-safety",
+  "sourceName": "e-Govパブコメ 意見募集（国民生活）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=291260010",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=291260010",
+  "title": "東日本大震災に対処するための特別の財政援助及び助成に関する法律の厚生労働省関係規定の施行等に関する政令の一部を改正する政令案に関する御意見募集（パブリックコメント）について",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/16 受付締切日時：2026/12/16 23:59 カテゴリー：国民生活の安全・安心の確保 問合せ先（所管省庁・部局名等）：防災庁統括官（総合政策担当）付参事官（被災者生活再建担当）付",
+  "links": [],
+  "httpStatus": 200
+}

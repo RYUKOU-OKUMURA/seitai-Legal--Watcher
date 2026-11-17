@@ -1,0 +1,23 @@
+{
+  "changeId": "e8c693b9-964f-4ea5-803e-1be4dfffb3ff",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260268",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260268",
+  "title": "医療法施行令等の一部を改正する政令案に関する御意見の募集について",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/16 受付締切日時：2026/12/16 17:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省医政局地域医療計画課\n電話：03-3595-2194（内線:4128）",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260268",
+      "error": "HTTP 403"
+    }
+  ]
+}

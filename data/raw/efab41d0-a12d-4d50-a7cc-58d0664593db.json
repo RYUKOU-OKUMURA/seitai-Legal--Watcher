@@ -1,0 +1,15 @@
+{
+  "changeId": "efab41d0-a12d-4d50-a7cc-58d0664593db",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260245",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260245",
+  "title": "雇用保険法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "updated",
+  "bodyExcerpt": "案の公示日：2026/11/02 受付締切日時：2026/12/02 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局雇用政策課労働移動支援室\n代表番号：03-5253-1111（内線5787）",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,5 +1,5 @@\n 雇用保険法施行規則の一部を改正する省令案に関する御意見の募集について\n-案の公示日：2026/11/02 受付締切日時：2026/12/01 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局雇用政策課労働移動支援室\n+案の公示日：2026/11/02 受付締切日時：2026/12/02 23:59 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省職業安定局雇用政策課労働移動支援室\n 代表番号：03-5253-1111（内線5787）\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

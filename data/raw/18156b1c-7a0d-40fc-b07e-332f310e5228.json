@@ -1,0 +1,23 @@
+{
+  "changeId": "18156b1c-7a0d-40fc-b07e-332f310e5228",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=195260083",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=195260083",
+  "title": "「水道水中における従属栄養細菌の目標値見直し（案）」に関する御意見の募集について",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/17 受付締切日時：2026/12/17 00:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：環境省水・大気環境局環境管理課水道水質・衛生管理室",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=195260083",
+      "error": "HTTP 403"
+    }
+  ]
+}

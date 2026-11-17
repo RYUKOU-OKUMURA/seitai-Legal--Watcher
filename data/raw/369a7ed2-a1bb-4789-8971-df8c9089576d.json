@@ -1,0 +1,15 @@
+{
+  "changeId": "369a7ed2-a1bb-4789-8971-df8c9089576d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:430M60001FCA001",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261117#430M60001FCA001",
+  "title": "産業競争力強化法施行規則",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"LawName\":\"産業競争力強化法施行規則\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20180706,\"AmendName\":\"産業競争力強化法施行規則及び産業競争力強化法に基づく認定技術等情報漏えい防止措置認証機関に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第四号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"430M60001FCA001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430M60001FCA001_20260731_508M60001FCA004\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 産業競争力強化法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"LawName\":\"産業競争力強化法施行規則\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20180706,\"AmendName\":\"産業競争力強化法施行規則の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第三号\",\"AmendPromulgationDate\":20260630,\"EnforcementDate\":20260701,\"EnforcementComment\":\"\",\"LawId\":\"430M60001FCA001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430M60001FCA001_20260701_508M60001FCA003\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成三十年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第一号\",\"LawName\":\"産業競争力強化法施行規則\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20180706,\"AmendName\":\"産業競争力強化法施行規則及び産業競争力強化法に基づく認定技術等情報漏えい防止措置認証機関に関する命令の一部を改正する命令\",\"AmendNo\":\"令和八年内閣府・総務省・財務省・文部科学省・厚生労働省・農林水産省・経済産業省・国土交通省・環境省令第四号\",\"AmendPromulgationDate\":20260731,\"EnforcementDate\":20260731,\"EnforcementComment\":\"\",\"LawId\":\"430M60001FCA001\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=430M60001FCA001_20260731_508M60001FCA004\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

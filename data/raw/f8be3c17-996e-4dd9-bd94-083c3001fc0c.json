@@ -1,0 +1,14 @@
+{
+  "changeId": "f8be3c17-996e-4dd9-bd94-083c3001fc0c",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260265",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260265",
+  "title": "職業能力開発促進法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/17 受付締切日時：2026/12/17 00:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：厚生労働省人材開発統括官付能力評価担当参事官室\n代表番号：03-5253-1111（内線5946）",
+  "links": [],
+  "httpStatus": 200
+}

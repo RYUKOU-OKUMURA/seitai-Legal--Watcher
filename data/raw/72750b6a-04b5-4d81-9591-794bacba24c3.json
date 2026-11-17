@@ -1,0 +1,14 @@
+{
+  "changeId": "72750b6a-04b5-4d81-9591-794bacba24c3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000040031",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261117#507M60000040031",
+  "title": "防衛特別法人税に関する省令",
+  "detectedAt": "2026-11-17T09:52:37.488Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年財務省令第三十一号\",\"LawName\":\"防衛特別法人税に関する省令\",\"LawNameKana\":\"ぼうえいとくべつほうじんぜいにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20250331,\"AmendName\":\"防衛特別法人税に関する省令の一部を改正する省令\",\"AmendNo\":\"令和八年財務省令第四十二号\",\"AmendPromulgationDate\":20260414,\"EnforcementDate\":20280101,\"EnforcementComment\":\"\",\"LawId\":\"507M60000040031\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000040031_20280101_508M60000040042\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
