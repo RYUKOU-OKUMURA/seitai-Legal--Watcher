@@ -1,0 +1,14 @@
+{
+  "changeId": "8823e2ce-6ad0-4515-8047-ff8cd5623218",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:414AC0000000147",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#414AC0000000147",
+  "title": "独立行政法人中小企業基盤整備機構法",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十四年法律第百四十七号\",\"LawName\":\"独立行政法人中小企業基盤整備機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんちゅうしょうきぎょうきばんせいびきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20021211,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"414AC0000000147\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=414AC0000000147_20261120_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

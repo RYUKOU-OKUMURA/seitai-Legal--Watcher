@@ -1,0 +1,14 @@
+{
+  "changeId": "45fd7fd1-c577-444b-9bb1-73825c3a41a8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60008000005",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#508M60008000005",
+  "title": "防災庁の所管に属する不動産及び船舶に関する権利の登記嘱託職員を指定する防災庁令",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年防災庁令第五号\",\"LawName\":\"防災庁の所管に属する不動産及び船舶に関する権利の登記嘱託職員を指定する防災庁令\",\"LawNameKana\":\"ぼうさいちょうのしょかんにぞくするふどうさんおよびせんぱくにかんするけんりのとうきしょくたくしょくいんをしていするぼうさいちょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20261102,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"508M60008000005\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60008000005_20261102_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

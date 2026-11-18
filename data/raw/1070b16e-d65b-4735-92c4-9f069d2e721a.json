@@ -1,0 +1,14 @@
+{
+  "changeId": "1070b16e-d65b-4735-92c4-9f069d2e721a",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:420M60000400023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#420M60000400023",
+  "title": "核燃料物質又は核燃料物質によって汚染された物の第一種廃棄物埋設の事業に関する規則",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"平成二十年経済産業省令第二十三号\",\"LawName\":\"核燃料物質又は核燃料物質によって汚染された物の第一種廃棄物埋設の事業に関する規則\",\"LawNameKana\":\"かくねんりょうぶっしつまたはかくねんりょうぶっしつによっておせんされたもののだいいっしゅはいきぶつまいせつのじぎょうにかんするきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20080328,\"AmendName\":\"試験研究の用に供する原子炉等の設置、運転等に関する規則等の一部を改正する規則\",\"AmendNo\":\"令和八年原子力規制委員会規則第八号\",\"AmendPromulgationDate\":20261105,\"EnforcementDate\":20261201,\"EnforcementComment\":\"\",\"LawId\":\"420M60000400023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=420M60000400023_20261201_508M60080000008\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

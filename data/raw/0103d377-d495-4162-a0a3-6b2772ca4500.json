@@ -1,0 +1,15 @@
+{
+  "changeId": "0103d377-d495-4162-a0a3-6b2772ca4500",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:325M50004000040",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#325M50004000040",
+  "title": "建築基準法施行規則",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年建設省令第四十号\",\"LawName\":\"建築基準法施行規則\",\"LawNameKana\":\"けんちくきじゅんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501116,\"AmendName\":\"建築基準法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十五号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"325M50004000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50004000040_20261101_508M60000800085\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 建築基準法施行規則\n-{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年建設省令第四十号\",\"LawName\":\"建築基準法施行規則\",\"LawNameKana\":\"けんちくきじゅんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501116,\"AmendName\":\"船員法施行規則等の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十二号\",\"AmendPromulgationDate\":20261001,\"EnforcementDate\":20261001,\"EnforcementComment\":\"\",\"LawId\":\"325M50004000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50004000040_20261001_508M60000800082\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n+{\"LawTypeName\":\"府省令\",\"LawNo\":\"昭和二十五年建設省令第四十号\",\"LawName\":\"建築基準法施行規則\",\"LawNameKana\":\"けんちくきじゅんほうしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19501116,\"AmendName\":\"建築基準法施行規則の一部を改正する省令\",\"AmendNo\":\"令和八年国土交通省令第八十五号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261101,\"EnforcementComment\":\"\",\"LawId\":\"325M50004000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=325M50004000040_20261101_508M60000800085\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

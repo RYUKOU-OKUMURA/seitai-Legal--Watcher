@@ -1,0 +1,14 @@
+{
+  "changeId": "87665d25-25da-47fd-8dbf-28f4db4ed261",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000135",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#323AC0000000135",
+  "title": "市町村立学校職員給与負担法",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第百三十五号\",\"LawName\":\"市町村立学校職員給与負担法\",\"LawNameKana\":\"しちょうそんりつがっこうしょくいんきゅうよふたんほう\",\"OldLawName\":\"\",\"PromulgationDate\":19480710,\"AmendName\":\"一般職の職員の給与に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十九号\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000135\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000135_20270401_508AC0000000079\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

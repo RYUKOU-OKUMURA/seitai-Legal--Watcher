@@ -1,0 +1,14 @@
+{
+  "changeId": "2485dcac-f615-49ee-8b3d-d2f402e5bba4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:322R00000001003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#322R00000001003",
+  "title": "会計検査院事務総局事務分掌及び分課規則",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"規則\",\"LawNo\":\"昭和二十二年会計検査院規則第三号\",\"LawName\":\"会計検査院事務総局事務分掌及び分課規則\",\"LawNameKana\":\"かいけいけんさいんじむそうきょくじむぶんしょうおよびぶんかきそく\",\"OldLawName\":\"\",\"PromulgationDate\":19470503,\"AmendName\":\"会計検査院事務総局事務分掌及び分課規則の一部を改正する規則\",\"AmendNo\":\"令和八年会計検査院規則第四号\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"322R00000001003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=322R00000001003_20261102_508R00000001004\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "e28d2e86-dd5c-4a70-bbae-bc99635e7128",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60008000002",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#508M60008000002",
+  "title": "防災庁聴聞手続規則",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年防災庁令第二号\",\"LawName\":\"防災庁聴聞手続規則\",\"LawNameKana\":\"ぼうさいちょうちょうもんてつづききそく\",\"OldLawName\":\"\",\"PromulgationDate\":20261102,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"508M60008000002\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60008000002_20261102_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

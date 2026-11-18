@@ -1,0 +1,14 @@
+{
+  "changeId": "f84f21a9-581f-4554-9605-01991e8043d6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:416AC0000000121",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#416AC0000000121",
+  "title": "判事補及び検事の弁護士職務経験に関する法律",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十六年法律第百二十一号\",\"LawName\":\"判事補及び検事の弁護士職務経験に関する法律\",\"LawNameKana\":\"はんじほおよびけんじのべんごししょくむけいけんにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20040618,\"AmendName\":\"一般職の職員の給与に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十九号\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"416AC0000000121\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=416AC0000000121_20270401_508AC0000000079\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

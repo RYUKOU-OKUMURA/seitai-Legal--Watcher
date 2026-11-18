@@ -1,0 +1,14 @@
+{
+  "changeId": "f1c47a75-7f31-4ad4-80a7-fd955df1ea7d",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60008000003",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#508M60008000003",
+  "title": "防災庁の所管する法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年防災庁令第三号\",\"LawName\":\"防災庁の所管する法令に係る情報通信技術を活用した行政の推進等に関する法律施行規則\",\"LawNameKana\":\"ぼうさいちょうのしょかんするほうれいにかかるじょうほうつうしんぎじゅつをかつようしたぎょうせいのすいしんとうにかんするほうりつしこうきそく\",\"OldLawName\":\"\",\"PromulgationDate\":20261102,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261102,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"508M60008000003\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60008000003_20261102_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

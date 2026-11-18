@@ -1,0 +1,14 @@
+{
+  "changeId": "2c2a9196-f631-40eb-96e3-195d0709eb89",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:507M60000002058",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#507M60000002058",
+  "title": "登録被災者援護協力団体に関する防災庁令",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和七年内閣府令第五十八号\",\"LawName\":\"登録被災者援護協力団体に関する防災庁令\",\"LawNameKana\":\"とうろくひさいしゃえんごきょうりょくだんたいにかんするぼうさいちょうれい\",\"OldLawName\":\"登録被災者援護協力団体に関する内閣府令\",\"PromulgationDate\":20250624,\"AmendName\":\"防災庁設置法及び防災庁設置法の施行に伴う関係法律の整備等に関する法律等の施行に伴う内閣府本府関係内閣府令の整備等に関する内閣府令\",\"AmendNo\":\"令和八年内閣府令第九十三号\",\"AmendPromulgationDate\":20261030,\"EnforcementDate\":20261102,\"EnforcementComment\":\"\",\"LawId\":\"507M60000002058\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=507M60000002058_20261102_508M60000002093\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

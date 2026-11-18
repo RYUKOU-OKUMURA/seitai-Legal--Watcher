@@ -1,0 +1,23 @@
+{
+  "changeId": "0fe2a9f9-59fb-4c6d-8649-c6712b6f4be7",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260188",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260188",
+  "title": "建築物における衛生的環境の確保に関する法律施行規則の一部を改正する省令案に関する意見募集の結果について",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/17 案の公示日：2026/09/16 受付締切日時：2026/10/16 00:00 命令等の公布日：2026/11/17 提出意見数：8 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省健康・生活衛生局生活衛生課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260188",
+      "error": "HTTP 403"
+    }
+  ]
+}

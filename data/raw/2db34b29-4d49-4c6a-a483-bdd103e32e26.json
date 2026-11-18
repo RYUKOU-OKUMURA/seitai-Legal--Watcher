@@ -1,0 +1,14 @@
+{
+  "changeId": "2db34b29-4d49-4c6a-a483-bdd103e32e26",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:506AC0000000011",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#506AC0000000011",
+  "title": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"令和六年法律第十一号\",\"LawName\":\"二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法\",\"LawNameKana\":\"にせんにじゅうななねんこくさいえんげいはくらんかいせいふいいんのせっちにかんするりんじそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20240330,\"AmendName\":\"特別職の職員の給与に関する法律及び二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十号\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20261118,\"EnforcementComment\":\"\",\"LawId\":\"506AC0000000011\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=506AC0000000011_20261118_508AC0000000080\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

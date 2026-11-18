@@ -1,0 +1,14 @@
+{
+  "changeId": "97e62a62-7e52-49d9-aa14-5cef83320fb6",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:323AC0000000076",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261118#323AC0000000076",
+  "title": "検察官の俸給等に関する法律",
+  "detectedAt": "2026-11-18T09:26:05.570Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和二十三年法律第七十六号\",\"LawName\":\"検察官の俸給等に関する法律\",\"LawNameKana\":\"けんさつかんのほうきゅうとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19480701,\"AmendName\":\"検察官の俸給等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十五号\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"323AC0000000076\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=323AC0000000076_20270401_508AC0000000085\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
