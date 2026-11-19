@@ -1,0 +1,14 @@
+{
+  "changeId": "69a41e6d-8a58-4a07-8c91-b867bc4f0fec",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004012",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=550004012",
+  "title": "「生殖毒性試験ガイドラインの一部改正案についての意見・情報の募集」の結果について",
+  "detectedAt": "2026-11-19T09:38:00.034Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/19 案の公示日：2024/11/08 受付締切日時：2024/12/07 23:59 命令等の公布日：2026/11/19 提出意見数：1 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：農林水産省消費・安全局畜水産安全管理課 \n電話：03-3502-8111（内線4538）",
+  "links": [],
+  "httpStatus": 200
+}

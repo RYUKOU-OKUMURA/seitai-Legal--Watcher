@@ -1,0 +1,14 @@
+{
+  "changeId": "a7d83215-365c-493e-b7dd-206f32f7b6df",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:326CO0000000240",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261119#326CO0000000240",
+  "title": "公営住宅法施行令",
+  "detectedAt": "2026-11-19T09:38:00.034Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和二十六年政令第二百四十号\",\"LawName\":\"公営住宅法施行令\",\"LawNameKana\":\"こうえいじゅうたくほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19510630,\"AmendName\":\"公営住宅法施行令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百四十六号\",\"AmendPromulgationDate\":20261111,\"EnforcementDate\":20280101,\"EnforcementComment\":\"\",\"LawId\":\"326CO0000000240\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=326CO0000000240_20280101_508CO0000000346\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

@@ -1,0 +1,14 @@
+{
+  "changeId": "75150fe8-1720-4d9e-9c76-f4fe513a89a7",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:415AC0000000043",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261119#415AC0000000043",
+  "title": "独立行政法人環境再生保全機構法",
+  "detectedAt": "2026-11-19T09:38:00.034Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十五年法律第四十三号\",\"LawName\":\"独立行政法人環境再生保全機構法\",\"LawNameKana\":\"どくりつぎょうせいほうじんかんきょうさいせいほぜんきこうほう\",\"OldLawName\":\"\",\"PromulgationDate\":20030516,\"AmendName\":\"地域における生物の多様性の増進のための活動の促進等に関する法律\",\"AmendNo\":\"令和六年法律第十八号\",\"AmendPromulgationDate\":20240419,\"EnforcementDate\":20250401,\"EnforcementComment\":\"\",\"LawId\":\"415AC0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=415AC0000000043_20250401_506AC0000000018\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

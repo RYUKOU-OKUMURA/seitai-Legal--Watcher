@@ -1,0 +1,23 @@
+{
+  "changeId": "38f74356-c872-4e05-98ac-87cf359c9371",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260257",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260257",
+  "title": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第四十三条第一項の規定に基づき検査を要するものとして厚生労働大臣の指定する医薬品等の一部を改正する件の制定に際し、意見公募手続を実施しなかった理由について",
+  "detectedAt": "2026-11-19T09:38:00.034Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/18 案の公示日： 受付締切日時： 命令等の公布日：2026/11/18 提出意見数：0 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：医薬局監視指導・麻薬対策課",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": [
+    {
+      "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260257",
+      "error": "HTTP 403"
+    }
+  ]
+}
