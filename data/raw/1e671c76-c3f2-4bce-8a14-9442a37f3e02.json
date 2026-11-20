@@ -1,0 +1,14 @@
+{
+  "changeId": "1e671c76-c3f2-4bce-8a14-9442a37f3e02",
+  "sourceId": "egov-pubcomment-list-health",
+  "sourceName": "e-Govパブコメ 意見募集（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000248",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=141000248",
+  "title": "母子保健法施行規則の一部を改正する内閣府令（案）に関する御意見の募集について",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/19 受付締切日時：2026/12/18 17:00 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：こども家庭庁成育局母子保健課",
+  "links": [],
+  "httpStatus": 200
+}

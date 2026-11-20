@@ -1,0 +1,14 @@
+{
+  "changeId": "9dcfbb75-e412-444d-aa93-c34244a8a6d4",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000110",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#342AC0000000110",
+  "title": "公共用飛行場周辺における航空機騒音による障害の防止等に関する法律",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第百十号\",\"LawName\":\"公共用飛行場周辺における航空機騒音による障害の防止等に関する法律\",\"LawNameKana\":\"こうきょうようひこうじょうしゅうへんにおけるこうくうきそうおんによるしょうがいのぼうしとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19670801,\"AmendName\":\"行政不服審査法の施行に伴う関係法律の整備等に関する法律\",\"AmendNo\":\"平成二十六年法律第六十九号\",\"AmendPromulgationDate\":20140613,\"EnforcementDate\":20160401,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000110\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000110_20160401_426AC0000000069\",\"EnforcementFlg\":1,\"AuthFlg\":1}",
+  "links": [],
+  "httpStatus": 200
+}

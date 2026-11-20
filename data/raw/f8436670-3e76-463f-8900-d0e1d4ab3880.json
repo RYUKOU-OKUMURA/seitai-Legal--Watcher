@@ -1,0 +1,15 @@
+{
+  "changeId": "f8436670-3e76-463f-8900-d0e1d4ab3880",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC0000000040",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#419AC0000000040",
+  "title": "地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第四十号\",\"LawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律\",\"LawNameKana\":\"ちいきけいざいけんいんじぎょうのそくしんによるちいきのせいちょうはってんのきばんきょうかにかんするほうりつ\",\"OldLawName\":\"企業立地の促進等による地域における産業集積の形成及び活性化に関する法律\",\"PromulgationDate\":20070511,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"419AC0000000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000040_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第四十号\",\"LawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律\",\"LawNameKana\":\"ちいきけいざいけんいんじぎょうのそくしんによるちいきのせいちょうはってんのきばんきょうかにかんするほうりつ\",\"OldLawName\":\"企業立地の促進等による地域における産業集積の形成及び活性化に関する法律\",\"PromulgationDate\":20070511,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"419AC0000000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000040_20261120_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第四十号\",\"LawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律\",\"LawNameKana\":\"ちいきけいざいけんいんじぎょうのそくしんによるちいきのせいちょうはってんのきばんきょうかにかんするほうりつ\",\"OldLawName\":\"企業立地の促進等による地域における産業集積の形成及び活性化に関する法律\",\"PromulgationDate\":20070511,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"419AC0000000040\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000040_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

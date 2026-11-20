@@ -1,0 +1,15 @@
+{
+  "changeId": "0e12d32a-e36d-4a6f-bd39-c014e073ea95",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:332CO0000000043",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#332CO0000000043",
+  "title": "租税特別措置法施行令",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行令等の一部を改正する政令\",\"AmendNo\":\"平成三十一年政令第百二号\",\"AmendPromulgationDate\":20190329,\"EnforcementDate\":20190716,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20190716_431CO0000000102\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 租税特別措置法施行令\n-{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"独立行政法人郵便貯金・簡易生命保険管理機構法の一部を改正する法律の一部の施行に伴う関係政令の整理に関する政令\",\"AmendNo\":\"平成三十一年政令第四十号\",\"AmendPromulgationDate\":20190320,\"EnforcementDate\":20190401,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20190401_431CO0000000040\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"政令\",\"LawNo\":\"昭和三十二年政令第四十三号\",\"LawName\":\"租税特別措置法施行令\",\"LawNameKana\":\"そぜいとくべつそちほうしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":19570331,\"AmendName\":\"租税特別措置法施行令等の一部を改正する政令\",\"AmendNo\":\"平成三十一年政令第百二号\",\"AmendPromulgationDate\":20190329,\"EnforcementDate\":20190716,\"EnforcementComment\":\"\",\"LawId\":\"332CO0000000043\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=332CO0000000043_20190716_431CO0000000102\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

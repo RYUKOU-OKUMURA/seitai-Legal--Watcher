@@ -1,0 +1,15 @@
+{
+  "changeId": "ee06ad07-f577-4305-b3a2-e1c1d47183f2",
+  "sourceId": "egov-pubcomment-list-insurance",
+  "sourceName": "e-Govパブコメ 意見募集（社会保険）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260238",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260238",
+  "title": "確定拠出年金法施行規則の一部を改正する省令案に関する御意見の募集について",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "案の公示日：2026/10/26 受付締切日時：2026/11/25 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局企業年金・個人年金課",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 確定拠出年金法施行規則の一部を改正する省令案に関する御意見の募集について\n-案の公示日：2026/10/26 受付締切日時：2026/11/24 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局企業年金・個人年金課\n+案の公示日：2026/10/26 受付締切日時：2026/11/25 23:59 カテゴリー：社会保険 問合せ先（所管省庁・部局名等）：厚生労働省年金局企業年金・個人年金課\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

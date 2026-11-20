@@ -1,0 +1,14 @@
+{
+  "changeId": "bfb3aab8-b784-43e7-852c-9ad5a5ea4bba",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:348AC0000000111",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#348AC0000000111",
+  "title": "公害健康被害の補償等に関する法律",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十八年法律第百十一号\",\"LawName\":\"公害健康被害の補償等に関する法律\",\"LawNameKana\":\"こうがいけんこうひがいのほしょうとうにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19731005,\"AmendName\":\"公害健康被害の補償等に関する法律の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十七号\",\"AmendPromulgationDate\":20261120,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"348AC0000000111\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=348AC0000000111_20270401_508AC0000000087\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

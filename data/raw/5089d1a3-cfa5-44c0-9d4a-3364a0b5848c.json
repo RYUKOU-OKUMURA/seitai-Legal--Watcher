@@ -1,0 +1,19 @@
+{
+  "changeId": "5089d1a3-cfa5-44c0-9d4a-3364a0b5848c",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000126",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#423AC0000000126",
+  "title": "特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百二十六号\",\"LawName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法\",\"LawNameKana\":\"とくていびーがたかんえんういるすかんせんしゃきゅうふきんとうのしきゅうにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111216,\"AmendName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十八号\",\"AmendPromulgationDate\":20261120,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000126_20261120_508AC0000000088\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百二十六号\",\"LawName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法\",\"LawNameKana\":\"とくていびーがたかんえんういるすかんせんしゃきゅうふきんとうのしきゅうにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111216,\"AmendName\":\"医療法等の一部を改正する法律\",\"AmendNo\":\"令和七年法律第八十七号\",\"AmendPromulgationDate\":20251212,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000126_20270401_507AC0000000087\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第百二十六号\",\"LawName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法\",\"LawNameKana\":\"とくていびーがたかんえんういるすかんせんしゃきゅうふきんとうのしきゅうにかんするとくべつそちほう\",\"OldLawName\":\"\",\"PromulgationDate\":20111216,\"AmendName\":\"特定Ｂ型肝炎ウイルス感染者給付金等の支給に関する特別措置法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十八号\",\"AmendPromulgationDate\":20261120,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000126\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000126_20261120_508AC0000000088\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200,
+  "pdfExcerpts": [],
+  "pdfErrors": [],
+  "linkedExcerpts": [],
+  "linkedErrors": []
+}

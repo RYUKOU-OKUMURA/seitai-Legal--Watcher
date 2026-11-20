@@ -1,0 +1,15 @@
+{
+  "changeId": "9edca65a-8544-444a-8aa9-42a3ceb75c91",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000098",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#425AC0000000098",
+  "title": "産業競争力強化法",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 産業競争力強化法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20261120_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第九十八号\",\"LawName\":\"産業競争力強化法\",\"LawNameKana\":\"さんぎょうきょうそうりょくきょうかほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131211,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000098\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000098_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

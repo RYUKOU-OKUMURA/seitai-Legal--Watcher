@@ -1,0 +1,15 @@
+{
+  "changeId": "d2b395f4-577c-40bd-8ec7-ee5161d92eb3",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:425AC0000000107",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#425AC0000000107",
+  "title": "国家戦略特別区域法",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百七号\",\"LawName\":\"国家戦略特別区域法\",\"LawNameKana\":\"こっかせんりゃくとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000107\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000107_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 国家戦略特別区域法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百七号\",\"LawName\":\"国家戦略特別区域法\",\"LawNameKana\":\"こっかせんりゃくとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000107\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000107_20261120_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十五年法律第百七号\",\"LawName\":\"国家戦略特別区域法\",\"LawNameKana\":\"こっかせんりゃくとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20131213,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"425AC0000000107\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=425AC0000000107_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

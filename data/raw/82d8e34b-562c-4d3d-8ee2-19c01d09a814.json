@@ -1,0 +1,15 @@
+{
+  "changeId": "82d8e34b-562c-4d3d-8ee2-19c01d09a814",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:342AC0000000121",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#342AC0000000121",
+  "title": "地方公務員災害補償法",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第百二十一号\",\"LawName\":\"地方公務員災害補償法\",\"LawNameKana\":\"ちほうこうむいんさいがいほしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670801,\"AmendName\":\"地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十六号\",\"AmendPromulgationDate\":20261120,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000121\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000121_20270401_508AC0000000086\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 地方公務員災害補償法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第百二十一号\",\"LawName\":\"地方公務員災害補償法\",\"LawNameKana\":\"ちほうこうむいんさいがいほしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670801,\"AmendName\":\"一般職の職員の給与に関する法律等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第七十九号\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000121\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000121_20270401_508AC0000000079\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十二年法律第百二十一号\",\"LawName\":\"地方公務員災害補償法\",\"LawNameKana\":\"ちほうこうむいんさいがいほしょうほう\",\"OldLawName\":\"\",\"PromulgationDate\":19670801,\"AmendName\":\"地方公務員災害補償法及び地方公務員等共済組合法の一部を改正する法律\",\"AmendNo\":\"令和八年法律第八十六号\",\"AmendPromulgationDate\":20261120,\"EnforcementDate\":20270401,\"EnforcementComment\":\"\",\"LawId\":\"342AC0000000121\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=342AC0000000121_20270401_508AC0000000086\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

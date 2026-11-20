@@ -1,0 +1,15 @@
+{
+  "changeId": "941fd3d7-f4e1-4b11-aa44-8488d2d3c8b2",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:423AC0000000081",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261120#423AC0000000081",
+  "title": "総合特別区域法",
+  "detectedAt": "2026-11-20T09:21:58.436Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第八十一号\",\"LawName\":\"総合特別区域法\",\"LawNameKana\":\"そうごうとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110629,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000081_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 総合特別区域法\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第八十一号\",\"LawName\":\"総合特別区域法\",\"LawNameKana\":\"そうごうとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110629,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000081_20261120_508AC0000000029\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成二十三年法律第八十一号\",\"LawName\":\"総合特別区域法\",\"LawNameKana\":\"そうごうとくべつくいきほう\",\"OldLawName\":\"\",\"PromulgationDate\":20110629,\"AmendName\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十九号\",\"AmendPromulgationDate\":20260605,\"EnforcementDate\":20261120,\"EnforcementComment\":\"\",\"LawId\":\"423AC0000000081\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=423AC0000000081_20261120_508AC0000000029\",\"EnforcementFlg\":1,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}
