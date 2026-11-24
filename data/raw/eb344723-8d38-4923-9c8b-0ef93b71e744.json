@@ -1,0 +1,14 @@
+{
+  "changeId": "eb344723-8d38-4923-9c8b-0ef93b71e744",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:341AC0000000020",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261124#341AC0000000020",
+  "title": "都市開発資金の貸付けに関する法律",
+  "detectedAt": "2026-11-24T11:46:10.716Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"昭和四十一年法律第二十号\",\"LawName\":\"都市開発資金の貸付けに関する法律\",\"LawNameKana\":\"としかいはつしきんのかしつけにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":19660331,\"AmendName\":\"都市再生特別措置法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第二十三号\",\"AmendPromulgationDate\":20260527,\"EnforcementDate\":20261124,\"EnforcementComment\":\"\",\"LawId\":\"341AC0000000020\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=341AC0000000020_20261124_508AC0000000023\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
