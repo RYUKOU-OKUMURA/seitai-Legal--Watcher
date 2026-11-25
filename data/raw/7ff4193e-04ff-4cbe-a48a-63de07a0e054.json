@@ -1,0 +1,14 @@
+{
+  "changeId": "7ff4193e-04ff-4cbe-a48a-63de07a0e054",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:502M60000400077",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261125#502M60000400077",
+  "title": "地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十三条第三項第五号ハの経済産業省令で定める事項を定める省令",
+  "detectedAt": "2026-11-25T10:39:59.358Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和二年経済産業省令第七十七号\",\"LawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十三条第三項第五号ハの経済産業省令で定める事項を定める省令\",\"LawNameKana\":\"ちいきけいざいけんいんじぎょうのそくしんによるちいきのせいちょうはってんのきばんきょうかにかんするほうりつだいじゅうさんじょうだいさんこうだいごごうはのけいざいさんぎょうしょうれいでさだめるじこうをさだめるしょうれい\",\"OldLawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十三条第三項第三号ハの経済産業省令で定める事項を定める省令\",\"PromulgationDate\":20200916,\"AmendName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十三条第三項第三号ハの経済産業省令で定める事項を定める省令の一部を改正する省令\",\"AmendNo\":\"令和八年経済産業省令第七十九号\",\"AmendPromulgationDate\":20261106,\"EnforcementDate\":\"\",\"EnforcementComment\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律附則第一条第二号に掲げる規定の施行の日\",\"LawId\":\"502M60000400077\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=502M60000400077_20261204_508M60000400079\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

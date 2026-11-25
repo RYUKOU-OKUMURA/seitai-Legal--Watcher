@@ -1,0 +1,15 @@
+{
+  "changeId": "558a97cf-d5b7-4d4d-8f36-0353ea03a6f8",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:419AC0000000023",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261125#419AC0000000023",
+  "title": "特別会計に関する法律",
+  "detectedAt": "2026-11-25T10:39:59.358Z",
+  "changeType": "updated",
+  "bodyExcerpt": "{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"経済協力開発機構金融支援基金への加盟に伴う措置に関する法律\",\"AmendNo\":\"昭和五十一年法律第三十八号\",\"AmendPromulgationDate\":19760529,\"EnforcementDate\":\"\",\"EnforcementComment\":\"協定の効力発生の日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_21171231_351AC0000000038\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "diffText": "===================================================================\n--- previous\n+++ current\n@@ -1,4 +1,4 @@\n 特別会計に関する法律\n-{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"労働者災害補償保険法等の一部を改正する法律\",\"AmendNo\":\"令和八年法律第六十号\",\"AmendPromulgationDate\":20260717,\"EnforcementDate\":\"\",\"EnforcementComment\":\"公布の日から起算して五年を超えない範囲内において政令で定める日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_20310716_508AC0000000060\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n+{\"LawTypeName\":\"法律\",\"LawNo\":\"平成十九年法律第二十三号\",\"LawName\":\"特別会計に関する法律\",\"LawNameKana\":\"とくべつかいけいにかんするほうりつ\",\"OldLawName\":\"\",\"PromulgationDate\":20070331,\"AmendName\":\"経済協力開発機構金融支援基金への加盟に伴う措置に関する法律\",\"AmendNo\":\"昭和五十一年法律第三十八号\",\"AmendPromulgationDate\":19760529,\"EnforcementDate\":\"\",\"EnforcementComment\":\"協定の効力発生の日\",\"LawId\":\"419AC0000000023\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=419AC0000000023_21171231_351AC0000000038\",\"EnforcementFlg\":0,\"AuthFlg\":0}\n \n \n",
+  "links": [],
+  "httpStatus": 200
+}

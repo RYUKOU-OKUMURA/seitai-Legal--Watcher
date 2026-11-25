@@ -1,0 +1,14 @@
+{
+  "changeId": "05688435-b283-42ba-b3e4-1bb486defacf",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508M60000400080",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261125#508M60000400080",
+  "title": "地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十二条の四に規定する承認地域経済牽引事業用地整備に関する省令",
+  "detectedAt": "2026-11-25T10:39:59.358Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"府省令\",\"LawNo\":\"令和八年経済産業省令第八十号\",\"LawName\":\"地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律第十二条の四に規定する承認地域経済牽引事業用地整備に関する省令\",\"LawNameKana\":\"ちいきけいざいけんいんじぎょうのそくしんによるちいきのせいちょうはってんのきばんきょうかにかんするほうりつだいじゅうにじょうのよんにきていするしょうにんちいきけいざいけんいんじぎょうようちせいびにかんするしょうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20261111,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261111,\"EnforcementDate\":\"\",\"EnforcementComment\":\"経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律（令和八年法律第二十九号）附則第一条第二号に掲げる規定の施行の日\",\"LawId\":\"508M60000400080\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508M60000400080_20261204_000000000000000\",\"EnforcementFlg\":0,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}

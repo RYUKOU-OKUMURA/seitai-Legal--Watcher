@@ -1,0 +1,14 @@
+{
+  "changeId": "2382c231-e4af-43bc-af95-7d87a0aa3230",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:431CO0000000148",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261125#431CO0000000148",
+  "title": "シナイ半島国際平和協力隊の設置等に関する政令",
+  "detectedAt": "2026-11-25T10:39:59.358Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"平成三十一年政令第百四十八号\",\"LawName\":\"シナイ半島国際平和協力隊の設置等に関する政令\",\"LawNameKana\":\"しないはんとうこくさいへいわきょうりょくたいのせっちとうにかんするせいれい\",\"OldLawName\":\"\",\"PromulgationDate\":20190405,\"AmendName\":\"シナイ半島国際平和協力隊の設置等に関する政令の一部を改正する政令\",\"AmendNo\":\"令和八年政令第三百四十八号\",\"AmendPromulgationDate\":20261111,\"EnforcementDate\":20261111,\"EnforcementComment\":\"\",\"LawId\":\"431CO0000000148\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=431CO0000000148_20261111_508CO0000000348\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
