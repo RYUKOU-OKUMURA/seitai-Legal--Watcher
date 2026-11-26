@@ -1,0 +1,14 @@
+{
+  "changeId": "a442cb40-5eda-4d1e-8c21-63f4fec3cb46",
+  "sourceId": "egov-law-api",
+  "sourceName": "e-Gov法令API（更新法令一覧）",
+  "sourceWeight": "medium",
+  "targetKey": "api:egov-law-api:508CO0000000351",
+  "url": "https://laws.e-gov.go.jp/api/1/updatelawlists/20261126#508CO0000000351",
+  "title": "地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律施行令",
+  "detectedAt": "2026-11-26T10:10:26.807Z",
+  "changeType": "new",
+  "bodyExcerpt": "{\"LawTypeName\":\"政令\",\"LawNo\":\"令和八年政令第三百五十一号\",\"LawName\":\"地方公共団体の議会の議員及び長の選挙期日等の臨時特例に関する法律施行令\",\"LawNameKana\":\"ちほうこうきょうだんたいのぎかいのぎいんおよびちょうのせんきょきじつとうのりんじとくれいにかんするほうりつしこうれい\",\"OldLawName\":\"\",\"PromulgationDate\":20261118,\"AmendName\":\"\",\"AmendNo\":\"\",\"AmendPromulgationDate\":20261118,\"EnforcementDate\":20261118,\"EnforcementComment\":\"\",\"LawId\":\"508CO0000000351\",\"LawUrl\":\"https://elaws.e-gov.go.jp/document?lawid=508CO0000000351_20261118_000000000000000\",\"EnforcementFlg\":1,\"AuthFlg\":0}",
+  "links": [],
+  "httpStatus": 200
+}
