@@ -1,0 +1,14 @@
+{
+  "changeId": "b27724fc-843f-475d-b8c6-6788a0ac7dd0",
+  "sourceId": "egov-pubcomment-result-health",
+  "sourceName": "e-Govパブコメ 結果公示（厚生）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260160",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=495260160",
+  "title": "令和９年度厚生労働科学研究に対する意見募集の結果について",
+  "detectedAt": "2026-11-27T10:15:54.491Z",
+  "changeType": "new",
+  "bodyExcerpt": "結果の公示日：2026/11/27 案の公示日：2026/08/25 受付締切日時：2026/09/25 23:59 命令等の公布日： 提出意見数：66 カテゴリー：厚生 問合せ先（所管省庁・部局名等）：厚生労働省大臣官房厚生科学課",
+  "links": [],
+  "httpStatus": 200
+}

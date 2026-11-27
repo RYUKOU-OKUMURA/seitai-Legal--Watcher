@@ -1,0 +1,14 @@
+{
+  "changeId": "0e99a42e-7914-4927-8ed3-dd00d97ac96c",
+  "sourceId": "egov-pubcomment-list-labor",
+  "sourceName": "e-Govパブコメ 意見募集（労働）",
+  "sourceWeight": "medium",
+  "targetKey": "rss:https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260273",
+  "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260273",
+  "title": "労働者災害補償保険法等の一部を改正する法律の施行に伴う厚生労働省関係省令の整備に関する省令案に関する御意見の募集について",
+  "detectedAt": "2026-11-27T10:15:54.491Z",
+  "changeType": "new",
+  "bodyExcerpt": "案の公示日：2026/11/26 受付締切日時：2026/12/27 00:00 カテゴリー：労働 問合せ先（所管省庁・部局名等）：労働基準局労災管理課\n電話：03-3502-6292",
+  "links": [],
+  "httpStatus": 200
+}
